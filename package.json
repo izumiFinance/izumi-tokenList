@@ -7,7 +7,7 @@
   "author": "MacRen000 <281130306@qq.com>",
   "license": "MIT",
   "scripts": {
-      "build": "tsc && node ./bin/compile.js",
+      "build": "tsc && node ./bin/compile.js >> ./build/tokenList.json",
       "start": "node ./bin/compile.js",
       "dev": "ts-node ./src/compile.ts"
   },
