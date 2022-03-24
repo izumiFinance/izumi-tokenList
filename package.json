@@ -1,0 +1,21 @@
+{
+  "name": "izumi-tokenList",
+  "version": "1.0.0",
+  "description": "Tokens used by Farming and iZiSwap by iZUMi",
+  "main": "src/compile.ts",
+  "repository": "https://github.com/izumiFinance/izumi-tokenList.git",
+  "author": "MacRen000 <281130306@qq.com>",
+  "license": "MIT",
+  "scripts": {
+      "build": "tsc && node ./bin/compile.js",
+      "start": "node ./bin/compile.js",
+      "dev": "ts-node ./src/compile.ts"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.23",
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.7.0"
+  }
+}
