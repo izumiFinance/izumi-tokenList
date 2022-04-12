@@ -4,26 +4,11 @@
     "symbol": "iZi",
     "icon": "/assets/tokens/izumi.svg",
     "chains": [
-      1337,
-      1,
-      137,
-      42161
+      1337
     ],
     "contracts": {
-      "1": {
-        "address": "0x9ad37205d608B8b219e6a2573f922094CEc5c200",
-        "decimal": 18
-      },
-      "137": {
-        "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
-        "decimal": 18
-      },
       "1337": {
         "address": "0xEe5e3852434eB67F8e9E97015e32845861ea15E8",
-        "decimal": 18
-      },
-      "42161": {
-        "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
         "decimal": 18
       }
     }
@@ -33,48 +18,11 @@
     "symbol": "USDC",
     "icon": "/assets/tokens/USDC.svg",
     "chains": [
-      56,
-      128,
-      137,
-      250,
-      1337,
-      1666600000
+      1337
     ],
     "contracts": {
-      "1": {
-        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "decimal": 6
-      },
-      "10": {
-        "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
-        "decimal": 6
-      },
-      "56": {
-        "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        "decimal": 18
-      },
-      "128": {
-        "address": "0x9362bbef4b8313a8aa9f0c9808b80577aa26b73b",
-        "decimal": 6
-      },
-      "137": {
-        "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
-        "decimal": 6
-      },
-      "250": {
-        "address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
-        "decimal": 6
-      },
       "1337": {
         "address": "0xe507AAC9eFb2A08F53C7BC73B3B1b8BCf883E41B",
-        "decimal": 6
-      },
-      "42161": {
-        "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
-        "decimal": 6
-      },
-      "1666600000": {
-        "address": "0x985458e523db3d53125813ed68c274899e9dfab4",
         "decimal": 6
       }
     }
@@ -84,27 +32,82 @@
     "symbol": "USDT",
     "icon": "/assets/tokens/usdt.png",
     "chains": [
-      1337,
-      1,
-      42161,
-      137
+      1337
     ],
     "contracts": {
-      "1": {
-        "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
-        "decimal": 6
-      },
-      "137": {
-        "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
-        "decimal": 6
-      },
       "1337": {
         "address": "0x2d2bA91b026E08e0f23Eb01d7ecAb0e7E279a45f",
         "decimal": 6
-      },
-      "42161": {
-        "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+      }
+    }
+  },
+  {
+    "name": "DAI",
+    "chains": [
+      1337
+    ],
+    "symbol": "DAI",
+    "icon": "/assets/tokens/dai.png",
+    "contracts": {
+      "1337": {
+        "address": "0xA97f8bc2b98a56f648340e05406cc7E34bB25D3A",
         "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "WETH",
+    "symbol": "WETH",
+    "chains": [
+      1337
+    ],
+    "icon": "/assets/tokens/eth.png",
+    "contracts": {
+      "1337": {
+        "address": "0x72328EB80d99147A48BA5d05B54D6d19dA655A01",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "chains": [
+      1337
+    ],
+    "symbol": "BIT",
+    "name": "BIT",
+    "icon": "/assets/tokens/bit.png",
+    "contracts": {
+      "1337": {
+        "address": "0x41BC21bdcF0FA87ae6eeFcBE0e4dB29dB2b650C1",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "DEVT",
+    "chains": [
+      1337
+    ],
+    "symbol": "DEVT",
+    "icon": "/assets/tokens/devt.png",
+    "contracts": {
+      "1337": {
+        "address": "0xD93FfD9B4d5D643A175B7DcBf4Fb0dA0016D35C7",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "chains": [
+      1337
+    ],
+    "name": "YIN",
+    "symbol": "YIN",
+    "icon": "/assets/tokens/yin.png",
+    "contracts": {
+      "1337": {
+        "address": "0x628571078add0031Ff6E9975AE6ddE1123fC423b",
+        "decimal": 18
       }
     }
   }

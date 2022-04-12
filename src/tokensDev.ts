@@ -14,22 +14,10 @@ export const tokens: TokenInfo[] = [
         name: 'iZUMi Token',
         symbol: TokenSymbol.IZI,
         icon: '/assets/tokens/izumi.svg',
-        chains: [ChainId.Izumi, ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum],
+        chains: [ChainId.Izumi],
         contracts: {
-            [ChainId.EthereumMainnet]: {
-                address: '0x9ad37205d608B8b219e6a2573f922094CEc5c200',
-                decimal: 18,
-            },
-            [ChainId.Matic]: {
-                address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
-                decimal: 18,
-            },
             [ChainId.Izumi]: {
                 address: '0xEe5e3852434eB67F8e9E97015e32845861ea15E8',
-                decimal: 18,
-            },
-            [ChainId.Arbitrum]: {
-                address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
                 decimal: 18,
             },
         },
@@ -38,49 +26,10 @@ export const tokens: TokenInfo[] = [
         name: 'USD Coin',
         symbol: TokenSymbol.USDC,
         icon: '/assets/tokens/USDC.svg',
-        chains: [
-            ChainId.BSC,
-            ChainId.Heco,
-            ChainId.Matic,
-            ChainId.Fantom,
-            ChainId.Izumi,
-            ChainId.Harmony,
-        ],
+        chains: [ChainId.Izumi],
         contracts: {
-            [ChainId.EthereumMainnet]: {
-                address: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
-                decimal: 6,
-            },
-            [ChainId.Optimism]: {
-                address: '0x7f5c764cbc14f9669b88837ca1490cca17c31607',
-                decimal: 6,
-            },
-            [ChainId.BSC]: {
-                address: '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d',
-                decimal: 18,
-            },
-            [ChainId.Heco]: {
-                address: '0x9362bbef4b8313a8aa9f0c9808b80577aa26b73b',
-                decimal: 6,
-            },
-            [ChainId.Matic]: {
-                address: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174',
-                decimal: 6,
-            },
-            [ChainId.Fantom]: {
-                address: '0x04068DA6C83AFCFA0e13ba15A6696662335D5B75',
-                decimal: 6,
-            },
             [ChainId.Izumi]: {
                 address: '0xe507AAC9eFb2A08F53C7BC73B3B1b8BCf883E41B',
-                decimal: 6,
-            },
-            [ChainId.Arbitrum]: {
-                address: '0xff970a61a04b1ca14834a43f5de4533ebddb5cc8',
-                decimal: 6,
-            },
-            [ChainId.Harmony]: {
-                address: '0x985458e523db3d53125813ed68c274899e9dfab4',
                 decimal: 6,
             },
         },
@@ -89,23 +38,71 @@ export const tokens: TokenInfo[] = [
         name: "Tether",
         symbol: TokenSymbol.USDT,
         icon: '/assets/tokens/usdt.png',
-        chains: [ChainId.Izumi, ChainId.EthereumMainnet, ChainId.Arbitrum, ChainId.Matic],
+        chains: [ChainId.Izumi],
         contracts: {
-            [ChainId.EthereumMainnet]: {
-                address: '0xdac17f958d2ee523a2206206994597c13d831ec7',
-                decimal: 6,
-            },
             [ChainId.Izumi]: {
                 address: '0x2d2bA91b026E08e0f23Eb01d7ecAb0e7E279a45f',
                 decimal: 6,
             },
-            [ChainId.Arbitrum]: {
-                address: '0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9',
+        },
+    },
+    {
+        name: 'DAI',
+        chains: [ChainId.Izumi],
+        symbol: TokenSymbol.DAI,
+        icon: '/assets/tokens/dai.png',
+        contracts: {
+            [ChainId.Izumi]: {
+                address: '0xA97f8bc2b98a56f648340e05406cc7E34bB25D3A',
                 decimal: 6,
             },
-            [ChainId.Matic]: {
-                address: '0xc2132d05d31c914a87c6611c10748aeb04b58e8f',
-                decimal: 6,
+        },
+    },
+    {
+        name: TokenSymbol.WETH,
+        symbol: TokenSymbol.WETH,
+        chains: [ChainId.Izumi],
+        icon: '/assets/tokens/eth.png',
+        contracts: {
+            [ChainId.Izumi]: {
+                address: '0x72328EB80d99147A48BA5d05B54D6d19dA655A01',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        chains: [ChainId.Izumi],
+        symbol: TokenSymbol.BIT,
+        name: "BIT",
+        icon: '/assets/tokens/bit.png',
+        contracts: {
+            [ChainId.Izumi]: {
+                address: '0x41BC21bdcF0FA87ae6eeFcBE0e4dB29dB2b650C1',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "DEVT",
+        chains: [ChainId.Izumi],
+        symbol: TokenSymbol.DEVT,
+        icon: '/assets/tokens/devt.png',
+        contracts: {
+            [ChainId.Izumi]: {
+                address: '0xD93FfD9B4d5D643A175B7DcBf4Fb0dA0016D35C7',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        chains: [ChainId.Izumi],
+        name: "YIN",
+        symbol: TokenSymbol.YIN,
+        icon: '/assets/tokens/yin.png',
+        contracts: {
+            [ChainId.Izumi]: {
+                address: '0x628571078add0031Ff6E9975AE6ddE1123fC423b',
+                decimal: 18,
             },
         },
     }
