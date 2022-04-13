@@ -2,7 +2,7 @@
   {
     "name": "iZUMi Token",
     "symbol": "iZi",
-    "icon": "/assets/tokens/izumi.svg",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/izumi.svg",
     "chains": [
       1337,
       1,
@@ -31,7 +31,7 @@
   {
     "name": "USD Coin",
     "symbol": "USDC",
-    "icon": "/assets/tokens/USDC.svg",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
     "chains": [
       56,
       128,
@@ -80,9 +80,9 @@
     }
   },
   {
-    "name": "Tether",
+    "name": "Tether USD",
     "symbol": "USDT",
-    "icon": "/assets/tokens/usdt.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
     "chains": [
       1337,
       1,

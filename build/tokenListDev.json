@@ -2,7 +2,7 @@
   {
     "name": "iZUMi Token",
     "symbol": "iZi",
-    "icon": "/assets/tokens/izumi.svg",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/izumi.svg",
     "chains": [
       1337
     ],
@@ -16,7 +16,7 @@
   {
     "name": "USD Coin",
     "symbol": "USDC",
-    "icon": "/assets/tokens/USDC.svg",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
     "chains": [
       1337
     ],
@@ -28,9 +28,9 @@
     }
   },
   {
-    "name": "Tether",
+    "name": "Tether USD",
     "symbol": "USDT",
-    "icon": "/assets/tokens/usdt.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
     "chains": [
       1337
     ],
@@ -47,7 +47,7 @@
       1337
     ],
     "symbol": "DAI",
-    "icon": "/assets/tokens/dai.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dai.png",
     "contracts": {
       "1337": {
         "address": "0xA97f8bc2b98a56f648340e05406cc7E34bB25D3A",
@@ -56,12 +56,12 @@
     }
   },
   {
-    "name": "WETH",
+    "name": "Wrapped Ether",
     "symbol": "WETH",
     "chains": [
       1337
     ],
-    "icon": "/assets/tokens/eth.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
     "contracts": {
       "1337": {
         "address": "0x72328EB80d99147A48BA5d05B54D6d19dA655A01",
@@ -70,12 +70,12 @@
     }
   },
   {
+    "name": "BIT Dao",
+    "symbol": "BIT",
     "chains": [
       1337
     ],
-    "symbol": "BIT",
-    "name": "BIT",
-    "icon": "/assets/tokens/bit.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bit.png",
     "contracts": {
       "1337": {
         "address": "0x41BC21bdcF0FA87ae6eeFcBE0e4dB29dB2b650C1",
@@ -84,12 +84,12 @@
     }
   },
   {
-    "name": "DEVT",
+    "name": "Decentralized Eternal Virtual Traveller",
+    "symbol": "DEVT",
     "chains": [
       1337
     ],
-    "symbol": "DEVT",
-    "icon": "/assets/tokens/devt.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/devt.png",
     "contracts": {
       "1337": {
         "address": "0xD93FfD9B4d5D643A175B7DcBf4Fb0dA0016D35C7",
@@ -98,12 +98,12 @@
     }
   },
   {
+    "name": "YIN Finance",
+    "symbol": "YIN",
     "chains": [
       1337
     ],
-    "name": "YIN",
-    "symbol": "YIN",
-    "icon": "/assets/tokens/yin.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/yin.png",
     "contracts": {
       "1337": {
         "address": "0x628571078add0031Ff6E9975AE6ddE1123fC423b",

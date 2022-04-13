@@ -13,7 +13,7 @@ export const tokens: TokenInfo[] = [
     {
         name: 'iZUMi Token',
         symbol: TokenSymbol.IZI,
-        icon: '/assets/tokens/izumi.svg',
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/izumi.svg',
         chains: [ChainId.Izumi, ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -37,7 +37,7 @@ export const tokens: TokenInfo[] = [
     {
         name: 'USD Coin',
         symbol: TokenSymbol.USDC,
-        icon: '/assets/tokens/USDC.svg',
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png',
         chains: [
             ChainId.BSC,
             ChainId.Heco,
@@ -86,9 +86,9 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: "Tether",
+        name: "Tether USD",
         symbol: TokenSymbol.USDT,
-        icon: '/assets/tokens/usdt.png',
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png',
         chains: [ChainId.Izumi, ChainId.EthereumMainnet, ChainId.Arbitrum, ChainId.Matic],
         contracts: {
             [ChainId.EthereumMainnet]: {

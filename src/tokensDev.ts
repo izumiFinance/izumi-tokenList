@@ -13,7 +13,7 @@ export const tokens: TokenInfo[] = [
     {
         name: 'iZUMi Token',
         symbol: TokenSymbol.IZI,
-        icon: '/assets/tokens/izumi.svg',
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/izumi.svg',
         chains: [ChainId.Izumi],
         contracts: {
             [ChainId.Izumi]: {
@@ -25,7 +25,7 @@ export const tokens: TokenInfo[] = [
     {
         name: 'USD Coin',
         symbol: TokenSymbol.USDC,
-        icon: '/assets/tokens/USDC.svg',
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png',
         chains: [ChainId.Izumi],
         contracts: {
             [ChainId.Izumi]: {
@@ -35,9 +35,9 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: "Tether",
+        name: "Tether USD",
         symbol: TokenSymbol.USDT,
-        icon: '/assets/tokens/usdt.png',
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png',
         chains: [ChainId.Izumi],
         contracts: {
             [ChainId.Izumi]: {
@@ -50,7 +50,7 @@ export const tokens: TokenInfo[] = [
         name: 'DAI',
         chains: [ChainId.Izumi],
         symbol: TokenSymbol.DAI,
-        icon: '/assets/tokens/dai.png',
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dai.png',
         contracts: {
             [ChainId.Izumi]: {
                 address: '0xA97f8bc2b98a56f648340e05406cc7E34bB25D3A',
@@ -59,10 +59,10 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: TokenSymbol.WETH,
+        name: 'Wrapped Ether',
         symbol: TokenSymbol.WETH,
         chains: [ChainId.Izumi],
-        icon: '/assets/tokens/eth.png',
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png',
         contracts: {
             [ChainId.Izumi]: {
                 address: '0x72328EB80d99147A48BA5d05B54D6d19dA655A01',
@@ -71,10 +71,10 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        chains: [ChainId.Izumi],
+        name: "BIT Dao",
         symbol: TokenSymbol.BIT,
-        name: "BIT",
-        icon: '/assets/tokens/bit.png',
+        chains: [ChainId.Izumi],
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bit.png',
         contracts: {
             [ChainId.Izumi]: {
                 address: '0x41BC21bdcF0FA87ae6eeFcBE0e4dB29dB2b650C1',
@@ -83,10 +83,10 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: "DEVT",
-        chains: [ChainId.Izumi],
+        name: "Decentralized Eternal Virtual Traveller",
         symbol: TokenSymbol.DEVT,
-        icon: '/assets/tokens/devt.png',
+        chains: [ChainId.Izumi],
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/devt.png',
         contracts: {
             [ChainId.Izumi]: {
                 address: '0xD93FfD9B4d5D643A175B7DcBf4Fb0dA0016D35C7',
@@ -95,10 +95,10 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        chains: [ChainId.Izumi],
-        name: "YIN",
+        name: "YIN Finance",
         symbol: TokenSymbol.YIN,
-        icon: '/assets/tokens/yin.png',
+        chains: [ChainId.Izumi],
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/yin.png',
         contracts: {
             [ChainId.Izumi]: {
                 address: '0x628571078add0031Ff6E9975AE6ddE1123fC423b',
