@@ -14,7 +14,7 @@ export const tokens: TokenInfo[] = [
         name: 'iZUMi Token',
         symbol: TokenSymbol.IZI,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/izumi.svg',
-        chains: [ChainId.Izumi, ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum],
+        chains: [ChainId.Izumi, ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.BSC],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0x9ad37205d608B8b219e6a2573f922094CEc5c200',
@@ -29,6 +29,10 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.Arbitrum]: {
+                address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
+                decimal: 18,
+            },
+            [ChainId.BSC]: {
                 address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
                 decimal: 18,
             },
@@ -89,7 +93,7 @@ export const tokens: TokenInfo[] = [
         name: "Tether USD",
         symbol: TokenSymbol.USDT,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png',
-        chains: [ChainId.Izumi, ChainId.EthereumMainnet, ChainId.Arbitrum, ChainId.Matic],
+        chains: [ChainId.Izumi, ChainId.EthereumMainnet, ChainId.Arbitrum, ChainId.Matic, ChainId.BSC],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0xdac17f958d2ee523a2206206994597c13d831ec7',
@@ -107,6 +111,58 @@ export const tokens: TokenInfo[] = [
                 address: '0xc2132d05d31c914a87c6611c10748aeb04b58e8f',
                 decimal: 6,
             },
+            [ChainId.BSC]: {
+                address: '0x55d398326f99059fF775485246999027B3197955',
+                decimal: 18,
+            },
         },
-    }
+    },
+    {
+        name: "Binance-Peg BUSD Token",
+        symbol: TokenSymbol.USDT,
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/busd.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Wrapped BNB",
+        symbol: TokenSymbol.WBNB,
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bnb.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Dogecoin Token",
+        symbol: TokenSymbol.DOGE,
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/doge.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xbA2aE424d960c26247Dd6c32edC70B295c744C43',
+                decimal: 8,
+            },
+        },
+    },
+    {
+        name: "SHIBA INU Token",
+        symbol: TokenSymbol.SHIB,
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/shib.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x2859e4544C4bB03966803b044A93563Bd2D0DD4D',
+                decimal: 18,
+            },
+        },
+    },
 ]
