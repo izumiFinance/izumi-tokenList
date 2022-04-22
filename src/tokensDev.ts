@@ -65,7 +65,7 @@ export const tokens: TokenInfo[] = [
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png',
         contracts: {
             [ChainId.Izumi]: {
-                address: '0x72328EB80d99147A48BA5d05B54D6d19dA655A01', //Wrapped ETH
+                address: '0x3AD23A16A81Cd40010F39309876978F20DD2f682', //Wrapped ETH
                 decimal: 18,
             },
         },
