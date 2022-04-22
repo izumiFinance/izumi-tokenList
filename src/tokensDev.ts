@@ -65,19 +65,7 @@ export const tokens: TokenInfo[] = [
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png',
         contracts: {
             [ChainId.Izumi]: {
-                address: '0x0000000000000000000000000000000000000000',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: 'Wrapped Ether',
-        symbol: TokenSymbol.WETH,
-        chains: [ChainId.Izumi],
-        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png',
-        contracts: {
-            [ChainId.Izumi]: {
-                address: '0x72328EB80d99147A48BA5d05B54D6d19dA655A01',
+                address: '0x72328EB80d99147A48BA5d05B54D6d19dA655A01', //Wrapped ETH
                 decimal: 18,
             },
         },
