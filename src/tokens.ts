@@ -130,25 +130,13 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: "Wrapped BNB",
-        symbol: TokenSymbol.WBNB,
-        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bnb.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
-                decimal: 18,
-            },
-        },
-    },
-    {
         name: "BNB",
         symbol: TokenSymbol.BNB,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bnb.png',
         chains: [ChainId.BSC],
         contracts: {
             [ChainId.BSC]: {
-                address: '0x0000000000000000000000000000000000000000',
+                address: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', //Wrapped BNB
                 decimal: 18,
             },
         },
