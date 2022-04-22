@@ -16,6 +16,7 @@ export enum TokenSymbol {
     DDAO = 'DDAO',
     BUSD = 'BUSD',
     WBNB = 'WBNB',
+    BNB = 'BNB',
     DOGE = 'DOGE',
     SHIB = 'SHIB',
 }

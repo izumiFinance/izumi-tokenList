@@ -56,6 +56,20 @@
     }
   },
   {
+    "name": "Ether",
+    "symbol": "ETH",
+    "chains": [
+      1337
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
+    "contracts": {
+      "1337": {
+        "address": "0x0000000000000000000000000000000000000000",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Wrapped Ether",
     "symbol": "WETH",
     "chains": [

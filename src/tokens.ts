@@ -142,6 +142,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "BNB",
+        symbol: TokenSymbol.BNB,
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bnb.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x0000000000000000000000000000000000000000',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Dogecoin Token",
         symbol: TokenSymbol.DOGE,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/doge.png',

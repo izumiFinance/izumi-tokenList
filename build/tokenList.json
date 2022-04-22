@@ -147,6 +147,20 @@
     }
   },
   {
+    "name": "BNB",
+    "symbol": "BNB",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bnb.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x0000000000000000000000000000000000000000",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Dogecoin Token",
     "symbol": "DOGE",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/doge.png",
