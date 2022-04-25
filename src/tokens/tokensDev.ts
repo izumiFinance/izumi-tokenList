@@ -88,7 +88,7 @@ export const tokens: TokenInfo[] = [
         chains: [ChainId.BSCTestnet],
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bnb.png',
         contracts: {
-            [ChainId.Izumi]: {
+            [ChainId.BSCTestnet]: {
                 address: '0xa9754f0D9055d14EB0D2d196E4C51d8B2Ee6f4d3', //Wrapped BNB
                 decimal: 18,
             },
