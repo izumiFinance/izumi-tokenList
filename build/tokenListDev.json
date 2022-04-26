@@ -1391,6 +1391,20 @@
     }
   },
   {
+    "name": "iZUMi Bond USD",
+    "symbol": "iUSD",
+    "chains": [
+      97
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/iusd.png",
+    "contracts": {
+      "97": {
+        "address": "0x60FE1bE62fa2082b0897eA87DF8D2CfD45185D30",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "USD Coin",
     "symbol": "USDC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
@@ -1474,10 +1488,15 @@
     "name": "BIT Dao",
     "symbol": "BIT",
     "chains": [
-      1337
+      1337,
+      97
     ],
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bit.png",
     "contracts": {
+      "97": {
+        "address": "0xac360dc0F8EF1C94Ab4034220E0A01567acbFdE4",
+        "decimal": 18
+      },
       "1337": {
         "address": "0x41BC21bdcF0FA87ae6eeFcBE0e4dB29dB2b650C1",
         "decimal": 18
@@ -1502,10 +1521,15 @@
     "name": "YIN Finance",
     "symbol": "YIN",
     "chains": [
-      1337
+      1337,
+      97
     ],
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/yin.png",
     "contracts": {
+      "97": {
+        "address": "0xB2cdca00D1B07064064e83C377aE9A490ad06bc2",
+        "decimal": 18
+      },
       "1337": {
         "address": "0x628571078add0031Ff6E9975AE6ddE1123fC423b",
         "decimal": 18

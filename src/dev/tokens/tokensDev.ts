@@ -9,11 +9,13 @@ export interface TokenInfo {
     contracts: Partial<Record<ChainId, { address: string; decimal: number }>>;
 }
 
+const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
+
 export const tokens: TokenInfo[] = [
     {
         name: 'iZUMi Token',
         symbol: TokenSymbol.IZI,
-        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/izumi.svg',
+        icon: baseURL + 'izumi.svg',
         chains: [ChainId.Izumi, ChainId.BSCTestnet],
         contracts: {
             [ChainId.Izumi]: {
@@ -27,9 +29,21 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "iZUMi Bond USD",
+        symbol: TokenSymbol.IUSD,
+        chains: [ChainId.BSCTestnet],
+        icon: baseURL + 'iusd.png',
+        contracts: {
+            [ChainId.BSCTestnet]: {
+                address: '0x60FE1bE62fa2082b0897eA87DF8D2CfD45185D30',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: 'USD Coin',
         symbol: TokenSymbol.USDC,
-        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png',
+        icon: baseURL + 'usdc.png',
         chains: [ChainId.Izumi, ChainId.BSCTestnet],
         contracts: {
             [ChainId.Izumi]: {
@@ -45,7 +59,7 @@ export const tokens: TokenInfo[] = [
     {
         name: "Tether USD",
         symbol: TokenSymbol.USDT,
-        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png',
+        icon: baseURL + 'usdt.png',
         chains: [ChainId.Izumi, ChainId.BSCTestnet],
         contracts: {
             [ChainId.Izumi]: {
@@ -62,7 +76,7 @@ export const tokens: TokenInfo[] = [
         name: 'DAI',
         chains: [ChainId.Izumi],
         symbol: TokenSymbol.DAI,
-        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dai.png',
+        icon: baseURL + 'dai.png',
         contracts: {
             [ChainId.Izumi]: {
                 address: '0xA97f8bc2b98a56f648340e05406cc7E34bB25D3A',
@@ -74,7 +88,7 @@ export const tokens: TokenInfo[] = [
         name: 'Ether',
         symbol: TokenSymbol.ETH,
         chains: [ChainId.Izumi],
-        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png',
+        icon: baseURL + 'eth.png',
         contracts: {
             [ChainId.Izumi]: {
                 address: '0x3AD23A16A81Cd40010F39309876978F20DD2f682', //Wrapped ETH
@@ -86,7 +100,7 @@ export const tokens: TokenInfo[] = [
         name: 'BNB',
         symbol: TokenSymbol.BNB,
         chains: [ChainId.BSCTestnet],
-        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bnb.png',
+        icon: baseURL + 'bnb.png',
         contracts: {
             [ChainId.BSCTestnet]: {
                 address: '0xa9754f0D9055d14EB0D2d196E4C51d8B2Ee6f4d3', //Wrapped BNB
@@ -97,11 +111,15 @@ export const tokens: TokenInfo[] = [
     {
         name: "BIT Dao",
         symbol: TokenSymbol.BIT,
-        chains: [ChainId.Izumi],
-        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bit.png',
+        chains: [ChainId.Izumi, ChainId.BSCTestnet],
+        icon: baseURL + 'bit.png',
         contracts: {
             [ChainId.Izumi]: {
                 address: '0x41BC21bdcF0FA87ae6eeFcBE0e4dB29dB2b650C1',
+                decimal: 18,
+            },
+            [ChainId.BSCTestnet]: {
+                address: '0xac360dc0F8EF1C94Ab4034220E0A01567acbFdE4',
                 decimal: 18,
             },
         },
@@ -110,7 +128,7 @@ export const tokens: TokenInfo[] = [
         name: "Decentralized Eternal Virtual Traveller",
         symbol: TokenSymbol.DEVT,
         chains: [ChainId.Izumi],
-        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/devt.png',
+        icon: baseURL + 'devt.png',
         contracts: {
             [ChainId.Izumi]: {
                 address: '0xD93FfD9B4d5D643A175B7DcBf4Fb0dA0016D35C7',
@@ -121,11 +139,15 @@ export const tokens: TokenInfo[] = [
     {
         name: "YIN Finance",
         symbol: TokenSymbol.YIN,
-        chains: [ChainId.Izumi],
-        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/yin.png',
+        chains: [ChainId.Izumi, ChainId.BSCTestnet],
+        icon: baseURL + 'yin.png',
         contracts: {
             [ChainId.Izumi]: {
                 address: '0x628571078add0031Ff6E9975AE6ddE1123fC423b',
+                decimal: 18,
+            },
+            [ChainId.BSCTestnet]: {
+                address: '0xB2cdca00D1B07064064e83C377aE9A490ad06bc2',
                 decimal: 18,
             },
         },
