@@ -14,10 +14,14 @@ export const tokens: TokenInfo[] = [
         name: 'iZUMi Token',
         symbol: TokenSymbol.IZI,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/izumi.svg',
-        chains: [ChainId.Izumi],
+        chains: [ChainId.Izumi, ChainId.BSCTestnet],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0xEe5e3852434eB67F8e9E97015e32845861ea15E8',
+                decimal: 18,
+            },
+            [ChainId.BSCTestnet]: {
+                address: '0x551197e6350936976DfFB66B2c3bb15DDB723250',
                 decimal: 18,
             },
         },
@@ -26,10 +30,14 @@ export const tokens: TokenInfo[] = [
         name: 'USD Coin',
         symbol: TokenSymbol.USDC,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png',
-        chains: [ChainId.Izumi],
+        chains: [ChainId.Izumi, ChainId.BSCTestnet],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0xe507AAC9eFb2A08F53C7BC73B3B1b8BCf883E41B',
+                decimal: 6,
+            },
+            [ChainId.BSCTestnet]: {
+                address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
                 decimal: 6,
             },
         },
@@ -38,10 +46,14 @@ export const tokens: TokenInfo[] = [
         name: "Tether USD",
         symbol: TokenSymbol.USDT,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png',
-        chains: [ChainId.Izumi],
+        chains: [ChainId.Izumi, ChainId.BSCTestnet],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0x2d2bA91b026E08e0f23Eb01d7ecAb0e7E279a45f',
+                decimal: 6,
+            },
+            [ChainId.BSCTestnet]: {
+                address: '0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b',
                 decimal: 6,
             },
         },
@@ -66,6 +78,18 @@ export const tokens: TokenInfo[] = [
         contracts: {
             [ChainId.Izumi]: {
                 address: '0x3AD23A16A81Cd40010F39309876978F20DD2f682', //Wrapped ETH
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'BNB',
+        symbol: TokenSymbol.BNB,
+        chains: [ChainId.BSCTestnet],
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bnb.png',
+        contracts: {
+            [ChainId.BSCTestnet]: {
+                address: '0xa9754f0D9055d14EB0D2d196E4C51d8B2Ee6f4d3', //Wrapped BNB
                 decimal: 18,
             },
         },
