@@ -9,8 +9,8 @@
   "scripts": {
     "build_symbolsDev": "ts-node ./src/dev/addSymbol.ts > ./src/dev/symbolList.ts" ,
     "build_tokensDev": "ts-node ./src/dev/addTokens.ts > ./build/tokenListDev.json",
-    "build_symbols": "ts-node ./src/project/addSymbol.ts > ./src/project/symbolList.ts",
-    "build_tokens":"ts-node ./src/project/addTokens.ts > ./build/tokenList.json",
+    "build_symbols": "ts-node ./src/prod/addSymbol.ts > ./src/prod/symbolList.ts",
+    "build_tokens":"ts-node ./src/prod/addTokens.ts > ./build/tokenList.json",
     "start": "node ./bin/compile.js",
     "dev": "ts-node ./src/compile.ts"
   },
