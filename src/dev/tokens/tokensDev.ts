@@ -41,6 +41,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Binance USD",
+        symbol: TokenSymbol.BUSD,
+        chains: [ChainId.BSCTestnet],
+        icon: baseURL + 'busd.png',
+        contracts: {
+            [ChainId.BSCTestnet]: {
+                address: '0xd88972676f5D0997c8150A3d2C4634CbaaDD3396',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: 'USD Coin',
         symbol: TokenSymbol.USDC,
         icon: baseURL + 'usdc.png',
