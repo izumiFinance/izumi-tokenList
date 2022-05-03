@@ -41,7 +41,7 @@ export const tokens: TokenInfo[] = [
     {
         name: "iZUMi Bond USD",
         symbol: TokenSymbol.IUSD,
-        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/iUSD.png',
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/iusd.png',
         chains: [ChainId.BSC],
         contracts: {
             [ChainId.BSC]: {
