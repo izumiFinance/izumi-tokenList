@@ -131,7 +131,7 @@ export const tokens: TokenInfo[] = [
     },
     {
         name: "Binance-Peg BUSD Token",
-        symbol: TokenSymbol.USDT,
+        symbol: TokenSymbol.BUSD,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/busd.png',
         chains: [ChainId.BSC],
         contracts: {

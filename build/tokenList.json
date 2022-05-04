@@ -134,7 +134,7 @@
   },
   {
     "name": "Binance-Peg BUSD Token",
-    "symbol": "USDT",
+    "symbol": "BUSD",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/busd.png",
     "chains": [
       56
