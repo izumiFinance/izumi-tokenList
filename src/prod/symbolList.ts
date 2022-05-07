@@ -20,4 +20,5 @@ BNB='BNB',
 DOGE='DOGE',
 SHIB='SHIB',
 IUSD='iUSD',
+BTCB='BTCB',
 }

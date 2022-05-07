@@ -165,6 +165,33 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+
+    {
+        name: "Binance-Peg Bitcoin BEP2",
+        symbol: TokenSymbol.BTCB,
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/btc.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c', 
+                decimal: 18,
+            },
+        },
+    },
+
+    {
+        name: "Binance-Peg Ethereum Token",
+        symbol: TokenSymbol.ETH,
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 
+                decimal: 18,
+            },
+        },
+    },
+
     // {
     //     name: "Dogecoin Token",
     //     symbol: TokenSymbol.DOGE,
