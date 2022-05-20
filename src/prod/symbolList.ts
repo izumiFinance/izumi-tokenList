@@ -21,4 +21,8 @@ DOGE='DOGE',
 SHIB='SHIB',
 IUSD='iUSD',
 BTCB='BTCB',
+DUET='DUET',
+DUSD='dUSD',
+DWTI='dWTI',
+DXAU='dXAU',
 }
