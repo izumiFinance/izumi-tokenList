@@ -38,7 +38,7 @@ export const tokens: TokenInfo[] = [
     },
     {
         name: 'Duet WTI',
-        symbol: TokenSymbol.DUSD,
+        symbol: TokenSymbol.DWTI,
         icon: baseURL + 'dWTI.png',
         chains: [ChainId.BSC],
         contracts: {
@@ -50,7 +50,7 @@ export const tokens: TokenInfo[] = [
     },
     {
         name: 'Duet XAU',
-        symbol: TokenSymbol.DUSD,
+        symbol: TokenSymbol.DXAU,
         icon: baseURL + 'dXAU.png',
         chains: [ChainId.BSC],
         contracts: {

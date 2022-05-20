@@ -232,7 +232,7 @@
   },
   {
     "name": "Duet WTI",
-    "symbol": "dUSD",
+    "symbol": "dWTI",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dWTI.png",
     "chains": [
       56
@@ -246,7 +246,7 @@
   },
   {
     "name": "Duet XAU",
-    "symbol": "dUSD",
+    "symbol": "dXAU",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dXAU.png",
     "chains": [
       56
