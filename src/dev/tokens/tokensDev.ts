@@ -121,6 +121,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: 'Wrapped BNB',
+        symbol: TokenSymbol.WBNB,
+        chains: [ChainId.BSCTestnet],
+        icon: baseURL + 'bnb.png',
+        contracts: {
+            [ChainId.BSCTestnet]: {
+                address: '0xa9754f0D9055d14EB0D2d196E4C51d8B2Ee6f4d3', //Wrapped BNB
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "BIT Dao",
         symbol: TokenSymbol.BIT,
         chains: [ChainId.Izumi, ChainId.BSCTestnet],
