@@ -154,7 +154,7 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: "WBNB",
+        name: "Wrapped BNB",
         symbol: TokenSymbol.WBNB,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bnb.png',
         chains: [ChainId.BSC],

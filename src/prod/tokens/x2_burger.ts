@@ -13,7 +13,7 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
     {
-        name: 'Burger Swap',
+        name: 'BurgerCities',
         symbol: TokenSymbol.BURGER,
         icon: baseURL + 'burger.png',
         chains: [ChainId.BSC],
