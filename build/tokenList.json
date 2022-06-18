@@ -271,5 +271,19 @@
         "decimal": 18
       }
     }
+  },
+  {
+    "name": "Burger Swap",
+    "symbol": "BURGER",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/burger.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xAe9269f27437f0fcBC232d39Ec814844a51d6b8f",
+        "decimal": 18
+      }
+    }
   }
 ]
