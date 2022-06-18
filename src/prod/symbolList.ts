@@ -27,4 +27,5 @@ DUSD='dUSD',
 DWTI='dWTI',
 DXAU='dXAU',
 BURGER='BURGER',
+SLD='SLD',
 }

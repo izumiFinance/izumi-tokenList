@@ -285,5 +285,19 @@
         "decimal": 18
       }
     }
+  },
+  {
+    "name": "ShieldEX",
+    "symbol": "SLD",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/sld.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x1ef6A7e2c966fb7C5403EFEFdE38338b1a95a084",
+        "decimal": 18
+      }
+    }
   }
 ]
