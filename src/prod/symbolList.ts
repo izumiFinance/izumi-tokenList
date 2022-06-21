@@ -28,4 +28,5 @@ DWTI='dWTI',
 DXAU='dXAU',
 BURGER='BURGER',
 SLD='SLD',
+KSW='KSW',
 }

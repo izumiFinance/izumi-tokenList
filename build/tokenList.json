@@ -299,5 +299,19 @@
         "decimal": 18
       }
     }
+  },
+  {
+    "name": "KillSwitchToken",
+    "symbol": "KSW",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/KSW.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x270178366a592bA598C2e9d2971DA65f7bAa7C86",
+        "decimal": 18
+      }
+    }
   }
 ]
