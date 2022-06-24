@@ -1,0 +1,39 @@
+import { TokenSymbol } from "../symbols/x5_free";
+import { ChainId } from "../chainId";
+
+export interface TokenInfo {
+    chains: number[];
+    name: string;
+    symbol: TokenSymbol,
+    icon: string;
+    contracts: Partial<Record<ChainId, { address: string; decimal: number }>>;
+}
+
+const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
+
+export const tokens: TokenInfo[] = [
+    {
+        name: 'Free USD',
+        symbol: TokenSymbol.FUSD,
+        icon: baseURL + 'FUSD.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x1C81dB7f98EFCEb72f5944F49f5Bb667fd22f2Fb',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Free dogecoin',
+        symbol: TokenSymbol.FDOGE,
+        icon: baseURL + 'FDOGE.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x06DabdEF2C43c0DC4C29Cb93c271fAF0Ab1f2CD4',
+                decimal: 18,
+            },
+        },
+    },
+]

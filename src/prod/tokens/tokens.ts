@@ -192,18 +192,18 @@ export const tokens: TokenInfo[] = [
         },
     },
 
-    // {
-    //     name: "Dogecoin Token",
-    //     symbol: TokenSymbol.DOGE,
-    //     icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/doge.png',
-    //     chains: [ChainId.BSC],
-    //     contracts: {
-    //         [ChainId.BSC]: {
-    //             address: '0xbA2aE424d960c26247Dd6c32edC70B295c744C43',
-    //             decimal: 8,
-    //         },
-    //     },
-    // },
+    {
+        name: "Dogecoin Token",
+        symbol: TokenSymbol.DOGE,
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/doge.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xbA2aE424d960c26247Dd6c32edC70B295c744C43',
+                decimal: 8,
+            },
+        },
+    },
     // {
     //     name: "SHIBA INU Token",
     //     symbol: TokenSymbol.SHIB,
