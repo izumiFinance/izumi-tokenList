@@ -36,4 +36,28 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: 'Free stepn',
+        symbol: TokenSymbol.FGMT,
+        icon: baseURL + 'FGMT.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x22beb880bE67a89eb46c04D0F0887cc87bEB249f',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Free milo lnu',
+        symbol: TokenSymbol.FMILO,
+        icon: baseURL + 'FMILO.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x140841BE8DecF3831e4cDb9C4E62ED413CF2d50E',
+                decimal: 18,
+            },
+        },
+    },
 ]

@@ -397,5 +397,33 @@
         "decimal": 18
       }
     }
+  },
+  {
+    "name": "Free stepn",
+    "symbol": "FGMT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/FGMT.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x22beb880bE67a89eb46c04D0F0887cc87bEB249f",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Free milo lnu",
+    "symbol": "FMILO",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/FMILO.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x140841BE8DecF3831e4cDb9C4E62ED413CF2d50E",
+        "decimal": 18
+      }
+    }
   }
 ]
