@@ -204,6 +204,30 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Green Metaverse Token",
+        symbol: TokenSymbol.GMT,
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gmt.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1',
+                decimal: 8,
+            },
+        },
+    },
+    {
+        name: "Milo Inu",
+        symbol: TokenSymbol.MILO,
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/milo.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xd9dE2B1973E57Dc9DBA90c35d6Cd940ae4A3CBe1',
+                decimal: 9,
+            },
+        },
+    },
     // {
     //     name: "SHIBA INU Token",
     //     symbol: TokenSymbol.SHIB,

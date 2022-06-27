@@ -21,4 +21,6 @@ export enum TokenSymbol {
     SHIB= 'SHIB',
     IUSD= 'iUSD',
     BTCB= 'BTCB',
+    GMT= 'GMT',
+    MILO= 'MILO',
 }
