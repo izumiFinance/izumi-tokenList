@@ -1,4 +1,4 @@
-import { TokenSymbol } from "../symbols/x3__mv";
+import { TokenSymbol } from "../symbols/x3__mw";
 import { ChainId } from "../chainId";
 
 export interface TokenInfo {
@@ -14,8 +14,8 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 export const tokens: TokenInfo[] = [
     {
         name: 'Metazodiac Token',
-        symbol: TokenSymbol.MV,
-        icon: baseURL + 'MV.png',
+        symbol: TokenSymbol.MW,
+        icon: baseURL + 'MW.png',
         chains: [ChainId.BSC],
         contracts: {
             [ChainId.BSC]: {

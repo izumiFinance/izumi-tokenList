@@ -1,3 +1,3 @@
 export enum TokenSymbol {
-    MV = "MV",
+    MW = "MW",
 }
