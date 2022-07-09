@@ -343,6 +343,20 @@
     }
   },
   {
+    "name": "Metazodiac Token",
+    "symbol": "MV",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/MV.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x154d746794449B6CF534FA11A2Cf7FfF5C968977",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "ShieldEX",
     "symbol": "SLD",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/sld.png",
