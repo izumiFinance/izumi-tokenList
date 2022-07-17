@@ -13,7 +13,7 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
     {
-        name: 'KillSwitchToken',
+        name: 'KillSwitch Token',
         symbol: TokenSymbol.KSW,
         icon: baseURL + 'KSW.png',
         chains: [ChainId.BSC],
