@@ -1,4 +1,4 @@
-import { TokenSymbol } from "../symbols/x5_free";
+import { TokenSymbol } from "../symbols/x8_free";
 import { ChainId } from "../chainId";
 
 export interface TokenInfo {

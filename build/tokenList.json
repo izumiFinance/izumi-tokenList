@@ -385,6 +385,48 @@
     }
   },
   {
+    "name": "Revoland Game Token",
+    "symbol": "LAND",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/LAND.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x9A981FAcCD3B9b3B9453BFF266296fc0f2De21a2",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Revoland Governance Token",
+    "symbol": "REVO",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/REVO.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xfC279e6ff1FB1C7F5848d31561cAb27d34a2856b",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Froyo Token",
+    "symbol": "FROYO",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/froyo.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Free USD",
     "symbol": "FUSD",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/FUSD.png",
