@@ -441,6 +441,20 @@
     }
   },
   {
+    "name": "Jupyter",
+    "symbol": "IOM",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/iom.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xD6ea4ec77fB7e0d5c331F9109f00CcEdE255b9C8",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Free USD",
     "symbol": "FUSD",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/FUSD.png",
