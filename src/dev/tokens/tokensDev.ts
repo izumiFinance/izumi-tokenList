@@ -16,7 +16,7 @@ export const tokens: TokenInfo[] = [
         name: 'iZUMi Token',
         symbol: TokenSymbol.IZI,
         icon: baseURL + 'izumi.svg',
-        chains: [ChainId.Izumi, ChainId.BSCTestnet],
+        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0xEe5e3852434eB67F8e9E97015e32845861ea15E8',
@@ -26,16 +26,24 @@ export const tokens: TokenInfo[] = [
                 address: '0x551197e6350936976DfFB66B2c3bb15DDB723250',
                 decimal: 18,
             },
+            [ChainId.AuroraTestnet]: {
+                address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
+                decimal: 18,
+            },
         },
     },
     {
         name: "iZUMi Bond USD",
         symbol: TokenSymbol.IUSD,
-        chains: [ChainId.BSCTestnet],
+        chains: [ChainId.BSCTestnet, ChainId.AuroraTestnet],
         icon: baseURL + 'iusd.png',
         contracts: {
             [ChainId.BSCTestnet]: {
                 address: '0x60FE1bE62fa2082b0897eA87DF8D2CfD45185D30',
+                decimal: 18,
+            },
+            [ChainId.AuroraTestnet]: {
+                address: '0xb0453a1bAf6056393897e60dfd851C61A825ef67',
                 decimal: 18,
             },
         },
@@ -43,11 +51,15 @@ export const tokens: TokenInfo[] = [
     {
         name: "Binance USD",
         symbol: TokenSymbol.BUSD,
-        chains: [ChainId.BSCTestnet],
+        chains: [ChainId.BSCTestnet, ChainId.AuroraTestnet],
         icon: baseURL + 'busd.png',
         contracts: {
             [ChainId.BSCTestnet]: {
                 address: '0xd88972676f5D0997c8150A3d2C4634CbaaDD3396',
+                decimal: 18,
+            },
+            [ChainId.AuroraTestnet]: {
+                address: '0x2A2E08ea99E63482BDad8Bf69c7b69752F07736F',
                 decimal: 18,
             },
         },
@@ -56,7 +68,7 @@ export const tokens: TokenInfo[] = [
         name: 'USD Coin',
         symbol: TokenSymbol.USDC,
         icon: baseURL + 'usdc.png',
-        chains: [ChainId.Izumi, ChainId.BSCTestnet],
+        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0xe507AAC9eFb2A08F53C7BC73B3B1b8BCf883E41B',
@@ -66,13 +78,17 @@ export const tokens: TokenInfo[] = [
                 address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
                 decimal: 6,
             },
+            [ChainId.AuroraTestnet]: {
+                address: '0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b',
+                decimal: 6,
+            },
         },
     },
     {
         name: "Tether USD",
         symbol: TokenSymbol.USDT,
         icon: baseURL + 'usdt.png',
-        chains: [ChainId.Izumi, ChainId.BSCTestnet],
+        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0x2d2bA91b026E08e0f23Eb01d7ecAb0e7E279a45f',
@@ -80,6 +96,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.BSCTestnet]: {
                 address: '0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b',
+                decimal: 6,
+            },
+            [ChainId.AuroraTestnet]: {
+                address: '0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b',
                 decimal: 6,
             },
         },
@@ -99,11 +119,27 @@ export const tokens: TokenInfo[] = [
     {
         name: 'Ether',
         symbol: TokenSymbol.ETH,
-        chains: [ChainId.Izumi],
+        chains: [ChainId.Izumi, ChainId.AuroraTestnet],
         icon: baseURL + 'eth.png',
         contracts: {
             [ChainId.Izumi]: {
                 address: '0x3AD23A16A81Cd40010F39309876978F20DD2f682', //Wrapped ETH
+                decimal: 18,
+            },
+            [ChainId.AuroraTestnet]: {
+                address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Wrapped Ether',
+        symbol: TokenSymbol.WETH,
+        chains: [ChainId.AuroraTestnet, ChainId.AuroraTestnet],
+        icon: baseURL + 'eth.png',
+        contracts: {
+            [ChainId.AuroraTestnet]: {
+                address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF',
                 decimal: 18,
             },
         },

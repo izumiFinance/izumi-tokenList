@@ -1377,7 +1377,8 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/izumi.svg",
     "chains": [
       1337,
-      97
+      97,
+      1313161555
     ],
     "contracts": {
       "97": {
@@ -1387,6 +1388,10 @@
       "1337": {
         "address": "0xEe5e3852434eB67F8e9E97015e32845861ea15E8",
         "decimal": 18
+      },
+      "1313161555": {
+        "address": "0x876508837C162aCedcc5dd7721015E83cbb4e339",
+        "decimal": 18
       }
     }
   },
@@ -1394,12 +1399,17 @@
     "name": "iZUMi Bond USD",
     "symbol": "iUSD",
     "chains": [
-      97
+      97,
+      1313161555
     ],
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/iusd.png",
     "contracts": {
       "97": {
         "address": "0x60FE1bE62fa2082b0897eA87DF8D2CfD45185D30",
+        "decimal": 18
+      },
+      "1313161555": {
+        "address": "0xb0453a1bAf6056393897e60dfd851C61A825ef67",
         "decimal": 18
       }
     }
@@ -1408,12 +1418,17 @@
     "name": "Binance USD",
     "symbol": "BUSD",
     "chains": [
-      97
+      97,
+      1313161555
     ],
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/busd.png",
     "contracts": {
       "97": {
         "address": "0xd88972676f5D0997c8150A3d2C4634CbaaDD3396",
+        "decimal": 18
+      },
+      "1313161555": {
+        "address": "0x2A2E08ea99E63482BDad8Bf69c7b69752F07736F",
         "decimal": 18
       }
     }
@@ -1424,7 +1439,8 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
     "chains": [
       1337,
-      97
+      97,
+      1313161555
     ],
     "contracts": {
       "97": {
@@ -1433,6 +1449,10 @@
       },
       "1337": {
         "address": "0xe507AAC9eFb2A08F53C7BC73B3B1b8BCf883E41B",
+        "decimal": 6
+      },
+      "1313161555": {
+        "address": "0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b",
         "decimal": 6
       }
     }
@@ -1443,7 +1463,8 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
     "chains": [
       1337,
-      97
+      97,
+      1313161555
     ],
     "contracts": {
       "97": {
@@ -1452,6 +1473,10 @@
       },
       "1337": {
         "address": "0x2d2bA91b026E08e0f23Eb01d7ecAb0e7E279a45f",
+        "decimal": 6
+      },
+      "1313161555": {
+        "address": "0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b",
         "decimal": 6
       }
     }
@@ -1474,12 +1499,32 @@
     "name": "Ether",
     "symbol": "ETH",
     "chains": [
-      1337
+      1337,
+      1313161555
     ],
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
     "contracts": {
       "1337": {
         "address": "0x3AD23A16A81Cd40010F39309876978F20DD2f682",
+        "decimal": 18
+      },
+      "1313161555": {
+        "address": "0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "chains": [
+      1313161555,
+      1313161555
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
+    "contracts": {
+      "1313161555": {
+        "address": "0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF",
         "decimal": 18
       }
     }
