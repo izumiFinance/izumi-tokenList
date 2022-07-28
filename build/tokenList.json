@@ -259,6 +259,20 @@
     }
   },
   {
+    "name": "MNW",
+    "symbol": "MNW",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/MNW.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x8E596702B7e84907836776fDdC56067b64147C8f",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "TokenPocket Token",
     "symbol": "TPT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TPT.png",
@@ -507,6 +521,20 @@
       "56": {
         "address": "0x140841BE8DecF3831e4cDb9C4E62ED413CF2d50E",
         "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Zero Verse Coin",
+    "symbol": "ZVC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ZVC.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x8f76907B173FBf65ddd84A86519C8767a90b8B90",
+        "decimal": 9
       }
     }
   }
