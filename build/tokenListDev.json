@@ -1608,5 +1608,19 @@
         "decimal": 18
       }
     }
+  },
+  {
+    "name": "Arctic Token",
+    "symbol": "ARC",
+    "chains": [
+      1313161555
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arc.png",
+    "contracts": {
+      "1313161555": {
+        "address": "0xa341a31CCdD570cAEab465c96D64c880db609021",
+        "decimal": 18
+      }
+    }
   }
 ]

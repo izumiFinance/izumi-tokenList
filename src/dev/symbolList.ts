@@ -116,4 +116,5 @@ BNB='BNB',
 DOGE='DOGE',
 SHIB='SHIB',
 IUSD='iUSD',
+ARC='ARC',
 }

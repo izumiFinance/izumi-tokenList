@@ -211,5 +211,17 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
         },
+    },
+    {
+        name: "Arctic Token",
+        symbol: TokenSymbol.ARC,
+        chains: [ChainId.AuroraTestnet],
+        icon: baseURL + 'arc.png',
+        contracts: {
+            [ChainId.AuroraTestnet]: {
+                address: '0xa341a31CCdD570cAEab465c96D64c880db609021',
+                decimal: 18,
+            },
+        },
     }
 ]
