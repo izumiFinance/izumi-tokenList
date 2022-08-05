@@ -1372,6 +1372,34 @@
     }
   },
   {
+    "name": "Arctic Token",
+    "symbol": "ARC",
+    "chains": [
+      1313161555
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arc.png",
+    "contracts": {
+      "1313161555": {
+        "address": "0xa341a31CCdD570cAEab465c96D64c880db609021",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Aurora Token",
+    "symbol": "AURORA",
+    "chains": [
+      1313161555
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/aurora.png",
+    "contracts": {
+      "1313161555": {
+        "address": "0xcC2DE5D1A8154f7fa0e80a6732a38422D8fBEB10",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "iZUMi Token",
     "symbol": "iZi",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/izumi.svg",
@@ -1418,17 +1446,12 @@
     "name": "Binance USD",
     "symbol": "BUSD",
     "chains": [
-      97,
-      1313161555
+      97
     ],
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/busd.png",
     "contracts": {
       "97": {
         "address": "0xd88972676f5D0997c8150A3d2C4634CbaaDD3396",
-        "decimal": 18
-      },
-      "1313161555": {
-        "address": "0x2A2E08ea99E63482BDad8Bf69c7b69752F07736F",
         "decimal": 18
       }
     }
@@ -1605,20 +1628,6 @@
       },
       "1337": {
         "address": "0x628571078add0031Ff6E9975AE6ddE1123fC423b",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Arctic Token",
-    "symbol": "ARC",
-    "chains": [
-      1313161555
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arc.png",
-    "contracts": {
-      "1313161555": {
-        "address": "0xa341a31CCdD570cAEab465c96D64c880db609021",
         "decimal": 18
       }
     }

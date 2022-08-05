@@ -13,6 +13,30 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
     {
+        name: "Arctic Token",
+        symbol: TokenSymbol.ARC,
+        chains: [ChainId.AuroraTestnet],
+        icon: baseURL + 'arc.png',
+        contracts: {
+            [ChainId.AuroraTestnet]: {
+                address: '0xa341a31CCdD570cAEab465c96D64c880db609021',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Aurora Token",
+        symbol: TokenSymbol.AURORA,
+        chains: [ChainId.AuroraTestnet],
+        icon: baseURL + 'aurora.png',
+        contracts: {
+            [ChainId.AuroraTestnet]: {
+                address: '0xcC2DE5D1A8154f7fa0e80a6732a38422D8fBEB10',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: 'iZUMi Token',
         symbol: TokenSymbol.IZI,
         icon: baseURL + 'izumi.svg',
@@ -51,15 +75,11 @@ export const tokens: TokenInfo[] = [
     {
         name: "Binance USD",
         symbol: TokenSymbol.BUSD,
-        chains: [ChainId.BSCTestnet, ChainId.AuroraTestnet],
+        chains: [ChainId.BSCTestnet],
         icon: baseURL + 'busd.png',
         contracts: {
             [ChainId.BSCTestnet]: {
                 address: '0xd88972676f5D0997c8150A3d2C4634CbaaDD3396',
-                decimal: 18,
-            },
-            [ChainId.AuroraTestnet]: {
-                address: '0x2A2E08ea99E63482BDad8Bf69c7b69752F07736F',
                 decimal: 18,
             },
         },
@@ -212,16 +232,4 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "Arctic Token",
-        symbol: TokenSymbol.ARC,
-        chains: [ChainId.AuroraTestnet],
-        icon: baseURL + 'arc.png',
-        contracts: {
-            [ChainId.AuroraTestnet]: {
-                address: '0xa341a31CCdD570cAEab465c96D64c880db609021',
-                decimal: 18,
-            },
-        },
-    }
 ]
