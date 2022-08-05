@@ -9,12 +9,38 @@ export interface TokenInfo {
     contracts: Partial<Record<ChainId, { address: string; decimal: number }>>;
 }
 
+const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
+
 export const tokens: TokenInfo[] = [
+    {
+        name: "Arctic Token",
+        symbol: TokenSymbol.ARC,
+        chains: [ChainId.Aurora],
+        icon: baseURL + 'arc.png',
+        contracts: {
+            [ChainId.Aurora]: {
+                address: '0xBCD4e5E349Cc2810830E94f7fFEa4BD6b04c5978',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Aurora Token",
+        symbol: TokenSymbol.AURORA,
+        chains: [ChainId.Aurora],
+        icon: baseURL + 'aurora.png',
+        contracts: {
+            [ChainId.Aurora]: {
+                address: '0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79',
+                decimal: 18,
+            },
+        },
+    },
     {
         name: 'iZUMi Token',
         symbol: TokenSymbol.IZI,
-        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/izumi.svg',
-        chains: [ChainId.Izumi, ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.BSC],
+        icon: baseURL + 'izumi.svg',
+        chains: [ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.BSC, ChainId.Aurora],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0x9ad37205d608B8b219e6a2573f922094CEc5c200',
@@ -22,10 +48,6 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Matic]: {
                 address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
-                decimal: 18,
-            },
-            [ChainId.Izumi]: {
-                address: '0xEe5e3852434eB67F8e9E97015e32845861ea15E8',
                 decimal: 18,
             },
             [ChainId.Arbitrum]: {
@@ -36,15 +58,23 @@ export const tokens: TokenInfo[] = [
                 address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
                 decimal: 18,
             },
+            [ChainId.Aurora]: {
+                address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
+                decimal: 18,
+            },
         },
     },
     {
         name: "iZUMi Bond USD",
         symbol: TokenSymbol.IUSD,
-        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/iusd.png',
-        chains: [ChainId.BSC],
+        icon: baseURL + 'iusd.png',
+        chains: [ChainId.BSC, ChainId.Aurora],
         contracts: {
             [ChainId.BSC]: {
+                address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
+                decimal: 18,
+            },
+            [ChainId.Aurora]: {
                 address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
                 decimal: 18,
             },
@@ -53,14 +83,14 @@ export const tokens: TokenInfo[] = [
     {
         name: 'USD Coin',
         symbol: TokenSymbol.USDC,
-        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png',
+        icon: baseURL + 'usdc.png',
         chains: [
             ChainId.BSC,
             ChainId.Heco,
             ChainId.Matic,
             ChainId.Fantom,
-            ChainId.Izumi,
             ChainId.Harmony,
+            ChainId.Aurora,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -87,10 +117,6 @@ export const tokens: TokenInfo[] = [
                 address: '0x04068DA6C83AFCFA0e13ba15A6696662335D5B75',
                 decimal: 6,
             },
-            [ChainId.Izumi]: {
-                address: '0xe507AAC9eFb2A08F53C7BC73B3B1b8BCf883E41B',
-                decimal: 6,
-            },
             [ChainId.Arbitrum]: {
                 address: '0xff970a61a04b1ca14834a43f5de4533ebddb5cc8',
                 decimal: 6,
@@ -99,20 +125,20 @@ export const tokens: TokenInfo[] = [
                 address: '0x985458e523db3d53125813ed68c274899e9dfab4',
                 decimal: 6,
             },
+            [ChainId.Aurora]: {
+                address: '0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
+                decimal: 6,
+            },
         },
     },
     {
         name: "Tether USD",
         symbol: TokenSymbol.USDT,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png',
-        chains: [ChainId.Izumi, ChainId.EthereumMainnet, ChainId.Arbitrum, ChainId.Matic, ChainId.BSC],
+        chains: [ChainId.EthereumMainnet, ChainId.Arbitrum, ChainId.Matic, ChainId.BSC, ChainId.Aurora],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0xdac17f958d2ee523a2206206994597c13d831ec7',
-                decimal: 6,
-            },
-            [ChainId.Izumi]: {
-                address: '0x2d2bA91b026E08e0f23Eb01d7ecAb0e7E279a45f',
                 decimal: 6,
             },
             [ChainId.Arbitrum]: {
@@ -126,6 +152,10 @@ export const tokens: TokenInfo[] = [
             [ChainId.BSC]: {
                 address: '0x55d398326f99059fF775485246999027B3197955',
                 decimal: 18,
+            },
+            [ChainId.Aurora]: {
+                address: '0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
+                decimal: 6,
             },
         },
     },
@@ -165,7 +195,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-
+    {
+        name: "Wrapped BTC",
+        symbol: TokenSymbol.WBTC,
+        icon: baseURL + 'WBTC.png',
+        chains: [ChainId.Aurora],
+        contracts: {
+            [ChainId.Aurora]: {
+                address: '0xF4eB217Ba2454613b15dBdea6e5f22276410e89e', 
+                decimal: 8,
+            },
+        },
+    },
     {
         name: "Binance-Peg Bitcoin BEP2",
         symbol: TokenSymbol.BTCB,
@@ -178,7 +219,6 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-
     {
         name: "Binance-Peg Ethereum Token",
         symbol: TokenSymbol.ETH,
@@ -191,7 +231,30 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-
+    {
+        name: "NEAR Token",
+        symbol: TokenSymbol.NEAR,
+        icon: baseURL + 'near.png',
+        chains: [ChainId.Aurora],
+        contracts: {
+            [ChainId.Aurora]: {
+                address: '0xC42C30aC6Cc15faC9bD938618BcaA1a1FaE8501d', 
+                decimal: 24,
+            },
+        },
+    },
+    {
+        name: "Wrapped Ether",
+        symbol: TokenSymbol.WETH,
+        icon: baseURL + 'WETH.png',
+        chains: [ChainId.Aurora],
+        contracts: {
+            [ChainId.Aurora]: {
+                address: '0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB', 
+                decimal: 18,
+            },
+        },
+    },
     {
         name: "Dogecoin Token",
         symbol: TokenSymbol.DOGE,

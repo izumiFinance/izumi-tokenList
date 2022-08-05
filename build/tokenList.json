@@ -1,14 +1,42 @@
 [
   {
+    "name": "Arctic Token",
+    "symbol": "ARC",
+    "chains": [
+      1313161554
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arc.png",
+    "contracts": {
+      "1313161554": {
+        "address": "0xBCD4e5E349Cc2810830E94f7fFEa4BD6b04c5978",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Aurora Token",
+    "symbol": "AURORA",
+    "chains": [
+      1313161554
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/aurora.png",
+    "contracts": {
+      "1313161554": {
+        "address": "0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "iZUMi Token",
     "symbol": "iZi",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/izumi.svg",
     "chains": [
-      1337,
       1,
       137,
       42161,
-      56
+      56,
+      1313161554
     ],
     "contracts": {
       "1": {
@@ -23,11 +51,11 @@
         "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
         "decimal": 18
       },
-      "1337": {
-        "address": "0xEe5e3852434eB67F8e9E97015e32845861ea15E8",
+      "42161": {
+        "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
         "decimal": 18
       },
-      "42161": {
+      "1313161554": {
         "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
         "decimal": 18
       }
@@ -38,10 +66,15 @@
     "symbol": "iUSD",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/iusd.png",
     "chains": [
-      56
+      56,
+      1313161554
     ],
     "contracts": {
       "56": {
+        "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
+        "decimal": 18
+      },
+      "1313161554": {
         "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
         "decimal": 18
       }
@@ -56,8 +89,8 @@
       128,
       137,
       250,
-      1337,
-      1666600000
+      1666600000,
+      1313161554
     ],
     "contracts": {
       "1": {
@@ -84,12 +117,12 @@
         "address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
         "decimal": 6
       },
-      "1337": {
-        "address": "0xe507AAC9eFb2A08F53C7BC73B3B1b8BCf883E41B",
-        "decimal": 6
-      },
       "42161": {
         "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+        "decimal": 6
+      },
+      "1313161554": {
+        "address": "0xB12BFcA5A55806AaF64E99521918A4bf0fC40802",
         "decimal": 6
       },
       "1666600000": {
@@ -103,11 +136,11 @@
     "symbol": "USDT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
     "chains": [
-      1337,
       1,
       42161,
       137,
-      56
+      56,
+      1313161554
     ],
     "contracts": {
       "1": {
@@ -122,12 +155,12 @@
         "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
         "decimal": 6
       },
-      "1337": {
-        "address": "0x2d2bA91b026E08e0f23Eb01d7ecAb0e7E279a45f",
-        "decimal": 6
-      },
       "42161": {
         "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+        "decimal": 6
+      },
+      "1313161554": {
+        "address": "0x4988a896b1227218e4A686fdE5EabdcAbd91571f",
         "decimal": 6
       }
     }
@@ -175,6 +208,20 @@
     }
   },
   {
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WBTC.png",
+    "chains": [
+      1313161554
+    ],
+    "contracts": {
+      "1313161554": {
+        "address": "0xF4eB217Ba2454613b15dBdea6e5f22276410e89e",
+        "decimal": 8
+      }
+    }
+  },
+  {
     "name": "Binance-Peg Bitcoin BEP2",
     "symbol": "BTCB",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/btc.png",
@@ -198,6 +245,34 @@
     "contracts": {
       "56": {
         "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "NEAR Token",
+    "symbol": "NEAR",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/near.png",
+    "chains": [
+      1313161554
+    ],
+    "contracts": {
+      "1313161554": {
+        "address": "0xC42C30aC6Cc15faC9bD938618BcaA1a1FaE8501d",
+        "decimal": 24
+      }
+    }
+  },
+  {
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WETH.png",
+    "chains": [
+      1313161554
+    ],
+    "contracts": {
+      "1313161554": {
+        "address": "0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB",
         "decimal": 18
       }
     }

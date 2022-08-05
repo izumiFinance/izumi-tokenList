@@ -13,4 +13,5 @@ export enum ChainId {
     MaticTestnet = 80001,
     Harmony = 1666600000,
     HarmonyTestnet = 1666700000,
+    Aurora = 1313161554,
 }

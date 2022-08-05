@@ -20,7 +20,11 @@ export enum TokenSymbol {
     DOGE= 'DOGE',
     SHIB= 'SHIB',
     IUSD= 'iUSD',
-    BTCB= 'BTCB',
+    BTCB= 'BTCB', //bsc
+    WBTC = 'WBTC',
     GMT= 'GMT',
     MILO= 'MILO',
+    AURORA = 'AURORA',
+    ARC = 'ARC',
+    NEAR = 'NEAR',
 }
