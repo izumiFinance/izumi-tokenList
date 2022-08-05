@@ -223,10 +223,14 @@ export const tokens: TokenInfo[] = [
         name: "Binance-Peg Ethereum Token",
         symbol: TokenSymbol.ETH,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png',
-        chains: [ChainId.BSC],
+        chains: [ChainId.BSC, ChainId.Aurora],
         contracts: {
             [ChainId.BSC]: {
                 address: '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 
+                decimal: 18,
+            },
+            [ChainId.Aurora]: {
+                address: '0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',  //weth
                 decimal: 18,
             },
         },

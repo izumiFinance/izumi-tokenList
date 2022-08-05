@@ -240,11 +240,16 @@
     "symbol": "ETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
     "chains": [
-      56
+      56,
+      1313161554
     ],
     "contracts": {
       "56": {
         "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "decimal": 18
+      },
+      "1313161554": {
+        "address": "0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB",
         "decimal": 18
       }
     }
