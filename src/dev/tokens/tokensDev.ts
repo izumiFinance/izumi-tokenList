@@ -156,7 +156,7 @@ export const tokens: TokenInfo[] = [
         name: 'Wrapped Ether',
         symbol: TokenSymbol.WETH,
         chains: [ChainId.AuroraTestnet, ChainId.AuroraTestnet],
-        icon: baseURL + 'eth.png',
+        icon: baseURL + 'WETH.png',
         contracts: {
             [ChainId.AuroraTestnet]: {
                 address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF',

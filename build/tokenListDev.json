@@ -1544,7 +1544,7 @@
       1313161555,
       1313161555
     ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WETH.png",
     "contracts": {
       "1313161555": {
         "address": "0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF",
