@@ -451,7 +451,7 @@
     }
   },
   {
-    "name": "ShieldEX",
+    "name": "Shield",
     "symbol": "SLD",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/sld.png",
     "chains": [

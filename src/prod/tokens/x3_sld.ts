@@ -13,7 +13,7 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
     {
-        name: 'ShieldEX',
+        name: 'Shield',
         symbol: TokenSymbol.SLD,
         icon: baseURL + 'sld.png',
         chains: [ChainId.BSC],
