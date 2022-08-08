@@ -118,4 +118,6 @@ SHIB='SHIB',
 IUSD='iUSD',
 ARC='ARC',
 AURORA='AURORA',
+FeeA='FeeA',
+FeeB='FeeB',
 }
