@@ -367,6 +367,20 @@
     }
   },
   {
+    "name": "TAP Coin",
+    "symbol": "TAP",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/tap.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x35bEdBF9291b22218a0dA863170dcC9329Ef2563",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "TokenPocket Token",
     "symbol": "TPT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TPT.png",
