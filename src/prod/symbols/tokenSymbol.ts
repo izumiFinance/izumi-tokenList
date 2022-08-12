@@ -27,4 +27,6 @@ export enum TokenSymbol {
     AURORA = 'AURORA',
     ARC = 'ARC',
     NEAR = 'NEAR',
+    ETC = 'ETC',
+    WETC = 'WETC',
 }

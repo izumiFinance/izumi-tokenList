@@ -3,6 +3,7 @@ export enum ChainId {
     Rinkeby = 4,
     Optimism = 10,
     BSC = 56,
+    ETC = 61,
     Gatechain = 86,
     BSCTestnet = 97,
     Heco = 128,

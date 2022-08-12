@@ -37,10 +37,34 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Ether Classic",
+        symbol: TokenSymbol.ETC,
+        chains: [ChainId.ETC],
+        icon: baseURL + 'etc.png',
+        contracts: {
+            [ChainId.ETC]: {
+                address: '0x1953cab0E5bFa6D4a9BaD6E05fD46C1CC6527a5a',
+                decimal: 18, // WETC
+            },
+        },
+    },
+    {
+        name: "Wrapped Ether Classic",
+        symbol: TokenSymbol.WETC,
+        chains: [ChainId.ETC],
+        icon: baseURL + 'etc.png',
+        contracts: {
+            [ChainId.ETC]: {
+                address: '0x1953cab0E5bFa6D4a9BaD6E05fD46C1CC6527a5a',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: 'iZUMi Token',
         symbol: TokenSymbol.IZI,
         icon: baseURL + 'izumi.svg',
-        chains: [ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.BSC, ChainId.Aurora],
+        chains: [ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.BSC, ChainId.Aurora, ChainId.ETC],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0x9ad37205d608B8b219e6a2573f922094CEc5c200',
@@ -62,19 +86,27 @@ export const tokens: TokenInfo[] = [
                 address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
                 decimal: 18,
             },
+            [ChainId.ETC]: {
+                address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
+                decimal: 18,
+            },
         },
     },
     {
         name: "iZUMi Bond USD",
         symbol: TokenSymbol.IUSD,
         icon: baseURL + 'iusd.png',
-        chains: [ChainId.BSC, ChainId.Aurora],
+        chains: [ChainId.BSC, ChainId.Aurora, ChainId.ETC],
         contracts: {
             [ChainId.BSC]: {
                 address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
                 decimal: 18,
             },
             [ChainId.Aurora]: {
+                address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
+                decimal: 18,
+            },
+            [ChainId.ETC]: {
                 address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
                 decimal: 18,
             },

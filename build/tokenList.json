@@ -28,6 +28,34 @@
     }
   },
   {
+    "name": "Ether Classic",
+    "symbol": "ETC",
+    "chains": [
+      61
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/etc.png",
+    "contracts": {
+      "61": {
+        "address": "0x1953cab0E5bFa6D4a9BaD6E05fD46C1CC6527a5a",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped Ether Classic",
+    "symbol": "WETC",
+    "chains": [
+      61
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/etc.png",
+    "contracts": {
+      "61": {
+        "address": "0x1953cab0E5bFa6D4a9BaD6E05fD46C1CC6527a5a",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "iZUMi Token",
     "symbol": "iZi",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/izumi.svg",
@@ -36,7 +64,8 @@
       137,
       42161,
       56,
-      1313161554
+      1313161554,
+      61
     ],
     "contracts": {
       "1": {
@@ -44,6 +73,10 @@
         "decimal": 18
       },
       "56": {
+        "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
+        "decimal": 18
+      },
+      "61": {
         "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
         "decimal": 18
       },
@@ -67,10 +100,15 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/iusd.png",
     "chains": [
       56,
-      1313161554
+      1313161554,
+      61
     ],
     "contracts": {
       "56": {
+        "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
+        "decimal": 18
+      },
+      "61": {
         "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
         "decimal": 18
       },
