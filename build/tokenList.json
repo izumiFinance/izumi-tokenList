@@ -381,6 +381,20 @@
     }
   },
   {
+    "name": "MetaElfLand Token",
+    "symbol": "MELT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/melt.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x7eb35225995b097c84eF10501dD6E93A49bdFd63",
+        "decimal": 8
+      }
+    }
+  },
+  {
     "name": "TokenPocket Token",
     "symbol": "TPT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TPT.png",
