@@ -433,6 +433,20 @@
     }
   },
   {
+    "name": "BattleNet Coin",
+    "symbol": "BNC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bnc.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x5ec7A2F894C95C29928ae374BE1c8aD3338092DB",
+        "decimal": 8
+      }
+    }
+  },
+  {
     "name": "TokenPocket Token",
     "symbol": "TPT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TPT.png",
