@@ -327,6 +327,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "PancakeSwap Token",
+        symbol: TokenSymbol.CAKE,
+        icon: baseURL + 'cake.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+                decimal: 18,
+            },
+        },
+    },
     // {
     //     name: "SHIBA INU Token",
     //     symbol: TokenSymbol.SHIB,

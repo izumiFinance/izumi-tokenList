@@ -363,6 +363,20 @@
     }
   },
   {
+    "name": "PancakeSwap Token",
+    "symbol": "CAKE",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cake.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",

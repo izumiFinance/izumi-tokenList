@@ -29,4 +29,5 @@ export enum TokenSymbol {
     NEAR = 'NEAR',
     ETC = 'ETC',
     WETC = 'WETC',
+    CAKE = 'CAKE',
 }
