@@ -461,6 +461,20 @@
     }
   },
   {
+    "name": "Soul Meta Token",
+    "symbol": "SOUL",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/soul.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x9c2DcEB3fEBEC3b7245a0c2395aFdd92d9364862",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "TokenPocket Token",
     "symbol": "TPT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TPT.png",
