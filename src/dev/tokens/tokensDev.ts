@@ -171,7 +171,7 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'bnb.png',
         contracts: {
             [ChainId.BSCTestnet]: {
-                address: '0xa9754f0D9055d14EB0D2d196E4C51d8B2Ee6f4d3', //Wrapped BNB
+                address: '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd', //Wrapped BNB
                 decimal: 18,
             },
         },
@@ -183,7 +183,7 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'bnb.png',
         contracts: {
             [ChainId.BSCTestnet]: {
-                address: '0xa9754f0D9055d14EB0D2d196E4C51d8B2Ee6f4d3', //Wrapped BNB
+                address: '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd', //Wrapped BNB
                 decimal: 18,
             },
         },
