@@ -489,6 +489,20 @@
     }
   },
   {
+    "name": "Richverse Web3 Token",
+    "symbol": "RIV",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/RIV.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xca5e32d44f1744001b5600dc2f5f5e0bbb6e9d3e",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "TokenPocket Token",
     "symbol": "TPT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TPT.png",
