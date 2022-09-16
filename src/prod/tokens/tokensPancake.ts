@@ -60,4 +60,76 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Polkadot Token",
+        symbol: TokenSymbol.DOT,
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dot.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "ChainLink Token",
+        symbol: TokenSymbol.LINK,
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/link.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Litecoin",
+        symbol: TokenSymbol.LTC,
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ltc.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x4338665CBB7B2485A8855A139b75D5e34AB0DB94',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Filecoin",
+        symbol: TokenSymbol.FIL,
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/fil.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x0D8Ce2A99Bb6e3B7Db580eD848240e4a0F9aE153',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "TRON",
+        symbol: TokenSymbol.TRX,
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/trx.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "SHIBA INU Token",
+        symbol: TokenSymbol.SHIB,
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/shib.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x2859e4544C4bB03966803b044A93563Bd2D0DD4D',
+                decimal: 18,
+            },
+        },
+    },
 ]
