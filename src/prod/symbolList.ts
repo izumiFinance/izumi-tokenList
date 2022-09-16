@@ -1,4 +1,8 @@
 export enum TokenSymbol {
+LUNA='LUNA',
+XRP='XRP',
+BSW='BSW',
+UNI='UNI',
 IZI='iZi',
 ETH='ETH',
 WETH='WETH',
@@ -53,9 +57,5 @@ REVO='REVO',
 FROYO='FROYO',
 NAS='NAS',
 IOM='IOM',
-FUSD='FUSD',
-FDOGE='FDOGE',
-FGMT='FGMT',
-FMILO='FMILO',
 ZVC='ZVC',
 }
