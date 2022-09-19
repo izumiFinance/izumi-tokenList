@@ -643,6 +643,34 @@
     }
   },
   {
+    "name": "Liquid Staking BNB",
+    "symbol": "BNBx",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bnbx.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x1bdd3Cf7F79cfB8EdbB955f20ad99211551BA275",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Stader Token",
+    "symbol": "BNBx",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/sd.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x3BC5AC0dFdC871B365d159f728dd1B9A0B5481E8",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "TokenPocket Token",
     "symbol": "TPT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TPT.png",
