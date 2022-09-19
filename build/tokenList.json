@@ -517,6 +517,20 @@
     }
   },
   {
+    "name": "Wombat Token",
+    "symbol": "WOM",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wom.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xAD6742A35fB341A9Cc6ad674738Dd8da98b94Fb1",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",

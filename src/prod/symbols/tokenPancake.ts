@@ -9,5 +9,6 @@ export enum TokenSymbol {
    DOT = 'DOT',
    TRX = 'TRX',
    LINK = 'LINK',
-   FIL = 'FIL'
+   FIL = 'FIL',
+   WOM = 'WOM',
 }

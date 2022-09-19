@@ -132,4 +132,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Wombat Token",
+        symbol: TokenSymbol.WOM,
+        icon: baseURL + 'wom.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xAD6742A35fB341A9Cc6ad674738Dd8da98b94Fb1',
+                decimal: 18,
+            },
+        },
+    },
 ]
