@@ -26,7 +26,7 @@ export const tokens: TokenInfo[] = [
     },
     {
         name: 'Stader Token',
-        symbol: TokenSymbol.BNBX,
+        symbol: TokenSymbol.SD,
         icon: baseURL + 'sd.png',
         chains: [ChainId.BSC],
         contracts: {
