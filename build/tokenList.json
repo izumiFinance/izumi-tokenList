@@ -377,6 +377,20 @@
     }
   },
   {
+    "name": "USN Stable Coin",
+    "symbol": "USN",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usn.png",
+    "chains": [
+      1313161554
+    ],
+    "contracts": {
+      "1313161554": {
+        "address": "0x5183e1B1091804BC2602586919E6880ac1cf2896",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "LUNA (Wormhole)",
     "symbol": "LUNA",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/luna.png",

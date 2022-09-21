@@ -1,4 +1,5 @@
 export enum TokenSymbol {
+USN='USN',
 LUNA='LUNA',
 XRP='XRP',
 BSW='BSW',
