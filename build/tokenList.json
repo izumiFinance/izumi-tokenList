@@ -391,6 +391,20 @@
     }
   },
   {
+    "name": "Aurigami Token",
+    "symbol": "PLY",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ply.png",
+    "chains": [
+      1313161554
+    ],
+    "contracts": {
+      "1313161554": {
+        "address": "0x09C9D464b58d96837f8d8b6f4d9fE4aD408d3A4f",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "LUNA (Wormhole)",
     "symbol": "LUNA",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/luna.png",

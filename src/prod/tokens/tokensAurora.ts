@@ -24,4 +24,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Aurigami Token",
+        symbol: TokenSymbol.PLY,
+        icon: baseURL + 'ply.png',
+        chains: [ChainId.Aurora],
+        contracts: {
+            [ChainId.Aurora]: {
+                address: '0x09C9D464b58d96837f8d8b6f4d9fE4aD408d3A4f',
+                decimal: 18,
+            },
+        },
+    },
 ]
