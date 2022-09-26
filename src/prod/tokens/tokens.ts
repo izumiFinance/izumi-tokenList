@@ -161,6 +161,10 @@ export const tokens: TokenInfo[] = [
                 address: '0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
                 decimal: 6,
             },
+            [ChainId.Cronos]: {
+                address: '0xc21223249CA28397B4B6541dfFaEcC539BfF0c59',
+                decimal: 6,
+            },
         },
     },
     {
@@ -187,6 +191,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Aurora]: {
                 address: '0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
+                decimal: 6,
+            },
+            [ChainId.Cronos]: {
+                address: '0x66e428c3f67a68878562e79A0234c1F83c208770',
                 decimal: 6,
             },
         },
@@ -235,6 +243,10 @@ export const tokens: TokenInfo[] = [
         contracts: {
             [ChainId.Aurora]: {
                 address: '0xF4eB217Ba2454613b15dBdea6e5f22276410e89e', 
+                decimal: 8,
+            },
+            [ChainId.Cronos]: {
+                address: '0x062E66477Faf219F25D27dCED647BF57C3107d52', 
                 decimal: 8,
             },
         },
@@ -287,6 +299,10 @@ export const tokens: TokenInfo[] = [
         contracts: {
             [ChainId.Aurora]: {
                 address: '0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB', 
+                decimal: 18,
+            },
+            [ChainId.Cronos]: {
+                address: '0xe44Fd7fCb2b1581822D0c862B68222998a0c299a', 
                 decimal: 18,
             },
         },

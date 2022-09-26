@@ -15,4 +15,5 @@ export enum ChainId {
     Harmony = 1666600000,
     HarmonyTestnet = 1666700000,
     Aurora = 1313161554,
+    Cronos = 25,
 }
