@@ -445,7 +445,7 @@
   },
   {
     "name": "Wrapped Cronos Token",
-    "symbol": "CRO",
+    "symbol": "WCRO",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cro.png",
     "chains": [
       25

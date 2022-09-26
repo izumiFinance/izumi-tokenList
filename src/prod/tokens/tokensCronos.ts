@@ -26,7 +26,7 @@ export const tokens: TokenInfo[] = [
     },
     {
         name: "Wrapped Cronos Token",
-        symbol: TokenSymbol.CRO,
+        symbol: TokenSymbol.WCRO,
         icon: baseURL + 'cro.png',
         chains: [ChainId.Cronos],
         contracts: {
