@@ -65,7 +65,8 @@
       42161,
       56,
       1313161554,
-      61
+      61,
+      25
     ],
     "contracts": {
       "1": {
@@ -132,7 +133,8 @@
       137,
       250,
       1666600000,
-      1313161554
+      1313161554,
+      25
     ],
     "contracts": {
       "1": {
@@ -186,7 +188,8 @@
       42161,
       137,
       56,
-      1313161554
+      1313161554,
+      25
     ],
     "contracts": {
       "1": {
@@ -262,7 +265,8 @@
     "symbol": "WBTC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WBTC.png",
     "chains": [
-      1313161554
+      1313161554,
+      25
     ],
     "contracts": {
       "25": {
@@ -327,7 +331,8 @@
     "symbol": "WETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WETH.png",
     "chains": [
-      1313161554
+      1313161554,
+      25
     ],
     "contracts": {
       "25": {

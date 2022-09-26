@@ -64,7 +64,7 @@ export const tokens: TokenInfo[] = [
         name: 'iZUMi Token',
         symbol: TokenSymbol.IZI,
         icon: baseURL + 'izumi.svg',
-        chains: [ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.BSC, ChainId.Aurora, ChainId.ETC],
+        chains: [ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.BSC, ChainId.Aurora, ChainId.ETC, ChainId.Cronos],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0x9ad37205d608B8b219e6a2573f922094CEc5c200',
@@ -127,6 +127,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Fantom,
             ChainId.Harmony,
             ChainId.Aurora,
+            ChainId.Cronos,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -175,7 +176,7 @@ export const tokens: TokenInfo[] = [
         name: "Tether USD",
         symbol: TokenSymbol.USDT,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png',
-        chains: [ChainId.EthereumMainnet, ChainId.Arbitrum, ChainId.Matic, ChainId.BSC, ChainId.Aurora],
+        chains: [ChainId.EthereumMainnet, ChainId.Arbitrum, ChainId.Matic, ChainId.BSC, ChainId.Aurora, ChainId.Cronos],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0xdac17f958d2ee523a2206206994597c13d831ec7',
@@ -243,7 +244,7 @@ export const tokens: TokenInfo[] = [
         name: "Wrapped BTC",
         symbol: TokenSymbol.WBTC,
         icon: baseURL + 'WBTC.png',
-        chains: [ChainId.Aurora],
+        chains: [ChainId.Aurora, ChainId.Cronos],
         contracts: {
             [ChainId.Aurora]: {
                 address: '0xF4eB217Ba2454613b15dBdea6e5f22276410e89e', 
@@ -299,7 +300,7 @@ export const tokens: TokenInfo[] = [
         name: "Wrapped Ether",
         symbol: TokenSymbol.WETH,
         icon: baseURL + 'WETH.png',
-        chains: [ChainId.Aurora],
+        chains: [ChainId.Aurora, ChainId.Cronos],
         contracts: {
             [ChainId.Aurora]: {
                 address: '0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB', 
