@@ -244,7 +244,7 @@ export const tokens: TokenInfo[] = [
         name: "Wrapped BTC",
         symbol: TokenSymbol.WBTC,
         icon: baseURL + 'WBTC.png',
-        chains: [ChainId.Aurora, ChainId.Cronos],
+        chains: [ChainId.Aurora, ChainId.Cronos, ChainId.Matic, ChainId.Arbitrum],
         contracts: {
             [ChainId.Aurora]: {
                 address: '0xF4eB217Ba2454613b15dBdea6e5f22276410e89e', 
@@ -252,6 +252,14 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Cronos]: {
                 address: '0x062E66477Faf219F25D27dCED647BF57C3107d52', 
+                decimal: 8,
+            },
+            [ChainId.Matic]: {
+                address: '0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6', 
+                decimal: 8,
+            },
+            [ChainId.Matic]: {
+                address: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f', 
                 decimal: 8,
             },
         },
@@ -269,10 +277,10 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: "Binance-Peg Ethereum Token",
+        name: "Ether",
         symbol: TokenSymbol.ETH,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png',
-        chains: [ChainId.BSC, ChainId.Aurora],
+        chains: [ChainId.BSC, ChainId.Aurora, ChainId.Arbitrum],
         contracts: {
             [ChainId.BSC]: {
                 address: '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 
@@ -280,6 +288,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Aurora]: {
                 address: '0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',  //weth
+                decimal: 18,
+            },
+            [ChainId.Arbitrum]: {
+                address: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',  //weth
                 decimal: 18,
             },
         },
@@ -300,7 +312,7 @@ export const tokens: TokenInfo[] = [
         name: "Wrapped Ether",
         symbol: TokenSymbol.WETH,
         icon: baseURL + 'WETH.png',
-        chains: [ChainId.Aurora, ChainId.Cronos],
+        chains: [ChainId.Aurora, ChainId.Cronos,ChainId.Matic, ChainId.Arbitrum],
         contracts: {
             [ChainId.Aurora]: {
                 address: '0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB', 
@@ -308,6 +320,14 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Cronos]: {
                 address: '0xe44Fd7fCb2b1581822D0c862B68222998a0c299a', 
+                decimal: 18,
+            },
+            [ChainId.Matic]: {
+                address: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619', 
+                decimal: 18,
+            },
+            [ChainId.Arbitrum]: {
+                address: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1', 
                 decimal: 18,
             },
         },

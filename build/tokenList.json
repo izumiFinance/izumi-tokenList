@@ -266,11 +266,17 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WBTC.png",
     "chains": [
       1313161554,
-      25
+      25,
+      137,
+      42161
     ],
     "contracts": {
       "25": {
         "address": "0x062E66477Faf219F25D27dCED647BF57C3107d52",
+        "decimal": 8
+      },
+      "137": {
+        "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
         "decimal": 8
       },
       "1313161554": {
@@ -294,16 +300,21 @@
     }
   },
   {
-    "name": "Binance-Peg Ethereum Token",
+    "name": "Ether",
     "symbol": "ETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
     "chains": [
       56,
-      1313161554
+      1313161554,
+      42161
     ],
     "contracts": {
       "56": {
         "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "decimal": 18
+      },
+      "42161": {
+        "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
         "decimal": 18
       },
       "1313161554": {
@@ -332,11 +343,21 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WETH.png",
     "chains": [
       1313161554,
-      25
+      25,
+      137,
+      42161
     ],
     "contracts": {
       "25": {
         "address": "0xe44Fd7fCb2b1581822D0c862B68222998a0c299a",
+        "decimal": 18
+      },
+      "137": {
+        "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "decimal": 18
+      },
+      "42161": {
+        "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
         "decimal": 18
       },
       "1313161554": {
@@ -453,6 +474,34 @@
     "contracts": {
       "25": {
         "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Matic Token",
+    "symbol": "MATIC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/matic.png",
+    "chains": [
+      137
+    ],
+    "contracts": {
+      "137": {
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped Matic",
+    "symbol": "WMATIC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/matic.png",
+    "chains": [
+      137
+    ],
+    "contracts": {
+      "137": {
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
         "decimal": 18
       }
     }
