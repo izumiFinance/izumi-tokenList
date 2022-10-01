@@ -258,7 +258,7 @@ export const tokens: TokenInfo[] = [
                 address: '0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6', 
                 decimal: 8,
             },
-            [ChainId.Matic]: {
+            [ChainId.Arbitrum]: {
                 address: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f', 
                 decimal: 8,
             },
