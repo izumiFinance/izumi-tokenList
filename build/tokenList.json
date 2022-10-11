@@ -455,6 +455,48 @@
     }
   },
   {
+    "name": "Trisolaris Token",
+    "symbol": "TRI",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/tri.png",
+    "chains": [
+      1313161554
+    ],
+    "contracts": {
+      "1313161554": {
+        "address": "0xFa94348467f64D5A457F75F8bc40495D33c65aBB",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Bastion Token",
+    "symbol": "BSTN",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bstn.png",
+    "chains": [
+      1313161554
+    ],
+    "contracts": {
+      "1313161554": {
+        "address": "0x9f1F933C660a1DC856F0E0Fe058435879c5CCEf0",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Ref Finance Token",
+    "symbol": "REF",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ref.png",
+    "chains": [
+      1313161554
+    ],
+    "contracts": {
+      "1313161554": {
+        "address": "0x221292443758F63563a1ed04b547278B05845FCb",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Cronos Token",
     "symbol": "CRO",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cro.png",
