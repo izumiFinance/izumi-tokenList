@@ -128,6 +128,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Harmony,
             ChainId.Aurora,
             ChainId.Cronos,
+            ChainId.Arbitrum,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
