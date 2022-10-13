@@ -946,6 +946,20 @@
     }
   },
   {
+    "name": "XEN Crypto",
+    "symbol": "bXEN",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bxen.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "BurgerCities",
     "symbol": "BURGER",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/burger.png",
