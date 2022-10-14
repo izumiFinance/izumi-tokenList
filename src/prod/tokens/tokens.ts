@@ -310,6 +310,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Dai Stablecoin",
+        symbol: TokenSymbol.DAI,
+        icon: baseURL + 'dai.png',
+        chains: [ChainId.Aurora],
+        contracts: {
+            [ChainId.Aurora]: {
+                address: '0xe3520349F477A5F6EB06107066048508498A291b',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Wrapped Ether",
         symbol: TokenSymbol.WETH,
         icon: baseURL + 'WETH.png',

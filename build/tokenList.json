@@ -343,6 +343,20 @@
     }
   },
   {
+    "name": "Dai Stablecoin",
+    "symbol": "DAI",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dai.png",
+    "chains": [
+      1313161554
+    ],
+    "contracts": {
+      "1313161554": {
+        "address": "0xe3520349F477A5F6EB06107066048508498A291b",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Wrapped Ether",
     "symbol": "WETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WETH.png",
