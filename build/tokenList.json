@@ -988,6 +988,20 @@
     }
   },
   {
+    "name": "Ankr BNB Reward Bearing Certificate",
+    "symbol": "aBNBc",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/abnbc.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xE85aFCcDaFBE7F2B096f268e31ccE3da8dA2990A",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "BurgerCities",
     "symbol": "BURGER",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/burger.png",
