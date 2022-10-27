@@ -40,14 +40,14 @@ export const tokens: TokenInfo[] = [
     },
     {
         name: "Test Ant Token",
-        symbol: TokenSymbol.T5,
+        symbol: TokenSymbol.T6,
         chains: [ChainId.BSCTestnet],
         icon: baseURL + 'default.svg',
         contracts: {
             [ChainId.BSCTestnet]: {
-                address: '0xEFa81F3a604f0FFE1A839444f7105Ccdc65365a5',
+                address: '0xFcF20528DD0602A3CBe5835Bb5022C0a65898946',
                 decimal: 18,
-                wrapTokenAddress: '0x89019A318d3dD5706903b974beE4C4040eb8F4f0',
+                wrapTokenAddress: '0x60A1321f92FED22e68e91bcF168A33d0387611Be',
             },
         },
     },

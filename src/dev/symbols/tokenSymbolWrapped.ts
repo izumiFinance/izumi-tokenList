@@ -1,5 +1,5 @@
 export enum TokenSymbol {
     FeeA = 'FeeA',
     FeeB = 'FeeB',
-    T5 = 'T5'
+    T6 = 'T6'
 }
