@@ -1661,5 +1661,20 @@
         "wrapTokenAddress": "0x5a2FEa91d21a8D53180020F8272594bf0D6F36DC"
       }
     }
+  },
+  {
+    "name": "Test Ant Token",
+    "symbol": "T5",
+    "chains": [
+      97
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/default.svg",
+    "contracts": {
+      "97": {
+        "address": "0xEFa81F3a604f0FFE1A839444f7105Ccdc65365a5",
+        "decimal": 18,
+        "wrapTokenAddress": "0x89019A318d3dD5706903b974beE4C4040eb8F4f0"
+      }
+    }
   }
 ]
