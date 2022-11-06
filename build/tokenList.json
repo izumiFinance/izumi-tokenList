@@ -1031,6 +1031,20 @@
     }
   },
   {
+    "name": "Era Token",
+    "symbol": "ERA",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/era.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x6f9F0c4ad9Af7EbD61Ac5A1D4e0F2227F7B0E5f9",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "BurgerCities",
     "symbol": "BURGER",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/burger.png",
