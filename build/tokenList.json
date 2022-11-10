@@ -1045,6 +1045,20 @@
     }
   },
   {
+    "name": "INFIBLUE WORLD",
+    "symbol": "MONIE",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/monie.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x7E60C74b9096f8FA6fb5a9FD88405dED8B7D44f3",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "BurgerCities",
     "symbol": "BURGER",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/burger.png",
