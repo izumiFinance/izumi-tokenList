@@ -24,4 +24,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: 'Ankr Token',
+        symbol: TokenSymbol.ANKR,
+        icon: baseURL + 'ankr.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xf307910A4c7bbc79691fD374889b36d8531B08e3',
+                decimal: 18,
+            },
+        },
+    },
 ]
