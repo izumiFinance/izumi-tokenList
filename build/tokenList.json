@@ -1101,6 +1101,20 @@
     }
   },
   {
+    "name": "ZEBEC token",
+    "symbol": "ZBC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/zbc.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x37a56cdcD83Dce2868f721De58cB3830C44C6303",
+        "decimal": 9
+      }
+    }
+  },
+  {
     "name": "BurgerCities",
     "symbol": "BURGER",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/burger.png",
