@@ -36,4 +36,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: 'Ankr Staked BNB',
+        symbol: TokenSymbol.ANKRBNB,
+        icon: baseURL + 'abnbc.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x52F24a5e03aee338Da5fd9Df68D2b6FAe1178827',
+                decimal: 18,
+            },
+        },
+    },
 ]

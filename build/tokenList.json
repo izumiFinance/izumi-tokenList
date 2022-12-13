@@ -1016,6 +1016,20 @@
     }
   },
   {
+    "name": "Ankr Staked BNB",
+    "symbol": "ankrBNB",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/abnbc.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x52F24a5e03aee338Da5fd9Df68D2b6FAe1178827",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "AntDAO",
     "symbol": "ANT",
     "chains": [
