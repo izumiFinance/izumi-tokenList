@@ -16,4 +16,5 @@ export enum ChainId {
     Harmony = 1666600000,
     HarmonyTestnet = 1666700000,
     MantleTestnet = 5001,
+    ScrollTestnet = 534354,
 }
