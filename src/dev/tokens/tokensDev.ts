@@ -40,7 +40,7 @@ export const tokens: TokenInfo[] = [
         name: 'iZUMi Token',
         symbol: TokenSymbol.IZI,
         icon: baseURL + 'izumi.svg',
-        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet],
+        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.MantleTestnet],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0xEe5e3852434eB67F8e9E97015e32845861ea15E8',
@@ -51,6 +51,10 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.AuroraTestnet]: {
+                address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
+                decimal: 18,
+            },
+            [ChainId.MantleTestnet]: {
                 address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
                 decimal: 18,
             },
@@ -108,7 +112,7 @@ export const tokens: TokenInfo[] = [
         name: "Tether USD",
         symbol: TokenSymbol.USDT,
         icon: baseURL + 'usdt.png',
-        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet],
+        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.MantleTestnet],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0x2d2bA91b026E08e0f23Eb01d7ecAb0e7E279a45f',
@@ -121,6 +125,10 @@ export const tokens: TokenInfo[] = [
             [ChainId.AuroraTestnet]: {
                 address: '0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b',
                 decimal: 6,
+            },
+            [ChainId.MantleTestnet]: {
+                address: '0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b',
+                decimal: 18,
             },
         },
     },
@@ -191,7 +199,7 @@ export const tokens: TokenInfo[] = [
     {
         name: "BIT Dao",
         symbol: TokenSymbol.BIT,
-        chains: [ChainId.Izumi, ChainId.BSCTestnet],
+        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.MantleTestnet],
         icon: baseURL + 'bit.png',
         contracts: {
             [ChainId.Izumi]: {
@@ -200,6 +208,22 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.BSCTestnet]: {
                 address: '0xac360dc0F8EF1C94Ab4034220E0A01567acbFdE4',
+                decimal: 18,
+            },
+            [ChainId.MantleTestnet]: {
+                address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF', //WBIT
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Wrapped BIT",
+        symbol: TokenSymbol.WBIT,
+        chains: [ChainId.MantleTestnet],
+        icon: baseURL + 'bit.png',
+        contracts: {
+            [ChainId.MantleTestnet]: {
+                address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF',
                 decimal: 18,
             },
         },

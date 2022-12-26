@@ -7,6 +7,7 @@ export enum TokenSymbol {
     ACY= 'ACY',
     DAI= 'DAI',
     BIT= 'BIT', // BitDao
+    WBIT='WBIT',
     MIM= 'MIM',
     stETH= 'stETH',
     SPELL= 'SPELL',
