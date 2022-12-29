@@ -1408,11 +1408,16 @@
       97,
       1313161555,
       5001,
-      534354
+      534354,
+      280
     ],
     "contracts": {
       "97": {
         "address": "0x551197e6350936976DfFB66B2c3bb15DDB723250",
+        "decimal": 18
+      },
+      "280": {
+        "address": "0x15f23235104486E5849a87272FA4b0E74197073B",
         "decimal": 18
       },
       "1337": {
@@ -1499,12 +1504,17 @@
       97,
       1313161555,
       5001,
-      534354
+      534354,
+      280
     ],
     "contracts": {
       "97": {
         "address": "0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b",
         "decimal": 6
+      },
+      "280": {
+        "address": "0x7b650E69831D18e2b627C7ACf9F75758cE86B2C6",
+        "decimal": 18
       },
       "1337": {
         "address": "0x2d2bA91b026E08e0f23Eb01d7ecAb0e7E279a45f",
@@ -1544,10 +1554,15 @@
     "chains": [
       1337,
       1313161555,
-      534354
+      534354,
+      280
     ],
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
     "contracts": {
+      "280": {
+        "address": "0x83D45626b0b1a62A3F71c73E07E21E47358b4Ebc",
+        "decimal": 18
+      },
       "1337": {
         "address": "0x3AD23A16A81Cd40010F39309876978F20DD2f682",
         "decimal": 18
@@ -1567,10 +1582,15 @@
     "symbol": "WETH",
     "chains": [
       1313161555,
-      534354
+      534354,
+      280
     ],
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WETH.png",
     "contracts": {
+      "280": {
+        "address": "0x83D45626b0b1a62A3F71c73E07E21E47358b4Ebc",
+        "decimal": 18
+      },
       "534354": {
         "address": "0x7A0cE5d01CDEe4F36c9ee4eA521404E6409064dA",
         "decimal": 18
