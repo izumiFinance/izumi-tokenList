@@ -149,14 +149,26 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: 'DAI',
-        chains: [ChainId.Izumi],
-        symbol: TokenSymbol.DAI,
-        icon: baseURL + 'dai.png',
+        name: 'ICT',
+        chains: [ChainId.IcplazaTest],
+        symbol: TokenSymbol.ICT,
+        icon: baseURL + 'ict.png',
         contracts: {
-            [ChainId.Izumi]: {
-                address: '0xA97f8bc2b98a56f648340e05406cc7E34bB25D3A',
-                decimal: 6,
+            [ChainId.IcplazaTest]: {
+                address: '0x1eE5eDC5Fe498a2dD82862746D674DB2a5e7fef6', // WICT
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'WICT',
+        chains: [ChainId.IcplazaTest],
+        symbol: TokenSymbol.WICT,
+        icon: baseURL + 'ict.png',
+        contracts: {
+            [ChainId.IcplazaTest]: {
+                address: '0x1eE5eDC5Fe498a2dD82862746D674DB2a5e7fef6', // WICT
+                decimal: 18,
             },
         },
     },

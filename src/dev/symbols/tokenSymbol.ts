@@ -23,4 +23,6 @@ export enum TokenSymbol {
     IUSD= 'iUSD',
     ARC = 'ARC',
     AURORA = 'AURORA',
+    ICT = 'ICT',
+    WICT = 'WICT',
 }

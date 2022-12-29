@@ -1535,16 +1535,30 @@
     }
   },
   {
-    "name": "DAI",
+    "name": "ICT",
     "chains": [
-      1337
+      9000
     ],
-    "symbol": "DAI",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dai.png",
+    "symbol": "ICT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ict.png",
     "contracts": {
-      "1337": {
-        "address": "0xA97f8bc2b98a56f648340e05406cc7E34bB25D3A",
-        "decimal": 6
+      "9000": {
+        "address": "0x1eE5eDC5Fe498a2dD82862746D674DB2a5e7fef6",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "WICT",
+    "chains": [
+      9000
+    ],
+    "symbol": "WICT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ict.png",
+    "contracts": {
+      "9000": {
+        "address": "0x1eE5eDC5Fe498a2dD82862746D674DB2a5e7fef6",
+        "decimal": 18
       }
     }
   },

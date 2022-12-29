@@ -18,4 +18,5 @@ export enum ChainId {
     MantleTestnet = 5001,
     ScrollTestnet = 534354,
     ZkSyncAlphaTest = 280,
+    IcplazaTest = 9000,
 }
