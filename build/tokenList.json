@@ -540,6 +540,34 @@
     }
   },
   {
+    "name": "Icplaza Token",
+    "symbol": "ICT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ict.png",
+    "chains": [
+      9000
+    ],
+    "contracts": {
+      "9000": {
+        "address": "0xc59d478873d11CCc68F9c63571E821a253c5B605",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped ICT",
+    "symbol": "WICT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ict.png",
+    "chains": [
+      9000
+    ],
+    "contracts": {
+      "9000": {
+        "address": "0xc59d478873d11CCc68F9c63571E821a253c5B605",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Matic Token",
     "symbol": "MATIC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/matic.png",
