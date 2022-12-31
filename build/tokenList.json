@@ -190,7 +190,8 @@
       137,
       56,
       1313161554,
-      25
+      25,
+      9000
     ],
     "contracts": {
       "1": {
@@ -208,6 +209,10 @@
       "137": {
         "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
         "decimal": 6
+      },
+      "9000": {
+        "address": "0x334A4801C21Bc279a63cB80E703E4da704057C13",
+        "decimal": 18
       },
       "42161": {
         "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
