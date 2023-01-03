@@ -36,4 +36,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Peak Token",
+        symbol: TokenSymbol.PKTK,
+        icon: baseURL + 'pktk.png',
+        chains: [ChainId.Matic],
+        contracts: {
+            [ChainId.Matic]: {
+                address: '0x55bb4d4b4545a886df159354e5fa5791c2d13496',
+                decimal: 18,
+            },
+        },
+    },
 ]

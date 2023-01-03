@@ -601,6 +601,20 @@
     }
   },
   {
+    "name": "Peak Token",
+    "symbol": "PKTK",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/pktk.png",
+    "chains": [
+      137
+    ],
+    "contracts": {
+      "137": {
+        "address": "0x55bb4d4b4545a886df159354e5fa5791c2d13496",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "LUNA (Wormhole)",
     "symbol": "LUNA",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/luna.png",
