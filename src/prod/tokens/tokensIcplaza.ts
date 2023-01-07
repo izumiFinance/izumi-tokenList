@@ -36,4 +36,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "BICT",
+        symbol: TokenSymbol.BICT,
+        icon: baseURL + 'ict.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x93Ac66639D295332762bdCBf223194f16E84Cc70', 
+                decimal: 18,
+            },
+        },
+    },
 ]

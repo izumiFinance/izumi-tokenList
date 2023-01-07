@@ -573,6 +573,20 @@
     }
   },
   {
+    "name": "BICT",
+    "symbol": "BICT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ict.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x93Ac66639D295332762bdCBf223194f16E84Cc70",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Matic Token",
     "symbol": "MATIC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/matic.png",

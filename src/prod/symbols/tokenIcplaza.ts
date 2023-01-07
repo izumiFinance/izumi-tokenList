@@ -1,4 +1,5 @@
 export enum TokenSymbol {
    ICT = 'ICT',
-   WICT = 'WICT'
+   WICT = 'WICT',
+   BICT = 'BICT',
 }
