@@ -1,5 +1,5 @@
 export enum TokenSymbol {
-    ABNBC = "aBNBc",
+    //ABNBC = "aBNBc",
     ANKR = "ANKR",
     ANKRBNB = "ankrBNB",
 }
