@@ -1204,6 +1204,20 @@
     }
   },
   {
+    "name": "Lingose Token",
+    "symbol": "LING",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ling.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x68c0E798b749183c97239114BB76fd1e5e3DB98C",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Metazodiac Token",
     "symbol": "MW",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/MW.png",
