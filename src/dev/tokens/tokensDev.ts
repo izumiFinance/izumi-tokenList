@@ -163,7 +163,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.ScrollTestnet]: {
-                address: '0x7A0cE5d01CDEe4F36c9ee4eA521404E6409064dA', //WETH
+                address: '0x25b48fAc54d774732451E1D5DF602E83D5B83964', //WETH
                 decimal: 18,
             },
             [ChainId.ZkSyncAlphaTest]: {
@@ -183,7 +183,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.ScrollTestnet]: {
-                address: '0x7A0cE5d01CDEe4F36c9ee4eA521404E6409064dA',
+                address: '0x25b48fAc54d774732451E1D5DF602E83D5B83964',
                 decimal: 18,
             },
             [ChainId.ZkSyncAlphaTest]: {
