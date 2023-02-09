@@ -19,4 +19,5 @@ export enum ChainId {
     ScrollTestnet = 534354,
     ZkSyncAlphaTest = 280,
     IcplazaTest = 9000,
+    RolluxBedrockTest = 57000,
 }
