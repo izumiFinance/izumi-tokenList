@@ -17,4 +17,5 @@ export enum ChainId {
     Aurora = 1313161554,
     Cronos = 25,
     Icplaza = 9000,
+    Conflux = 1030,
 }

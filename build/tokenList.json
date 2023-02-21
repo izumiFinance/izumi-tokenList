@@ -191,7 +191,8 @@
       56,
       1313161554,
       25,
-      9000
+      9000,
+      1030
     ],
     "contracts": {
       "1": {
@@ -209,6 +210,10 @@
       "137": {
         "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
         "decimal": 6
+      },
+      "1030": {
+        "address": "0xfe97e85d13abd9c1c33384e796f10b73905637ce",
+        "decimal": 18
       },
       "9000": {
         "address": "0x334A4801C21Bc279a63cB80E703E4da704057C13",
@@ -512,6 +517,34 @@
     "contracts": {
       "1313161554": {
         "address": "0x221292443758F63563a1ed04b547278B05845FCb",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Conflux Token",
+    "symbol": "CFX",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cfx.png",
+    "chains": [
+      1030
+    ],
+    "contracts": {
+      "1030": {
+        "address": "0x14b2d3bc65e74dae1030eafd8ac30c533c976a9b",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped Conflux Token",
+    "symbol": "WCFX",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cfx.png",
+    "chains": [
+      1030
+    ],
+    "contracts": {
+      "1030": {
+        "address": "0x14b2d3bc65e74dae1030eafd8ac30c533c976a9b",
         "decimal": 18
       }
     }
