@@ -1218,6 +1218,20 @@
     }
   },
   {
+    "name": "BSC Conflux",
+    "symbol": "bCFX",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cfx.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x045c4324039dA91c52C55DF5D785385Aab073DcF",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Metazodiac Token",
     "symbol": "MW",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/MW.png",
