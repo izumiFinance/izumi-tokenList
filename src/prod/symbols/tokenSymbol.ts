@@ -30,4 +30,5 @@ export enum TokenSymbol {
     ETC = 'ETC',
     WETC = 'WETC',
     CAKE = 'CAKE',
+    SOL = 'SOL',
 }

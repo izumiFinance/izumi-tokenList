@@ -401,6 +401,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Solana Token",
+        symbol: TokenSymbol.SOL,
+        icon: baseURL + 'sol.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x570A5D26f7765Ecb712C0924E4De545B89fD43dF',
+                decimal: 18,
+            },
+        },
+    },
     // {
     //     name: "SHIBA INU Token",
     //     symbol: TokenSymbol.SHIB,

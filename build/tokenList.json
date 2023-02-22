@@ -452,6 +452,20 @@
     }
   },
   {
+    "name": "Solana Token",
+    "symbol": "SOL",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/sol.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x570A5D26f7765Ecb712C0924E4De545B89fD43dF",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "USN Stable Coin",
     "symbol": "USN",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usn.png",
