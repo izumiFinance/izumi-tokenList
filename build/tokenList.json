@@ -662,6 +662,48 @@
     }
   },
   {
+    "name": "Meter Token",
+    "symbol": "MTR",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mtr.png",
+    "chains": [
+      82
+    ],
+    "contracts": {
+      "82": {
+        "address": "0x160361ce13ec33C993b5cCA8f62B6864943eb083",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped Meter Token",
+    "symbol": "WMTR",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mtr.png",
+    "chains": [
+      82
+    ],
+    "contracts": {
+      "82": {
+        "address": "0x160361ce13ec33C993b5cCA8f62B6864943eb083",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Meter Governance Token",
+    "symbol": "MTRG",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mtrg.png",
+    "chains": [
+      82
+    ],
+    "contracts": {
+      "82": {
+        "address": "0x228ebBeE999c6a7ad74A6130E81b12f9Fe237Ba3",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "LUNA (Wormhole)",
     "symbol": "LUNA",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/luna.png",

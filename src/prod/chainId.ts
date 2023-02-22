@@ -18,4 +18,5 @@ export enum ChainId {
     Cronos = 25,
     Icplaza = 9000,
     Conflux = 1030,
+    Meter = 82,
 }
