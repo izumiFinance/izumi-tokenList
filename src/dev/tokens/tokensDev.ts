@@ -211,7 +211,7 @@ export const tokens: TokenInfo[] = [
     {
         name: 'Wrapped Ether',
         symbol: TokenSymbol.WETH,
-        chains: [ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest],
+        chains: [ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.MantleTestnet],
         icon: baseURL + 'WETH.png',
         contracts: {
             [ChainId.AuroraTestnet]: {
@@ -224,6 +224,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.ZkSyncAlphaTest]: {
                 address: '0x83D45626b0b1a62A3F71c73E07E21E47358b4Ebc',
+                decimal: 18,
+            },
+            [ChainId.MantleTestnet]: {
+                address: '0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111',
                 decimal: 18,
             },
         },
