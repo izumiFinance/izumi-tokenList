@@ -192,7 +192,8 @@
       1313161554,
       25,
       9000,
-      1030
+      1030,
+      40
     ],
     "contracts": {
       "1": {
@@ -202,6 +203,10 @@
       "25": {
         "address": "0x66e428c3f67a68878562e79A0234c1F83c208770",
         "decimal": 6
+      },
+      "40": {
+        "address": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
+        "decimal": 18
       },
       "56": {
         "address": "0x55d398326f99059fF775485246999027B3197955",
@@ -867,6 +872,34 @@
     "contracts": {
       "56": {
         "address": "0xAD6742A35fB341A9Cc6ad674738Dd8da98b94Fb1",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Telos Token",
+    "symbol": "TLOS",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/tlos.png",
+    "chains": [
+      40
+    ],
+    "contracts": {
+      "40": {
+        "address": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped Telos Token",
+    "symbol": "WTLOS",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/tlos.png",
+    "chains": [
+      40
+    ],
+    "contracts": {
+      "40": {
+        "address": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
         "decimal": 18
       }
     }

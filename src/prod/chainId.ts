@@ -19,4 +19,5 @@ export enum ChainId {
     Icplaza = 9000,
     Conflux = 1030,
     Meter = 82,
+    TELOS = 40,
 }
