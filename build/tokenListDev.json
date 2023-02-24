@@ -1612,12 +1612,17 @@
     "chains": [
       1313161555,
       534354,
-      280
+      280,
+      5001
     ],
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WETH.png",
     "contracts": {
       "280": {
         "address": "0x83D45626b0b1a62A3F71c73E07E21E47358b4Ebc",
+        "decimal": 18
+      },
+      "5001": {
+        "address": "0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111",
         "decimal": 18
       },
       "534354": {
