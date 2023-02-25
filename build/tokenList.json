@@ -713,11 +713,12 @@
     "symbol": "MTRG",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mtrg.png",
     "chains": [
-      82
+      82,
+      56
     ],
     "contracts": {
       "82": {
-        "address": "0x228ebBeE999c6a7ad74A6130E81b12f9Fe237Ba3",
+        "address": "0xBd2949F67DcdC549c6Ebe98696449Fa79D988A9F",
         "decimal": 18
       }
     }

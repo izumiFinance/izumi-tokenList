@@ -40,10 +40,14 @@ export const tokens: TokenInfo[] = [
         name: "Meter Governance Token",
         symbol: TokenSymbol.MTRG,
         icon: baseURL + 'mtrg.png',
-        chains: [ChainId.Meter],
+        chains: [ChainId.Meter, ChainId.BSC],
         contracts: {
             [ChainId.Meter]: {
                 address: '0x228ebBeE999c6a7ad74A6130E81b12f9Fe237Ba3', 
+                decimal: 18,
+            },
+            [ChainId.Meter]: {
+                address: '0xBd2949F67DcdC549c6Ebe98696449Fa79D988A9F', 
                 decimal: 18,
             },
         },
