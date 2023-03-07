@@ -728,6 +728,34 @@
     }
   },
   {
+    "name": "Wrapped USDT from Ethereum on Meter",
+    "symbol": "USDT.eth",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
+    "chains": [
+      82
+    ],
+    "contracts": {
+      "82": {
+        "address": "0x5fa41671c48e3c951afc30816947126ccc8c162e",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Wrapped BUSD from BSC",
+    "symbol": "BUSD.bsc",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/busd.png",
+    "chains": [
+      82
+    ],
+    "contracts": {
+      "82": {
+        "address": "0x24aa189dfaa76c671c279262f94434770f557c35",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "LUNA (Wormhole)",
     "symbol": "LUNA",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/luna.png",

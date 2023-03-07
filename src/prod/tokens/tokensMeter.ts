@@ -52,4 +52,28 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Wrapped USDT from Ethereum on Meter",
+        symbol: TokenSymbol.USDTETH,
+        icon: baseURL + 'usdt.png',
+        chains: [ChainId.Meter],
+        contracts: {
+            [ChainId.Meter]: {
+                address: '0x5fa41671c48e3c951afc30816947126ccc8c162e', 
+                decimal: 6,
+            },
+        },
+    },
+    {
+        name: "Wrapped BUSD from BSC",
+        symbol: TokenSymbol.BUSDBSC,
+        icon: baseURL + 'busd.png',
+        chains: [ChainId.Meter],
+        contracts: {
+            [ChainId.Meter]: {
+                address: '0x24aa189dfaa76c671c279262f94434770f557c35', 
+                decimal: 18,
+            },
+        },
+    },
 ]
