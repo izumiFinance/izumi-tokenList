@@ -271,8 +271,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.MantleTestnet]: {
-                //address: '0x69AC69b272f96F5f17DDD9da3832ad9Dc86D1d8A', //WBIT
-                address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF', //WBIT
+                address: '0x69AC69b272f96F5f17DDD9da3832ad9Dc86D1d8A', //WBIT
                 decimal: 18,
             },
         },
@@ -284,8 +283,7 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'bit.png',
         contracts: {
             [ChainId.MantleTestnet]: {
-                //address: '0x69AC69b272f96F5f17DDD9da3832ad9Dc86D1d8A',
-                address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF',
+                address: '0x69AC69b272f96F5f17DDD9da3832ad9Dc86D1d8A',
                 decimal: 18,
             },
         },
