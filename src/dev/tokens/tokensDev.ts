@@ -64,7 +64,7 @@ export const tokens: TokenInfo[] = [
         name: 'iZUMi Token',
         symbol: TokenSymbol.IZI,
         icon: baseURL + 'izumi.svg',
-        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.RolluxBedrockTest],
+        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.RolluxBedrockTest, ChainId.MantleTestnet],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0xEe5e3852434eB67F8e9E97015e32845861ea15E8',
