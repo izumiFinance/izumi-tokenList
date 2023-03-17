@@ -1457,6 +1457,20 @@
     }
   },
   {
+    "name": "Gameta Diamond",
+    "symbol": "GDO",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gdo.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x1c37948Cb9fC4a802f91e946CA15df4504c91D03",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Metazodiac Token",
     "symbol": "MW",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/MW.png",
