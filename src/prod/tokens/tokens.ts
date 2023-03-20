@@ -100,7 +100,7 @@ export const tokens: TokenInfo[] = [
         name: "iZUMi Bond USD",
         symbol: TokenSymbol.IUSD,
         icon: baseURL + 'iusd.png',
-        chains: [ChainId.BSC, ChainId.Aurora, ChainId.ETC],
+        chains: [ChainId.BSC, ChainId.Aurora, ChainId.ETC, ChainId.Arbitrum],
         contracts: {
             [ChainId.BSC]: {
                 address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
@@ -111,6 +111,10 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.ETC]: {
+                address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
+                decimal: 18,
+            },
+            [ChainId.Arbitrum]: {
                 address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
                 decimal: 18,
             },

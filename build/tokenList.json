@@ -106,7 +106,8 @@
     "chains": [
       56,
       1313161554,
-      61
+      61,
+      42161
     ],
     "contracts": {
       "56": {
@@ -114,6 +115,10 @@
         "decimal": 18
       },
       "61": {
+        "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
+        "decimal": 18
+      },
+      "42161": {
         "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
         "decimal": 18
       },
