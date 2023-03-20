@@ -64,7 +64,7 @@ export const tokens: TokenInfo[] = [
         name: 'Shared-liquidity ETH',
         symbol: TokenSymbol.SLETH,
         icon: baseURL + 'sleth.png',
-        chains: [ChainId.BSC],
+        chains: [ChainId.BSC, ChainId.Arbitrum],
         contracts: {
             [ChainId.BSC]: {
                 address: '0xdF6964C7ccfaBaACe7C3f918B795fA4a894589C8',

@@ -1405,10 +1405,15 @@
     "symbol": "slUSDT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/slusdt.png",
     "chains": [
-      56
+      56,
+      42161
     ],
     "contracts": {
       "56": {
+        "address": "0x65CD2E7d7BAcDaC3AA9dAe68fb5d548dfE1fEFB5",
+        "decimal": 18
+      },
+      "42161": {
         "address": "0x65CD2E7d7BAcDaC3AA9dAe68fb5d548dfE1fEFB5",
         "decimal": 18
       }
@@ -1419,10 +1424,15 @@
     "symbol": "slUSDC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/slusdc.png",
     "chains": [
-      56
+      56,
+      42161
     ],
     "contracts": {
       "56": {
+        "address": "0x55a26773A8ba7FA9a8242B43e14a69488e6D2B05",
+        "decimal": 18
+      },
+      "42161": {
         "address": "0x55a26773A8ba7FA9a8242B43e14a69488e6D2B05",
         "decimal": 18
       }
@@ -1433,10 +1443,15 @@
     "symbol": "slBTC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/slbtc.png",
     "chains": [
-      56
+      56,
+      42161
     ],
     "contracts": {
       "56": {
+        "address": "0xe04B30F233E3Bc96Da2401EE146a94f1C7C54917",
+        "decimal": 18
+      },
+      "42161": {
         "address": "0xe04B30F233E3Bc96Da2401EE146a94f1C7C54917",
         "decimal": 18
       }
@@ -1447,10 +1462,15 @@
     "symbol": "slETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/sleth.png",
     "chains": [
-      56
+      56,
+      42161
     ],
     "contracts": {
       "56": {
+        "address": "0xdF6964C7ccfaBaACe7C3f918B795fA4a894589C8",
+        "decimal": 18
+      },
+      "42161": {
         "address": "0xdF6964C7ccfaBaACe7C3f918B795fA4a894589C8",
         "decimal": 18
       }
