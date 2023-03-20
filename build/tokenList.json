@@ -1496,6 +1496,34 @@
     }
   },
   {
+    "name": "Meta Interstellar Token",
+    "symbol": "MIT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mit.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xe6906717f129427eebade5406de68cadd57aa0c0",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Hydroxyl Token",
+    "symbol": "HYT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/HYT.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xe28c51f4fa57dc44af3691c6f73d1ca578b586be",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Metazodiac Token",
     "symbol": "MW",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/MW.png",
