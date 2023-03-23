@@ -284,7 +284,7 @@
   {
     "name": "Arbitrum Token",
     "symbol": "ARB",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arb.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arb.svg",
     "chains": [
       42161
     ],

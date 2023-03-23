@@ -260,7 +260,7 @@ export const tokens: TokenInfo[] = [
     {
         name: "Arbitrum Token",
         symbol: TokenSymbol.ARB,
-        icon: baseURL + 'arb.png',
+        icon: baseURL + 'arb.svg',
         chains: [ChainId.Arbitrum],
         contracts: {
             [ChainId.Arbitrum]: {
