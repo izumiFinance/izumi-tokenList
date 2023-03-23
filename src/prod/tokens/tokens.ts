@@ -258,6 +258,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Arbitrum Token",
+        symbol: TokenSymbol.ARB,
+        icon: baseURL + 'arb.png',
+        chains: [ChainId.Arbitrum],
+        contracts: {
+            [ChainId.Arbitrum]: {
+                address: '0x912CE59144191C1204E64559FE8253a0e49E6548', 
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Wrapped BTC",
         symbol: TokenSymbol.WBTC,
         icon: baseURL + 'WBTC.png',

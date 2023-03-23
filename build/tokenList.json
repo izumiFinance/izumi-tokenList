@@ -282,6 +282,20 @@
     }
   },
   {
+    "name": "Arbitrum Token",
+    "symbol": "ARB",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arb.png",
+    "chains": [
+      42161
+    ],
+    "contracts": {
+      "42161": {
+        "address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Wrapped BTC",
     "symbol": "WBTC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WBTC.png",
