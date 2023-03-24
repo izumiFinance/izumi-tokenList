@@ -490,6 +490,20 @@
     }
   },
   {
+    "name": "Space ID",
+    "symbol": "ID",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/id.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x2dfF88A56767223A5529eA5960Da7A3F5f766406",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "USN Stable Coin",
     "symbol": "USN",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usn.png",
@@ -924,6 +938,20 @@
     "contracts": {
       "56": {
         "address": "0xAD6742A35fB341A9Cc6ad674738Dd8da98b94Fb1",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wombex Token",
+    "symbol": "WMX",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wmx.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xa75d9ca2a0a1D547409D82e1B06618EC284A2CeD",
         "decimal": 18
       }
     }

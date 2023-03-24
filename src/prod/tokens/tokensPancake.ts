@@ -144,4 +144,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Wombex Token",
+        symbol: TokenSymbol.WMX,
+        icon: baseURL + 'wmx.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xa75d9ca2a0a1D547409D82e1B06618EC284A2CeD',
+                decimal: 18,
+            },
+        },
+    },
 ]

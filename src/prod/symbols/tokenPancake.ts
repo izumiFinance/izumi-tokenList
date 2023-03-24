@@ -11,4 +11,5 @@ export enum TokenSymbol {
    LINK = 'LINK',
    FIL = 'FIL',
    WOM = 'WOM',
+   WMX = 'WMX',
 }

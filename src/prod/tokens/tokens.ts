@@ -433,6 +433,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Space ID",
+        symbol: TokenSymbol.ID,
+        icon: baseURL + 'id.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x2dfF88A56767223A5529eA5960Da7A3F5f766406',
+                decimal: 18,
+            },
+        },
+    },
     // {
     //     name: "SHIBA INU Token",
     //     symbol: TokenSymbol.SHIB,

@@ -32,4 +32,5 @@ export enum TokenSymbol {
     CAKE = 'CAKE',
     SOL = 'SOL',
     ARB = 'ARB',
+    ID = 'ID',
 }
