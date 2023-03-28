@@ -133,6 +133,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Aurora,
             ChainId.Cronos,
             ChainId.Arbitrum,
+            ChainId.ZkSyncEra,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -173,6 +174,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Cronos]: {
                 address: '0xc21223249CA28397B4B6541dfFaEcC539BfF0c59',
+                decimal: 6,
+            },
+            [ChainId.ZkSyncEra]: {
+                address: '0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4',
                 decimal: 6,
             },
         },
@@ -309,7 +314,7 @@ export const tokens: TokenInfo[] = [
         name: "Ether",
         symbol: TokenSymbol.ETH,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png',
-        chains: [ChainId.BSC, ChainId.Aurora, ChainId.Arbitrum],
+        chains: [ChainId.BSC, ChainId.Aurora, ChainId.Arbitrum, ChainId.ZkSyncEra],
         contracts: {
             [ChainId.BSC]: {
                 address: '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 
@@ -321,6 +326,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Arbitrum]: {
                 address: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',  //weth
+                decimal: 18,
+            },
+            [ChainId.ZkSyncEra]: {
+                address: '0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91',  //weth
                 decimal: 18,
             },
         },
@@ -353,7 +362,7 @@ export const tokens: TokenInfo[] = [
         name: "Wrapped Ether",
         symbol: TokenSymbol.WETH,
         icon: baseURL + 'WETH.png',
-        chains: [ChainId.Aurora, ChainId.Cronos,ChainId.Matic, ChainId.Arbitrum],
+        chains: [ChainId.Aurora, ChainId.Cronos,ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra],
         contracts: {
             [ChainId.Aurora]: {
                 address: '0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB', 
@@ -369,6 +378,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Arbitrum]: {
                 address: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1', 
+                decimal: 18,
+            },
+            [ChainId.ZkSyncEra]: {
+                address: '0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91',  
                 decimal: 18,
             },
         },
