@@ -890,7 +890,7 @@
   {
     "name": "iZUMi Token",
     "symbol": "iZi",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/izi.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/izumi.svg",
     "chains": [
       82
     ],
@@ -1002,7 +1002,7 @@
   {
     "name": "WBTC from Ethereum on Meter",
     "symbol": "WBTC.eth",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wbtc.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WBTC.png",
     "chains": [
       82
     ],

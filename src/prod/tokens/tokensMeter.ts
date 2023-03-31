@@ -151,7 +151,7 @@ export const tokens: TokenInfo[] = [
     {
         name: "iZUMi Token",
         symbol: TokenSymbol.IZIMETER,
-        icon: baseURL + 'izi.png',
+        icon: baseURL + 'izumi.svg',
         chains: [ChainId.Meter],
         contracts: {
             [ChainId.Meter]: {
@@ -247,7 +247,7 @@ export const tokens: TokenInfo[] = [
     {
         name: "WBTC from Ethereum on Meter",
         symbol: TokenSymbol.WBTCETH,
-        icon: baseURL + 'wbtc.png',
+        icon: baseURL + 'WBTC.png',
         chains: [ChainId.Meter],
         contracts: {
             [ChainId.Meter]: {
