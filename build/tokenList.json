@@ -959,7 +959,7 @@
   },
   {
     "name": "Theta Fuel",
-    "symbol": "TDROP",
+    "symbol": "TFUEL",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/tfuel.png",
     "chains": [
       82

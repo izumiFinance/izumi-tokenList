@@ -210,7 +210,7 @@ export const tokens: TokenInfo[] = [
     },
     {
         name: "Theta Fuel",
-        symbol: TokenSymbol.TDROPMETER,
+        symbol: TokenSymbol.TFUELMETER,
         icon: baseURL + 'tfuel.png',
         chains: [ChainId.Meter],
         contracts: {
