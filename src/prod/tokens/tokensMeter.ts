@@ -235,7 +235,7 @@ export const tokens: TokenInfo[] = [
     {
         name: "Volt",
         symbol: TokenSymbol.VOLTMETER,
-        icon: baseURL + 'volt.png',
+        icon: baseURL + 'voltmeter.png',
         chains: [ChainId.Meter],
         contracts: {
             [ChainId.Meter]: {

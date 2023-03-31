@@ -988,7 +988,7 @@
   {
     "name": "Volt",
     "symbol": "VOLT",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/volt.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/voltmeter.png",
     "chains": [
       82
     ],
