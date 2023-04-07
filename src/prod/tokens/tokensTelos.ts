@@ -16,10 +16,14 @@ export const tokens: TokenInfo[] = [
         name: "Telos Token",
         symbol: TokenSymbol.TLOS,
         icon: baseURL + 'tlos.png',
-        chains: [ChainId.TELOS],
+        chains: [ChainId.TELOS, ChainId.BSC],
         contracts: {
             [ChainId.TELOS]: {
                 address: '0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E', //WTLOS
+                decimal: 18,
+            },
+            [ChainId.BSC]: {
+                address: '0xb6C53431608E626AC81a9776ac3e999c5556717c',
                 decimal: 18,
             },
         },
