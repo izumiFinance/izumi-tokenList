@@ -87,7 +87,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.ZkSyncAlphaTest]: {
-                address: '0x8474F8D17aAdB2eD1264265781311EFa9381FC87',
+                address: '0xA5900cce51c45Ab9730039943B3863C822342034',
                 decimal: 18,
             },
             [ChainId.RolluxBedrockTest]: {
@@ -111,7 +111,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.ZkSyncAlphaTest]: {
-                address: '0x9A0C674c7FC173d3680f7b889CBB9a8570C5Ce73',
+                address: '0xC0ddcc53b3F971EdeEc65E69D5cb01B518a7F7C8',
                 decimal: 18,
             },
         },
