@@ -1446,7 +1446,7 @@
         "decimal": 18
       },
       "280": {
-        "address": "0x15f23235104486E5849a87272FA4b0E74197073B",
+        "address": "0x8474F8D17aAdB2eD1264265781311EFa9381FC87",
         "decimal": 18
       },
       "1337": {
@@ -1476,12 +1476,17 @@
     "symbol": "iUSD",
     "chains": [
       97,
-      1313161555
+      1313161555,
+      280
     ],
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/iusd.png",
     "contracts": {
       "97": {
         "address": "0x60FE1bE62fa2082b0897eA87DF8D2CfD45185D30",
+        "decimal": 18
+      },
+      "280": {
+        "address": "0x9A0C674c7FC173d3680f7b889CBB9a8570C5Ce73",
         "decimal": 18
       },
       "1313161555": {
@@ -1542,17 +1547,12 @@
       97,
       1313161555,
       534354,
-      280,
       57000
     ],
     "contracts": {
       "97": {
         "address": "0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b",
         "decimal": 6
-      },
-      "280": {
-        "address": "0x7b650E69831D18e2b627C7ACf9F75758cE86B2C6",
-        "decimal": 18
       },
       "1337": {
         "address": "0x2d2bA91b026E08e0f23Eb01d7ecAb0e7E279a45f",
@@ -1588,7 +1588,7 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
     "contracts": {
       "280": {
-        "address": "0x83D45626b0b1a62A3F71c73E07E21E47358b4Ebc",
+        "address": "0x8C3e3f2983DB650727F3e05B7a7773e4D641537B",
         "decimal": 18
       },
       "1337": {
@@ -1617,7 +1617,7 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WETH.png",
     "contracts": {
       "280": {
-        "address": "0x83D45626b0b1a62A3F71c73E07E21E47358b4Ebc",
+        "address": "0x8C3e3f2983DB650727F3e05B7a7773e4D641537B",
         "decimal": 18
       },
       "5001": {

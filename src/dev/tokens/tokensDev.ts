@@ -87,7 +87,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.ZkSyncAlphaTest]: {
-                address: '0x15f23235104486E5849a87272FA4b0E74197073B',
+                address: '0x8474F8D17aAdB2eD1264265781311EFa9381FC87',
                 decimal: 18,
             },
             [ChainId.RolluxBedrockTest]: {
@@ -99,7 +99,7 @@ export const tokens: TokenInfo[] = [
     {
         name: "iZUMi Bond USD",
         symbol: TokenSymbol.IUSD,
-        chains: [ChainId.BSCTestnet, ChainId.AuroraTestnet],
+        chains: [ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ZkSyncAlphaTest],
         icon: baseURL + 'iusd.png',
         contracts: {
             [ChainId.BSCTestnet]: {
@@ -108,6 +108,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.AuroraTestnet]: {
                 address: '0xb0453a1bAf6056393897e60dfd851C61A825ef67',
+                decimal: 18,
+            },
+            [ChainId.ZkSyncAlphaTest]: {
+                address: '0x9A0C674c7FC173d3680f7b889CBB9a8570C5Ce73',
                 decimal: 18,
             },
         },
@@ -152,7 +156,7 @@ export const tokens: TokenInfo[] = [
         name: "Tether USD",
         symbol: TokenSymbol.USDT,
         icon: baseURL + 'usdt.png',
-        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.RolluxBedrockTest],
+        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.RolluxBedrockTest],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0x2d2bA91b026E08e0f23Eb01d7ecAb0e7E279a45f',
@@ -172,10 +176,6 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.ScrollTestnet]: {
                 address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
-                decimal: 18,
-            },
-            [ChainId.ZkSyncAlphaTest]: {
-                address: '0x7b650E69831D18e2b627C7ACf9F75758cE86B2C6',
                 decimal: 18,
             },
             [ChainId.RolluxBedrockTest]: {
@@ -203,7 +203,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.ZkSyncAlphaTest]: {
-                address: '0x83D45626b0b1a62A3F71c73E07E21E47358b4Ebc', //WETH
+                address: '0x8C3e3f2983DB650727F3e05B7a7773e4D641537B', //WETH
                 decimal: 18,
             },
         },
@@ -223,7 +223,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.ZkSyncAlphaTest]: {
-                address: '0x83D45626b0b1a62A3F71c73E07E21E47358b4Ebc',
+                address: '0x8C3e3f2983DB650727F3e05B7a7773e4D641537B',
                 decimal: 18,
             },
             [ChainId.MantleTestnet]: {
