@@ -211,7 +211,7 @@
       56,
       1313161554,
       25,
-      9000,
+      142857,
       1030,
       40
     ],
@@ -240,13 +240,13 @@
         "address": "0xfe97e85d13abd9c1c33384e796f10b73905637ce",
         "decimal": 18
       },
-      "9000": {
-        "address": "0x334A4801C21Bc279a63cB80E703E4da704057C13",
-        "decimal": 18
-      },
       "42161": {
         "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
         "decimal": 6
+      },
+      "142857": {
+        "address": "0x334A4801C21Bc279a63cB80E703E4da704057C13",
+        "decimal": 18
       },
       "1313161554": {
         "address": "0x4988a896b1227218e4A686fdE5EabdcAbd91571f",
@@ -659,10 +659,10 @@
     "symbol": "ICT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ict.png",
     "chains": [
-      9000
+      142857
     ],
     "contracts": {
-      "9000": {
+      "142857": {
         "address": "0xc59d478873d11CCc68F9c63571E821a253c5B605",
         "decimal": 18
       }
@@ -673,10 +673,10 @@
     "symbol": "WICT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ict.png",
     "chains": [
-      9000
+      142857
     ],
     "contracts": {
-      "9000": {
+      "142857": {
         "address": "0xc59d478873d11CCc68F9c63571E821a253c5B605",
         "decimal": 18
       }

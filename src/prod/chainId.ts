@@ -16,7 +16,7 @@ export enum ChainId {
     HarmonyTestnet = 1666700000,
     Aurora = 1313161554,
     Cronos = 25,
-    Icplaza = 9000,
+    Icplaza = 142857,
     Conflux = 1030,
     Meter = 82,
     TELOS = 40,
