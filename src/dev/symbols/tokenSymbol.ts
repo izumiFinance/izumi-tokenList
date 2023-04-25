@@ -27,4 +27,6 @@ export enum TokenSymbol {
     WICT = 'WICT',
     RSYS = 'RSYS',
     WRSYS = 'WRSYS',
+    ONG = 'ONG',
+    WONG = 'WONG',
 }

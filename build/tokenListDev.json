@@ -1372,6 +1372,34 @@
     }
   },
   {
+    "name": "Ontology Gas",
+    "symbol": "ONG",
+    "chains": [
+      5851
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ong.png",
+    "contracts": {
+      "5851": {
+        "address": "0xe8cf015f797877a9a23e80447429c0b0f04e114b",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped ONG",
+    "symbol": "WONG",
+    "chains": [
+      5851
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ong.png",
+    "contracts": {
+      "5851": {
+        "address": "0xe8cf015f797877a9a23e80447429c0b0f04e114b",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Arctic Token",
     "symbol": "ARC",
     "chains": [
@@ -1438,7 +1466,8 @@
       534354,
       280,
       57000,
-      5001
+      5001,
+      5851
     ],
     "contracts": {
       "97": {
@@ -1454,6 +1483,10 @@
         "decimal": 18
       },
       "5001": {
+        "address": "0x876508837C162aCedcc5dd7721015E83cbb4e339",
+        "decimal": 18
+      },
+      "5851": {
         "address": "0x876508837C162aCedcc5dd7721015E83cbb4e339",
         "decimal": 18
       },
@@ -1477,7 +1510,8 @@
     "chains": [
       97,
       1313161555,
-      280
+      280,
+      5851
     ],
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/iusd.png",
     "contracts": {
@@ -1487,6 +1521,10 @@
       },
       "280": {
         "address": "0xC0ddcc53b3F971EdeEc65E69D5cb01B518a7F7C8",
+        "decimal": 18
+      },
+      "5851": {
+        "address": "0x551197e6350936976DfFB66B2c3bb15DDB723250",
         "decimal": 18
       },
       "1313161555": {

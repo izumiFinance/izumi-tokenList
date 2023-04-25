@@ -20,4 +20,5 @@ export enum ChainId {
     ZkSyncAlphaTest = 280,
     IcplazaTest = 9000,
     RolluxBedrockTest = 57000,
+    OntologyTest = 5851,
 }

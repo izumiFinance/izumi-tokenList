@@ -13,6 +13,30 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
     {
+        name: "Ontology Gas",
+        symbol: TokenSymbol.ONG,
+        chains: [ChainId.OntologyTest],
+        icon: baseURL + 'ong.png',
+        contracts: {
+            [ChainId.OntologyTest]: {
+                address: '0xe8cf015f797877a9a23e80447429c0b0f04e114b', //WONG
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Wrapped ONG",
+        symbol: TokenSymbol.WONG,
+        chains: [ChainId.OntologyTest],
+        icon: baseURL + 'ong.png',
+        contracts: {
+            [ChainId.OntologyTest]: {
+                address: '0xe8cf015f797877a9a23e80447429c0b0f04e114b',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Arctic Token",
         symbol: TokenSymbol.ARC,
         chains: [ChainId.AuroraTestnet],
@@ -64,7 +88,7 @@ export const tokens: TokenInfo[] = [
         name: 'iZUMi Token',
         symbol: TokenSymbol.IZI,
         icon: baseURL + 'izumi.svg',
-        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.RolluxBedrockTest, ChainId.MantleTestnet],
+        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.RolluxBedrockTest, ChainId.MantleTestnet, ChainId.OntologyTest],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0xEe5e3852434eB67F8e9E97015e32845861ea15E8',
@@ -94,12 +118,16 @@ export const tokens: TokenInfo[] = [
                 address: '0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b', 
                 decimal: 18,
             },
+            [ChainId.OntologyTest]: {
+                address: '0x876508837C162aCedcc5dd7721015E83cbb4e339', 
+                decimal: 18,
+            },
         },
     },
     {
         name: "iZUMi Bond USD",
         symbol: TokenSymbol.IUSD,
-        chains: [ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ZkSyncAlphaTest],
+        chains: [ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ZkSyncAlphaTest, ChainId.OntologyTest],
         icon: baseURL + 'iusd.png',
         contracts: {
             [ChainId.BSCTestnet]: {
@@ -112,6 +140,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.ZkSyncAlphaTest]: {
                 address: '0xC0ddcc53b3F971EdeEc65E69D5cb01B518a7F7C8',
+                decimal: 18,
+            },
+            [ChainId.OntologyTest]: {
+                address: '0x551197e6350936976DfFB66B2c3bb15DDB723250',
                 decimal: 18,
             },
         },
