@@ -104,8 +104,12 @@ export const tokens: TokenInfo[] = [
         name: "iZUMi Bond USD",
         symbol: TokenSymbol.IUSD,
         icon: baseURL + 'iusd.png',
-        chains: [ChainId.BSC, ChainId.Aurora, ChainId.ETC, ChainId.Arbitrum, ChainId.ZkSyncEra],
+        chains: [ChainId.EthereumMainnet,ChainId.BSC, ChainId.Aurora, ChainId.ETC, ChainId.Arbitrum, ChainId.ZkSyncEra],
         contracts: {
+            [ChainId.EthereumMainnet]: {
+                address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
+                decimal: 18,
+            },
             [ChainId.BSC]: {
                 address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
                 decimal: 18,
@@ -133,6 +137,7 @@ export const tokens: TokenInfo[] = [
         symbol: TokenSymbol.USDC,
         icon: baseURL + 'usdc.png',
         chains: [
+            ChainId.EthereumMainnet,
             ChainId.BSC,
             ChainId.Heco,
             ChainId.Matic,
@@ -286,8 +291,12 @@ export const tokens: TokenInfo[] = [
         name: "Wrapped BTC",
         symbol: TokenSymbol.WBTC,
         icon: baseURL + 'WBTC.png',
-        chains: [ChainId.Aurora, ChainId.Cronos, ChainId.Matic, ChainId.Arbitrum],
+        chains: [ChainId.EthereumMainnet,ChainId.Aurora, ChainId.Cronos, ChainId.Matic, ChainId.Arbitrum],
         contracts: {
+            [ChainId.EthereumMainnet]: {
+                address: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599', 
+                decimal: 8,
+            },
             [ChainId.Aurora]: {
                 address: '0xF4eB217Ba2454613b15dBdea6e5f22276410e89e', 
                 decimal: 8,
@@ -322,8 +331,12 @@ export const tokens: TokenInfo[] = [
         name: "Ether",
         symbol: TokenSymbol.ETH,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png',
-        chains: [ChainId.BSC, ChainId.Aurora, ChainId.Arbitrum, ChainId.ZkSyncEra],
+        chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.Aurora, ChainId.Arbitrum, ChainId.ZkSyncEra],
         contracts: {
+            [ChainId.EthereumMainnet]: {
+                address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',  //weth
+                decimal: 18,
+            },
             [ChainId.BSC]: {
                 address: '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 
                 decimal: 18,
@@ -358,8 +371,12 @@ export const tokens: TokenInfo[] = [
         name: "Dai Stablecoin",
         symbol: TokenSymbol.DAI,
         icon: baseURL + 'dai.png',
-        chains: [ChainId.Aurora],
+        chains: [ChainId.EthereumMainnet,ChainId.Aurora],
         contracts: {
+            [ChainId.EthereumMainnet]: {
+                address: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
+                decimal: 18,
+            },
             [ChainId.Aurora]: {
                 address: '0xe3520349F477A5F6EB06107066048508498A291b',
                 decimal: 18,
@@ -370,8 +387,12 @@ export const tokens: TokenInfo[] = [
         name: "Wrapped Ether",
         symbol: TokenSymbol.WETH,
         icon: baseURL + 'WETH.png',
-        chains: [ChainId.Aurora, ChainId.Cronos,ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra],
+        chains: [ChainId.EthereumMainnet,ChainId.Aurora, ChainId.Cronos,ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra],
         contracts: {
+            [ChainId.EthereumMainnet]: {
+                address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', 
+                decimal: 18,
+            },
             [ChainId.Aurora]: {
                 address: '0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB', 
                 decimal: 18,
@@ -390,6 +411,18 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.ZkSyncEra]: {
                 address: '0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91',  
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Bit Dao",
+        symbol: TokenSymbol.BIT,
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bit.png',
+        chains: [ChainId.EthereumMainnet],
+        contracts: {
+            [ChainId.EthereumMainnet]: {
+                address: '0x1a4b46696b2bb4794eb3d4c26f1c55f9170fa4c5',
                 decimal: 18,
             },
         },

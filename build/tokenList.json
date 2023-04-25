@@ -109,6 +109,7 @@
     "symbol": "iUSD",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/iusd.png",
     "chains": [
+      1,
       56,
       1313161554,
       61,
@@ -116,6 +117,10 @@
       324
     ],
     "contracts": {
+      "1": {
+        "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
+        "decimal": 18
+      },
       "56": {
         "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
         "decimal": 18
@@ -143,6 +148,7 @@
     "symbol": "USDC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
     "chains": [
+      1,
       56,
       128,
       137,
@@ -315,12 +321,17 @@
     "symbol": "WBTC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WBTC.png",
     "chains": [
+      1,
       1313161554,
       25,
       137,
       42161
     ],
     "contracts": {
+      "1": {
+        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimal": 8
+      },
       "25": {
         "address": "0x062E66477Faf219F25D27dCED647BF57C3107d52",
         "decimal": 8
@@ -358,12 +369,17 @@
     "symbol": "ETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
     "chains": [
+      1,
       56,
       1313161554,
       42161,
       324
     ],
     "contracts": {
+      "1": {
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "decimal": 18
+      },
       "56": {
         "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
         "decimal": 18
@@ -401,9 +417,14 @@
     "symbol": "DAI",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dai.png",
     "chains": [
+      1,
       1313161554
     ],
     "contracts": {
+      "1": {
+        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimal": 18
+      },
       "1313161554": {
         "address": "0xe3520349F477A5F6EB06107066048508498A291b",
         "decimal": 18
@@ -415,6 +436,7 @@
     "symbol": "WETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WETH.png",
     "chains": [
+      1,
       1313161554,
       25,
       137,
@@ -422,6 +444,10 @@
       324
     ],
     "contracts": {
+      "1": {
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "decimal": 18
+      },
       "25": {
         "address": "0xe44Fd7fCb2b1581822D0c862B68222998a0c299a",
         "decimal": 18
@@ -440,6 +466,20 @@
       },
       "1313161554": {
         "address": "0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Bit Dao",
+    "symbol": "BIT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bit.png",
+    "chains": [
+      1
+    ],
+    "contracts": {
+      "1": {
+        "address": "0x1a4b46696b2bb4794eb3d4c26f1c55f9170fa4c5",
         "decimal": 18
       }
     }
