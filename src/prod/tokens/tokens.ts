@@ -199,7 +199,7 @@ export const tokens: TokenInfo[] = [
         name: "Tether USD",
         symbol: TokenSymbol.USDT,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png',
-        chains: [ChainId.EthereumMainnet, ChainId.Arbitrum, ChainId.Matic, ChainId.BSC, ChainId.Aurora, ChainId.Cronos, ChainId.Icplaza, ChainId.Conflux, ChainId.TELOS],
+        chains: [ChainId.EthereumMainnet, ChainId.Arbitrum, ChainId.Matic, ChainId.BSC, ChainId.Aurora, ChainId.Cronos, ChainId.Icplaza, ChainId.Conflux, ChainId.TELOS, ChainId.Ontology],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0xdac17f958d2ee523a2206206994597c13d831ec7',
@@ -236,6 +236,10 @@ export const tokens: TokenInfo[] = [
             [ChainId.TELOS]: {
                 address: '0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73',
                 decimal: 18,
+            },
+            [ChainId.Ontology]: {
+                address: '0x72b0f5612802d473a13716db71a0348bcf631d98',
+                decimal: 6,
             },
         },
     },

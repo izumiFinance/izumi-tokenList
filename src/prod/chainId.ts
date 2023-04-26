@@ -20,5 +20,6 @@ export enum ChainId {
     Conflux = 1030,
     Meter = 82,
     TELOS = 40,
-    ZkSyncEra=324,
+    ZkSyncEra = 324,
+    Ontology = 58,
 }
