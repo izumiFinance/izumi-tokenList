@@ -219,7 +219,8 @@
       25,
       142857,
       1030,
-      40
+      40,
+      58
     ],
     "contracts": {
       "1": {
@@ -237,6 +238,10 @@
       "56": {
         "address": "0x55d398326f99059fF775485246999027B3197955",
         "decimal": 18
+      },
+      "58": {
+        "address": "0x72b0f5612802d473a13716db71a0348bcf631d98",
+        "decimal": 6
       },
       "137": {
         "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
@@ -1060,6 +1065,48 @@
       "82": {
         "address": "0xc1f6C86ABEe8e2e0B6fd5BD80F0b51fef783635C",
         "decimal": 8
+      }
+    }
+  },
+  {
+    "name": "Wrapped ONT",
+    "symbol": "ONT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ont.png",
+    "chains": [
+      58
+    ],
+    "contracts": {
+      "58": {
+        "address": "0x219cc8e994ea6b35cdcffb5d44e229325d5ad02a",
+        "decimal": 9
+      }
+    }
+  },
+  {
+    "name": "Ontology Gas Token",
+    "symbol": "ONG",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ong.png",
+    "chains": [
+      58
+    ],
+    "contracts": {
+      "58": {
+        "address": "0xd8bc24cfd45452ef2c8bc7618e32330b61f2691b",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped ONG",
+    "symbol": "WONG",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ong.png",
+    "chains": [
+      58
+    ],
+    "contracts": {
+      "58": {
+        "address": "0xd8bc24cfd45452ef2c8bc7618e32330b61f2691b",
+        "decimal": 18
       }
     }
   },
