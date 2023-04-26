@@ -1070,8 +1070,8 @@
   },
   {
     "name": "Wrapped ONT",
-    "symbol": "ONT",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ont.png",
+    "symbol": "WONT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wont.png",
     "chains": [
       58
     ],
@@ -1099,7 +1099,7 @@
   {
     "name": "Wrapped ONG",
     "symbol": "WONG",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ong.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wong.png",
     "chains": [
       58
     ],

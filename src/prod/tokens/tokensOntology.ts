@@ -14,8 +14,8 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 export const tokens: TokenInfo[] = [
     {
         name: "Wrapped ONT",
-        symbol: TokenSymbol.ONT,
-        icon: baseURL + 'ont.png',
+        symbol: TokenSymbol.WONT,
+        icon: baseURL + 'wont.png',
         chains: [ChainId.Ontology],
         contracts: {
             [ChainId.Ontology]: {
@@ -39,7 +39,7 @@ export const tokens: TokenInfo[] = [
     {
         name: "Wrapped ONG",
         symbol: TokenSymbol.WONG,
-        icon: baseURL + 'ong.png',
+        icon: baseURL + 'wong.png',
         chains: [ChainId.Ontology],
         contracts: {
             [ChainId.Ontology]: {
