@@ -1334,10 +1334,12 @@
     "name": "SpiralFi Token",
     "symbol": "SPIRAL",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/spiral.png",
-    "chains": [],
+    "chains": [
+      324
+    ],
     "contracts": {
       "324": {
-        "address": "0xD4d724De7bd79FB18f6cd5b4BE685b208ACC820e",
+        "address": "0xe161a60da0943dad69affe0249b7f623c518337b",
         "decimal": 18
       }
     }

@@ -16,10 +16,10 @@ export const tokens: TokenInfo[] = [
         name: 'SpiralFi Token',
         symbol: TokenSymbol.SPIRAL,
         icon: baseURL + 'spiral.png',
-        chains: [],
+        chains: [ChainId.ZkSyncEra],
         contracts: {
             [ChainId.ZkSyncEra]: {
-                address: '0xD4d724De7bd79FB18f6cd5b4BE685b208ACC820e',
+                address: '0xe161a60da0943dad69affe0249b7f623c518337b',
                 decimal: 18,
             },
         },
