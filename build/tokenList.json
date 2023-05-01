@@ -1317,6 +1317,20 @@
     }
   },
   {
+    "name": "Dogera Token",
+    "symbol": "DOGERA",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dogera.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0xA59af353E423F54D47F2Ce5F85e3e265d95282Cd",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",
