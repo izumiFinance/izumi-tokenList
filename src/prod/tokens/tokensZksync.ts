@@ -24,4 +24,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Bolt Token",
+        symbol: TokenSymbol.BOLT,
+        icon: baseURL + 'bolt.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x61B41e0244133B9c9c47A57e51a5EF70be2c5DD4', 
+                decimal: 18,
+            },
+        },
+    },
 ]

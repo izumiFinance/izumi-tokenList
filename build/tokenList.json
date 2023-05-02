@@ -1331,6 +1331,20 @@
     }
   },
   {
+    "name": "Bolt Token",
+    "symbol": "BOLT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bolt.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x61B41e0244133B9c9c47A57e51a5EF70be2c5DD4",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",
