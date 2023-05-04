@@ -36,4 +36,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Cheems",
+        symbol: TokenSymbol.CHEEMS,
+        icon: baseURL + 'cheems.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0xd599dA85F8Fc4877e61f547dFAcffe1238A7149E', 
+                decimal: 18,
+            },
+        },
+    },
 ]

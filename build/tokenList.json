@@ -1345,6 +1345,20 @@
     }
   },
   {
+    "name": "Cheems",
+    "symbol": "Cheems",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cheems.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0xd599dA85F8Fc4877e61f547dFAcffe1238A7149E",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",
