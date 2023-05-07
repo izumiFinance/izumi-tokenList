@@ -4,5 +4,6 @@ export enum TokenSymbol {
     CHEEMS = 'Cheems',
     SLUSDT = 'USDT',
     SLSTETH = 'stETH',
-    SLBTC = 'BTC'
+    SLBTC = 'BTC',
+    ZKSP = 'ZKSP',
 }

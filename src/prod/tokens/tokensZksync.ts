@@ -84,4 +84,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "ZKSP token",
+        symbol: TokenSymbol.ZKSP,
+        icon: baseURL + 'zksp.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x7eCf006f7c45149B457e9116392279CC8A630F14', 
+                decimal: 18,
+            },
+        },
+    },
 ]

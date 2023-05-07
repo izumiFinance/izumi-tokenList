@@ -1401,6 +1401,20 @@
     }
   },
   {
+    "name": "ZKSP token",
+    "symbol": "ZKSP",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/zksp.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x7eCf006f7c45149B457e9116392279CC8A630F14",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",
