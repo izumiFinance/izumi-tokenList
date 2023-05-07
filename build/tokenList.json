@@ -1359,6 +1359,48 @@
     }
   },
   {
+    "name": "Shared-liquidity USDT",
+    "symbol": "USDT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x496d88D1EFc3E145b7c12d53B78Ce5E7eda7a42c",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Shared-liquidity stETH",
+    "symbol": "stETH",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/steth.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x32440D79446E25E90Ff4DEE5807B61D759c8d264",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Shared-liquidity BTC",
+    "symbol": "BTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/btc.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0xbf6F47970276bcbB4E0Ec9dcFd27b16F68b78E74",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",

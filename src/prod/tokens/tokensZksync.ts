@@ -48,4 +48,40 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Shared-liquidity USDT",
+        symbol: TokenSymbol.SLUSDT,
+        icon: baseURL + 'usdt.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x496d88D1EFc3E145b7c12d53B78Ce5E7eda7a42c', 
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Shared-liquidity stETH",
+        symbol: TokenSymbol.SLSTETH,
+        icon: baseURL + 'steth.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x32440D79446E25E90Ff4DEE5807B61D759c8d264', 
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Shared-liquidity BTC",
+        symbol: TokenSymbol.SLBTC,
+        icon: baseURL + 'btc.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0xbf6F47970276bcbB4E0Ec9dcFd27b16F68b78E74', 
+                decimal: 18,
+            },
+        },
+    },
 ]
