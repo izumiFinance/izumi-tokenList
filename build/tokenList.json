@@ -2010,6 +2010,20 @@
     }
   },
   {
+    "name": "DegenReborn Token",
+    "symbol": "DEGEN",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/degen.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x1a131F7B106D58f33eAf0fE5B47DB2f2045E5732",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Metazodiac Token",
     "symbol": "MW",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/MW.png",
