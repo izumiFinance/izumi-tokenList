@@ -96,4 +96,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "DEXTF token",
+        symbol: TokenSymbol.DEXTF,
+        icon: baseURL + 'dextf.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x9929bCAC4417A21d7e6FC86F6Dae1Cc7f27A2e41', 
+                decimal: 18,
+            },
+        },
+    },
 ]

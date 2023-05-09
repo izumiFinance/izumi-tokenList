@@ -1415,6 +1415,20 @@
     }
   },
   {
+    "name": "DEXTF token",
+    "symbol": "DEXTF",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dextf.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x9929bCAC4417A21d7e6FC86F6Dae1Cc7f27A2e41",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",
