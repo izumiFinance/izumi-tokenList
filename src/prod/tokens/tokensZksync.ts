@@ -108,4 +108,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "ReactorFusion",
+        symbol: TokenSymbol.RF,
+        icon: baseURL + 'rf.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x5f7CBcb391d33988DAD74D6Fd683AadDA1123E4D', 
+                decimal: 18,
+            },
+        },
+    },
 ]

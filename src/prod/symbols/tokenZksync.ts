@@ -7,4 +7,5 @@ export enum TokenSymbol {
     SLBTC = 'BTC',
     ZKSP = 'ZKSP',
     DEXTF = 'DEXTF',
+    RF = 'RF',
 }
