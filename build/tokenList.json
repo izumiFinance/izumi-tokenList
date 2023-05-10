@@ -579,6 +579,20 @@
     }
   },
   {
+    "name": "Poodlera Token",
+    "symbol": "POOD",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/pood.png",
+    "chains": [
+      42161
+    ],
+    "contracts": {
+      "42161": {
+        "address": "0x4Bd840786F87aEa5c31BC87705516cB9Cc55eDB9",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "USN Stable Coin",
     "symbol": "USN",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usn.png",

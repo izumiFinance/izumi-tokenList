@@ -1,4 +1,5 @@
 export enum TokenSymbol {
+POOD='POOD',
 USN='USN',
 PLY='PLY',
 REF='REF',
