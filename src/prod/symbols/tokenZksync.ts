@@ -8,4 +8,5 @@ export enum TokenSymbol {
     ZKSP = 'ZKSP',
     DEXTF = 'DEXTF',
     RF = 'RF',
+    ZAT = 'ZAT',
 }

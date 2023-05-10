@@ -120,4 +120,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "zkApes token",
+        symbol: TokenSymbol.ZAT,
+        icon: baseURL + 'zat.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x47EF4A5641992A72CFd57b9406c9D9cefEE8e0C4', 
+                decimal: 18,
+            },
+        },
+    },
 ]

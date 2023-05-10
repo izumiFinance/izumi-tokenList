@@ -1457,6 +1457,20 @@
     }
   },
   {
+    "name": "zkApes token",
+    "symbol": "ZAT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/zat.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x47EF4A5641992A72CFd57b9406c9D9cefEE8e0C4",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",
