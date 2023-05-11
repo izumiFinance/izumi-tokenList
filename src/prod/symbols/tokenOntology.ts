@@ -3,4 +3,5 @@ export enum TokenSymbol {
     WONT = 'WONT',
     ONG = 'ONG',
     WONG = 'WONG',
+    WING = 'WING',
 }

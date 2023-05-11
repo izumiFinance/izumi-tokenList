@@ -1130,6 +1130,20 @@
     }
   },
   {
+    "name": "WING token",
+    "symbol": "WING",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wing.png",
+    "chains": [
+      58
+    ],
+    "contracts": {
+      "58": {
+        "address": "0x6ea9f7B81bdEB047d63A023b1F28Bea481a5785a",
+        "decimal": 9
+      }
+    }
+  },
+  {
     "name": "LUNA (Wormhole)",
     "symbol": "LUNA",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/luna.png",
