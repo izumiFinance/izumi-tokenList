@@ -132,4 +132,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "GeJuToken token",
+        symbol: TokenSymbol.GEJU,
+        icon: baseURL + 'geju.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x98141754F0148A34F59f46744503eDB1A2b1e29D', 
+                decimal: 18,
+            },
+        },
+    },
 ]

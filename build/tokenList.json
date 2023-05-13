@@ -1485,6 +1485,20 @@
     }
   },
   {
+    "name": "GeJuToken token",
+    "symbol": "GEJU",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/geju.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x98141754F0148A34F59f46744503eDB1A2b1e29D",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",
