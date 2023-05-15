@@ -2108,6 +2108,20 @@
     }
   },
   {
+    "name": "HALO token",
+    "symbol": "HALO",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/halo.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xB6b8CCD230Bb4235C7b87986274E7aB550b72261",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Metazodiac Token",
     "symbol": "MW",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/MW.png",
