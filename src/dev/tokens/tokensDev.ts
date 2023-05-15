@@ -107,7 +107,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.ScrollTestnet]: {
-                address: '0x551197e6350936976DfFB66B2c3bb15DDB723250',
+                address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
                 decimal: 18,
             },
             [ChainId.ZkSyncAlphaTest]: {
@@ -207,7 +207,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.ScrollTestnet]: {
-                address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
+                address: '0x551197e6350936976DfFB66B2c3bb15DDB723250',
                 decimal: 18,
             },
             [ChainId.RolluxBedrockTest]: {
@@ -231,7 +231,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.ScrollTestnet]: {
-                address: '0x3aB38EF845E86E949253Dd3a6FdA37Cc7d4Cd892', //WETH
+                address: '0xa1EA0B2354F5A344110af2b6AD68e75545009a03', //WETH
                 decimal: 18,
             },
             [ChainId.ZkSyncAlphaTest]: {
@@ -251,7 +251,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.ScrollTestnet]: {
-                address: '0x3aB38EF845E86E949253Dd3a6FdA37Cc7d4Cd892',
+                address: '0xa1EA0B2354F5A344110af2b6AD68e75545009a03',
                 decimal: 18,
             },
             [ChainId.ZkSyncAlphaTest]: {
