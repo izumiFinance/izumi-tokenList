@@ -208,7 +208,7 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.ScrollTestnet]: {
                 address: '0x551197e6350936976DfFB66B2c3bb15DDB723250',
-                decimal: 18,
+                decimal: 6,
             },
             [ChainId.RolluxBedrockTest]: {
                 address: '0x876508837C162aCedcc5dd7721015E83cbb4e339', 
