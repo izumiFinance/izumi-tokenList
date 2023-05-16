@@ -1495,7 +1495,7 @@
         "decimal": 18
       },
       "534353": {
-        "address": "0x876508837C162aCedcc5dd7721015E83cbb4e339",
+        "address": "0xffCE438BB30D468f78F12BB9d9e237B7D3Eb8bd8",
         "decimal": 18
       },
       "1313161555": {
@@ -1555,8 +1555,7 @@
       1337,
       97,
       1313161555,
-      57000,
-      534353
+      57000
     ],
     "contracts": {
       "97": {
@@ -1570,10 +1569,6 @@
       "57000": {
         "address": "0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b",
         "decimal": 18
-      },
-      "534353": {
-        "address": "0x67aE69Fd63b4fc8809ADc224A9b82Be976039509",
-        "decimal": 6
       },
       "1313161555": {
         "address": "0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b",
@@ -1610,8 +1605,8 @@
         "decimal": 18
       },
       "534353": {
-        "address": "0xf2719572e4E9369cDC061Ef602D0F20f8a42234d",
-        "decimal": 6
+        "address": "0x63fEF8791bdbe25A77337Cc265Ad732f200450AF",
+        "decimal": 18
       },
       "1313161555": {
         "address": "0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b",
