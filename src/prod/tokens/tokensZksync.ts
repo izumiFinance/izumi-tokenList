@@ -144,4 +144,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "veSync token",
+        symbol: TokenSymbol.VS,
+        icon: baseURL + 'vs.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x5756A28E2aAe01F600FC2C01358395F5C1f8ad3A', 
+                decimal: 18,
+            },
+        },
+    },
 ]

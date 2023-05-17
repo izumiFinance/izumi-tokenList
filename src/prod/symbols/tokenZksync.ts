@@ -10,4 +10,5 @@ export enum TokenSymbol {
     RF = 'RF',
     ZAT = 'ZAT',
     GEJU = 'GEJU',
+    VS = 'VS',
 }

@@ -1499,6 +1499,20 @@
     }
   },
   {
+    "name": "veSync token",
+    "symbol": "VS",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/vs.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x5756A28E2aAe01F600FC2C01358395F5C1f8ad3A",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",
