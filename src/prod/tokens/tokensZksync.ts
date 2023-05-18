@@ -156,4 +156,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "OT token",
+        symbol: TokenSymbol.OT,
+        icon: baseURL + 'ot.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0xD0eA21ba66B67bE636De1EC4bd9696EB8C61e9AA', 
+                decimal: 18,
+            },
+        },
+    },
 ]

@@ -1513,6 +1513,20 @@
     }
   },
   {
+    "name": "OT token",
+    "symbol": "OT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ot.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0xD0eA21ba66B67bE636De1EC4bd9696EB8C61e9AA",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",
