@@ -12,4 +12,5 @@ export enum TokenSymbol {
     GEJU = 'GEJU',
     VS = 'VS',
     OT = 'OT',
+    SPACE = 'SPACE',
 }

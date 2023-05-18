@@ -168,4 +168,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "SpaceFi token",
+        symbol: TokenSymbol.SPACE,
+        icon: baseURL + 'space.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x47260090cE5e83454d5f05A0AbbB2C953835f777', 
+                decimal: 18,
+            },
+        },
+    },
 ]
