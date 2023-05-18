@@ -1345,6 +1345,104 @@
     }
   },
   {
+    "name": "ULX MirrorWorld",
+    "symbol": "xULX",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/xulx.png",
+    "chains": [
+      1231
+    ],
+    "contracts": {
+      "1231": {
+        "address": "0xf26e50c26ed51abec4078380ed1f13440011f2a1",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "ULX token",
+    "symbol": "ULX",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ulx.png",
+    "chains": [
+      1231
+    ],
+    "contracts": {
+      "1231": {
+        "address": "0xb1183357745D3fD7d291E42a2c4B478cdB5710c6",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "wrapped ULX token",
+    "symbol": "wULX",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wulx.png",
+    "chains": [
+      1231
+    ],
+    "contracts": {
+      "1231": {
+        "address": "0xb1183357745D3fD7d291E42a2c4B478cdB5710c6",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "wrapped Ethererum",
+    "symbol": "wETH",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/weth.png",
+    "chains": [
+      1231
+    ],
+    "contracts": {
+      "1231": {
+        "address": "0x2318bf5809a72aabadd15a3453a18e50bbd651cd",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "wrapped Bitcoin",
+    "symbol": "wBTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wbtc.png",
+    "chains": [
+      1231
+    ],
+    "contracts": {
+      "1231": {
+        "address": "0xd2b86a80a8f30b83843e247a50ecdc8d843d87dd",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Ultron Tether",
+    "symbol": "uUSDT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
+    "chains": [
+      1231
+    ],
+    "contracts": {
+      "1231": {
+        "address": "0x97fdd294024f50c388e39e73f1705a35cfe87656",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Ultron USD Coin",
+    "symbol": "uUSDC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "chains": [
+      1231
+    ],
+    "contracts": {
+      "1231": {
+        "address": "0x3c4e0fded74876295ca36f62da289f69e3929cc4",
+        "decimal": 6
+      }
+    }
+  },
+  {
     "name": "Dogera Token",
     "symbol": "DOGERA",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dogera.png",

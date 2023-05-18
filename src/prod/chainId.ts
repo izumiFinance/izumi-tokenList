@@ -22,4 +22,5 @@ export enum ChainId {
     TELOS = 40,
     ZkSyncEra = 324,
     Ontology = 58,
+    Ultron = 1231,
 }
