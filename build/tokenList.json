@@ -663,6 +663,20 @@
     }
   },
   {
+    "name": "ChiChaCoin",
+    "symbol": "CCC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ccc.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x383268691ee31c68489b19b8f2d7003ec504d534",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Conflux Token",
     "symbol": "CFX",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cfx.png",
