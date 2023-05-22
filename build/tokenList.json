@@ -1641,7 +1641,7 @@
   {
     "name": "ERA token",
     "symbol": "ERA",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/era.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/zkera.png",
     "chains": [
       324
     ],
