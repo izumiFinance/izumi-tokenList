@@ -180,4 +180,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "ERA token",
+        symbol: TokenSymbol.ERA,
+        icon: baseURL + 'era.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0xecd9f240ed3895c77db676004328dd1d246f33c9', 
+                decimal: 18,
+            },
+        },
+    },
 ]

@@ -13,4 +13,5 @@ export enum TokenSymbol {
     VS = 'VS',
     OT = 'OT',
     SPACE = 'SPACE',
+    ERA = 'ERA',
 }

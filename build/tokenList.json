@@ -1639,6 +1639,20 @@
     }
   },
   {
+    "name": "ERA token",
+    "symbol": "ERA",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/era.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0xecd9f240ed3895c77db676004328dd1d246f33c9",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",
