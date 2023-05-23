@@ -192,4 +192,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Bladedao",
+        symbol: TokenSymbol.BLADE,
+        icon: baseURL + 'blade.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x591CAdFaF2F5dBBD09580C8b74A4770A9255bF28', 
+                decimal: 18,
+            },
+        },
+    },
 ]

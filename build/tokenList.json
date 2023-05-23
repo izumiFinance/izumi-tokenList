@@ -1667,6 +1667,20 @@
     }
   },
   {
+    "name": "Bladedao",
+    "symbol": "BLADE",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/blade.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x591CAdFaF2F5dBBD09580C8b74A4770A9255bF28",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",
