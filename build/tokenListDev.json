@@ -1815,5 +1815,19 @@
         "wrapTokenAddress": "0x60A1321f92FED22e68e91bcF168A33d0387611Be"
       }
     }
+  },
+  {
+    "name": "USDC (official bridge)",
+    "symbol": "USDC",
+    "chains": [
+      534353
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "contracts": {
+      "534353": {
+        "address": "0x67aE69Fd63b4fc8809ADc224A9b82Be976039509",
+        "decimal": 6
+      }
+    }
   }
 ]
