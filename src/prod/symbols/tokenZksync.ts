@@ -15,4 +15,5 @@ export enum TokenSymbol {
     SPACE = 'SPACE',
     ERA = 'ERA',
     BLADE = 'BLADE',
+    ZNS = 'ZNS',
 }

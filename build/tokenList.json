@@ -1681,6 +1681,20 @@
     }
   },
   {
+    "name": "ZNS token",
+    "symbol": "ZNS",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/zns.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x5B1635b7E74e004166Ace90f4f70f983824FFe1a",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",

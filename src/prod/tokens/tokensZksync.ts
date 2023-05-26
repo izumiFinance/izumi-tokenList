@@ -204,4 +204,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "ZNS token",
+        symbol: TokenSymbol.ZNS,
+        icon: baseURL + 'zns.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x5B1635b7E74e004166Ace90f4f70f983824FFe1a', 
+                decimal: 18,
+            },
+        },
+    },
 ]
