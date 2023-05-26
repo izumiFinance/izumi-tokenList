@@ -88,7 +88,7 @@ export const tokens: TokenInfo[] = [
         name: 'iZUMi Token',
         symbol: TokenSymbol.IZI,
         icon: baseURL + 'izumi.svg',
-        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.RolluxBedrockTest, ChainId.MantleTestnet, ChainId.OntologyTest],
+        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.RolluxBedrockTest, ChainId.MantleTestnet, ChainId.OntologyTest, ChainId.LineaTest],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0xEe5e3852434eB67F8e9E97015e32845861ea15E8',
@@ -119,6 +119,10 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.OntologyTest]: {
+                address: '0x876508837C162aCedcc5dd7721015E83cbb4e339', 
+                decimal: 18,
+            },
+            [ChainId.LineaTest]: {
                 address: '0x876508837C162aCedcc5dd7721015E83cbb4e339', 
                 decimal: 18,
             },
@@ -188,7 +192,7 @@ export const tokens: TokenInfo[] = [
         name: "Tether USD",
         symbol: TokenSymbol.USDT,
         icon: baseURL + 'usdt.png',
-        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.RolluxBedrockTest],
+        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.RolluxBedrockTest, ChainId.LineaTest],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0x2d2bA91b026E08e0f23Eb01d7ecAb0e7E279a45f',
@@ -214,12 +218,16 @@ export const tokens: TokenInfo[] = [
                 address: '0x876508837C162aCedcc5dd7721015E83cbb4e339', 
                 decimal: 18,
             },
+            [ChainId.LineaTest]: {
+                address: '0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b', 
+                decimal: 18,
+            },
         },
     },
     {
         name: 'Ether',
         symbol: TokenSymbol.ETH,
-        chains: [ChainId.Izumi, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest],
+        chains: [ChainId.Izumi, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.LineaTest],
         icon: baseURL + 'eth.png',
         contracts: {
             [ChainId.Izumi]: {
@@ -238,12 +246,16 @@ export const tokens: TokenInfo[] = [
                 address: '0x8C3e3f2983DB650727F3e05B7a7773e4D641537B', //WETH
                 decimal: 18,
             },
+            [ChainId.LineaTest]: {
+                address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF',  //WETH
+                decimal: 18,
+            },
         },
     },
     {
         name: 'Wrapped Ether',
         symbol: TokenSymbol.WETH,
-        chains: [ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.MantleTestnet],
+        chains: [ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.MantleTestnet, ChainId.LineaTest],
         icon: baseURL + 'WETH.png',
         contracts: {
             [ChainId.AuroraTestnet]: {
@@ -260,6 +272,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.MantleTestnet]: {
                 address: '0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111',
+                decimal: 18,
+            },
+            [ChainId.LineaTest]: {
+                address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF',  
                 decimal: 18,
             },
         },
