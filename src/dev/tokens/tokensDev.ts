@@ -192,7 +192,7 @@ export const tokens: TokenInfo[] = [
         name: "Tether USD",
         symbol: TokenSymbol.USDT,
         icon: baseURL + 'usdt.png',
-        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.RolluxBedrockTest, ChainId.LineaTest],
+        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.RolluxBedrockTest],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0x2d2bA91b026E08e0f23Eb01d7ecAb0e7E279a45f',
@@ -216,10 +216,6 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.RolluxBedrockTest]: {
                 address: '0x876508837C162aCedcc5dd7721015E83cbb4e339', 
-                decimal: 18,
-            },
-            [ChainId.LineaTest]: {
-                address: '0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b', 
                 decimal: 18,
             },
         },
