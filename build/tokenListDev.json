@@ -474,20 +474,6 @@
     }
   },
   {
-    "name": "USDC (native token)",
-    "symbol": "USDC",
-    "chains": [
-      59140
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
-    "contracts": {
-      "59140": {
-        "address": "0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "USDT (official bridge)",
     "symbol": "USDT",
     "chains": [
@@ -498,20 +484,6 @@
       "59140": {
         "address": "0x1990BC6dfe2ef605Bfc08f5A23564dB75642Ad73",
         "decimal": 6
-      }
-    }
-  },
-  {
-    "name": "USDT (native token)",
-    "symbol": "USDT",
-    "chains": [
-      59140
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
-    "contracts": {
-      "59140": {
-        "address": "0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b",
-        "decimal": 18
       }
     }
   },

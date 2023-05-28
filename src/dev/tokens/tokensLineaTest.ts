@@ -24,18 +24,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "USDC (native token)",
-        symbol: TokenSymbol.USDCNative,
-        chains: [ChainId.LineaTest],
-        icon: baseURL + 'usdc.png',
-        contracts: {
-            [ChainId.LineaTest]: {
-                address: '0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b',
-                decimal: 18,
-            },
-        },
-    },
+    // {
+    //     name: "USDC (native token)",
+    //     symbol: TokenSymbol.USDCNative,
+    //     chains: [ChainId.LineaTest],
+    //     icon: baseURL + 'usdc.png',
+    //     contracts: {
+    //         [ChainId.LineaTest]: {
+    //             address: '0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b',
+    //             decimal: 18,
+    //         },
+    //     },
+    // },
     {
         name: "USDT (official bridge)",
         symbol: TokenSymbol.USDTLinea,
@@ -48,18 +48,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "USDT (native token)",
-        symbol: TokenSymbol.USDTNative,
-        chains: [ChainId.LineaTest],
-        icon: baseURL + 'usdt.png',
-        contracts: {
-            [ChainId.LineaTest]: {
-                address: '0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b',
-                decimal: 18,
-            },
-        },
-    },
+    // {
+    //     name: "USDT (native token)",
+    //     symbol: TokenSymbol.USDTNative,
+    //     chains: [ChainId.LineaTest],
+    //     icon: baseURL + 'usdt.png',
+    //     contracts: {
+    //         [ChainId.LineaTest]: {
+    //             address: '0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b',
+    //             decimal: 18,
+    //         },
+    //     },
+    // },
     {
         name: "DAI (official bridge)",
         symbol: TokenSymbol.DAILinea,

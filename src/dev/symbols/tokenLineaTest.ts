@@ -1,8 +1,8 @@
 export enum TokenSymbol {
     USDCLinea = 'USDC',
-    USDCNative = 'USDC',
+    //USDCNative = 'USDC',
     USDTLinea = 'USDT',
-    USDTNative = 'USDT',
+    //USDTNative = 'USDT',
     DAILinea = 'DAI',
     UNILinea = 'UNI',
     HOPLinea = 'HOP',
