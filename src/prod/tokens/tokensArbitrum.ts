@@ -24,4 +24,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "MetaLine Gold",
+        symbol: TokenSymbol.MTG,
+        icon: baseURL + 'mtg.png',
+        chains: [ChainId.Arbitrum],
+        contracts: {
+            [ChainId.Arbitrum]: {
+                address: '0x748b5BE12ac1Ce2EF73035189F943591C1822B7d', 
+                decimal: 18,
+            },
+        },
+    },
 ]

@@ -593,6 +593,20 @@
     }
   },
   {
+    "name": "MetaLine Gold",
+    "symbol": "MTG",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mtg.png",
+    "chains": [
+      42161
+    ],
+    "contracts": {
+      "42161": {
+        "address": "0x748b5BE12ac1Ce2EF73035189F943591C1822B7d",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "USN Stable Coin",
     "symbol": "USN",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usn.png",
