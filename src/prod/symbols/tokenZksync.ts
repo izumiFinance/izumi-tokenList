@@ -16,4 +16,5 @@ export enum TokenSymbol {
     ERA = 'ERA',
     BLADE = 'BLADE',
     ZNS = 'ZNS',
+    ESZKDX = 'esZKDX',
 }
