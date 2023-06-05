@@ -17,4 +17,5 @@ export enum TokenSymbol {
     BLADE = 'BLADE',
     ZNS = 'ZNS',
     ESZKDX = 'esZKDX',
+    BANKERPEPE = 'BankerPepe'
 }
