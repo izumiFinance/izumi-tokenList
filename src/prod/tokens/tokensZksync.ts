@@ -228,14 +228,26 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    // {
+    //     name: "BankerPepe token",
+    //     symbol: TokenSymbol.BANKERPEPE,
+    //     icon: baseURL + 'bankerpepe.png',
+    //     chains: [ChainId.ZkSyncEra],
+    //     contracts: {
+    //         [ChainId.ZkSyncEra]: {
+    //             address: '0x7667B206390EAacd2daeF20a20e6a087D1b7a1B7', 
+    //             decimal: 18,
+    //         },
+    //     },
+    // },
     {
-        name: "BankerPepe token",
-        symbol: TokenSymbol.BANKERPEPE,
+        name: "BankerPepeV2 token",
+        symbol: TokenSymbol.BANKERPEPEV2,
         icon: baseURL + 'bankerpepe.png',
         chains: [ChainId.ZkSyncEra],
         contracts: {
             [ChainId.ZkSyncEra]: {
-                address: '0x7667B206390EAacd2daeF20a20e6a087D1b7a1B7', 
+                address: '0xecD9d19468C636E99A09d0a3Fcbd79ac53282884', 
                 decimal: 18,
             },
         },
