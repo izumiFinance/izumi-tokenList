@@ -1709,6 +1709,20 @@
     }
   },
   {
+    "name": "esZKDX token",
+    "symbol": "esZKDX",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eszkdx.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0xE9d81b108cF6062607BCD888C745fb67e9d5eFcd",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",

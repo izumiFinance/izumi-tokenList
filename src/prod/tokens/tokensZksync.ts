@@ -216,4 +216,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "esZKDX token",
+        symbol: TokenSymbol.ESZKDX,
+        icon: baseURL + 'eszkdx.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0xE9d81b108cF6062607BCD888C745fb67e9d5eFcd', 
+                decimal: 18,
+            },
+        },
+    },
 ]
