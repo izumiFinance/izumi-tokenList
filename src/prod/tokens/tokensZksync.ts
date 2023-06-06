@@ -264,4 +264,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "PEPERA token",
+        symbol: TokenSymbol.PEPERA,
+        icon: baseURL + 'pepera.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x60143F39b54a731aC790708c8719211878e638C3', 
+                decimal: 18,
+            },
+        },
+    },
 ]

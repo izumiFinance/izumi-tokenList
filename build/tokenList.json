@@ -1751,6 +1751,20 @@
     }
   },
   {
+    "name": "PEPERA token",
+    "symbol": "PEPERA",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/pepera.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x60143F39b54a731aC790708c8719211878e638C3",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",
