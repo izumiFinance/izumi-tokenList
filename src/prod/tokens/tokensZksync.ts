@@ -252,4 +252,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "LSD token",
+        symbol: TokenSymbol.LSD,
+        icon: baseURL + 'lsd.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x458A2E32eAbc7626187E6b75f29D7030a5202bD4', 
+                decimal: 18,
+            },
+        },
+    },
 ]
