@@ -126,6 +126,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x876508837C162aCedcc5dd7721015E83cbb4e339', 
                 decimal: 18,
             },
+            [ChainId.OpsideTest]: {
+                address: '0xC6C7c2edF70A3245ad6051E93809162B9758ce08', 
+                decimal: 18,
+            },
         },
     },
     {
@@ -186,6 +190,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b', 
                 decimal: 18,
             },
+            [ChainId.OpsideTest]: {
+                address: '0x1eE5eDC5Fe498a2dD82862746D674DB2a5e7fef6',
+                decimal: 18,
+            },
         },
     },
     {
@@ -216,6 +224,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.RolluxBedrockTest]: {
                 address: '0x876508837C162aCedcc5dd7721015E83cbb4e339', 
+                decimal: 18,
+            },
+            [ChainId.OpsideTest]: {
+                address: '0xF6FFe4f3FdC8BBb7F70FFD48e61f17D1e343dDfD', 
                 decimal: 18,
             },
         },

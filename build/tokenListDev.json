@@ -119,6 +119,10 @@
         "address": "0x876508837C162aCedcc5dd7721015E83cbb4e339",
         "decimal": 18
       },
+      "51178": {
+        "address": "0xC6C7c2edF70A3245ad6051E93809162B9758ce08",
+        "decimal": 18
+      },
       "57000": {
         "address": "0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b",
         "decimal": 18
@@ -199,6 +203,10 @@
         "address": "0xe507AAC9eFb2A08F53C7BC73B3B1b8BCf883E41B",
         "decimal": 6
       },
+      "51178": {
+        "address": "0x1eE5eDC5Fe498a2dD82862746D674DB2a5e7fef6",
+        "decimal": 18
+      },
       "57000": {
         "address": "0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b",
         "decimal": 18
@@ -231,6 +239,10 @@
       },
       "5001": {
         "address": "0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b",
+        "decimal": 18
+      },
+      "51178": {
+        "address": "0xF6FFe4f3FdC8BBb7F70FFD48e61f17D1e343dDfD",
         "decimal": 18
       },
       "57000": {
@@ -595,6 +607,34 @@
     "contracts": {
       "5001": {
         "address": "0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Opside token",
+    "symbol": "IDE",
+    "chains": [
+      51178
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ide.png",
+    "contracts": {
+      "51178": {
+        "address": "0xD2Af4C638d9AF34405CDD6403F853Acb0774efe3",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped IDE",
+    "symbol": "WIDE",
+    "chains": [
+      51178
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ide.png",
+    "contracts": {
+      "51178": {
+        "address": "0xD2Af4C638d9AF34405CDD6403F853Acb0774efe3",
         "decimal": 18
       }
     }

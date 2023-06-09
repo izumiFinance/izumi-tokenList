@@ -22,4 +22,5 @@ export enum ChainId {
     RolluxBedrockTest = 57000,
     OntologyTest = 5851,
     LineaTest = 59140,
+    OpsideTest = 51178,
 }
