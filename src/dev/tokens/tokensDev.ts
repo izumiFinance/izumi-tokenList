@@ -79,7 +79,7 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'sys.png',
         contracts: {
             [ChainId.RolluxBedrockTest]: {
-                address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF', 
+                address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF',
                 decimal: 18,
             },
         },
@@ -88,7 +88,10 @@ export const tokens: TokenInfo[] = [
         name: 'iZUMi Token',
         symbol: TokenSymbol.IZI,
         icon: baseURL + 'izumi.svg',
-        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.RolluxBedrockTest, ChainId.MantleTestnet, ChainId.OntologyTest, ChainId.LineaTest],
+        chains: [
+            ChainId.Izumi,
+            ChainId.OpsideTest,
+            ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.RolluxBedrockTest, ChainId.MantleTestnet, ChainId.OntologyTest, ChainId.LineaTest],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0xEe5e3852434eB67F8e9E97015e32845861ea15E8',
@@ -115,19 +118,19 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.RolluxBedrockTest]: {
-                address: '0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b', 
+                address: '0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b',
                 decimal: 18,
             },
             [ChainId.OntologyTest]: {
-                address: '0x876508837C162aCedcc5dd7721015E83cbb4e339', 
+                address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
                 decimal: 18,
             },
             [ChainId.LineaTest]: {
-                address: '0x876508837C162aCedcc5dd7721015E83cbb4e339', 
+                address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
                 decimal: 18,
             },
             [ChainId.OpsideTest]: {
-                address: '0xC6C7c2edF70A3245ad6051E93809162B9758ce08', 
+                address: '0xC6C7c2edF70A3245ad6051E93809162B9758ce08',
                 decimal: 18,
             },
         },
@@ -172,7 +175,7 @@ export const tokens: TokenInfo[] = [
         name: 'USD Coin',
         symbol: TokenSymbol.USDC,
         icon: baseURL + 'usdc.png',
-        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.RolluxBedrockTest],
+        chains: [ChainId.Izumi, ChainId.OpsideTest,ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.RolluxBedrockTest],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0xe507AAC9eFb2A08F53C7BC73B3B1b8BCf883E41B',
@@ -187,7 +190,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 6,
             },
             [ChainId.RolluxBedrockTest]: {
-                address: '0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b', 
+                address: '0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b',
                 decimal: 18,
             },
             [ChainId.OpsideTest]: {
@@ -200,7 +203,7 @@ export const tokens: TokenInfo[] = [
         name: "Tether USD",
         symbol: TokenSymbol.USDT,
         icon: baseURL + 'usdt.png',
-        chains: [ChainId.Izumi, ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.RolluxBedrockTest],
+        chains: [ChainId.Izumi, ChainId.OpsideTest,ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.RolluxBedrockTest],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0x2d2bA91b026E08e0f23Eb01d7ecAb0e7E279a45f',
@@ -223,11 +226,11 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.RolluxBedrockTest]: {
-                address: '0x876508837C162aCedcc5dd7721015E83cbb4e339', 
+                address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
                 decimal: 18,
             },
             [ChainId.OpsideTest]: {
-                address: '0xF6FFe4f3FdC8BBb7F70FFD48e61f17D1e343dDfD', 
+                address: '0xF6FFe4f3FdC8BBb7F70FFD48e61f17D1e343dDfD',
                 decimal: 18,
             },
         },
@@ -283,7 +286,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.LineaTest]: {
-                address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF',  
+                address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF',
                 decimal: 18,
             },
         },

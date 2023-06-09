@@ -89,6 +89,7 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/izumi.svg",
     "chains": [
       1337,
+      51178,
       97,
       1313161555,
       534353,
@@ -190,6 +191,7 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
     "chains": [
       1337,
+      51178,
       97,
       1313161555,
       57000
@@ -223,6 +225,7 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
     "chains": [
       1337,
+      51178,
       97,
       1313161555,
       534353,
