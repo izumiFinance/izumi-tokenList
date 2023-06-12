@@ -1765,6 +1765,20 @@
     }
   },
   {
+    "name": "Good Games Guild",
+    "symbol": "GGG",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ggg.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x7E2A6456Bb3eCEcbdb38bC76Ad8dF9e448B15835",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",
