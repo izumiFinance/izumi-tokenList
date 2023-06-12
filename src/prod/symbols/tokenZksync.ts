@@ -21,4 +21,5 @@ export enum TokenSymbol {
     BANKERPEPEV2 = 'BankerPepeV2',
     LSD = 'LSD',
     PEPERA = 'PEPERA',
+    GGG = 'GGG',
 }

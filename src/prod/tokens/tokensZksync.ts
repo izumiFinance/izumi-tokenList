@@ -276,4 +276,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Good Games Guild",
+        symbol: TokenSymbol.GGG,
+        icon: baseURL + 'ggg.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x7E2A6456Bb3eCEcbdb38bC76Ad8dF9e448B15835', 
+                decimal: 18,
+            },
+        },
+    },
 ]
