@@ -1,4 +1,4 @@
-# izumi-tokenList
+# iZiSwap-tokenList
 
 The default token list maintained by iZUMi.finance.
 
