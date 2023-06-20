@@ -90,7 +90,7 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'izumi.svg',
         chains: [
             ChainId.Izumi,
-            ChainId.OpsideTest,
+            ChainId.OpsideRolluxTest,
             ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.RolluxBedrockTest, ChainId.MantleTestnet, ChainId.OntologyTest, ChainId.LineaTest],
         contracts: {
             [ChainId.Izumi]: {
@@ -129,8 +129,8 @@ export const tokens: TokenInfo[] = [
                 address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
                 decimal: 18,
             },
-            [ChainId.OpsideTest]: {
-                address: '0xC6C7c2edF70A3245ad6051E93809162B9758ce08',
+            [ChainId.OpsideRolluxTest]: {
+                address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
                 decimal: 18,
             },
         },
@@ -175,7 +175,7 @@ export const tokens: TokenInfo[] = [
         name: 'USD Coin',
         symbol: TokenSymbol.USDC,
         icon: baseURL + 'usdc.png',
-        chains: [ChainId.Izumi, ChainId.OpsideTest,ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.RolluxBedrockTest],
+        chains: [ChainId.Izumi, ChainId.OpsideRolluxTest,ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.RolluxBedrockTest],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0xe507AAC9eFb2A08F53C7BC73B3B1b8BCf883E41B',
@@ -193,8 +193,8 @@ export const tokens: TokenInfo[] = [
                 address: '0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b',
                 decimal: 18,
             },
-            [ChainId.OpsideTest]: {
-                address: '0x1eE5eDC5Fe498a2dD82862746D674DB2a5e7fef6',
+            [ChainId.OpsideRolluxTest]: {
+                address: '0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b',
                 decimal: 18,
             },
         },
@@ -203,7 +203,7 @@ export const tokens: TokenInfo[] = [
         name: "Tether USD",
         symbol: TokenSymbol.USDT,
         icon: baseURL + 'usdt.png',
-        chains: [ChainId.Izumi, ChainId.OpsideTest,ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.RolluxBedrockTest],
+        chains: [ChainId.Izumi, ChainId.OpsideRolluxTest,ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.RolluxBedrockTest],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0x2d2bA91b026E08e0f23Eb01d7ecAb0e7E279a45f',
@@ -229,8 +229,8 @@ export const tokens: TokenInfo[] = [
                 address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
                 decimal: 18,
             },
-            [ChainId.OpsideTest]: {
-                address: '0xF6FFe4f3FdC8BBb7F70FFD48e61f17D1e343dDfD',
+            [ChainId.OpsideRolluxTest]: {
+                address: '0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b',
                 decimal: 18,
             },
         },

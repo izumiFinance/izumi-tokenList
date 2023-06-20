@@ -1,4 +1,4 @@
-import { TokenSymbol } from "../symbols/tokenOpsideTest";
+import { TokenSymbol } from "../symbols/tokenOpsideRolluxTest";
 import { ChainId } from "../chainId";
 
 export interface TokenInfo {
@@ -19,7 +19,7 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'ide.png',
         contracts: {
             [ChainId.OpsideTest]: {
-                address: '0xD2Af4C638d9AF34405CDD6403F853Acb0774efe3', //WIDE
+                address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF', //WIDE
                 decimal: 18,
             },
         },
@@ -31,7 +31,7 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'ide.png',
         contracts: {
             [ChainId.OpsideTest]: {
-                address: '0xD2Af4C638d9AF34405CDD6403F853Acb0774efe3', 
+                address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF', 
                 decimal: 18,
             },
         },
