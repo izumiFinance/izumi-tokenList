@@ -18,7 +18,7 @@ export const tokens: TokenInfo[] = [
         chains: [ChainId.OpsideRolluxTest],
         icon: baseURL + 'ide.png',
         contracts: {
-            [ChainId.OpsideTest]: {
+            [ChainId.OpsideRolluxTest]: {
                 address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF', //WIDE
                 decimal: 18,
             },
@@ -30,7 +30,7 @@ export const tokens: TokenInfo[] = [
         chains: [ChainId.OpsideRolluxTest],
         icon: baseURL + 'ide.png',
         contracts: {
-            [ChainId.OpsideTest]: {
+            [ChainId.OpsideRolluxTest]: {
                 address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF', 
                 decimal: 18,
             },
