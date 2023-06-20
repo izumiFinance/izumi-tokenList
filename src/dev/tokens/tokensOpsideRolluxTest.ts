@@ -15,7 +15,7 @@ export const tokens: TokenInfo[] = [
     {
         name: "Opside token",
         symbol: TokenSymbol.IDE,
-        chains: [ChainId.OpsideTest],
+        chains: [ChainId.OpsideRolluxTest],
         icon: baseURL + 'ide.png',
         contracts: {
             [ChainId.OpsideTest]: {
@@ -27,7 +27,7 @@ export const tokens: TokenInfo[] = [
     {
         name: "Wrapped IDE",
         symbol: TokenSymbol.WIDE,
-        chains: [ChainId.OpsideTest],
+        chains: [ChainId.OpsideRolluxTest],
         icon: baseURL + 'ide.png',
         contracts: {
             [ChainId.OpsideTest]: {
