@@ -22,4 +22,5 @@ export enum TokenSymbol {
     LSD = 'LSD',
     PEPERA = 'PEPERA',
     GGG = 'GGG',
+    KANA = 'KANA',
 }

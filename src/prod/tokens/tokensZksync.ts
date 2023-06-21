@@ -288,4 +288,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Kannagi Token",
+        symbol: TokenSymbol.KANA,
+        icon: baseURL + 'kana.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x26aC1D9945f65392B8E4E6b895969b5c01A7B414', 
+                decimal: 18,
+            },
+        },
+    },
 ]

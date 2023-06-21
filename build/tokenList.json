@@ -1779,6 +1779,20 @@
     }
   },
   {
+    "name": "Kannagi Token",
+    "symbol": "KANA",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/kana.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x26aC1D9945f65392B8E4E6b895969b5c01A7B414",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",
