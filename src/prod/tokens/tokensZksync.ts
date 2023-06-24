@@ -300,4 +300,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "zkSwap Token",
+        symbol: TokenSymbol.ZKS,
+        icon: baseURL + 'zks.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0xAbdb137D013b8B328FA43Fc04a6fA340D1CeA733', 
+                decimal: 18,
+            },
+        },
+    },
 ]

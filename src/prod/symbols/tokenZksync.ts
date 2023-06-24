@@ -23,4 +23,5 @@ export enum TokenSymbol {
     PEPERA = 'PEPERA',
     GGG = 'GGG',
     KANA = 'KANA',
+    ZKS = 'ZKS'
 }
