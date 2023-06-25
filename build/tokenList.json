@@ -1807,6 +1807,34 @@
     }
   },
   {
+    "name": "zkSync Hydroxyl Token",
+    "symbol": "ZKHYT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/hyt.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x5199EfB3D001309cb6a86fad6764F2BFeE282f1c",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "zkSync Meta Interstellar Token",
+    "symbol": "ZKMIT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mit.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0xB7183e52a6f2D97a675B0e9CBB08Eb01a700D6d3",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",

@@ -312,4 +312,28 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "zkSync Hydroxyl Token",
+        symbol: TokenSymbol.ZKHYT,
+        icon: baseURL + 'hyt.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x5199EfB3D001309cb6a86fad6764F2BFeE282f1c', 
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "zkSync Meta Interstellar Token",
+        symbol: TokenSymbol.ZKMIT,
+        icon: baseURL + 'mit.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0xB7183e52a6f2D97a675B0e9CBB08Eb01a700D6d3', 
+                decimal: 18,
+            },
+        },
+    },
 ]
