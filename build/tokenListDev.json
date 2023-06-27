@@ -615,6 +615,34 @@
     }
   },
   {
+    "name": "Mantle Token",
+    "symbol": "MNT",
+    "chains": [
+      5001
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mnt.png",
+    "contracts": {
+      "5001": {
+        "address": "0x6e1723460D190B4A092a2c13BA42BcC57d71870b",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped MNT",
+    "symbol": "WMNT",
+    "chains": [
+      5001
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mnt.png",
+    "contracts": {
+      "5001": {
+        "address": "0x6e1723460D190B4A092a2c13BA42BcC57d71870b",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Opside token",
     "symbol": "IDE",
     "chains": [

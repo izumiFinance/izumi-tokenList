@@ -36,4 +36,28 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Mantle Token",
+        symbol: TokenSymbol.MNT,
+        chains: [ChainId.MantleTestnet],
+        icon: baseURL + 'mnt.png',
+        contracts: {
+            [ChainId.MantleTestnet]: {
+                address: '0x6e1723460D190B4A092a2c13BA42BcC57d71870b', // WMNT
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Wrapped MNT",
+        symbol: TokenSymbol.WMNT,
+        chains: [ChainId.MantleTestnet],
+        icon: baseURL + 'mnt.png',
+        contracts: {
+            [ChainId.MantleTestnet]: {
+                address: '0x6e1723460D190B4A092a2c13BA42BcC57d71870b', 
+                decimal: 18,
+            },
+        },
+    },
 ]
