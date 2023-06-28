@@ -26,4 +26,5 @@ export enum TokenSymbol {
     ZKS = 'ZKS',
     ZKHYT = 'ZKHYT',
     ZKMIT = 'ZKMIT',
+    MAV = 'MAV',
 }

@@ -336,4 +336,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Maverick Token",
+        symbol: TokenSymbol.MAV,
+        icon: baseURL + 'mav.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x787c09494Ec8Bcb24DcAf8659E7d5D69979eE508', 
+                decimal: 18,
+            },
+        },
+    },
 ]

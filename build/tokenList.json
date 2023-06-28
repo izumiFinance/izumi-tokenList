@@ -1835,6 +1835,20 @@
     }
   },
   {
+    "name": "Maverick Token",
+    "symbol": "MAV",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mav.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x787c09494Ec8Bcb24DcAf8659E7d5D69979eE508",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",
