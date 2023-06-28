@@ -1849,6 +1849,20 @@
     }
   },
   {
+    "name": "zkUSD Dollar",
+    "symbol": "ZKUSD",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/zkusd.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0xfC7E56298657B002b3e656400E746b7212912757",
+        "decimal": 6
+      }
+    }
+  },
+  {
     "name": "Tiny Coin",
     "symbol": "TINC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",

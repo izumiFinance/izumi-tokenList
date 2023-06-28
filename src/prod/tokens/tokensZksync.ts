@@ -348,4 +348,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "zkUSD Dollar",
+        symbol: TokenSymbol.ZKUSD,
+        icon: baseURL + 'zkusd.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0xfC7E56298657B002b3e656400E746b7212912757', 
+                decimal: 6,
+            },
+        },
+    },
 ]
