@@ -677,6 +677,20 @@
     }
   },
   {
+    "name": "Tiny Coin",
+    "symbol": "TINC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x05aD6E30A855BE07AfA57e08a4f30d00810a402e",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "ChiChaCoin",
     "symbol": "CCC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ccc.png",
@@ -1859,20 +1873,6 @@
       "324": {
         "address": "0xfC7E56298657B002b3e656400E746b7212912757",
         "decimal": 6
-      }
-    }
-  },
-  {
-    "name": "Tiny Coin",
-    "symbol": "TINC",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x05aD6E30A855BE07AfA57e08a4f30d00810a402e",
-        "decimal": 18
       }
     }
   },

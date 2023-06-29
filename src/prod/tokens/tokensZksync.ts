@@ -228,18 +228,6 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    // {
-    //     name: "BankerPepe token",
-    //     symbol: TokenSymbol.BANKERPEPE,
-    //     icon: baseURL + 'bankerpepe.png',
-    //     chains: [ChainId.ZkSyncEra],
-    //     contracts: {
-    //         [ChainId.ZkSyncEra]: {
-    //             address: '0x7667B206390EAacd2daeF20a20e6a087D1b7a1B7', 
-    //             decimal: 18,
-    //         },
-    //     },
-    // },
     {
         name: "BankerPepeV2 token",
         symbol: TokenSymbol.BANKERPEPEV2,
@@ -357,6 +345,18 @@ export const tokens: TokenInfo[] = [
             [ChainId.ZkSyncEra]: {
                 address: '0xfC7E56298657B002b3e656400E746b7212912757', 
                 decimal: 6,
+            },
+        },
+    },
+    {
+        name: 'SpiralFi Token',
+        symbol: TokenSymbol.SPIRAL,
+        icon: baseURL + 'spiral.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0xe161a60da0943dad69affe0249b7f623c518337b',
+                decimal: 18,
             },
         },
     },
