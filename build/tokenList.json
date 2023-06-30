@@ -593,6 +593,20 @@
     }
   },
   {
+    "name": "Arbipad",
+    "symbol": "ARBI",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arbi.png",
+    "chains": [
+      42161
+    ],
+    "contracts": {
+      "42161": {
+        "address": "0x07DD5BEAffb65B8fF2e575d500BDf324a05295DC",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "MetaLine Gold",
     "symbol": "MTG",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mtg.png",
@@ -700,6 +714,20 @@
     "contracts": {
       "56": {
         "address": "0x383268691ee31c68489b19b8f2d7003ec504d534",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Arbipad",
+    "symbol": "ARBI",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arbi.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xa7bD657C5838472dDF85FF0797A2e6fce8fd4833",
         "decimal": 18
       }
     }

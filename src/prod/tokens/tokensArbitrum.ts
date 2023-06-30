@@ -25,6 +25,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Arbipad",
+        symbol: TokenSymbol.ARBIARB,
+        icon: baseURL + 'arbi.png',
+        chains: [ChainId.Arbitrum],
+        contracts: {
+            [ChainId.Arbitrum]: {
+                address: '0x07DD5BEAffb65B8fF2e575d500BDf324a05295DC', 
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "MetaLine Gold",
         symbol: TokenSymbol.MTG,
         icon: baseURL + 'mtg.png',

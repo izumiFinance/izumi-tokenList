@@ -36,4 +36,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Arbipad",
+        symbol: TokenSymbol.ARBIBSC,
+        icon: baseURL + 'arbi.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xa7bD657C5838472dDF85FF0797A2e6fce8fd4833', 
+                decimal: 18,
+            },
+        },
+    },
 ]
