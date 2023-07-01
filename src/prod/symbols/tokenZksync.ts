@@ -28,5 +28,6 @@ export enum TokenSymbol {
     ZKMIT = 'ZKMIT',
     MAV = 'MAV',
     ZKUSD = 'ZKUSD',
-    SPIRAL = "SPIRAL",
+    SPIRAL = 'SPIRAL',
+    RETH = 'rETH',
 }

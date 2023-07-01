@@ -360,4 +360,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: 'Rocket Pool ETh',
+        symbol: TokenSymbol.RETH,
+        icon: baseURL + 'reth.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x32Fd44bB869620C0EF993754c8a00Be67C464806',
+                decimal: 18,
+            },
+        },
+    },
 ]
