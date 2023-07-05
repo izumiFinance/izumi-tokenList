@@ -1933,6 +1933,20 @@
     }
   },
   {
+    "name": "SolarCoin on Mainnet",
+    "symbol": "SLR",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/slr.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0xE027D939f7dE6F521675907Cf086F59E4D75B876",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "MNW",
     "symbol": "MNW",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/MNW.png",

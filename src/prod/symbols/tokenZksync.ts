@@ -30,4 +30,5 @@ export enum TokenSymbol {
     ZKUSD = 'ZKUSD',
     SPIRAL = 'SPIRAL',
     RETH = 'rETH',
+    SLR = 'SLR',
 }

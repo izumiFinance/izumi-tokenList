@@ -372,4 +372,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: 'SolarCoin on Mainnet',
+        symbol: TokenSymbol.SLR,
+        icon: baseURL + 'slr.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0xE027D939f7dE6F521675907Cf086F59E4D75B876',
+                decimal: 18,
+            },
+        },
+    },
 ]
