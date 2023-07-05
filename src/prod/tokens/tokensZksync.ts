@@ -384,4 +384,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: 'Bella Token',
+        symbol: TokenSymbol.BEL,
+        icon: baseURL + 'bel.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0xB83CFB285fc8D936E8647FA9b1cC641dBAae92D9',
+                decimal: 18,
+            },
+        },
+    },
 ]

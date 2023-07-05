@@ -31,4 +31,5 @@ export enum TokenSymbol {
     SPIRAL = 'SPIRAL',
     RETH = 'rETH',
     SLR = 'SLR',
+    BEL = 'BEL',
 }

@@ -2059,6 +2059,20 @@
     }
   },
   {
+    "name": "Bella Token",
+    "symbol": "BEL",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bel.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0xB83CFB285fc8D936E8647FA9b1cC641dBAae92D9",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "MNW",
     "symbol": "MNW",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/MNW.png",
