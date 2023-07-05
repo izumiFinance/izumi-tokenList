@@ -23,4 +23,5 @@ export enum ChainId {
     ZkSyncEra = 324,
     Ontology = 58,
     Ultron = 1231,
+    LineaTest = 59140,
 }
