@@ -396,4 +396,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: 'PIKO Token',
+        symbol: TokenSymbol.PIKO,
+        icon: baseURL + 'piko.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0xf8C6dA1bbdc31Ea5F968AcE76E931685cA7F9962',
+                decimal: 18,
+            },
+        },
+    },
 ]
