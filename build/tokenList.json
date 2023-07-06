@@ -733,6 +733,90 @@
     }
   },
   {
+    "name": "TokenPocket Token",
+    "symbol": "TPT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TPT.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xECa41281c24451168a37211F0bc2b8645AF45092",
+        "decimal": 4
+      }
+    }
+  },
+  {
+    "name": "Duet Governance Token",
+    "symbol": "DUET",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/DUET.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x95ee03e1e2c5c4877f9a298f1c0d6c98698fab7b",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Duet USD",
+    "symbol": "dUSD",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dUSD.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xe04fe47516C4Ebd56Bc6291b15D46A47535e736B",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Duet WTI",
+    "symbol": "dWTI",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dWTI.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x587Fb3e1C6819fd54e3740C6C4C7832484eF451b",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Duet XAU",
+    "symbol": "dXAU",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dXAU.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x7e3b9b1313ad547feb71ac5bc48b03d7e683601e",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "BurgerCities",
+    "symbol": "BURGER",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/burger.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xAe9269f27437f0fcBC232d39Ec814844a51d6b8f",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Conflux Token",
     "symbol": "CFX",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cfx.png",
@@ -2241,76 +2325,6 @@
     }
   },
   {
-    "name": "TokenPocket Token",
-    "symbol": "TPT",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TPT.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xECa41281c24451168a37211F0bc2b8645AF45092",
-        "decimal": 4
-      }
-    }
-  },
-  {
-    "name": "Duet Governance Token",
-    "symbol": "DUET",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/DUET.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x95ee03e1e2c5c4877f9a298f1c0d6c98698fab7b",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Duet USD",
-    "symbol": "dUSD",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dUSD.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xe04fe47516C4Ebd56Bc6291b15D46A47535e736B",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Duet WTI",
-    "symbol": "dWTI",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dWTI.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x587Fb3e1C6819fd54e3740C6C4C7832484eF451b",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Duet XAU",
-    "symbol": "dXAU",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dXAU.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x7e3b9b1313ad547feb71ac5bc48b03d7e683601e",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "XEN Crypto",
     "symbol": "bXEN",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bxen.png",
@@ -2462,20 +2476,6 @@
       "56": {
         "address": "0x37a56cdcD83Dce2868f721De58cB3830C44C6303",
         "decimal": 9
-      }
-    }
-  },
-  {
-    "name": "BurgerCities",
-    "symbol": "BURGER",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/burger.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xAe9269f27437f0fcBC232d39Ec814844a51d6b8f",
-        "decimal": 18
       }
     }
   },

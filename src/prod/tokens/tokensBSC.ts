@@ -48,4 +48,76 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: 'TokenPocket Token',
+        symbol: TokenSymbol.TPT,
+        icon: baseURL + 'TPT.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xECa41281c24451168a37211F0bc2b8645AF45092',
+                decimal: 4,
+            },
+        },
+    },
+    {
+        name: 'Duet Governance Token',
+        symbol: TokenSymbol.DUET,
+        icon: baseURL + 'DUET.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x95ee03e1e2c5c4877f9a298f1c0d6c98698fab7b',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Duet USD',
+        symbol: TokenSymbol.DUSD,
+        icon: baseURL + 'dUSD.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xe04fe47516C4Ebd56Bc6291b15D46A47535e736B',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Duet WTI',
+        symbol: TokenSymbol.DWTI,
+        icon: baseURL + 'dWTI.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x587Fb3e1C6819fd54e3740C6C4C7832484eF451b',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Duet XAU',
+        symbol: TokenSymbol.DXAU,
+        icon: baseURL + 'dXAU.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x7e3b9b1313ad547feb71ac5bc48b03d7e683601e',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'BurgerCities',
+        symbol: TokenSymbol.BURGER,
+        icon: baseURL + 'burger.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xAe9269f27437f0fcBC232d39Ec814844a51d6b8f',
+                decimal: 18,
+            },
+        },
+    },
 ]
