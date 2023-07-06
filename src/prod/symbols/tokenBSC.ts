@@ -14,4 +14,8 @@ export enum TokenSymbol {
     LAND = "LAND",
     REVO = "REVO",
     FROYO = "FROYO",
+    NAS = "NAS",
+    IOM = "IOM",
+    ZVC = "ZVC",
+    MNW = "MNW",
 }

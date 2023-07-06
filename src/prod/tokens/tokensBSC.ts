@@ -192,4 +192,52 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: 'Nebulas Token',
+        symbol: TokenSymbol.NAS,
+        icon: baseURL + 'nas.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x2E1F3D4cB35980F6339C006e64AC3a555dB6676d',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Jupyter',
+        symbol: TokenSymbol.IOM,
+        icon: baseURL + 'iom.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xD6ea4ec77fB7e0d5c331F9109f00CcEdE255b9C8',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Zero Verse Coin',
+        symbol: TokenSymbol.ZVC,
+        icon: baseURL + 'ZVC.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x8f76907B173FBf65ddd84A86519C8767a90b8B90',
+                decimal: 9,
+            },
+        },
+    },
+    {
+        name: 'MNW',
+        symbol: TokenSymbol.MNW,
+        icon: baseURL + 'MNW.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x8E596702B7e84907836776fDdC56067b64147C8f',
+                decimal: 18,
+            },
+        },
+    },
 ]
