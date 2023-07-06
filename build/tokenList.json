@@ -2311,6 +2311,20 @@
     }
   },
   {
+    "name": "esPIKO Token",
+    "symbol": "esPIKO",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/espiko.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0xCaa5ba70830f8557fd6516Cf632b08AA4B6A528F",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "MetaElfLand Token",
     "symbol": "MELT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/melt.png",

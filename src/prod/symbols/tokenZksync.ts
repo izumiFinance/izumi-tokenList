@@ -33,4 +33,5 @@ export enum TokenSymbol {
     SLR = 'SLR',
     BEL = 'BEL',
     PIKO = 'PIKO',
+    ESPIKO = 'esPIKO',
 }

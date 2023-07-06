@@ -408,4 +408,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: 'esPIKO Token',
+        symbol: TokenSymbol.ESPIKO,
+        icon: baseURL + 'espiko.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0xCaa5ba70830f8557fd6516Cf632b08AA4B6A528F',
+                decimal: 18,
+            },
+        },
+    },
 ]
