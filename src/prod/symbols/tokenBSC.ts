@@ -8,4 +8,10 @@ export enum TokenSymbol {
     DWTI = "dWTI",
     DXAU = "dXAU",
     BURGER = "BURGER",
+    MW = "MW",
+    SLD = "SLD",
+    KSW = "KSW",
+    LAND = "LAND",
+    REVO = "REVO",
+    FROYO = "FROYO",
 }

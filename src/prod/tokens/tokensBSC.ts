@@ -120,4 +120,76 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: 'Metazodiac Token',
+        symbol: TokenSymbol.MW,
+        icon: baseURL + 'MW.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x154d746794449B6CF534FA11A2Cf7FfF5C968977',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Shield',
+        symbol: TokenSymbol.SLD,
+        icon: baseURL + 'sld.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x1ef6A7e2c966fb7C5403EFEFdE38338b1a95a084',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'KillSwitch Token',
+        symbol: TokenSymbol.KSW,
+        icon: baseURL + 'KSW.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x270178366a592bA598C2e9d2971DA65f7bAa7C86',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Revoland Game Token',
+        symbol: TokenSymbol.LAND,
+        icon: baseURL + 'LAND.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x9A981FAcCD3B9b3B9453BFF266296fc0f2De21a2',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Revoland Governance Token',
+        symbol: TokenSymbol.REVO,
+        icon: baseURL + 'REVO.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xfC279e6ff1FB1C7F5848d31561cAb27d34a2856b',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Froyo Token',
+        symbol: TokenSymbol.FROYO,
+        icon: baseURL + 'froyo.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9',
+                decimal: 18,
+            },
+        },
+    },
 ]

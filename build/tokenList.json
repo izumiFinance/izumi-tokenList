@@ -817,6 +817,90 @@
     }
   },
   {
+    "name": "Metazodiac Token",
+    "symbol": "MW",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/MW.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x154d746794449B6CF534FA11A2Cf7FfF5C968977",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Shield",
+    "symbol": "SLD",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/sld.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x1ef6A7e2c966fb7C5403EFEFdE38338b1a95a084",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "KillSwitch Token",
+    "symbol": "KSW",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/KSW.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x270178366a592bA598C2e9d2971DA65f7bAa7C86",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Revoland Game Token",
+    "symbol": "LAND",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/LAND.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x9A981FAcCD3B9b3B9453BFF266296fc0f2De21a2",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Revoland Governance Token",
+    "symbol": "REVO",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/REVO.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xfC279e6ff1FB1C7F5848d31561cAb27d34a2856b",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Froyo Token",
+    "symbol": "FROYO",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/froyo.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Conflux Token",
     "symbol": "CFX",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cfx.png",
@@ -2677,90 +2761,6 @@
     "contracts": {
       "56": {
         "address": "0xB6b8CCD230Bb4235C7b87986274E7aB550b72261",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Metazodiac Token",
-    "symbol": "MW",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/MW.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x154d746794449B6CF534FA11A2Cf7FfF5C968977",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Shield",
-    "symbol": "SLD",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/sld.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x1ef6A7e2c966fb7C5403EFEFdE38338b1a95a084",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "KillSwitch Token",
-    "symbol": "KSW",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/KSW.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x270178366a592bA598C2e9d2971DA65f7bAa7C86",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Revoland Game Token",
-    "symbol": "LAND",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/LAND.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x9A981FAcCD3B9b3B9453BFF266296fc0f2De21a2",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Revoland Governance Token",
-    "symbol": "REVO",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/REVO.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xfC279e6ff1FB1C7F5848d31561cAb27d34a2856b",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Froyo Token",
-    "symbol": "FROYO",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/froyo.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9",
         "decimal": 18
       }
     }
