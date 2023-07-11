@@ -24,4 +24,5 @@ export enum ChainId {
     Ontology = 58,
     Ultron = 1231,
     LineaTest = 59140,
+    Mantle = 5000,
 }
