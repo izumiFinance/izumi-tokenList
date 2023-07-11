@@ -1,5 +1,5 @@
 export enum TokenSymbol {
-    WETHMANTLE = 'DOGERA',
+    WETHMANTLE = 'WETH',
     MNTMANTLE = 'MNT',
     WMNTMANTLE = 'WMNT',
     USDTMANTLE = 'USDT',

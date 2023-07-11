@@ -1196,7 +1196,7 @@
   },
   {
     "name": "Wrapped Ether",
-    "symbol": "DOGERA",
+    "symbol": "WETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/weth.png",
     "chains": [
       5000
