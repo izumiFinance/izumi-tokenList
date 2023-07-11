@@ -24,4 +24,5 @@ export enum ChainId {
     LineaTest = 59140,
     OpsideTest = 51178,
     OpsideRolluxTest = 12008,
+    OpBNBTest = 5611,
 }

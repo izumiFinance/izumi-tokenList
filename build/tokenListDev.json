@@ -643,6 +643,62 @@
     }
   },
   {
+    "name": "Tether",
+    "symbol": "USDT",
+    "chains": [
+      5611
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
+    "contracts": {
+      "5611": {
+        "address": "0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "iZUMi token",
+    "symbol": "iZi",
+    "chains": [
+      5611
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/izi.png",
+    "contracts": {
+      "5611": {
+        "address": "0x2A2E08ea99E63482BDad8Bf69c7b69752F07736F",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "opBNB",
+    "symbol": "BNB",
+    "chains": [
+      5611
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/opbnb.png",
+    "contracts": {
+      "5611": {
+        "address": "0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped opBNB",
+    "symbol": "WBNB",
+    "chains": [
+      5611
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/opbnb.png",
+    "contracts": {
+      "5611": {
+        "address": "0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Opside token",
     "symbol": "IDE",
     "chains": [
