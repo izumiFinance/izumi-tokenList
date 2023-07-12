@@ -1,4 +1,6 @@
 export enum TokenSymbol {
+    ETHLinea = 'ETH',
+    WETHLinea = 'ETH',
     USDCLinea = 'USDC',
     //USDCNative = 'USDC',
     USDTLinea = 'USDT',
