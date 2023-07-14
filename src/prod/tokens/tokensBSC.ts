@@ -240,4 +240,40 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: 'MetaElfLand Token',
+        symbol: TokenSymbol.MELT,
+        icon: baseURL + 'melt.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x7eb35225995b097c84eF10501dD6E93A49bdFd63',
+                decimal: 8,
+            },
+        },
+    },
+    {
+        name: 'Green Energy',
+        symbol: TokenSymbol.GE,
+        icon: baseURL + 'ge.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x708F90170722f8F8775bf64d7f435A2BADBd89FD',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Richverse Web3 Token',
+        symbol: TokenSymbol.RIV,
+        icon: baseURL + 'RIV.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xca5e32d44f1744001b5600dc2f5f5e0bbb6e9d3e',
+                decimal: 18,
+            },
+        },
+    },
 ]

@@ -962,6 +962,48 @@
     }
   },
   {
+    "name": "MetaElfLand Token",
+    "symbol": "MELT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/melt.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x7eb35225995b097c84eF10501dD6E93A49bdFd63",
+        "decimal": 8
+      }
+    }
+  },
+  {
+    "name": "Green Energy",
+    "symbol": "GE",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ge.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x708F90170722f8F8775bf64d7f435A2BADBd89FD",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Richverse Web3 Token",
+    "symbol": "RIV",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/RIV.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xca5e32d44f1744001b5600dc2f5f5e0bbb6e9d3e",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Conflux Token",
     "symbol": "CFX",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cfx.png",
@@ -2409,62 +2451,6 @@
     "contracts": {
       "324": {
         "address": "0xCaa5ba70830f8557fd6516Cf632b08AA4B6A528F",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "MetaElfLand Token",
-    "symbol": "MELT",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/melt.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x7eb35225995b097c84eF10501dD6E93A49bdFd63",
-        "decimal": 8
-      }
-    }
-  },
-  {
-    "name": "Soul Meta Token",
-    "symbol": "SOUL",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/soul.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x9c2DcEB3fEBEC3b7245a0c2395aFdd92d9364862",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Green Energy",
-    "symbol": "GE",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ge.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x708F90170722f8F8775bf64d7f435A2BADBd89FD",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Richverse Web3 Token",
-    "symbol": "RIV",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/RIV.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xca5e32d44f1744001b5600dc2f5f5e0bbb6e9d3e",
         "decimal": 18
       }
     }

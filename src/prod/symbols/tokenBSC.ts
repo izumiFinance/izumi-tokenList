@@ -18,4 +18,7 @@ export enum TokenSymbol {
     IOM = "IOM",
     ZVC = "ZVC",
     MNW = "MNW",
+    MELT = "MELT",
+    GE = "GE",
+    RIV = "RIV",
 }
