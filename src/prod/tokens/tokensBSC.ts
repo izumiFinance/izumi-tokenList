@@ -276,4 +276,76 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: 'Liquid Staking BNB',
+        symbol: TokenSymbol.BNBX,
+        icon: baseURL + 'bnbx.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x1bdd3Cf7F79cfB8EdbB955f20ad99211551BA275',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Stader Token',
+        symbol: TokenSymbol.SD,
+        icon: baseURL + 'sd.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x3BC5AC0dFdC871B365d159f728dd1B9A0B5481E8',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Cyber Soccer',
+        symbol: TokenSymbol.COCA,
+        icon: baseURL + 'coca.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x44516Eb3D488175128D257748610426a866937D8',
+                decimal: 9,
+            },
+        },
+    },
+    {
+        name: 'Era GOT Token',
+        symbol: TokenSymbol.GOT,
+        icon: baseURL + 'got.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xDA71E3eC0d579FED5dbABa31eEaD3cEB9e77A928',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Ankr Token',
+        symbol: TokenSymbol.ANKR,
+        icon: baseURL + 'ankr.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xf307910A4c7bbc79691fD374889b36d8531B08e3',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Ankr Staked BNB',
+        symbol: TokenSymbol.ANKRBNB,
+        icon: baseURL + 'abnbc.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x52F24a5e03aee338Da5fd9Df68D2b6FAe1178827',
+                decimal: 18,
+            },
+        },
+    },
 ]

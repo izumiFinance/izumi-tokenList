@@ -21,4 +21,10 @@ export enum TokenSymbol {
     MELT = "MELT",
     GE = "GE",
     RIV = "RIV",
+    SD = "SD",
+    BNBX = "BNBx",
+    COCA = "COCA",
+    GOT = "GOT",
+    ANKR = "ANKR",
+    ANKRBNB = "ankrBNB",
 }
