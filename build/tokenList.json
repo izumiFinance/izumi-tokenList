@@ -2540,35 +2540,6 @@
     }
   },
   {
-    "name": "AntDAO",
-    "symbol": "ANT",
-    "chains": [
-      56
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ant.png",
-    "contracts": {
-      "56": {
-        "address": "0x76E4EFB2c78b08c3fdE3eDF98c6503dd9Df9C5E8",
-        "decimal": 18,
-        "wrapTokenAddress": "0xa0D289c752FE23043f29BD81e30D8345180bD9BB"
-      }
-    }
-  },
-  {
-    "name": "Fevr Token",
-    "symbol": "FEVR",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/fevr.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x82030CDBD9e4B7c5bb0b811A61DA6360D69449cc",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "Era Token",
     "symbol": "ERA",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/era.png",
@@ -2662,20 +2633,6 @@
     "contracts": {
       "56": {
         "address": "0x68c0E798b749183c97239114BB76fd1e5e3DB98C",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "BSC Conflux",
-    "symbol": "bCFX",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cfx.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x045c4324039dA91c52C55DF5D785385Aab073DcF",
         "decimal": 18
       }
     }
