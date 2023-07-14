@@ -1088,6 +1088,188 @@
     }
   },
   {
+    "name": "Era Token",
+    "symbol": "ERA",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/era.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x6f9F0c4ad9Af7EbD61Ac5A1D4e0F2227F7B0E5f9",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "INFIBLUE WORLD",
+    "symbol": "MONIE",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/monie.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x7E60C74b9096f8FA6fb5a9FD88405dED8B7D44f3",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Great Resilient Incentive",
+    "symbol": "GRI",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gri.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xD767713e787Cb351e4daFb777DD93d54f5381D29",
+        "decimal": 8
+      }
+    }
+  },
+  {
+    "name": "Volt Inu",
+    "symbol": "VOLT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/volt.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x7db5af2B9624e1b3B4Bb69D6DeBd9aD1016A58Ac",
+        "decimal": 9
+      }
+    }
+  },
+  {
+    "name": "ZEBEC token",
+    "symbol": "ZBC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/zbc.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x37a56cdcD83Dce2868f721De58cB3830C44C6303",
+        "decimal": 9
+      }
+    }
+  },
+  {
+    "name": "Wootrade Network",
+    "symbol": "WOO",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/woo.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Lingose Token",
+    "symbol": "LING",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ling.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x68c0E798b749183c97239114BB76fd1e5e3DB98C",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "MAP Protocol",
+    "symbol": "MAP",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/map.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x8105ECe4ce08B6B6449539A5db23e23b973DfA8f",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Gameta Diamond",
+    "symbol": "GDO",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gdo.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x1c37948Cb9fC4a802f91e946CA15df4504c91D03",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Meta Interstellar Token",
+    "symbol": "MIT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mit.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xe6906717f129427eebade5406de68cadd57aa0c0",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Hydroxyl Token",
+    "symbol": "HYT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/HYT.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xe28c51f4fa57dc44af3691c6f73d1ca578b586be",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "DegenReborn Token",
+    "symbol": "DEGEN",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/degen.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x1a131F7B106D58f33eAf0fE5B47DB2f2045E5732",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "HALO token",
+    "symbol": "HALO",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/halo.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xB6b8CCD230Bb4235C7b87986274E7aB550b72261",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Conflux Token",
     "symbol": "CFX",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cfx.png",
@@ -2540,118 +2722,6 @@
     }
   },
   {
-    "name": "Era Token",
-    "symbol": "ERA",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/era.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x6f9F0c4ad9Af7EbD61Ac5A1D4e0F2227F7B0E5f9",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "INFIBLUE WORLD",
-    "symbol": "MONIE",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/monie.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x7E60C74b9096f8FA6fb5a9FD88405dED8B7D44f3",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Great Resilient Incentive",
-    "symbol": "GRI",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gri.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xD767713e787Cb351e4daFb777DD93d54f5381D29",
-        "decimal": 8
-      }
-    }
-  },
-  {
-    "name": "Volt Inu",
-    "symbol": "VOLT",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/volt.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x7db5af2B9624e1b3B4Bb69D6DeBd9aD1016A58Ac",
-        "decimal": 9
-      }
-    }
-  },
-  {
-    "name": "ZEBEC token",
-    "symbol": "ZBC",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/zbc.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x37a56cdcD83Dce2868f721De58cB3830C44C6303",
-        "decimal": 9
-      }
-    }
-  },
-  {
-    "name": "Wootrade Network",
-    "symbol": "WOO",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/woo.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Lingose Token",
-    "symbol": "LING",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ling.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x68c0E798b749183c97239114BB76fd1e5e3DB98C",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "MAP Protocol",
-    "symbol": "MAP",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/map.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x8105ECe4ce08B6B6449539A5db23e23b973DfA8f",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "Shared-liquidity USDT",
     "symbol": "slUSDT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/slusdt.png",
@@ -2723,76 +2793,6 @@
       },
       "42161": {
         "address": "0xdF6964C7ccfaBaACe7C3f918B795fA4a894589C8",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Gameta Diamond",
-    "symbol": "GDO",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gdo.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x1c37948Cb9fC4a802f91e946CA15df4504c91D03",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Meta Interstellar Token",
-    "symbol": "MIT",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mit.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xe6906717f129427eebade5406de68cadd57aa0c0",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Hydroxyl Token",
-    "symbol": "HYT",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/HYT.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xe28c51f4fa57dc44af3691c6f73d1ca578b586be",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "DegenReborn Token",
-    "symbol": "DEGEN",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/degen.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x1a131F7B106D58f33eAf0fE5B47DB2f2045E5732",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "HALO token",
-    "symbol": "HALO",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/halo.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xB6b8CCD230Bb4235C7b87986274E7aB550b72261",
         "decimal": 18
       }
     }

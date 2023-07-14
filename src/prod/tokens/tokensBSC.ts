@@ -348,4 +348,160 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: 'Era Token',
+        symbol: TokenSymbol.ERA,
+        icon: baseURL + 'era.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x6f9F0c4ad9Af7EbD61Ac5A1D4e0F2227F7B0E5f9',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'INFIBLUE WORLD',
+        symbol: TokenSymbol.MONIE,
+        icon: baseURL + 'monie.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x7E60C74b9096f8FA6fb5a9FD88405dED8B7D44f3',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Great Resilient Incentive',
+        symbol: TokenSymbol.GRI,
+        icon: baseURL + 'gri.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xD767713e787Cb351e4daFb777DD93d54f5381D29',
+                decimal: 8,
+            },
+        },
+    },
+    {
+        name: 'Volt Inu',
+        symbol: TokenSymbol.VOLT,
+        icon: baseURL + 'volt.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x7db5af2B9624e1b3B4Bb69D6DeBd9aD1016A58Ac',
+                decimal: 9,
+            },
+        },
+    },
+    {
+        name: 'ZEBEC token',
+        symbol: TokenSymbol.ZBC,
+        icon: baseURL + 'zbc.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x37a56cdcD83Dce2868f721De58cB3830C44C6303',
+                decimal: 9,
+            },
+        },
+    },
+    {
+        name: 'Wootrade Network',
+        symbol: TokenSymbol.WOO,
+        icon: baseURL + 'woo.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x4691937a7508860F876c9c0a2a617E7d9E945D4B',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Lingose Token',
+        symbol: TokenSymbol.LING,
+        icon: baseURL + 'ling.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x68c0E798b749183c97239114BB76fd1e5e3DB98C',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'MAP Protocol',
+        symbol: TokenSymbol.MAP,
+        icon: baseURL + 'map.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x8105ECe4ce08B6B6449539A5db23e23b973DfA8f',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Gameta Diamond',
+        symbol: TokenSymbol.GDO,
+        icon: baseURL + 'gdo.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x1c37948Cb9fC4a802f91e946CA15df4504c91D03',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Meta Interstellar Token',
+        symbol: TokenSymbol.MIT,
+        icon: baseURL + 'mit.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xe6906717f129427eebade5406de68cadd57aa0c0',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Hydroxyl Token',
+        symbol: TokenSymbol.HYT,
+        icon: baseURL + 'HYT.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xe28c51f4fa57dc44af3691c6f73d1ca578b586be',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'DegenReborn Token',
+        symbol: TokenSymbol.DEGEN,
+        icon: baseURL + 'degen.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x1a131F7B106D58f33eAf0fE5B47DB2f2045E5732',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'HALO token',
+        symbol: TokenSymbol.HALO,
+        icon: baseURL + 'halo.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xB6b8CCD230Bb4235C7b87986274E7aB550b72261',
+                decimal: 18,
+            },
+        },
+    },
 ]
