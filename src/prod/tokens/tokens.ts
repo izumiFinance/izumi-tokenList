@@ -343,7 +343,7 @@ export const tokens: TokenInfo[] = [
         name: "Ether",
         symbol: TokenSymbol.ETH,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png',
-        chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.Aurora, ChainId.Arbitrum, ChainId.ZkSyncEra],
+        chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.Aurora, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',  //weth
@@ -363,6 +363,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.ZkSyncEra]: {
                 address: '0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91',  //weth
+                decimal: 18,
+            },
+            [ChainId.Linea]: {
+                address: '0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f',  //weth
                 decimal: 18,
             },
         },
@@ -399,7 +403,7 @@ export const tokens: TokenInfo[] = [
         name: "Wrapped Ether",
         symbol: TokenSymbol.WETH,
         icon: baseURL + 'WETH.png',
-        chains: [ChainId.EthereumMainnet,ChainId.Aurora, ChainId.Cronos,ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra],
+        chains: [ChainId.EthereumMainnet,ChainId.Aurora, ChainId.Cronos,ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', 
@@ -423,6 +427,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.ZkSyncEra]: {
                 address: '0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91',  
+                decimal: 18,
+            },
+            [ChainId.Linea]: {
+                address: '0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f',  
                 decimal: 18,
             },
         },
