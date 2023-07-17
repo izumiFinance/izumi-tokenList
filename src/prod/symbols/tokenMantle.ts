@@ -3,4 +3,8 @@ export enum TokenSymbol {
     MNTMANTLE = 'MNT',
     WMNTMANTLE = 'WMNT',
     USDTMANTLE = 'USDT',
+    LUSDMANTLE = 'LUSD',
+    PENDLEMANTLE = 'PENDLE',
+    WBTCMANTLE = 'WBTC',
+    WSTETHMANTLE = 'wstETH',
 }

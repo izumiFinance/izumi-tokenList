@@ -1574,6 +1574,62 @@
     }
   },
   {
+    "name": "LUSD Stablecoin",
+    "symbol": "LUSD",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/lusd.png",
+    "chains": [
+      5000
+    ],
+    "contracts": {
+      "5000": {
+        "address": "0xf93a85d53e4aF0D62bdf3A83CCFc1EcF3EAf9F32",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Pendle Token",
+    "symbol": "LUSD",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/pendle.png",
+    "chains": [
+      5000
+    ],
+    "contracts": {
+      "5000": {
+        "address": "0xd27B18915e7acc8FD6Ac75DB6766a80f8D2f5729",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wbtc.png",
+    "chains": [
+      5000
+    ],
+    "contracts": {
+      "5000": {
+        "address": "0xCAbAE6f6Ea1ecaB08Ad02fE02ce9A44F09aebfA2",
+        "decimal": 8
+      }
+    }
+  },
+  {
+    "name": "Wrapped liquid staked Ether 2.0",
+    "symbol": "wstETH",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/steth.png",
+    "chains": [
+      5000
+    ],
+    "contracts": {
+      "5000": {
+        "address": "0x636D4073738C071326Aa70c9e5DB7C334bEb87bE",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Matic Token",
     "symbol": "MATIC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/matic.png",
