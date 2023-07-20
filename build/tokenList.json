@@ -1388,6 +1388,20 @@
     }
   },
   {
+    "name": "Celer BUSD",
+    "symbol": "BUSD",
+    "chains": [
+      59140
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/busd.png",
+    "contracts": {
+      "59144": {
+        "address": "0x7d43AABC515C356145049227CeE54B608342c0ad",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Ether",
     "symbol": "ETH",
     "chains": [

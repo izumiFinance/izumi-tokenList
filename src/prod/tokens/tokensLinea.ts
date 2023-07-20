@@ -11,4 +11,17 @@ export interface TokenInfo {
 
 const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
-export const tokens: TokenInfo[] = []
+export const tokens: TokenInfo[] = [
+    {
+        name: "Celer BUSD",
+        symbol: TokenSymbol.CEBUSDLinea,
+        chains: [ChainId.LineaTest],
+        icon: baseURL + 'busd.png',
+        contracts: {
+            [ChainId.Linea]: {
+                address: '0x7d43AABC515C356145049227CeE54B608342c0ad',
+                decimal: 18,
+            },
+        },
+    },
+]
