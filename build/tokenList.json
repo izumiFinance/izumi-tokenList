@@ -1391,7 +1391,7 @@
     "name": "Celer BUSD",
     "symbol": "BUSD",
     "chains": [
-      59140
+      59144
     ],
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/busd.png",
     "contracts": {

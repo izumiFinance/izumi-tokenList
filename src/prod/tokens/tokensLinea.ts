@@ -15,7 +15,7 @@ export const tokens: TokenInfo[] = [
     {
         name: "Celer BUSD",
         symbol: TokenSymbol.CEBUSDLinea,
-        chains: [ChainId.LineaTest],
+        chains: [ChainId.Linea],
         icon: baseURL + 'busd.png',
         contracts: {
             [ChainId.Linea]: {
