@@ -67,7 +67,8 @@
       1313161554,
       61,
       25,
-      324
+      324,
+      59144
     ],
     "contracts": {
       "1": {
@@ -98,6 +99,10 @@
         "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
         "decimal": 18
       },
+      "59144": {
+        "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
+        "decimal": 18
+      },
       "1313161554": {
         "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
         "decimal": 18
@@ -114,7 +119,8 @@
       1313161554,
       61,
       42161,
-      324
+      324,
+      59144
     ],
     "contracts": {
       "1": {
@@ -134,6 +140,10 @@
         "decimal": 18
       },
       "42161": {
+        "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
+        "decimal": 18
+      },
+      "59144": {
         "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
         "decimal": 18
       },
