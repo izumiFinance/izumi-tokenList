@@ -26,4 +26,5 @@ export enum ChainId {
     LineaTest = 59140,
     Mantle = 5000,
     Linea = 59144,
+    Base = 8453,
 }

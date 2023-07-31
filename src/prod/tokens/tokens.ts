@@ -64,7 +64,9 @@ export const tokens: TokenInfo[] = [
         name: 'iZUMi Token',
         symbol: TokenSymbol.IZI,
         icon: baseURL + 'izumi.svg',
-        chains: [ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.BSC, ChainId.Aurora, ChainId.ETC, ChainId.Cronos, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Mantle],
+        chains: [ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.BSC, ChainId.Aurora, ChainId.ETC, 
+                 ChainId.Cronos, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Mantle,
+                 ChainId.Base],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0x9ad37205d608B8b219e6a2573f922094CEc5c200',
@@ -106,13 +108,18 @@ export const tokens: TokenInfo[] = [
                 address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
                 decimal: 18,
             },
+            [ChainId.Base]: {
+                address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
+                decimal: 18,
+            },
         },
     },
     {
         name: "iZUMi Bond USD",
         symbol: TokenSymbol.IUSD,
         icon: baseURL + 'iusd.png',
-        chains: [ChainId.EthereumMainnet,ChainId.BSC, ChainId.Aurora, ChainId.ETC, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Mantle],
+        chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.Aurora, ChainId.ETC, ChainId.Arbitrum, 
+                 ChainId.ZkSyncEra, ChainId.Linea, ChainId.Mantle, ChainId.Base],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
@@ -143,6 +150,10 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.Mantle]: {
+                address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
+                decimal: 18,
+            },
+            [ChainId.Base]: {
                 address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
                 decimal: 18,
             },
@@ -263,7 +274,7 @@ export const tokens: TokenInfo[] = [
         name: "Binance-Peg BUSD Token",
         symbol: TokenSymbol.BUSD,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/busd.png',
-        chains: [ChainId.BSC,ChainId.ZkSyncEra],
+        chains: [ChainId.BSC, ChainId.ZkSyncEra],
         contracts: {
             [ChainId.BSC]: {
                 address: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
@@ -294,7 +305,7 @@ export const tokens: TokenInfo[] = [
         chains: [ChainId.BSC],
         contracts: {
             [ChainId.BSC]: {
-                address: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 
+                address: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
                 decimal: 18,
             },
         },
@@ -306,7 +317,7 @@ export const tokens: TokenInfo[] = [
         chains: [ChainId.Arbitrum],
         contracts: {
             [ChainId.Arbitrum]: {
-                address: '0x912CE59144191C1204E64559FE8253a0e49E6548', 
+                address: '0x912CE59144191C1204E64559FE8253a0e49E6548',
                 decimal: 18,
             },
         },
@@ -315,30 +326,30 @@ export const tokens: TokenInfo[] = [
         name: "Wrapped BTC",
         symbol: TokenSymbol.WBTC,
         icon: baseURL + 'WBTC.png',
-        chains: [ChainId.EthereumMainnet,ChainId.Aurora, ChainId.Cronos, ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra],
+        chains: [ChainId.EthereumMainnet, ChainId.Aurora, ChainId.Cronos, ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra],
         contracts: {
             [ChainId.EthereumMainnet]: {
-                address: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599', 
+                address: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599',
                 decimal: 8,
             },
             [ChainId.Aurora]: {
-                address: '0xF4eB217Ba2454613b15dBdea6e5f22276410e89e', 
+                address: '0xF4eB217Ba2454613b15dBdea6e5f22276410e89e',
                 decimal: 8,
             },
             [ChainId.Cronos]: {
-                address: '0x062E66477Faf219F25D27dCED647BF57C3107d52', 
+                address: '0x062E66477Faf219F25D27dCED647BF57C3107d52',
                 decimal: 8,
             },
             [ChainId.Matic]: {
-                address: '0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6', 
+                address: '0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6',
                 decimal: 8,
             },
             [ChainId.Arbitrum]: {
-                address: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f', 
+                address: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f',
                 decimal: 8,
             },
             [ChainId.ZkSyncEra]: {
-                address: '0xBBeB516fb02a01611cBBE0453Fe3c580D7281011', 
+                address: '0xBBeB516fb02a01611cBBE0453Fe3c580D7281011',
                 decimal: 8,
             },
         },
@@ -350,7 +361,7 @@ export const tokens: TokenInfo[] = [
         chains: [ChainId.BSC],
         contracts: {
             [ChainId.BSC]: {
-                address: '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c', 
+                address: '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c',
                 decimal: 18,
             },
         },
@@ -359,14 +370,14 @@ export const tokens: TokenInfo[] = [
         name: "Ether",
         symbol: TokenSymbol.ETH,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png',
-        chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.Aurora, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea],
+        chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.Aurora, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Base],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',  //weth
                 decimal: 18,
             },
             [ChainId.BSC]: {
-                address: '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 
+                address: '0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
                 decimal: 18,
             },
             [ChainId.Aurora]: {
@@ -385,6 +396,10 @@ export const tokens: TokenInfo[] = [
                 address: '0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f',  //weth
                 decimal: 18,
             },
+            [ChainId.Base]: {
+                address: '0x4200000000000000000000000000000000000006',  //weth
+                decimal: 18,
+            },
         },
     },
     {
@@ -394,7 +409,7 @@ export const tokens: TokenInfo[] = [
         chains: [ChainId.Aurora],
         contracts: {
             [ChainId.Aurora]: {
-                address: '0xC42C30aC6Cc15faC9bD938618BcaA1a1FaE8501d', 
+                address: '0xC42C30aC6Cc15faC9bD938618BcaA1a1FaE8501d',
                 decimal: 24,
             },
         },
@@ -403,7 +418,7 @@ export const tokens: TokenInfo[] = [
         name: "Dai Stablecoin",
         symbol: TokenSymbol.DAI,
         icon: baseURL + 'dai.png',
-        chains: [ChainId.EthereumMainnet,ChainId.Aurora],
+        chains: [ChainId.EthereumMainnet, ChainId.Aurora],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
@@ -419,34 +434,38 @@ export const tokens: TokenInfo[] = [
         name: "Wrapped Ether",
         symbol: TokenSymbol.WETH,
         icon: baseURL + 'WETH.png',
-        chains: [ChainId.EthereumMainnet,ChainId.Aurora, ChainId.Cronos,ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea],
+        chains: [ChainId.EthereumMainnet, ChainId.Aurora, ChainId.Cronos, ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Base],
         contracts: {
             [ChainId.EthereumMainnet]: {
-                address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', 
+                address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
                 decimal: 18,
             },
             [ChainId.Aurora]: {
-                address: '0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB', 
+                address: '0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',
                 decimal: 18,
             },
             [ChainId.Cronos]: {
-                address: '0xe44Fd7fCb2b1581822D0c862B68222998a0c299a', 
+                address: '0xe44Fd7fCb2b1581822D0c862B68222998a0c299a',
                 decimal: 18,
             },
             [ChainId.Matic]: {
-                address: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619', 
+                address: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
                 decimal: 18,
             },
             [ChainId.Arbitrum]: {
-                address: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1', 
+                address: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
                 decimal: 18,
             },
             [ChainId.ZkSyncEra]: {
-                address: '0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91',  
+                address: '0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91',
                 decimal: 18,
             },
             [ChainId.Linea]: {
-                address: '0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f',  
+                address: '0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f',
+                decimal: 18,
+            },
+            [ChainId.Base]: {
+                address: '0x4200000000000000000000000000000000000006',
                 decimal: 18,
             },
         },
