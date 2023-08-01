@@ -1572,6 +1572,34 @@
     }
   },
   {
+    "name": "Loot token",
+    "symbol": "AGLD",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/agld.png",
+    "chains": [
+      5151706
+    ],
+    "contracts": {
+      "5151706": {
+        "address": "0x7a524c7e82874226F0b51aade60A1BE4D430Cf0F",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped AGLD",
+    "symbol": "WAGLD",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/agld.png",
+    "chains": [
+      5151706
+    ],
+    "contracts": {
+      "5151706": {
+        "address": "0x7a524c7e82874226F0b51aade60A1BE4D430Cf0F",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Mantle Token",
     "symbol": "MNT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mnt.png",

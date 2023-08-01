@@ -27,4 +27,5 @@ export enum ChainId {
     Mantle = 5000,
     Linea = 59144,
     Base = 8453,
+    Loot = 5151706,
 }
