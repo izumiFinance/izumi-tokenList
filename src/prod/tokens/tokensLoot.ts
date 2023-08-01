@@ -36,4 +36,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "(Pos) Dai Stablecoin",
+        symbol: TokenSymbol.DAILoot,
+        icon: baseURL + 'dai.png',
+        chains: [ChainId.Loot],
+        contracts: {
+            [ChainId.Loot]: {
+                address: '0x7E25eb56a8A7c0fa8514dF2d39faf3aF783Ff807', 
+                decimal: 18,
+            },
+        },
+    },
 ]

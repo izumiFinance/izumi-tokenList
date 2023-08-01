@@ -1600,6 +1600,20 @@
     }
   },
   {
+    "name": "(Pos) Dai Stablecoin",
+    "symbol": "DAI",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dai.png",
+    "chains": [
+      5151706
+    ],
+    "contracts": {
+      "5151706": {
+        "address": "0x7E25eb56a8A7c0fa8514dF2d39faf3aF783Ff807",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Mantle Token",
     "symbol": "MNT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mnt.png",
