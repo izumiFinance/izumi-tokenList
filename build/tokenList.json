@@ -1446,6 +1446,34 @@
     }
   },
   {
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "chains": [
+      59144
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WBTC.png",
+    "contracts": {
+      "59144": {
+        "address": "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4",
+        "decimal": 8
+      }
+    }
+  },
+  {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "chains": [
+      59144
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "contracts": {
+      "59144": {
+        "address": "0x176211869cA2b568f2A7D4EE941E073a821EE1ff",
+        "decimal": 6
+      }
+    }
+  },
+  {
     "name": "Ether",
     "symbol": "ETH",
     "chains": [

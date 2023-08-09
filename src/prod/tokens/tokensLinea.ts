@@ -24,4 +24,28 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Wrapped BTC",
+        symbol: TokenSymbol.WBTCLinea,
+        chains: [ChainId.Linea],
+        icon: baseURL + 'WBTC.png',
+        contracts: {
+            [ChainId.Linea]: {
+                address: '0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4',
+                decimal: 8,
+            },
+        },
+    },
+    {
+        name: "USD Coin",
+        symbol: TokenSymbol.USDCLinea,
+        chains: [ChainId.Linea],
+        icon: baseURL + 'usdc.png',
+        contracts: {
+            [ChainId.Linea]: {
+                address: '0x176211869cA2b568f2A7D4EE941E073a821EE1ff',
+                decimal: 6,
+            },
+        },
+    },
 ]
