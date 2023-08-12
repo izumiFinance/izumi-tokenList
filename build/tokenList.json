@@ -1698,6 +1698,20 @@
     }
   },
   {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "chains": [
+      5000
+    ],
+    "contracts": {
+      "5000": {
+        "address": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+        "decimal": 6
+      }
+    }
+  },
+  {
     "name": "Tether",
     "symbol": "USDT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",

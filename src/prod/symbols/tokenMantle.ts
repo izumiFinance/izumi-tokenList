@@ -7,4 +7,5 @@ export enum TokenSymbol {
     PENDLEMANTLE = 'PENDLE',
     WBTCMANTLE = 'WBTC',
     WSTETHMANTLE = 'wstETH',
+    USDCMANTLE = 'USDC',
 }

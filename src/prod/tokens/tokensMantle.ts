@@ -49,6 +49,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "USD Coin",
+        symbol: TokenSymbol.USDCMANTLE,
+        icon: baseURL + 'usdc.png',
+        chains: [ChainId.Mantle],
+        contracts: {
+            [ChainId.Mantle]: {
+                address: '0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9',  
+                decimal: 6,
+            },
+        },
+    },
+    {
         name: "Tether",
         symbol: TokenSymbol.USDTMANTLE,
         icon: baseURL + 'usdt.png',
