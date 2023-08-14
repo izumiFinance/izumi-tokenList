@@ -174,6 +174,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Cronos,
             ChainId.Arbitrum,
             ChainId.ZkSyncEra,
+            ChainId.Optimism,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -220,13 +221,17 @@ export const tokens: TokenInfo[] = [
                 address: '0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4',
                 decimal: 6,
             },
+            [ChainId.Optimism]: {
+                address: '0x7F5c764cBc14f9669B88837ca1490cCa17c31607',
+                decimal: 6,
+            },
         },
     },
     {
         name: "Tether USD",
         symbol: TokenSymbol.USDT,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png',
-        chains: [ChainId.EthereumMainnet, ChainId.Arbitrum, ChainId.Matic, ChainId.BSC, ChainId.Aurora, ChainId.Cronos, ChainId.Icplaza, ChainId.Conflux, ChainId.TELOS, ChainId.Ontology],
+        chains: [ChainId.EthereumMainnet, ChainId.Arbitrum, ChainId.Matic, ChainId.BSC, ChainId.Aurora, ChainId.Cronos, ChainId.Icplaza, ChainId.Conflux, ChainId.TELOS, ChainId.Ontology, ChainId.Optimism],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0xdac17f958d2ee523a2206206994597c13d831ec7',
@@ -266,6 +271,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Ontology]: {
                 address: '0x72b0f5612802d473a13716db71a0348bcf631d98',
+                decimal: 6,
+            },
+            [ChainId.Optimism]: {
+                address: '0x94b008aA00579c1307B0EF2c499aD98a8ce58e58',
                 decimal: 6,
             },
         },
@@ -370,7 +379,7 @@ export const tokens: TokenInfo[] = [
         name: "Ether",
         symbol: TokenSymbol.ETH,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png',
-        chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.Aurora, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Base],
+        chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.Aurora, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Base, ChainId.Optimism],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',  //weth
@@ -400,6 +409,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x4200000000000000000000000000000000000006',  //weth
                 decimal: 18,
             },
+            [ChainId.Optimism]: {
+                address: '0x4200000000000000000000000000000000000006',
+                decimal: 18,
+            }, // WETH on Optimism
         },
     },
     {
@@ -434,7 +447,7 @@ export const tokens: TokenInfo[] = [
         name: "Wrapped Ether",
         symbol: TokenSymbol.WETH,
         icon: baseURL + 'WETH.png',
-        chains: [ChainId.EthereumMainnet, ChainId.Aurora, ChainId.Cronos, ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Base],
+        chains: [ChainId.EthereumMainnet, ChainId.Aurora, ChainId.Cronos, ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Base, ChainId.Optimism],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
@@ -468,6 +481,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x4200000000000000000000000000000000000006',
                 decimal: 18,
             },
+            [ChainId.Optimism]: {
+                address: '0x4200000000000000000000000000000000000006',
+                decimal: 18,
+            }, // WETH on Optimism
         },
     },
     {

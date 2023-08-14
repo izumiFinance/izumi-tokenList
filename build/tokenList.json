@@ -187,7 +187,8 @@
       1313161554,
       25,
       42161,
-      324
+      324,
+      10
     ],
     "contracts": {
       "1": {
@@ -195,7 +196,7 @@
         "decimal": 6
       },
       "10": {
-        "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+        "address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
         "decimal": 6
       },
       "25": {
@@ -250,11 +251,16 @@
       142857,
       1030,
       40,
-      58
+      58,
+      10
     ],
     "contracts": {
       "1": {
         "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "decimal": 6
+      },
+      "10": {
+        "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
         "decimal": 6
       },
       "25": {
@@ -420,11 +426,16 @@
       42161,
       324,
       59144,
-      8453
+      8453,
+      10
     ],
     "contracts": {
       "1": {
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "decimal": 18
+      },
+      "10": {
+        "address": "0x4200000000000000000000000000000000000006",
         "decimal": 18
       },
       "56": {
@@ -498,11 +509,16 @@
       42161,
       324,
       59144,
-      8453
+      8453,
+      10
     ],
     "contracts": {
       "1": {
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "decimal": 18
+      },
+      "10": {
+        "address": "0x4200000000000000000000000000000000000006",
         "decimal": 18
       },
       "25": {
@@ -2161,6 +2177,48 @@
       "58": {
         "address": "0x6ea9f7B81bdEB047d63A023b1F28Bea481a5785a",
         "decimal": 9
+      }
+    }
+  },
+  {
+    "name": "ChainLink Token",
+    "symbol": "LINK",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/link.png",
+    "chains": [
+      10
+    ],
+    "contracts": {
+      "10": {
+        "address": "0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "CyberConnect Token",
+    "symbol": "CYBER",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cyber.png",
+    "chains": [
+      10
+    ],
+    "contracts": {
+      "10": {
+        "address": "0x14778860E937f509e651192a90589dE711Fb88a9",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Optimism Token",
+    "symbol": "OP",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/op.png",
+    "chains": [
+      10
+    ],
+    "contracts": {
+      "10": {
+        "address": "0x4200000000000000000000000000000000000042",
+        "decimal": 18
       }
     }
   },
