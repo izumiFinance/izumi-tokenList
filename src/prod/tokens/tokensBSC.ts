@@ -504,4 +504,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: 'CyberConnect token',
+        symbol: TokenSymbol.CYBERBSC,
+        icon: baseURL + 'cyber.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x14778860e937f509e651192a90589de711fb88a9',
+                decimal: 18,
+            },
+        },
+    },
 ]
