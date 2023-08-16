@@ -120,4 +120,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Mantle Inu Token",
+        symbol: TokenSymbol.MINUMantle,
+        icon: baseURL + 'minu.png',
+        chains: [ChainId.Mantle],
+        contracts: {
+            [ChainId.Mantle]: {
+                address: '0x51cfe5b1E764dC253F4c8C1f19a081fF4C3517eD',  
+                decimal: 18,
+            },
+        },
+    },
 ]

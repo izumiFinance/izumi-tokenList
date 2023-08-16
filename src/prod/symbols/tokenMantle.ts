@@ -8,4 +8,5 @@ export enum TokenSymbol {
     WBTCMANTLE = 'WBTC',
     WSTETHMANTLE = 'wstETH',
     USDCMANTLE = 'USDC',
+    MINUMantle = 'MINU',
 }

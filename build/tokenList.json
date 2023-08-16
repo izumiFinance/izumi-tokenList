@@ -1826,6 +1826,20 @@
     }
   },
   {
+    "name": "Mantle Inu Token",
+    "symbol": "MINU",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/minu.png",
+    "chains": [
+      5000
+    ],
+    "contracts": {
+      "5000": {
+        "address": "0x51cfe5b1E764dC253F4c8C1f19a081fF4C3517eD",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Matic Token",
     "symbol": "MATIC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/matic.png",
