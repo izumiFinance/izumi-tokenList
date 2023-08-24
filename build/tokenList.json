@@ -2279,6 +2279,34 @@
     }
   },
   {
+    "name": "OpBNB Token",
+    "symbol": "BNB",
+    "chains": [
+      204
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bnb.png",
+    "contracts": {
+      "204": {
+        "address": "0x4200000000000000000000000000000000000006",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped OpBNB Token",
+    "symbol": "BNB",
+    "chains": [
+      204
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bnb.png",
+    "contracts": {
+      "204": {
+        "address": "0x4200000000000000000000000000000000000006",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "ChainLink Token",
     "symbol": "LINK",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/link.png",

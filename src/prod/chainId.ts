@@ -28,4 +28,5 @@ export enum ChainId {
     Linea = 59144,
     Base = 8453,
     Loot = 5151706,
+    OpBNB = 204,
 }
