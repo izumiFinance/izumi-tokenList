@@ -2294,7 +2294,7 @@
   },
   {
     "name": "Wrapped OpBNB Token",
-    "symbol": "BNB",
+    "symbol": "WBNB",
     "chains": [
       204
     ],

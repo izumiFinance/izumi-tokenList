@@ -26,7 +26,7 @@ export const tokens: TokenInfo[] = [
     },
     {
         name: "Wrapped OpBNB Token",
-        symbol: TokenSymbol.BNBOp,
+        symbol: TokenSymbol.WBNBOp,
         chains: [ChainId.OpBNB],
         icon: baseURL + 'bnb.png',
         contracts: {
