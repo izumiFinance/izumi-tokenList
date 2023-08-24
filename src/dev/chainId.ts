@@ -27,4 +27,5 @@ export enum ChainId {
     OpBNBTest = 5611,
     MantaTest = 3441005,
     SkaleTest = 1351057110,
+    KromaTest = 2358,
 }
