@@ -310,7 +310,7 @@ export const tokens: TokenInfo[] = [
     {
         name: 'Wrapped Ether',
         symbol: TokenSymbol.WETH,
-        chains: [ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.MantleTestnet, ChainId.LineaTest, ChainId.MantaTest, ChainId.KromaTest],
+        chains: [ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.MantleTestnet, ChainId.LineaTest, ChainId.MantaTest, ChainId.KromaTest, ChainId.ScrollSepoliaTest],
         icon: baseURL + 'WETH.png',
         contracts: {
             [ChainId.AuroraTestnet]: {
