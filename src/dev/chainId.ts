@@ -17,6 +17,7 @@ export enum ChainId {
     HarmonyTestnet = 1666700000,
     MantleTestnet = 5001,
     ScrollTestnet = 534353,
+    ScrollSepoliaTest = 534351,
     ZkSyncAlphaTest = 280,
     IcplazaTest = 9000,
     RolluxBedrockTest = 57000,
