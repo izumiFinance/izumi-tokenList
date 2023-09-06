@@ -36,4 +36,40 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Tether USD",
+        symbol: TokenSymbol.USDTKroma,
+        icon: baseURL + 'usdt.png',
+        chains: [ChainId.Kroma],
+        contracts: {
+            [ChainId.Kroma]: {
+                address: '0x0Cf7c2A584988871b654Bd79f96899e4cd6C41C0',
+                decimal: 6,
+            },
+        },
+    },
+    {
+        name: "Dai Stablecoin",
+        symbol: TokenSymbol.DAIKroma,
+        icon: baseURL + 'dai.png',
+        chains: [ChainId.Kroma],
+        contracts: {
+            [ChainId.Kroma]: {
+                address: '0xc32A507d29903eAd6D74A1fC1b8dCB8df37B8D73',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Wrapped Bitcoin",
+        symbol: TokenSymbol.WBTCKroma,
+        icon: baseURL + 'WBTC.png',
+        chains: [ChainId.Kroma],
+        contracts: {
+            [ChainId.Kroma]: {
+                address: '0x2104E3BD1cC8551EeC0c7ad10dE13da29136B19C',
+                decimal: 8,
+            },
+        },
+    },
 ]

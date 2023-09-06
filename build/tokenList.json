@@ -1560,6 +1560,48 @@
     }
   },
   {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
+    "chains": [
+      255
+    ],
+    "contracts": {
+      "255": {
+        "address": "0x0Cf7c2A584988871b654Bd79f96899e4cd6C41C0",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Dai Stablecoin",
+    "symbol": "DAI",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dai.png",
+    "chains": [
+      255
+    ],
+    "contracts": {
+      "255": {
+        "address": "0xc32A507d29903eAd6D74A1fC1b8dCB8df37B8D73",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped Bitcoin",
+    "symbol": "WBTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WBTC.png",
+    "chains": [
+      255
+    ],
+    "contracts": {
+      "255": {
+        "address": "0x2104E3BD1cC8551EeC0c7ad10dE13da29136B19C",
+        "decimal": 8
+      }
+    }
+  },
+  {
     "name": "Celer BUSD",
     "symbol": "BUSD",
     "chains": [
