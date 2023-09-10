@@ -1350,6 +1350,20 @@
     }
   },
   {
+    "name": "WOD.AI-BSC",
+    "symbol": "WOD",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wod.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x7133ced95c468b76175168600590c6260164f74b",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Bald Token",
     "symbol": "BALD",
     "chains": [

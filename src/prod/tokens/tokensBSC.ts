@@ -516,4 +516,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: 'WOD.AI-BSC',
+        symbol: TokenSymbol.WOD,
+        icon: baseURL + 'wod.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x7133ced95c468b76175168600590c6260164f74b',
+                decimal: 18,
+            },
+        },
+    },
 ]

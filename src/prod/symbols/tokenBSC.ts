@@ -41,4 +41,5 @@ export enum TokenSymbol {
     DEGEN = "DEGEN",
     HALO = "HALO",
     CYBERBSC = 'CYBER',
+    WOD = 'WOD',
 }
