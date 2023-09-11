@@ -30,4 +30,5 @@ export enum ChainId {
     Loot = 5151706,
     OpBNB = 204,
     Kroma = 255,
+    Manta = 169,
 }
