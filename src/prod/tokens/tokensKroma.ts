@@ -49,6 +49,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "USD Coin",
+        symbol: TokenSymbol.USDCKroma,
+        icon: baseURL + 'usdc.png',
+        chains: [ChainId.Kroma],
+        contracts: {
+            [ChainId.Kroma]: {
+                address: '0x49A5010110a358d9069282873F3e7eCf6B41DC10',
+                decimal: 6,
+            },
+        },
+    },
+    {
         name: "Dai Stablecoin",
         symbol: TokenSymbol.DAIKroma,
         icon: baseURL + 'dai.png',

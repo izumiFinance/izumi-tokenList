@@ -1588,6 +1588,20 @@
     }
   },
   {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "chains": [
+      255
+    ],
+    "contracts": {
+      "255": {
+        "address": "0x49A5010110a358d9069282873F3e7eCf6B41DC10",
+        "decimal": 6
+      }
+    }
+  },
+  {
     "name": "Dai Stablecoin",
     "symbol": "DAI",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dai.png",
