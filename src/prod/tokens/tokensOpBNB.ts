@@ -36,4 +36,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Tether USD",
+        symbol: TokenSymbol.USDTOp,
+        chains: [ChainId.OpBNB],
+        icon: baseURL + 'usdt.png',
+        contracts: {
+            [ChainId.OpBNB]: {
+                address: '0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3',
+                decimal: 18,
+            },
+        },
+    },
 ]

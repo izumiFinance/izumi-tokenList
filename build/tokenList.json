@@ -2531,6 +2531,20 @@
     }
   },
   {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "chains": [
+      204
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
+    "contracts": {
+      "204": {
+        "address": "0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "ChainLink Token",
     "symbol": "LINK",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/link.png",
