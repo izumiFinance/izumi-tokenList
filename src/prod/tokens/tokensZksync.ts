@@ -420,4 +420,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: 'ONEZ Stablecoin',
+        symbol: TokenSymbol.ONEZ,
+        icon: baseURL + 'onez.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x90059C32Eeeb1A2aa1351a58860d98855f3655aD',
+                decimal: 18,
+            },
+        },
+    },
 ]

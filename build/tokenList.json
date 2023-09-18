@@ -3362,6 +3362,20 @@
     }
   },
   {
+    "name": "ONEZ Stablecoin",
+    "symbol": "ONEZ",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/onez.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x90059C32Eeeb1A2aa1351a58860d98855f3655aD",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Shared-liquidity USDT",
     "symbol": "slUSDT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/slusdt.png",
