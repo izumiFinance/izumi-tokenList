@@ -132,4 +132,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Lendle Protocol Token",
+        symbol: TokenSymbol.LENDMantle,
+        icon: baseURL + 'lend.png',
+        chains: [ChainId.Mantle],
+        contracts: {
+            [ChainId.Mantle]: {
+                address: '0x25356aeca4210eF7553140edb9b8026089E49396',  
+                decimal: 18,
+            },
+        },
+    },
 ]

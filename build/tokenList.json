@@ -2120,6 +2120,20 @@
     }
   },
   {
+    "name": "Lendle Protocol Token",
+    "symbol": "LEND",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/lend.png",
+    "chains": [
+      5000
+    ],
+    "contracts": {
+      "5000": {
+        "address": "0x25356aeca4210eF7553140edb9b8026089E49396",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Matic Token",
     "symbol": "MATIC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/matic.png",
