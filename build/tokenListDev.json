@@ -90,6 +90,7 @@
     "chains": [
       1337,
       12008,
+      12021,
       97,
       1313161555,
       534353,
@@ -130,6 +131,10 @@
       },
       "12008": {
         "address": "0x876508837C162aCedcc5dd7721015E83cbb4e339",
+        "decimal": 18
+      },
+      "12021": {
+        "address": "0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b",
         "decimal": 18
       },
       "57000": {
@@ -215,7 +220,8 @@
       97,
       1313161555,
       57000,
-      1351057110
+      1351057110,
+      12021
     ],
     "contracts": {
       "97": {
@@ -228,6 +234,10 @@
       },
       "12008": {
         "address": "0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b",
+        "decimal": 18
+      },
+      "12021": {
+        "address": "0xb0453a1bAf6056393897e60dfd851C61A825ef67",
         "decimal": 18
       },
       "57000": {
@@ -257,7 +267,8 @@
       57000,
       3441005,
       2358,
-      534351
+      534351,
+      12021
     ],
     "contracts": {
       "97": {
@@ -278,6 +289,10 @@
       },
       "12008": {
         "address": "0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b",
+        "decimal": 18
+      },
+      "12021": {
+        "address": "0x2A2E08ea99E63482BDad8Bf69c7b69752F07736F",
         "decimal": 18
       },
       "57000": {
@@ -541,6 +556,34 @@
         "address": "0xFcF20528DD0602A3CBe5835Bb5022C0a65898946",
         "decimal": 18,
         "wrapTokenAddress": "0x60A1321f92FED22e68e91bcF168A33d0387611Be"
+      }
+    }
+  },
+  {
+    "name": "Gas Zero Token",
+    "symbol": "GAS0",
+    "chains": [
+      12021
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gaszero.png",
+    "contracts": {
+      "12021": {
+        "address": "0xC6C7c2edF70A3245ad6051E93809162B9758ce08",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped GAS0",
+    "symbol": "WGAS0",
+    "chains": [
+      12021
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gaszero.png",
+    "contracts": {
+      "12021": {
+        "address": "0xC6C7c2edF70A3245ad6051E93809162B9758ce08",
+        "decimal": 18
       }
     }
   },

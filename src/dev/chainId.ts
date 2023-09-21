@@ -29,4 +29,5 @@ export enum ChainId {
     MantaTest = 3441005,
     SkaleTest = 1351057110,
     KromaTest = 2358,
+    GasZeroGoerliL2 = 12021,
 }

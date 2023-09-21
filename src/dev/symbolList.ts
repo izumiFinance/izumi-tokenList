@@ -1,4 +1,6 @@
 export enum TokenSymbol {
+GAS0Test='GAS0',
+WGAS0Test='WGAS0',
 USDCLinea='USDC',
 USDTLinea='USDT',
 DAILinea='DAI',
