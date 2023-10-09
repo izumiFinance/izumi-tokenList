@@ -1378,12 +1378,26 @@
     }
   },
   {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "chains": [
+      8453
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "contracts": {
+      "8453": {
+        "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "decimal": 6
+      }
+    }
+  },
+  {
     "name": "USD Base Coin",
     "symbol": "USDbC",
     "chains": [
       8453
     ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdbc.png",
     "contracts": {
       "8453": {
         "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",

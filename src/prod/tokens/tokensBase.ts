@@ -25,10 +25,22 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "USD Coin",
+        symbol: TokenSymbol.USDCBase,
+        chains: [ChainId.Base],
+        icon: baseURL + 'usdc.png',
+        contracts: {
+            [ChainId.Base]: {
+                address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
+                decimal: 6,
+            },
+        },
+    },
+    {
         name: "USD Base Coin",
         symbol: TokenSymbol.USDBCBase,
         chains: [ChainId.Base],
-        icon: baseURL + 'usdc.png',
+        icon: baseURL + 'usdbc.png',
         contracts: {
             [ChainId.Base]: {
                 address: '0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA',
