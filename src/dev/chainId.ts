@@ -30,4 +30,5 @@ export enum ChainId {
     SkaleTest = 1351057110,
     KromaTest = 2358,
     GasZeroGoerliL2 = 12021,
+    ZetaTest = 7001,
 }
