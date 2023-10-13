@@ -9,7 +9,7 @@ export enum TokenSymbol {
     DOGERA = 'DOGERA',
     BOLT = 'BOLT',
     CHEEMS = 'Cheems',
-    SLUSDT = 'USDT',
+    SLUSDT = 'slUSDT',
     SLSTETH = 'stETH',
     SLBTC = 'BTC',
     RF = 'RF',

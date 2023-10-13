@@ -243,6 +243,7 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
     "chains": [
       1,
+      324,
       42161,
       137,
       56,
@@ -281,6 +282,10 @@
       },
       "137": {
         "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "decimal": 6
+      },
+      "324": {
+        "address": "0x493257fD37EDB34451f62EDf8D2a0C418852bA4C",
         "decimal": 6
       },
       "1030": {
@@ -2957,7 +2962,7 @@
   },
   {
     "name": "Shared-liquidity USDT",
-    "symbol": "USDT",
+    "symbol": "slUSDT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
     "chains": [
       324
