@@ -92,6 +92,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Izumi,
             ChainId.OpsideRolluxTest,
             ChainId.GasZeroGoerliL2,
+            ChainId.ZetaTest,
             ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.RolluxBedrockTest, ChainId.MantleTestnet, ChainId.OntologyTest, ChainId.LineaTest, ChainId.MantaTest, ChainId.SkaleTest, ChainId.KromaTest, ChainId.ScrollSepoliaTest],
         contracts: {
             [ChainId.Izumi]: {
@@ -152,6 +153,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.GasZeroGoerliL2]: {
                 address: '0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b',
+                decimal: 18,
+            },
+            [ChainId.ZetaTest]: {
+                address: '0xb0453a1bAf6056393897e60dfd851C61A825ef67',
                 decimal: 18,
             },
         },
@@ -232,7 +237,10 @@ export const tokens: TokenInfo[] = [
         name: "Tether USD",
         symbol: TokenSymbol.USDT,
         icon: baseURL + 'usdt.png',
-        chains: [ChainId.Izumi, ChainId.OpsideRolluxTest,ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.RolluxBedrockTest, ChainId.MantaTest, ChainId.KromaTest, ChainId.ScrollSepoliaTest, ChainId.GasZeroGoerliL2],
+        chains: [ChainId.Izumi, 
+            ChainId.OpsideRolluxTest,
+            ChainId.ZetaTest,
+            ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.RolluxBedrockTest, ChainId.MantaTest, ChainId.KromaTest, ChainId.ScrollSepoliaTest, ChainId.GasZeroGoerliL2],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0x2d2bA91b026E08e0f23Eb01d7ecAb0e7E279a45f',
@@ -276,6 +284,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.GasZeroGoerliL2]: {
                 address: '0x2A2E08ea99E63482BDad8Bf69c7b69752F07736F',
+                decimal: 18,
+            },
+            [ChainId.ZetaTest]: {
+                address: '0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b',
                 decimal: 18,
             },
         },
