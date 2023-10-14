@@ -20,7 +20,7 @@ export const tokens: TokenInfo[] = [
         contracts: {
             [ChainId.Scroll]: {
                 address: '0x5300000000000000000000000000000000000004',
-                decimal: 8,
+                decimal: 18,
             },
         },
     },
@@ -32,7 +32,7 @@ export const tokens: TokenInfo[] = [
         contracts: {
             [ChainId.Scroll]: {
                 address: '0x5300000000000000000000000000000000000004',
-                decimal: 8,
+                decimal: 18,
             },
         },
     },
