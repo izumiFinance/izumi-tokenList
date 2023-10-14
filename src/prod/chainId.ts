@@ -31,4 +31,5 @@ export enum ChainId {
     OpBNB = 204,
     Kroma = 255,
     Manta = 169,
+    Scroll = 534352,
 }
