@@ -10,4 +10,6 @@ export enum TokenSymbol {
     USDCMANTLE = 'USDC',
     MINUMantle = 'MINU',
     LENDMantle = 'LEND',
+    CTTMantle = 'CTT',
+    BELMantel = 'BEL',
 }

@@ -144,4 +144,28 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Cashtree Token",
+        symbol: TokenSymbol.CTTMantle,
+        icon: baseURL + 'ctt.png',
+        chains: [ChainId.Mantle],
+        contracts: {
+            [ChainId.Mantle]: {
+                address: '0x6A3b0eb5b57C9a4F5772fc900dAE427E65f8C1a5',  
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Bella",
+        symbol: TokenSymbol.BELMantel,
+        icon: baseURL + 'bel.png',
+        chains: [ChainId.Mantle],
+        contracts: {
+            [ChainId.Mantle]: {
+                address: '0x3390108E913824B8eaD638444cc52B9aBdF63798',  
+                decimal: 18,
+            },
+        },
+    },
 ]

@@ -2153,6 +2153,34 @@
     }
   },
   {
+    "name": "Cashtree Token",
+    "symbol": "CTT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ctt.png",
+    "chains": [
+      5000
+    ],
+    "contracts": {
+      "5000": {
+        "address": "0x6A3b0eb5b57C9a4F5772fc900dAE427E65f8C1a5",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Bella",
+    "symbol": "BEL",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bel.png",
+    "chains": [
+      5000
+    ],
+    "contracts": {
+      "5000": {
+        "address": "0x3390108E913824B8eaD638444cc52B9aBdF63798",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Matic Token",
     "symbol": "MATIC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/matic.png",
