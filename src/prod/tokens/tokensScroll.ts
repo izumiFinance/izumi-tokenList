@@ -144,4 +144,65 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Aave Token",
+        symbol: TokenSymbol.AAVEScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'aave.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0x79379C0E09a41d7978f883a56246290eE9a8c4d3',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Balancer Token",
+        symbol: TokenSymbol.BALScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'bal.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0x6a28e90582c583fcd3347931c544819C31e9D0e0',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Curve DAO",
+        symbol: TokenSymbol.CRVScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'crv.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0xB755039eDc7910C1F1BD985D48322E55A31AC0bF',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Kyber Network Crystal",
+        symbol: TokenSymbol.KNCScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'knc.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0x608ef9A3BffE206B86c3108218003b3cfBf99c84',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Gho Token",
+        symbol: TokenSymbol.GHOScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'gho.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0xD9692f1748aFEe00FACE2da35242417dd05a8615',
+                decimal: 18,
+            },
+        },
+    },
+
 ]

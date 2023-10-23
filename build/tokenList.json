@@ -2970,6 +2970,76 @@
     }
   },
   {
+    "name": "Aave Token",
+    "symbol": "AAVE",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/aave.png",
+    "contracts": {
+      "534352": {
+        "address": "0x79379C0E09a41d7978f883a56246290eE9a8c4d3",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Balancer Token",
+    "symbol": "BAL",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bal.png",
+    "contracts": {
+      "534352": {
+        "address": "0x6a28e90582c583fcd3347931c544819C31e9D0e0",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Curve DAO",
+    "symbol": "CRV",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/crv.png",
+    "contracts": {
+      "534352": {
+        "address": "0xB755039eDc7910C1F1BD985D48322E55A31AC0bF",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Kyber Network Crystal",
+    "symbol": "KNC",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/knc.png",
+    "contracts": {
+      "534352": {
+        "address": "0x608ef9A3BffE206B86c3108218003b3cfBf99c84",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Gho Token",
+    "symbol": "GHO",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gho.png",
+    "contracts": {
+      "534352": {
+        "address": "0xD9692f1748aFEe00FACE2da35242417dd05a8615",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Telos Token",
     "symbol": "TLOS",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/tlos.png",
