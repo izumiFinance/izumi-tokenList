@@ -70,7 +70,8 @@
       324,
       59144,
       5000,
-      8453
+      8453,
+      534352
     ],
     "contracts": {
       "1": {
@@ -113,6 +114,10 @@
         "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
         "decimal": 18
       },
+      "534352": {
+        "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
+        "decimal": 18
+      },
       "1313161554": {
         "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
         "decimal": 18
@@ -132,7 +137,8 @@
       324,
       59144,
       5000,
-      8453
+      8453,
+      534352
     ],
     "contracts": {
       "1": {
@@ -164,6 +170,10 @@
         "decimal": 18
       },
       "59144": {
+        "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
+        "decimal": 18
+      },
+      "534352": {
         "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
         "decimal": 18
       },

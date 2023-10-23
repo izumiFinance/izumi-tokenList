@@ -66,7 +66,7 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'izumi.svg',
         chains: [ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.BSC, ChainId.Aurora, ChainId.ETC, 
                  ChainId.Cronos, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Mantle,
-                 ChainId.Base],
+                 ChainId.Base, ChainId.Scroll],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0x9ad37205d608B8b219e6a2573f922094CEc5c200',
@@ -112,6 +112,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
                 decimal: 18,
             },
+            [ChainId.Scroll]: {
+                address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
+                decimal: 18,
+            },
         },
     },
     {
@@ -119,7 +123,7 @@ export const tokens: TokenInfo[] = [
         symbol: TokenSymbol.IUSD,
         icon: baseURL + 'iusd.png',
         chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.Aurora, ChainId.ETC, ChainId.Arbitrum, 
-                 ChainId.ZkSyncEra, ChainId.Linea, ChainId.Mantle, ChainId.Base],
+                 ChainId.ZkSyncEra, ChainId.Linea, ChainId.Mantle, ChainId.Base, ChainId.Scroll],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
@@ -154,6 +158,10 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.Base]: {
+                address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
+                decimal: 18,
+            },
+            [ChainId.Scroll]: {
                 address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
                 decimal: 18,
             },
