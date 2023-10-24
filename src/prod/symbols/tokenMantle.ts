@@ -11,5 +11,6 @@ export enum TokenSymbol {
     MINUMantle = 'MINU',
     LENDMantle = 'LEND',
     CTTMantle = 'CTT',
-    BELMantel = 'BEL',
+    BELMantle = 'BEL',
+    AXLMantle = 'AXL',
 }

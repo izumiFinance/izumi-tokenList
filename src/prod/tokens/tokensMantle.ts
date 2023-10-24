@@ -158,13 +158,25 @@ export const tokens: TokenInfo[] = [
     },
     {
         name: "Bella",
-        symbol: TokenSymbol.BELMantel,
+        symbol: TokenSymbol.BELMantle,
         icon: baseURL + 'bel.png',
         chains: [ChainId.Mantle],
         contracts: {
             [ChainId.Mantle]: {
                 address: '0x3390108E913824B8eaD638444cc52B9aBdF63798',  
                 decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Axelar Token",
+        symbol: TokenSymbol.AXLMantle,
+        icon: baseURL + 'axl.png',
+        chains: [ChainId.Mantle],
+        contracts: {
+            [ChainId.Mantle]: {
+                address: '0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f',  
+                decimal: 6,
             },
         },
     },
