@@ -567,6 +567,25 @@
     }
   },
   {
+    "name": "Wrapped liquid staked Ether 2.0",
+    "symbol": "wstETH",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wsteth.png",
+    "chains": [
+      59144,
+      534352
+    ],
+    "contracts": {
+      "59144": {
+        "address": "0xb5bedd42000b71fdde22d3ee8a79bd49a568fc8f",
+        "decimal": 18
+      },
+      "534352": {
+        "address": "0x2Bbbdf97295F73175b12CC087cF446765931e1C3",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Bit Dao",
     "symbol": "BIT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bit.png",

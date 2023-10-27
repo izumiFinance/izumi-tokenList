@@ -503,6 +503,22 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Wrapped liquid staked Ether 2.0",
+        symbol: TokenSymbol.wstETH,
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wsteth.png',
+        chains: [ChainId.Linea,ChainId.Scroll],
+        contracts: {
+            [ChainId.Linea]: {
+                address: '0xb5bedd42000b71fdde22d3ee8a79bd49a568fc8f',
+                decimal: 18,
+            },
+            [ChainId.Scroll]: {
+                address: '0x2Bbbdf97295F73175b12CC087cF446765931e1C3',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Bit Dao",
         symbol: TokenSymbol.BIT,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bit.png',
