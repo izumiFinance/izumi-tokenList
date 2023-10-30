@@ -61,54 +61,6 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: 'Duet Governance Token',
-        symbol: TokenSymbol.DUET,
-        icon: baseURL + 'DUET.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0x95ee03e1e2c5c4877f9a298f1c0d6c98698fab7b',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: 'Duet USD',
-        symbol: TokenSymbol.DUSD,
-        icon: baseURL + 'dUSD.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0xe04fe47516C4Ebd56Bc6291b15D46A47535e736B',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: 'Duet WTI',
-        symbol: TokenSymbol.DWTI,
-        icon: baseURL + 'dWTI.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0x587Fb3e1C6819fd54e3740C6C4C7832484eF451b',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: 'Duet XAU',
-        symbol: TokenSymbol.DXAU,
-        icon: baseURL + 'dXAU.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0x7e3b9b1313ad547feb71ac5bc48b03d7e683601e',
-                decimal: 18,
-            },
-        },
-    },
-    {
         name: 'BurgerCities',
         symbol: TokenSymbol.BURGER,
         icon: baseURL + 'burger.png',
@@ -152,30 +104,6 @@ export const tokens: TokenInfo[] = [
         contracts: {
             [ChainId.BSC]: {
                 address: '0x270178366a592bA598C2e9d2971DA65f7bAa7C86',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: 'Revoland Game Token',
-        symbol: TokenSymbol.LAND,
-        icon: baseURL + 'LAND.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0x9A981FAcCD3B9b3B9453BFF266296fc0f2De21a2',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: 'Revoland Governance Token',
-        symbol: TokenSymbol.REVO,
-        icon: baseURL + 'REVO.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0xfC279e6ff1FB1C7F5848d31561cAb27d34a2856b',
                 decimal: 18,
             },
         },
@@ -229,54 +157,6 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: 'MNW',
-        symbol: TokenSymbol.MNW,
-        icon: baseURL + 'MNW.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0x8E596702B7e84907836776fDdC56067b64147C8f',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: 'MetaElfLand Token',
-        symbol: TokenSymbol.MELT,
-        icon: baseURL + 'melt.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0x7eb35225995b097c84eF10501dD6E93A49bdFd63',
-                decimal: 8,
-            },
-        },
-    },
-    {
-        name: 'Green Energy',
-        symbol: TokenSymbol.GE,
-        icon: baseURL + 'ge.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0x708F90170722f8F8775bf64d7f435A2BADBd89FD',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: 'Richverse Web3 Token',
-        symbol: TokenSymbol.RIV,
-        icon: baseURL + 'RIV.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0xca5e32d44f1744001b5600dc2f5f5e0bbb6e9d3e',
-                decimal: 18,
-            },
-        },
-    },
-    {
         name: 'Liquid Staking BNB',
         symbol: TokenSymbol.BNBX,
         icon: baseURL + 'bnbx.png',
@@ -297,18 +177,6 @@ export const tokens: TokenInfo[] = [
             [ChainId.BSC]: {
                 address: '0x3BC5AC0dFdC871B365d159f728dd1B9A0B5481E8',
                 decimal: 18,
-            },
-        },
-    },
-    {
-        name: 'Cyber Soccer',
-        symbol: TokenSymbol.COCA,
-        icon: baseURL + 'coca.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0x44516Eb3D488175128D257748610426a866937D8',
-                decimal: 9,
             },
         },
     },
