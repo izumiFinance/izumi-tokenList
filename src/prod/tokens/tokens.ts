@@ -123,7 +123,7 @@ export const tokens: TokenInfo[] = [
         symbol: TokenSymbol.IUSD,
         icon: baseURL + 'iusd.png',
         chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.Aurora, ChainId.ETC, ChainId.Arbitrum, 
-                 ChainId.ZkSyncEra, ChainId.Linea, ChainId.Mantle, ChainId.Base, ChainId.Scroll],
+                 ChainId.ZkSyncEra, ChainId.Linea, ChainId.Mantle, ChainId.Base, ChainId.Scroll, ChainId.Manta],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
@@ -163,6 +163,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Scroll]: {
                 address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
+                decimal: 18,
+            },
+            [ChainId.Manta]: {
+                address: '0x078f712f038a95beea94f036cadb49188a90604b',
                 decimal: 18,
             },
         },
