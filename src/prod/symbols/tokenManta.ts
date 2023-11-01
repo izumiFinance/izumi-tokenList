@@ -6,5 +6,6 @@ export enum TokenSymbol {
     DAIManta = 'DAI',
     WBTCManta = 'WBTC',
     WSTETHManta = 'wstETH',
-    RETHManta = 'rETH'
+    RETHManta = 'rETH',
+    TIAManta = 'TIA',
 }

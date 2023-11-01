@@ -108,4 +108,16 @@ export const tokens: TokenInfo[] = [
             }, 
         },
     },
+    {
+        name: "TIA",
+        symbol: TokenSymbol.TIAManta, 
+        icon: baseURL + 'tia.png',
+        chains: [ChainId.Manta],
+        contracts: {
+            [ChainId.Manta]: {
+                address: '0x6fae4d9935e2fcb11fc79a64e917fb2bf14dafaa',
+                decimal: 6,
+            }, 
+        },
+    },
 ]
