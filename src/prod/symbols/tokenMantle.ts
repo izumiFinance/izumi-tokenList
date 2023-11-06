@@ -13,4 +13,5 @@ export enum TokenSymbol {
     CTTMantle = 'CTT',
     BELMantle = 'BEL',
     AXLMantle = 'AXL',
+    USDYMantle = 'USDY',
 }

@@ -121,6 +121,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Ondo U.S. Dollar Yield",
+        symbol: TokenSymbol.USDYMantle,
+        icon: baseURL + 'usdy.png',
+        chains: [ChainId.Mantle],
+        contracts: {
+            [ChainId.Mantle]: {
+                address: '0x5bE26527e817998A7206475496fDE1E68957c5A6',  
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Mantle Inu Token",
         symbol: TokenSymbol.MINUMantle,
         icon: baseURL + 'minu.png',

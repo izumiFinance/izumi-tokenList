@@ -2019,6 +2019,20 @@
     }
   },
   {
+    "name": "Ondo U.S. Dollar Yield",
+    "symbol": "USDY",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdy.png",
+    "chains": [
+      5000
+    ],
+    "contracts": {
+      "5000": {
+        "address": "0x5bE26527e817998A7206475496fDE1E68957c5A6",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Mantle Inu Token",
     "symbol": "MINU",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/minu.png",
