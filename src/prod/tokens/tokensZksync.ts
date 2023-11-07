@@ -13,14 +13,14 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
     {
-        name: "Dogera Token",
-        symbol: TokenSymbol.DOGERA,
-        icon: baseURL + 'dogera.png',
+        name: 'USDLR by Stable',
+        symbol: TokenSymbol.USDLR,
+        icon: baseURL + 'usdlr.png',
         chains: [ChainId.ZkSyncEra],
         contracts: {
             [ChainId.ZkSyncEra]: {
-                address: '0xA59af353E423F54D47F2Ce5F85e3e265d95282Cd', 
-                decimal: 18,
+                address: '0xb6841b40BAAFEdF4e37935270357FF89dF42e68E',
+                decimal: 6,
             },
         },
     },
@@ -229,18 +229,6 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: "BankerPepeV2 token",
-        symbol: TokenSymbol.BANKERPEPEV2,
-        icon: baseURL + 'bankerpepe.png',
-        chains: [ChainId.ZkSyncEra],
-        contracts: {
-            [ChainId.ZkSyncEra]: {
-                address: '0xecD9d19468C636E99A09d0a3Fcbd79ac53282884', 
-                decimal: 18,
-            },
-        },
-    },
-    {
         name: "LSD token",
         symbol: TokenSymbol.LSD,
         icon: baseURL + 'lsd.png',
@@ -404,18 +392,6 @@ export const tokens: TokenInfo[] = [
         contracts: {
             [ChainId.ZkSyncEra]: {
                 address: '0xf8C6dA1bbdc31Ea5F968AcE76E931685cA7F9962',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: 'esPIKO Token',
-        symbol: TokenSymbol.ESPIKO,
-        icon: baseURL + 'espiko.png',
-        chains: [ChainId.ZkSyncEra],
-        contracts: {
-            [ChainId.ZkSyncEra]: {
-                address: '0xCaa5ba70830f8557fd6516Cf632b08AA4B6A528F',
                 decimal: 18,
             },
         },

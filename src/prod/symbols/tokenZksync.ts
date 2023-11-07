@@ -6,7 +6,6 @@ export enum TokenSymbol {
     RETH = 'rETH',
     ZKSP = 'ZKSP',
     DEXTF = 'DEXTF',
-    DOGERA = 'DOGERA',
     BOLT = 'BOLT',
     CHEEMS = 'Cheems',
     SLUSDT = 'slUSDT',
@@ -22,7 +21,6 @@ export enum TokenSymbol {
     ZNS = 'ZNS',
     ESZKDX = 'esZKDX',
     BANKERPEPE = 'BankerPepe',
-    BANKERPEPEV2 = 'BankerPepeV2',
     LSD = 'LSD',
     PEPERA = 'PEPERA',
     GGG = 'GGG',
@@ -34,5 +32,6 @@ export enum TokenSymbol {
     SLR = 'SLR',
     ONEZ = 'ONEZ',
     PIKO = 'PIKO',
-    ESPIKO = 'esPIKO',
+    USDLR = 'USDLR',
 }
+
