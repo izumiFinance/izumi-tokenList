@@ -879,6 +879,34 @@
     }
   },
   {
+    "name": "OKB",
+    "symbol": "OKB",
+    "chains": [
+      195
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/okb.png",
+    "contracts": {
+      "195": {
+        "address": "0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped OKB",
+    "symbol": "WOKB",
+    "chains": [
+      195
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/okb.png",
+    "contracts": {
+      "195": {
+        "address": "0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "aZETA",
     "symbol": "aZETA",
     "chains": [
