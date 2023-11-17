@@ -93,7 +93,20 @@ export const tokens: TokenInfo[] = [
             ChainId.OpsideRolluxTest,
             ChainId.GasZeroGoerliL2,
             ChainId.ZetaTest,
-            ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.RolluxBedrockTest, ChainId.MantleTestnet, ChainId.OntologyTest, ChainId.LineaTest, ChainId.MantaTest, ChainId.SkaleTest, ChainId.KromaTest, ChainId.ScrollSepoliaTest],
+            ChainId.BSCTestnet, 
+            ChainId.AuroraTestnet, 
+            ChainId.ScrollTestnet, 
+            ChainId.ZkSyncAlphaTest, 
+            ChainId.RolluxBedrockTest, 
+            ChainId.MantleTestnet, 
+            ChainId.OntologyTest, 
+            ChainId.LineaTest, 
+            ChainId.MantaTest, 
+            ChainId.SkaleTest, 
+            ChainId.KromaTest, 
+            ChainId.ScrollSepoliaTest,
+            ChainId.X1Test,
+        ],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0xEe5e3852434eB67F8e9E97015e32845861ea15E8',
@@ -159,6 +172,10 @@ export const tokens: TokenInfo[] = [
                 address: '0xb0453a1bAf6056393897e60dfd851C61A825ef67',
                 decimal: 18,
             },
+            [ChainId.X1Test]: {
+                address: '0x551197e6350936976DfFB66B2c3bb15DDB723250',
+                decimal: 18,
+            },
         },
     },
     {
@@ -201,7 +218,16 @@ export const tokens: TokenInfo[] = [
         name: 'USD Coin',
         symbol: TokenSymbol.USDC,
         icon: baseURL + 'usdc.png',
-        chains: [ChainId.Izumi, ChainId.OpsideRolluxTest,ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.RolluxBedrockTest, ChainId.SkaleTest, ChainId.GasZeroGoerliL2],
+        chains: [
+            ChainId.Izumi, 
+            ChainId.OpsideRolluxTest,
+            ChainId.BSCTestnet, 
+            ChainId.AuroraTestnet, 
+            ChainId.RolluxBedrockTest, 
+            ChainId.SkaleTest, 
+            ChainId.GasZeroGoerliL2,
+            ChainId.X1Test,
+        ],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0xe507AAC9eFb2A08F53C7BC73B3B1b8BCf883E41B',
@@ -231,6 +257,10 @@ export const tokens: TokenInfo[] = [
                 address: '0xb0453a1bAf6056393897e60dfd851C61A825ef67',
                 decimal: 18,
             },
+            [ChainId.X1Test]: {
+                address: '0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b',
+                decimal: 18,
+            },
         },
     },
     {
@@ -240,7 +270,13 @@ export const tokens: TokenInfo[] = [
         chains: [ChainId.Izumi, 
             ChainId.OpsideRolluxTest,
             ChainId.ZetaTest,
-            ChainId.BSCTestnet, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.RolluxBedrockTest, ChainId.MantaTest, ChainId.KromaTest, ChainId.ScrollSepoliaTest, ChainId.GasZeroGoerliL2],
+            ChainId.BSCTestnet, 
+            ChainId.AuroraTestnet, 
+            ChainId.ScrollTestnet, 
+            ChainId.RolluxBedrockTest, 
+            ChainId.MantaTest, ChainId.KromaTest, ChainId.ScrollSepoliaTest, ChainId.GasZeroGoerliL2,
+            ChainId.X1Test,
+        ],
         contracts: {
             [ChainId.Izumi]: {
                 address: '0x2d2bA91b026E08e0f23Eb01d7ecAb0e7E279a45f',
@@ -288,6 +324,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.ZetaTest]: {
                 address: '0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b',
+                decimal: 18,
+            },
+            [ChainId.X1Test]: {
+                address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
                 decimal: 18,
             },
         },

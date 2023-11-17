@@ -103,10 +103,15 @@
       3441005,
       1351057110,
       2358,
-      534351
+      534351,
+      195
     ],
     "contracts": {
       "97": {
+        "address": "0x551197e6350936976DfFB66B2c3bb15DDB723250",
+        "decimal": 18
+      },
+      "195": {
         "address": "0x551197e6350936976DfFB66B2c3bb15DDB723250",
         "decimal": 18
       },
@@ -226,12 +231,17 @@
       1313161555,
       57000,
       1351057110,
-      12021
+      12021,
+      195
     ],
     "contracts": {
       "97": {
         "address": "0x876508837C162aCedcc5dd7721015E83cbb4e339",
         "decimal": 6
+      },
+      "195": {
+        "address": "0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b",
+        "decimal": 18
       },
       "1337": {
         "address": "0xe507AAC9eFb2A08F53C7BC73B3B1b8BCf883E41B",
@@ -274,12 +284,17 @@
       3441005,
       2358,
       534351,
-      12021
+      12021,
+      195
     ],
     "contracts": {
       "97": {
         "address": "0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b",
         "decimal": 6
+      },
+      "195": {
+        "address": "0x876508837C162aCedcc5dd7721015E83cbb4e339",
+        "decimal": 18
       },
       "1337": {
         "address": "0x2d2bA91b026E08e0f23Eb01d7ecAb0e7E279a45f",

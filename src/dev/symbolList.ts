@@ -58,6 +58,8 @@ WONG='WONG',
 FeeA='FeeA',
 FeeB='FeeB',
 T6='T6',
+OKB='OKB',
+WOKB='WOKB',
 AZETA='aZETA',
 WZETA='WZETA',
 }
