@@ -133,6 +133,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "mETH",
+        symbol: TokenSymbol.METHMantle,
+        icon: baseURL + 'meth.png',
+        chains: [ChainId.Mantle],
+        contracts: {
+            [ChainId.Mantle]: {
+                address: '0xcDA86A272531e8640cD7F1a92c01839911B90bb0',  
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Mantle Inu Token",
         symbol: TokenSymbol.MINUMantle,
         icon: baseURL + 'minu.png',
