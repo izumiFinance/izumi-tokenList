@@ -205,6 +205,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "LayerBank Token",
+        symbol: TokenSymbol.LABScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'labs.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0x2A00647F45047f05BDed961Eb8ECABc42780e604',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Perseid Token",
         symbol: TokenSymbol.PEDScroll,
         chains: [ChainId.Scroll],

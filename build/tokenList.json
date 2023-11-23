@@ -1585,6 +1585,20 @@
     }
   },
   {
+    "name": "LineaBank Token",
+    "symbol": "LAB",
+    "chains": [
+      59144
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/lab.png",
+    "contracts": {
+      "59144": {
+        "address": "0xB97F21D1f2508fF5c73E7B5AF02847640B1ff75d",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Loot token",
     "symbol": "AGLD",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/agld.png",
@@ -2831,6 +2845,20 @@
     "contracts": {
       "534352": {
         "address": "0xD9692f1748aFEe00FACE2da35242417dd05a8615",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "LayerBank Token",
+    "symbol": "LAB.s",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/labs.png",
+    "contracts": {
+      "534352": {
+        "address": "0x2A00647F45047f05BDed961Eb8ECABc42780e604",
         "decimal": 18
       }
     }

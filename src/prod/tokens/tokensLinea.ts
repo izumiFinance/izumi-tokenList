@@ -60,4 +60,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "LineaBank Token",
+        symbol: TokenSymbol.LABLinea,
+        chains: [ChainId.Linea],
+        icon: baseURL + 'lab.png',
+        contracts: {
+            [ChainId.Linea]: {
+                address: '0xB97F21D1f2508fF5c73E7B5AF02847640B1ff75d',
+                decimal: 18,
+            },
+        },
+    },
 ]
