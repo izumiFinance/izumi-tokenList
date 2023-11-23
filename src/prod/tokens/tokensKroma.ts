@@ -55,7 +55,8 @@ export const tokens: TokenInfo[] = [
         chains: [ChainId.Kroma],
         contracts: {
             [ChainId.Kroma]: {
-                address: '0x49A5010110a358d9069282873F3e7eCf6B41DC10',
+                //address: '0x49A5010110a358d9069282873F3e7eCf6B41DC10',
+                address: '0x0257e4d92C00C9EfcCa1d641b224d7d09cfa4522',
                 decimal: 6,
             },
         },
