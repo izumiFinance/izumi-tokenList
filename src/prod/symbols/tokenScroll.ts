@@ -15,6 +15,6 @@ export enum TokenSymbol {
     ETHScroll = 'ETH',
     WETHScroll = 'WETH',
     WSTETHScroll = 'wstETH',
-    PEDScroll = 'PED',
+    //PEDScroll = 'PED',
     LABScroll = 'LAB.s',
 }
