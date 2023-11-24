@@ -1991,6 +1991,20 @@
     }
   },
   {
+    "name": "USDLR by Stable",
+    "symbol": "USDLR",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdlr.png",
+    "chains": [
+      5000
+    ],
+    "contracts": {
+      "5000": {
+        "address": "0x8fe7176f0bf63358ad9490fd24ac0bdb4dac33a8",
+        "decimal": 6
+      }
+    }
+  },
+  {
     "name": "Matic Token",
     "symbol": "MATIC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/matic.png",

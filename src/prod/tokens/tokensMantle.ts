@@ -204,4 +204,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "USDLR by Stable",
+        symbol: TokenSymbol.USDLRMantle,
+        icon: baseURL + 'usdlr.png',
+        chains: [ChainId.Mantle],
+        contracts: {
+            [ChainId.Mantle]: {
+                address: '0x8fe7176f0bf63358ad9490fd24ac0bdb4dac33a8',  
+                decimal: 6,
+            },
+        },
+    },
 ]

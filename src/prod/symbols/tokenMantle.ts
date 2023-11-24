@@ -15,4 +15,5 @@ export enum TokenSymbol {
     AXLMantle = 'AXL',
     USDYMantle = 'USDY',
     METHMantle = 'mETH',
+    USDLRMantle = 'USDLR',
 }
