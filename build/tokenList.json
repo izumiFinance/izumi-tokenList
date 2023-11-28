@@ -3485,6 +3485,20 @@
     }
   },
   {
+    "name": "Holdstation",
+    "symbol": "HOLD",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/hold.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0xed4040fD47629e7c8FBB7DA76bb50B3e7695F0f2",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Shared-liquidity USDT",
     "symbol": "slUSDT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/slusdt.png",

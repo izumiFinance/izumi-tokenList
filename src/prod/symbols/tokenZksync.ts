@@ -33,5 +33,6 @@ export enum TokenSymbol {
     ONEZ = 'ONEZ',
     PIKO = 'PIKO',
     USDLR = 'USDLR',
+    HOLD = 'HOLD',
 }
 

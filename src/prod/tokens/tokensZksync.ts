@@ -408,4 +408,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: 'Holdstation',
+        symbol: TokenSymbol.HOLD,
+        icon: baseURL + 'hold.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0xed4040fD47629e7c8FBB7DA76bb50B3e7695F0f2',
+                decimal: 18,
+            },
+        },
+    },
 ]
