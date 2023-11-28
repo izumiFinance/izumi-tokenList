@@ -4,4 +4,5 @@ export enum TokenSymbol {
     WBTCLinea = 'WBTC',
     USDTLinea = 'USDT',
     LABLinea = 'LAB',
+    ZKUSDLinea = 'ZKUSD',
 }

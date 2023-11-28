@@ -72,4 +72,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "ZKUSD Stablecoin",
+        symbol: TokenSymbol.ZKUSDLinea,
+        chains: [ChainId.Linea],
+        icon: baseURL + 'zkusdl.png',
+        contracts: {
+            [ChainId.Linea]: {
+                address: '0x3cDEF3c187B271D8c2D71091d3a6506bC929f8B9',
+                decimal: 18,
+            },
+        },
+    },
 ]

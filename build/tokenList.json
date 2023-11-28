@@ -1599,6 +1599,20 @@
     }
   },
   {
+    "name": "ZKUSD Stablecoin",
+    "symbol": "ZKUSD",
+    "chains": [
+      59144
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/zkusdl.png",
+    "contracts": {
+      "59144": {
+        "address": "0x3cDEF3c187B271D8c2D71091d3a6506bC929f8B9",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Loot token",
     "symbol": "AGLD",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/agld.png",
