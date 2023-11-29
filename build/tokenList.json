@@ -1613,6 +1613,20 @@
     }
   },
   {
+    "name": "LYVE Debt Token",
+    "symbol": "LYU",
+    "chains": [
+      59144
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/lyu.png",
+    "contracts": {
+      "59144": {
+        "address": "0xb20116eE399f15647BB1eEf9A74f6ef3b58bc951",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Loot token",
     "symbol": "AGLD",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/agld.png",

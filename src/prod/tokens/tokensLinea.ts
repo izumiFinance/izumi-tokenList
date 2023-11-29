@@ -84,4 +84,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "LYVE Debt Token",
+        symbol: TokenSymbol.LYULinea,
+        chains: [ChainId.Linea],
+        icon: baseURL + 'lyu.png',
+        contracts: {
+            [ChainId.Linea]: {
+                address: '0xb20116eE399f15647BB1eEf9A74f6ef3b58bc951',
+                decimal: 18,
+            },
+        },
+    },
 ]

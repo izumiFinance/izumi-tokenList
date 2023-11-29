@@ -5,4 +5,5 @@ export enum TokenSymbol {
     USDTLinea = 'USDT',
     LABLinea = 'LAB',
     ZKUSDLinea = 'ZKUSD',
+    LYULinea = 'LYU',
 }
