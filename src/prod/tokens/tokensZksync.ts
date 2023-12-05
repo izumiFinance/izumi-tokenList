@@ -420,4 +420,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: 'Touch Fan Token',
+        symbol: TokenSymbol.TFT,
+        icon: baseURL + 'tft.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x14ACCcD04393f26BA155E5402aA6fdDBB8e2254a',
+                decimal: 18,
+            },
+        },
+    },
 ]

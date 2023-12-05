@@ -3513,6 +3513,20 @@
     }
   },
   {
+    "name": "Touch Fan Token",
+    "symbol": "TFT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/tft.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x14ACCcD04393f26BA155E5402aA6fdDBB8e2254a",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Shared-liquidity USDT",
     "symbol": "slUSDT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/slusdt.png",
