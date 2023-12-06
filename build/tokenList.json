@@ -2906,6 +2906,20 @@
     }
   },
   {
+    "name": "Axelar Wrapped USDC",
+    "symbol": "axlUSDC",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/axlusdc.png",
+    "contracts": {
+      "534352": {
+        "address": "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
+        "decimal": 6
+      }
+    }
+  },
+  {
     "name": "Telos Token",
     "symbol": "TLOS",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/tlos.png",

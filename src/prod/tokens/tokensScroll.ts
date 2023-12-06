@@ -216,6 +216,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Axelar Wrapped USDC",
+        symbol: TokenSymbol.AXLUSDC,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'axlusdc.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0xEB466342C4d449BC9f53A865D5Cb90586f405215',
+                decimal: 6,
+            },
+        },
+    },
     // {
     //     name: "Perseid Token",
     //     symbol: TokenSymbol.PEDScroll,

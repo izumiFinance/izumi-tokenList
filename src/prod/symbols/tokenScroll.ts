@@ -17,4 +17,5 @@ export enum TokenSymbol {
     WSTETHScroll = 'wstETH',
     //PEDScroll = 'PED',
     LABScroll = 'LAB.s',
+    AXLUSDC = 'axlUSDC',
 }
