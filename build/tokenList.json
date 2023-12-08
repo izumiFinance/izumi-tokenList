@@ -997,20 +997,6 @@
     }
   },
   {
-    "name": "Era GOT Token",
-    "symbol": "GOT",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/got.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xDA71E3eC0d579FED5dbABa31eEaD3cEB9e77A928",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "Ankr Token",
     "symbol": "ANKR",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ankr.png",
@@ -1034,20 +1020,6 @@
     "contracts": {
       "56": {
         "address": "0x52F24a5e03aee338Da5fd9Df68D2b6FAe1178827",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Era Token",
-    "symbol": "ERA",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/era.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x6f9F0c4ad9Af7EbD61Ac5A1D4e0F2227F7B0E5f9",
         "decimal": 18
       }
     }

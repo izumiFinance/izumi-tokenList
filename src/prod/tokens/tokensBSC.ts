@@ -181,18 +181,6 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: 'Era GOT Token',
-        symbol: TokenSymbol.GOT,
-        icon: baseURL + 'got.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0xDA71E3eC0d579FED5dbABa31eEaD3cEB9e77A928',
-                decimal: 18,
-            },
-        },
-    },
-    {
         name: 'Ankr Token',
         symbol: TokenSymbol.ANKR,
         icon: baseURL + 'ankr.png',
@@ -212,18 +200,6 @@ export const tokens: TokenInfo[] = [
         contracts: {
             [ChainId.BSC]: {
                 address: '0x52F24a5e03aee338Da5fd9Df68D2b6FAe1178827',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: 'Era Token',
-        symbol: TokenSymbol.ERA,
-        icon: baseURL + 'era.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0x6f9F0c4ad9Af7EbD61Ac5A1D4e0F2227F7B0E5f9',
                 decimal: 18,
             },
         },
