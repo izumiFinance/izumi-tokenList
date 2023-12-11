@@ -907,6 +907,62 @@
     }
   },
   {
+    "name": "USDC",
+    "symbol": "USDC",
+    "chains": [
+      43851
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "contracts": {
+      "43851": {
+        "address": "0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "wrapped USDC",
+    "symbol": "WUSDC",
+    "chains": [
+      43851
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "contracts": {
+      "43851": {
+        "address": "0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "iZUMi Token",
+    "symbol": "iZi",
+    "chains": [
+      43851
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/izumi.svg",
+    "contracts": {
+      "43851": {
+        "address": "0xEB122DE19FeA9eD039E2d087113db26017f5F91a",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Tether",
+    "symbol": "USDT",
+    "chains": [
+      43851
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
+    "contracts": {
+      "43851": {
+        "address": "0x551197e6350936976DfFB66B2c3bb15DDB723250",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "aZETA",
     "symbol": "aZETA",
     "chains": [
