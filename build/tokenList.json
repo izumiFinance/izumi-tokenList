@@ -1781,6 +1781,34 @@
     }
   },
   {
+    "name": "Wrapped Mountain Protocol USD",
+    "symbol": "wUSDM",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdm.png",
+    "chains": [
+      169
+    ],
+    "contracts": {
+      "169": {
+        "address": "0xbdAd407F77f44F7Da6684B416b1951ECa461FB07",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "StakeStone Ether",
+    "symbol": "STONE",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/stone.png",
+    "chains": [
+      169
+    ],
+    "contracts": {
+      "169": {
+        "address": "0xEc901DA9c68E90798BbBb74c11406A32A70652C3",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Mantle Token",
     "symbol": "MNT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mnt.png",

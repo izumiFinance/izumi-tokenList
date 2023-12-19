@@ -9,4 +9,7 @@ export enum TokenSymbol {
     RETHManta = 'rETH',
     TIAManta = 'TIA',
     ASMManta = 'ASM',
+    STONEManta = 'STONE',
+    WUSDMManta = 'wUSDM',
+
 }

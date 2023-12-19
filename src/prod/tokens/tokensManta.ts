@@ -132,4 +132,28 @@ export const tokens: TokenInfo[] = [
             }, 
         },
     },
+    {
+        name: "Wrapped Mountain Protocol USD",
+        symbol: TokenSymbol.WUSDMManta, 
+        icon: baseURL + 'usdm.png',
+        chains: [ChainId.Manta],
+        contracts: {
+            [ChainId.Manta]: {
+                address: '0xbdAd407F77f44F7Da6684B416b1951ECa461FB07',
+                decimal: 18,
+            }, 
+        },
+    },
+    {
+        name: "StakeStone Ether",
+        symbol: TokenSymbol.STONEManta, 
+        icon: baseURL + 'stone.png',
+        chains: [ChainId.Manta],
+        contracts: {
+            [ChainId.Manta]: {
+                address: '0xEc901DA9c68E90798BbBb74c11406A32A70652C3',
+                decimal: 18,
+            }, 
+        },
+    },
 ]
