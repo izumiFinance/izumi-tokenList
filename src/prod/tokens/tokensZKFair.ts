@@ -37,6 +37,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Tether USD",
+        symbol: TokenSymbol.USDTZKFair,
+        chains: [ChainId.ZKFair],
+        icon: baseURL + 'usdt.png',
+        contracts: {
+            [ChainId.ZKFair]: {
+                address: '0x3f97bf3Cd76B5cA9D4A4E9cD8a73C24E32d6C193',
+                decimal: 6, 
+            },
+        },
+    },
+    {
         name: "Ethers",
         symbol: TokenSymbol.ETHZKFair,
         chains: [ChainId.ZKFair],

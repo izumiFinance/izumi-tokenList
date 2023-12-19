@@ -3093,6 +3093,20 @@
     }
   },
   {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "chains": [
+      42766
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
+    "contracts": {
+      "42766": {
+        "address": "0x3f97bf3Cd76B5cA9D4A4E9cD8a73C24E32d6C193",
+        "decimal": 6
+      }
+    }
+  },
+  {
     "name": "Ethers",
     "symbol": "ETH",
     "chains": [
