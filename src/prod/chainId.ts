@@ -32,4 +32,5 @@ export enum ChainId {
     Kroma = 255,
     Manta = 169,
     Scroll = 534352,
+    ZKFair = 42766,
 }

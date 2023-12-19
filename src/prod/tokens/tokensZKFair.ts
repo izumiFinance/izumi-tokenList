@@ -1,0 +1,63 @@
+import { TokenSymbol } from "../symbols/tokenZKFair";
+import { ChainId } from "../chainId";
+
+export interface TokenInfo {
+    chains: number[];
+    name: string;
+    symbol: TokenSymbol,
+    icon: string;
+    contracts: Partial<Record<ChainId, { address: string; decimal: number }>>;
+}
+
+const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
+
+export const tokens: TokenInfo[] = [
+    {
+        name: "USD Coin",
+        symbol: TokenSymbol.USDCZKFair,
+        chains: [ChainId.ZKFair],
+        icon: baseURL + 'usdc.png',
+        contracts: {
+            [ChainId.ZKFair]: {
+                address: '0xD33Db7EC50A98164cC865dfaa64666906d79319C',
+                decimal: 18, //wUSDC
+            },
+        },
+    },
+    {
+        name: "Wrapped USDC",
+        symbol: TokenSymbol.WUSDCZKFair,
+        chains: [ChainId.ZKFair],
+        icon: baseURL + 'usdc.png',
+        contracts: {
+            [ChainId.ZKFair]: {
+                address: '0xD33Db7EC50A98164cC865dfaa64666906d79319C',
+                decimal: 18, //wUSDC
+            },
+        },
+    },
+    {
+        name: "Ethers",
+        symbol: TokenSymbol.ETHZKFair,
+        chains: [ChainId.ZKFair],
+        icon: baseURL + 'eth.png',
+        contracts: {
+            [ChainId.ZKFair]: {
+                address: '0x4b21b980d0Dc7D3C0C6175b0A412694F3A1c7c6b',
+                decimal: 18, 
+            },
+        },
+    },
+    {
+        name: "ZKFair token",
+        symbol: TokenSymbol.ZKFZKFair,
+        chains: [ChainId.ZKFair],
+        icon: baseURL + 'zkf.png',
+        contracts: {
+            [ChainId.ZKFair]: {
+                address: '0x1cd3e2a23c45a690a18ed93fd1412543f464158f',
+                decimal: 18, 
+            },
+        },
+    },
+]

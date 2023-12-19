@@ -3065,6 +3065,62 @@
     }
   },
   {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "chains": [
+      42766
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "contracts": {
+      "42766": {
+        "address": "0xD33Db7EC50A98164cC865dfaa64666906d79319C",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped USDC",
+    "symbol": "WUSDC",
+    "chains": [
+      42766
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "contracts": {
+      "42766": {
+        "address": "0xD33Db7EC50A98164cC865dfaa64666906d79319C",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Ethers",
+    "symbol": "ETH",
+    "chains": [
+      42766
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
+    "contracts": {
+      "42766": {
+        "address": "0x4b21b980d0Dc7D3C0C6175b0A412694F3A1c7c6b",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "ZKFair token",
+    "symbol": "ZKF",
+    "chains": [
+      42766
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/zkf.png",
+    "contracts": {
+      "42766": {
+        "address": "0x1cd3e2a23c45a690a18ed93fd1412543f464158f",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "USDLR by Stable",
     "symbol": "USDLR",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdlr.png",
