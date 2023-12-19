@@ -120,4 +120,16 @@ export const tokens: TokenInfo[] = [
             }, 
         },
     },
+    {
+        name: "Asmatch Token",
+        symbol: TokenSymbol.ASMManta, 
+        icon: baseURL + 'asm.png',
+        chains: [ChainId.Manta],
+        contracts: {
+            [ChainId.Manta]: {
+                address: '0xCd5d6dE3fdBce1895F0Dac13A065673599ED6806',
+                decimal: 18,
+            }, 
+        },
+    },
 ]

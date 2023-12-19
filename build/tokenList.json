@@ -1767,6 +1767,20 @@
     }
   },
   {
+    "name": "Asmatch Token",
+    "symbol": "ASM",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/asm.png",
+    "chains": [
+      169
+    ],
+    "contracts": {
+      "169": {
+        "address": "0xCd5d6dE3fdBce1895F0Dac13A065673599ED6806",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Mantle Token",
     "symbol": "MNT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mnt.png",
