@@ -43,7 +43,7 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'etc.png',
         contracts: {
             [ChainId.ETC]: {
-                address: '0x1953cab0E5bFa6D4a9BaD6E05fD46C1CC6527a5a',
+                address: '0x82A618305706B14e7bcf2592D4B9324A366b6dAd',
                 decimal: 18, // WETC
             },
         },
@@ -55,7 +55,7 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'etc.png',
         contracts: {
             [ChainId.ETC]: {
-                address: '0x1953cab0E5bFa6D4a9BaD6E05fD46C1CC6527a5a',
+                address: '0x82A618305706B14e7bcf2592D4B9324A366b6dAd',
                 decimal: 18,
             },
         },
