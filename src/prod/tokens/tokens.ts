@@ -66,7 +66,7 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'izumi.svg',
         chains: [ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.BSC, ChainId.Aurora, ChainId.ETC, 
                  ChainId.Cronos, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Mantle,
-                 ChainId.Base, ChainId.Scroll],
+                 ChainId.Base, ChainId.Scroll, ChainId.Manta],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0x9ad37205d608B8b219e6a2573f922094CEc5c200',
@@ -114,6 +114,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Scroll]: {
                 address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
+                decimal: 18,
+            },
+            [ChainId.Manta]: {
+                address: '0x91647632245caBf3d66121F86C387aE0ad295F9A',
                 decimal: 18,
             },
         },
