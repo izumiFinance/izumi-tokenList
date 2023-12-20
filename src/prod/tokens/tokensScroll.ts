@@ -228,17 +228,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    // {
-    //     name: "Perseid Token",
-    //     symbol: TokenSymbol.PEDScroll,
-    //     chains: [ChainId.Scroll],
-    //     icon: baseURL + 'ped.png',
-    //     contracts: {
-    //         [ChainId.Scroll]: {
-    //             address: '0xfeC65bFB6e5BbCC9ab8aE98f62A8AaB2EA51c495',
-    //             decimal: 18,
-    //         },
-    //     },
-    // },
-
+    {
+        name: "Skydrome Token",
+        symbol: TokenSymbol.SKYScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'sky.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0x95a52EC1d60e74CD3Eb002fE54A2c74b185A4C16',
+                decimal: 18,
+            },
+        },
+    },
 ]
