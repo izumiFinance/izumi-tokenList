@@ -85,4 +85,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "WEMIX.e Token",
+        symbol: TokenSymbol.WEMIXKroma,
+        icon: baseURL + 'wemix.png',
+        chains: [ChainId.Kroma],
+        contracts: {
+            [ChainId.Kroma]: {
+                address: '0x3720b1Dc2c8dde3BD6cfCf0b593D0A2bBCAc856e',
+                decimal: 18,
+            },
+        },
+    },
 ]

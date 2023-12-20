@@ -4,5 +4,6 @@ export enum TokenSymbol {
     USDTKroma = 'USDT',
     USDCKroma = 'USDC',
     WBTCKroma = 'WBTC',
-    DAIKroma = 'DAI'
+    DAIKroma = 'DAI',
+    WEMIXKroma = 'WEMIX.e',
 }
