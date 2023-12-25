@@ -3,6 +3,7 @@ export enum TokenSymbol {
     MAV = 'MAV',
     ZKUSD = 'ZKUSD',
     SPACE = 'SPACE',
+    XSPACE = 'xSPACE',
     RETH = 'rETH',
     ZKSP = 'ZKSP',
     DEXTF = 'DEXTF',

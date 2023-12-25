@@ -181,6 +181,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "X SpaceFi token",
+        symbol: TokenSymbol.XSPACE,
+        icon: baseURL + 'space.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x6aF43486Cb84bE0e3EDdCef93d3C43Ef0C5F63b1', 
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "ERA token",
         symbol: TokenSymbol.ERA,
         icon: baseURL + 'zkera.png',

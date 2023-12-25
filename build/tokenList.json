@@ -3364,6 +3364,20 @@
     }
   },
   {
+    "name": "X SpaceFi token",
+    "symbol": "xSPACE",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/space.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x6aF43486Cb84bE0e3EDdCef93d3C43Ef0C5F63b1",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "ERA token",
     "symbol": "ERA",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/zkera.png",
