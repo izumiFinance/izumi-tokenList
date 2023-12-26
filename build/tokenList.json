@@ -1828,6 +1828,20 @@
     }
   },
   {
+    "name": "Minu the Manta",
+    "symbol": "MNU",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mnu.png",
+    "chains": [
+      169
+    ],
+    "contracts": {
+      "169": {
+        "address": "0x0d613b80f9afb3cef99fe26702227d74b0178740",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Mantle Token",
     "symbol": "MNT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mnt.png",

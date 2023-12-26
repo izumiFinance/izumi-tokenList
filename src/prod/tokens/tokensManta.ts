@@ -156,4 +156,16 @@ export const tokens: TokenInfo[] = [
             }, 
         },
     },
+    {
+        name: "Minu the Manta",
+        symbol: TokenSymbol.MNUManta, 
+        icon: baseURL + 'mnu.png',
+        chains: [ChainId.Manta],
+        contracts: {
+            [ChainId.Manta]: {
+                address: '0x0d613b80f9afb3cef99fe26702227d74b0178740',
+                decimal: 18,
+            }, 
+        },
+    },
 ]

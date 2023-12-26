@@ -11,5 +11,5 @@ export enum TokenSymbol {
     ASMManta = 'ASM',
     STONEManta = 'STONE',
     WUSDMManta = 'wUSDM',
-
+    MNUManta = 'MNU',
 }
