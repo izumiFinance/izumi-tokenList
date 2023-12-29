@@ -180,4 +180,16 @@ export const tokens: TokenInfo[] = [
             }, 
         },
     },
+    {
+        name: "KUMA",
+        symbol: TokenSymbol.KUMAManta, 
+        icon: baseURL + 'kuma.png',
+        chains: [ChainId.Manta],
+        contracts: {
+            [ChainId.Manta]: {
+                address: '0xCA24Fdce9d4D9BD69c829689bAEa02E34d025f43',
+                decimal: 18,
+            }, 
+        },
+    },
 ]
