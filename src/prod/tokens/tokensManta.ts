@@ -147,7 +147,7 @@ export const tokens: TokenInfo[] = [
     {
         name: "StakeStone Ether",
         symbol: TokenSymbol.STONEManta, 
-        icon: baseURL + 'stone.svg',
+        icon: baseURL + 'stone.png',
         chains: [ChainId.Manta],
         contracts: {
             [ChainId.Manta]: {
