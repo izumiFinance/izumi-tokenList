@@ -216,4 +216,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Solv Strategy USD",
+        symbol: TokenSymbol.STUSDMantle,
+        icon: baseURL + 'stusd.png',
+        chains: [ChainId.Mantle],
+        contracts: {
+            [ChainId.Mantle]: {
+                address: '0x7cbf716aa9a6114281188867572ac87586e4abf2',  
+                decimal: 18,
+            },
+        },
+    },
 ]
