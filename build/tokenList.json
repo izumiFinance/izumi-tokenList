@@ -1816,7 +1816,7 @@
   {
     "name": "StakeStone Ether",
     "symbol": "STONE",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/stone.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/stone.svg",
     "chains": [
       169
     ],
