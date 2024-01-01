@@ -3224,6 +3224,20 @@
     }
   },
   {
+    "name": "FLON token",
+    "symbol": "FLON",
+    "chains": [
+      42766
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/flon.png",
+    "contracts": {
+      "42766": {
+        "address": "0xA111328a3dc9650f07653944EE2e2a88c10C2ad8",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "USDLR by Stable",
     "symbol": "USDLR",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdlr.png",
