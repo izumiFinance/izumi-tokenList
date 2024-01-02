@@ -1828,6 +1828,20 @@
     }
   },
   {
+    "name": "Bella Token",
+    "symbol": "BEL",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bel.png",
+    "chains": [
+      169
+    ],
+    "contracts": {
+      "169": {
+        "address": "0xB385E52903C802B3bDca7C4D0C78460A8988E1ce",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Minu the Manta",
     "symbol": "MNU",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mnu.png",

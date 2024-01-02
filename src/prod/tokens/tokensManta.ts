@@ -157,6 +157,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Bella Token",
+        symbol: TokenSymbol.BELManta, 
+        icon: baseURL + 'bel.png',
+        chains: [ChainId.Manta],
+        contracts: {
+            [ChainId.Manta]: {
+                address: '0xB385E52903C802B3bDca7C4D0C78460A8988E1ce',
+                decimal: 18,
+            }, 
+        },
+    },
+    {
         name: "Minu the Manta",
         symbol: TokenSymbol.MNUManta, 
         icon: baseURL + 'mnu.png',
