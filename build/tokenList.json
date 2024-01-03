@@ -1884,6 +1884,20 @@
     }
   },
   {
+    "name": "Mantizard Token",
+    "symbol": "MZARD",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mzard.png",
+    "chains": [
+      169
+    ],
+    "contracts": {
+      "169": {
+        "address": "0x71763103f697E550200cF4a5C25850114F560CA7",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Mantle Token",
     "symbol": "MNT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mnt.png",

@@ -204,4 +204,16 @@ export const tokens: TokenInfo[] = [
             }, 
         },
     },
+    {
+        name: "Mantizard Token",
+        symbol: TokenSymbol.MZARDManta, 
+        icon: baseURL + 'mzard.png',
+        chains: [ChainId.Manta],
+        contracts: {
+            [ChainId.Manta]: {
+                address: '0x71763103f697E550200cF4a5C25850114F560CA7',
+                decimal: 18,
+            }, 
+        },
+    },
 ]
