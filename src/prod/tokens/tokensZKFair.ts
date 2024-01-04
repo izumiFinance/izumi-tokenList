@@ -73,6 +73,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Fair Inu",
+        symbol: TokenSymbol.FAIRZKFair,
+        chains: [ChainId.ZKFair],
+        icon: baseURL + 'fair.png',
+        contracts: {
+            [ChainId.ZKFair]: {
+                address: '0x450C29E6E799efECc6811954F47756af602D7930',
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "FLON token",
         symbol: TokenSymbol.FLONZKFair,
         chains: [ChainId.ZKFair],
