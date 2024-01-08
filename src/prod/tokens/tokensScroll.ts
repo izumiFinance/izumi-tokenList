@@ -240,4 +240,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Scrolly The Map",
+        symbol: TokenSymbol.SCROLLYScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'scrolly.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0xb65aD8d81d1E4Cb2975352338805AF6e39BA8Be8',
+                decimal: 18,
+            },
+        },
+    },
 ]

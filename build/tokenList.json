@@ -3051,6 +3051,20 @@
     }
   },
   {
+    "name": "Scrolly The Map",
+    "symbol": "SCROLLY",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/scrolly.png",
+    "contracts": {
+      "534352": {
+        "address": "0xb65aD8d81d1E4Cb2975352338805AF6e39BA8Be8",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Telos Token",
     "symbol": "TLOS",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/tlos.png",

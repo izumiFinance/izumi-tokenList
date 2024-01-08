@@ -19,5 +19,6 @@ export enum TokenSymbol {
     LABScroll = 'LAB.s',
     AXLUSDC = 'axlUSDC',
     SKYScroll = 'SKY',
+    SCROLLYScroll = 'SCROLLY',
 }
 
