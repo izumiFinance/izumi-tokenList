@@ -20,5 +20,6 @@ export enum TokenSymbol {
     AXLUSDC = 'axlUSDC',
     SKYScroll = 'SKY',
     SCROLLYScroll = 'SCROLLY',
+    CATScroll = 'CAT',
 }
 

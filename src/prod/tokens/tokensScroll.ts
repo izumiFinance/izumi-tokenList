@@ -252,4 +252,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Danjuan Cat",
+        symbol: TokenSymbol.CATScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'cat.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0xdd6a49995ad38fe7409b5d5cb5539261bd1bc901',
+                decimal: 18,
+            },
+        },
+    },
 ]
