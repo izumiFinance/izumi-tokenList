@@ -264,4 +264,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "蛋卷",
+        symbol: TokenSymbol.EGGROLLScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'eggroll.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0x3275fa3a5e244a17b16a9867ebf5e0f9e5d9fcd0',
+                decimal: 18,
+            },
+        },
+    },
 ]
