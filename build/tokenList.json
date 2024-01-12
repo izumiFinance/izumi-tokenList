@@ -1828,6 +1828,20 @@
     }
   },
   {
+    "name": "LayerBank Token",
+    "symbol": "LAB.m",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/labm.png",
+    "chains": [
+      169
+    ],
+    "contracts": {
+      "169": {
+        "address": "0x20A512dbdC0D006f46E6cA11329034Eb3d18c997",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Bella Token",
     "symbol": "BEL",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bel.png",
@@ -1893,20 +1907,6 @@
     "contracts": {
       "169": {
         "address": "0x71763103f697E550200cF4a5C25850114F560CA7",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "LayerBank Token",
-    "symbol": "LAB.m",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/labm.png",
-    "chains": [
-      169
-    ],
-    "contracts": {
-      "169": {
-        "address": "0x20A512dbdC0D006f46E6cA11329034Eb3d18c997",
         "decimal": 18
       }
     }

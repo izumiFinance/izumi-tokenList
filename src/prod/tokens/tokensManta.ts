@@ -157,6 +157,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "LayerBank Token",
+        symbol: TokenSymbol.LABManta, 
+        icon: baseURL + 'labm.png',
+        chains: [ChainId.Manta],
+        contracts: {
+            [ChainId.Manta]: {
+                address: '0x20A512dbdC0D006f46E6cA11329034Eb3d18c997',
+                decimal: 18,
+            }, 
+        },
+    },
+    {
         name: "Bella Token",
         symbol: TokenSymbol.BELManta, 
         icon: baseURL + 'bel.png',
@@ -216,16 +228,5 @@ export const tokens: TokenInfo[] = [
             }, 
         },
     },
-    {
-        name: "LayerBank Token",
-        symbol: TokenSymbol.LABManta, 
-        icon: baseURL + 'labm.png',
-        chains: [ChainId.Manta],
-        contracts: {
-            [ChainId.Manta]: {
-                address: '0x20A512dbdC0D006f46E6cA11329034Eb3d18c997',
-                decimal: 18,
-            }, 
-        },
-    },
+   
 ]
