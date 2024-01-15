@@ -1912,6 +1912,20 @@
     }
   },
   {
+    "name": "LubuInc Token",
+    "symbol": "LUBU",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/lubu.png",
+    "chains": [
+      169
+    ],
+    "contracts": {
+      "169": {
+        "address": "0x95228f93CAadb0385A398dC7d3F2d49f7FAcf5EA",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Mantle Token",
     "symbol": "MNT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mnt.png",

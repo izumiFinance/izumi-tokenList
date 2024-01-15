@@ -228,5 +228,17 @@ export const tokens: TokenInfo[] = [
             }, 
         },
     },
+    {
+        name: "LubuInc Token",
+        symbol: TokenSymbol.LUBUManta, 
+        icon: baseURL + 'lubu.png',
+        chains: [ChainId.Manta],
+        contracts: {
+            [ChainId.Manta]: {
+                address: '0x95228f93CAadb0385A398dC7d3F2d49f7FAcf5EA',
+                decimal: 18,
+            }, 
+        },
+    },
    
 ]
