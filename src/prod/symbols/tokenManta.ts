@@ -3,6 +3,7 @@ export enum TokenSymbol {
     WETHManta = 'WETH',
     USDTManta = 'USDT',
     USDCManta = 'USDC',
+    MANTAManta = 'MANTA',
     DAIManta = 'DAI',
     WBTCManta = 'WBTC',
     WSTETHManta = 'wstETH',

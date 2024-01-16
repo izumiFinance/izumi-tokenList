@@ -61,6 +61,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Manta Token",
+        symbol: TokenSymbol.MANTAManta,
+        icon: baseURL + 'manta.png',
+        chains: [ChainId.Manta],
+        contracts: {
+            [ChainId.Manta]: {
+                address: '0x95CeF13441Be50d20cA4558CC0a27B601aC544E5',
+                decimal: 18,
+            }, 
+        },
+    },
+    {
         name: "Dai Stablecoin",
         symbol: TokenSymbol.DAIManta,
         icon: baseURL + 'dai.png',

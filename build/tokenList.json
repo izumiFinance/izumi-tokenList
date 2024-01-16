@@ -1716,6 +1716,20 @@
     }
   },
   {
+    "name": "Manta Token",
+    "symbol": "MANTA",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/manta.png",
+    "chains": [
+      169
+    ],
+    "contracts": {
+      "169": {
+        "address": "0x95CeF13441Be50d20cA4558CC0a27B601aC544E5",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Dai Stablecoin",
     "symbol": "DAI",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dai.png",
