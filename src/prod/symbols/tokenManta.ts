@@ -19,4 +19,5 @@ export enum TokenSymbol {
     MZARDManta = 'MZARD',
     LABManta = 'LAB.m',
     LUBUManta = 'LUBU',
+    KENNYManta = 'KENNY',
 }

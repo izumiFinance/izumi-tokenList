@@ -252,5 +252,17 @@ export const tokens: TokenInfo[] = [
             }, 
         },
     },
+    {
+        name: "Clark Kenny Token",
+        symbol: TokenSymbol.KENNYManta, 
+        icon: baseURL + 'kenny.png',
+        chains: [ChainId.Manta],
+        contracts: {
+            [ChainId.Manta]: {
+                address: '0xc9144b827604048d66a3455f8f5632cece651fc5',
+                decimal: 18,
+            }, 
+        },
+    },
    
 ]

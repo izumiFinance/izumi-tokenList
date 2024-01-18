@@ -1940,6 +1940,20 @@
     }
   },
   {
+    "name": "Clark Kenny Token",
+    "symbol": "KENNY",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/kenny.png",
+    "chains": [
+      169
+    ],
+    "contracts": {
+      "169": {
+        "address": "0xc9144b827604048d66a3455f8f5632cece651fc5",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Mantle Token",
     "symbol": "MNT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mnt.png",
