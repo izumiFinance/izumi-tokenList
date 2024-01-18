@@ -264,5 +264,17 @@ export const tokens: TokenInfo[] = [
             }, 
         },
     },
+    {
+        name: "MONK BOT Token",
+        symbol: TokenSymbol.MONKManta, 
+        icon: baseURL + 'monk.png',
+        chains: [ChainId.Manta],
+        contracts: {
+            [ChainId.Manta]: {
+                address: '0x3ef9c52c921600e43e42bd6aed33c6f8bf3123fb',
+                decimal: 18,
+            }, 
+        },
+    },
    
 ]

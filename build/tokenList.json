@@ -1954,6 +1954,20 @@
     }
   },
   {
+    "name": "MONK BOT Token",
+    "symbol": "MONK",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/monk.png",
+    "chains": [
+      169
+    ],
+    "contracts": {
+      "169": {
+        "address": "0x3ef9c52c921600e43e42bd6aed33c6f8bf3123fb",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Mantle Token",
     "symbol": "MNT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mnt.png",
