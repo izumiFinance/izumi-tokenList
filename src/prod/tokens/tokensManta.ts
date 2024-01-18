@@ -193,6 +193,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Webmi Token",
+        symbol: TokenSymbol.WEBMIManta, 
+        icon: baseURL + 'webmi.png',
+        chains: [ChainId.Manta],
+        contracts: {
+            [ChainId.Manta]: {
+                address: '0x19585009Ce333efCC4a383c28B27A0Eb2e8497Ea',
+                decimal: 18,
+            }, 
+        },
+    },
+    {
         name: "Minu the Manta",
         symbol: TokenSymbol.MNUManta, 
         icon: baseURL + 'mnu.png',

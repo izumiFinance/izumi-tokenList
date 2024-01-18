@@ -1870,6 +1870,20 @@
     }
   },
   {
+    "name": "Webmi Token",
+    "symbol": "WEBMI",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/webmi.png",
+    "chains": [
+      169
+    ],
+    "contracts": {
+      "169": {
+        "address": "0x19585009Ce333efCC4a383c28B27A0Eb2e8497Ea",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Minu the Manta",
     "symbol": "MNU",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mnu.png",
