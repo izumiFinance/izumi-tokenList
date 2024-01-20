@@ -22,4 +22,5 @@ export enum TokenSymbol {
     KENNYManta = 'KENNY',
     MONKManta = 'MONK',
     WEBMIManta = 'WEBMI',
+    MANTIManta = 'Manti',
 }

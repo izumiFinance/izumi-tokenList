@@ -288,5 +288,17 @@ export const tokens: TokenInfo[] = [
             }, 
         },
     },
+    {
+        name: "Manti Token",
+        symbol: TokenSymbol.MANTIManta, 
+        icon: baseURL + 'manti.png',
+        chains: [ChainId.Manta],
+        contracts: {
+            [ChainId.Manta]: {
+                address: '0x7cf9937f62c9785910de90c9296000f96d9b682e',
+                decimal: 18,
+            }, 
+        },
+    },
    
 ]

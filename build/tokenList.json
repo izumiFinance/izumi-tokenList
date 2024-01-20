@@ -1982,6 +1982,20 @@
     }
   },
   {
+    "name": "Manti Token",
+    "symbol": "Manti",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/manti.png",
+    "chains": [
+      169
+    ],
+    "contracts": {
+      "169": {
+        "address": "0x7cf9937f62c9785910de90c9296000f96d9b682e",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Mantle Token",
     "symbol": "MNT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mnt.png",
