@@ -3392,6 +3392,20 @@
     }
   },
   {
+    "name": "Side Token",
+    "symbol": "SIDE",
+    "chains": [
+      42766
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/side.png",
+    "contracts": {
+      "42766": {
+        "address": "0x50BCB6ecF1Fddd35D649fB1Bc6760Dd7AA32B348",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Fair Inu",
     "symbol": "FAIR",
     "chains": [

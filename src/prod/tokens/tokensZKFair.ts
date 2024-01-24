@@ -73,6 +73,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Side Token",
+        symbol: TokenSymbol.SIDEZKFair,
+        chains: [ChainId.ZKFair],
+        icon: baseURL + 'side.png',
+        contracts: {
+            [ChainId.ZKFair]: {
+                address: '0x50BCB6ecF1Fddd35D649fB1Bc6760Dd7AA32B348',
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Fair Inu",
         symbol: TokenSymbol.FAIRZKFair,
         chains: [ChainId.ZKFair],
