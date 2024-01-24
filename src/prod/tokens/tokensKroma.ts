@@ -97,4 +97,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Kroma staked WEMIX.e",
+        symbol: TokenSymbol.STWEMIXKroma,
+        icon: baseURL + 'stwemixe.png',
+        chains: [ChainId.Kroma],
+        contracts: {
+            [ChainId.Kroma]: {
+                address: '0xA5c7992710A94A2ef2e8E910b441bD70385DBAB8',
+                decimal: 18,
+            },
+        },
+    },
 ]
