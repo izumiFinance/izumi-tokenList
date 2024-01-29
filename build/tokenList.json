@@ -221,7 +221,7 @@
         "decimal": 6
       },
       "10": {
-        "address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+        "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
         "decimal": 6
       },
       "25": {
@@ -3406,6 +3406,20 @@
     "contracts": {
       "42766": {
         "address": "0x1cd3e2a23c45a690a18ed93fd1412543f464158f",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "FPoints Token",
+    "symbol": "IFP",
+    "chains": [
+      42766
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ifp.png",
+    "contracts": {
+      "42766": {
+        "address": "0x922991F913641dFdd14CF6D7A94907aaBC86Ab93",
         "decimal": 18
       }
     }

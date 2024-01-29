@@ -7,4 +7,5 @@ export enum TokenSymbol {
     FLONZKFair = 'FLON',
     FAIRZKFair = 'FAIR',
     SIDEZKFair = 'SIDE',
+    IFPZKFair = 'IFP',
 }

@@ -73,6 +73,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "FPoints Token",
+        symbol: TokenSymbol.IFPZKFair,
+        chains: [ChainId.ZKFair],
+        icon: baseURL + 'ifp.png',
+        contracts: {
+            [ChainId.ZKFair]: {
+                address: '0x922991F913641dFdd14CF6D7A94907aaBC86Ab93',
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Side Token",
         symbol: TokenSymbol.SIDEZKFair,
         chains: [ChainId.ZKFair],
