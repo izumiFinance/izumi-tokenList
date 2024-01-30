@@ -3467,6 +3467,34 @@
     }
   },
   {
+    "name": "Zeta Token",
+    "symbol": "ZETA",
+    "chains": [
+      7000
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/zeta.png",
+    "contracts": {
+      "7000": {
+        "address": "0x5F0b1a82749cb4E2278EC87F8BF6B618dC71a8bf",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped ZETA",
+    "symbol": "WZETA",
+    "chains": [
+      7000
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/zeta.png",
+    "contracts": {
+      "7000": {
+        "address": "0x5F0b1a82749cb4E2278EC87F8BF6B618dC71a8bf",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "USDLR by Stable",
     "symbol": "USDLR",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdlr.png",
