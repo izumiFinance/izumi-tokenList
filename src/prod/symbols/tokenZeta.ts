@@ -8,4 +8,5 @@ export enum TokenSymbol {
     USDTETHZeta = 'USDT.ETH',
     USDCBSCZeta = 'USDC.BSC',
     USDCETHZeta = 'USDC.ETH',
+    STZETAZeta = 'stZETA',
 }

@@ -120,4 +120,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Staked ZETA",
+        symbol: TokenSymbol.STZETAZeta,
+        chains: [ChainId.Zeta],
+        icon: baseURL + 'stzeta.svg',
+        contracts: {
+            [ChainId.Zeta]: {
+                address: '0x45334a5B0a01cE6C260f2B570EC941C680EA62c0',
+                decimal: 18, 
+            },
+        },
+    },
 ]
