@@ -1642,6 +1642,20 @@
     }
   },
   {
+    "name": "The Line Token",
+    "symbol": "LINE",
+    "chains": [
+      59144
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/line.png",
+    "contracts": {
+      "59144": {
+        "address": "0xfc04413ca9360256beb7c66ad73348faa8f92c68",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Loot token",
     "symbol": "AGLD",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/agld.png",

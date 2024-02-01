@@ -96,4 +96,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "The Line Token",
+        symbol: TokenSymbol.LINELinea,
+        chains: [ChainId.Linea],
+        icon: baseURL + 'line.png',
+        contracts: {
+            [ChainId.Linea]: {
+                address: '0xfc04413ca9360256beb7c66ad73348faa8f92c68',
+                decimal: 18,
+            },
+        },
+    },
 ]

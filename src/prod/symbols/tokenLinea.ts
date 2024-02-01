@@ -6,4 +6,5 @@ export enum TokenSymbol {
     LABLinea = 'LAB',
     ZKUSDLinea = 'ZKUSD',
     LYULinea = 'LYU',
+    LINELinea = 'LINE',
 }
