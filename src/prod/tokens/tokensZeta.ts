@@ -132,4 +132,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "HUHU Cat Token",
+        symbol: TokenSymbol.HUHUZeta,
+        chains: [ChainId.Zeta],
+        icon: baseURL + 'huhu.png',
+        contracts: {
+            [ChainId.Zeta]: {
+                address: '0x7a677e59dC2C8a42d6aF3a62748c5595034A008b',
+                decimal: 18, 
+            },
+        },
+    },
 ]

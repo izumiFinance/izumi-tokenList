@@ -3626,6 +3626,20 @@
     }
   },
   {
+    "name": "HUHU Cat Token",
+    "symbol": "HUHU",
+    "chains": [
+      7000
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/huhu.png",
+    "contracts": {
+      "7000": {
+        "address": "0x7a677e59dC2C8a42d6aF3a62748c5595034A008b",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "USDLR by Stable",
     "symbol": "USDLR",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdlr.png",
