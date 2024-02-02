@@ -300,5 +300,17 @@ export const tokens: TokenInfo[] = [
             }, 
         },
     },
+    {
+        name: "Crabby Cat Token",
+        symbol: TokenSymbol.CRABBYCATManta, 
+        icon: baseURL + 'crabbycat.png',
+        chains: [ChainId.Manta],
+        contracts: {
+            [ChainId.Manta]: {
+                address: '0x3867ddb33b95252cd661879a335f1a826c2172b0',
+                decimal: 18,
+            }, 
+        },
+    },
    
 ]

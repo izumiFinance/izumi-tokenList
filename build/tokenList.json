@@ -2034,6 +2034,20 @@
     }
   },
   {
+    "name": "Crabby Cat Token",
+    "symbol": "CrabbyCat",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/crabbycat.png",
+    "chains": [
+      169
+    ],
+    "contracts": {
+      "169": {
+        "address": "0x3867ddb33b95252cd661879a335f1a826c2172b0",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Mantle Token",
     "symbol": "MNT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mnt.png",
