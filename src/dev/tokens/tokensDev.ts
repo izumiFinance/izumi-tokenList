@@ -335,7 +335,11 @@ export const tokens: TokenInfo[] = [
     {
         name: 'Ether',
         symbol: TokenSymbol.ETH,
-        chains: [ChainId.Izumi, ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.LineaTest, ChainId.MantaTest, ChainId.KromaTest, ChainId.ScrollSepoliaTest],
+        chains: [
+            ChainId.Izumi, ChainId.AuroraTestnet, ChainId.ScrollTestnet, 
+            ChainId.ZkSyncAlphaTest, ChainId.LineaTest, ChainId.MantaTest, 
+            ChainId.KromaTest, ChainId.ScrollSepoliaTest, ChainId.BlastTest,
+        ],
         icon: baseURL + 'eth.png',
         contracts: {
             [ChainId.Izumi]: {
@@ -370,12 +374,20 @@ export const tokens: TokenInfo[] = [
                 address: '0xfa6a407c4C49Ea1D46569c1A4Bcf71C3437bE54c', //WETH
                 decimal: 18,
             },
+            [ChainId.BlastTest]: {
+                address: '0xa9754f0D9055d14EB0D2d196E4C51d8B2Ee6f4d3', //WETH
+                decimal: 18,
+            },
         },
     },
     {
         name: 'Wrapped Ether',
         symbol: TokenSymbol.WETH,
-        chains: [ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, ChainId.MantleTestnet, ChainId.LineaTest, ChainId.MantaTest, ChainId.KromaTest, ChainId.ScrollSepoliaTest],
+        chains: [
+            ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, 
+            ChainId.MantleTestnet, ChainId.LineaTest, ChainId.MantaTest, 
+            ChainId.KromaTest, ChainId.ScrollSepoliaTest, ChainId.BlastTest,
+        ],
         icon: baseURL + 'WETH.png',
         contracts: {
             [ChainId.AuroraTestnet]: {
@@ -408,6 +420,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.ScrollSepoliaTest]: {
                 address: '0xfa6a407c4C49Ea1D46569c1A4Bcf71C3437bE54c', 
+                decimal: 18,
+            },
+            [ChainId.BlastTest]: {
+                address: '0xa9754f0D9055d14EB0D2d196E4C51d8B2Ee6f4d3',
                 decimal: 18,
             },
         },

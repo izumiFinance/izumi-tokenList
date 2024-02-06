@@ -34,4 +34,5 @@ export enum ChainId {
     X1Test = 195,
     ZKFairTest = 43851,
     MerlinTest = 686868,
+    BlastTest = 168587773,
 }
