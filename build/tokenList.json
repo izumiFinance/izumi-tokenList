@@ -1922,6 +1922,20 @@
     }
   },
   {
+    "name": "Staked MANTA",
+    "symbol": "stMANTA",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/stmanta.png",
+    "chains": [
+      169
+    ],
+    "contracts": {
+      "169": {
+        "address": "0xcba2aeec821b0b119857a9ab39e09b034249681a",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Minu the Manta",
     "symbol": "MNU",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mnu.png",
