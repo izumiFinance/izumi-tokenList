@@ -35,4 +35,5 @@ export enum ChainId {
     ZKFairTest = 43851,
     MerlinTest = 686868,
     BlastTest = 168587773,
+    TaikoTest = 167008,
 }

@@ -339,6 +339,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Izumi, ChainId.AuroraTestnet, ChainId.ScrollTestnet, 
             ChainId.ZkSyncAlphaTest, ChainId.LineaTest, ChainId.MantaTest, 
             ChainId.KromaTest, ChainId.ScrollSepoliaTest, ChainId.BlastTest,
+            ChainId.TaikoTest,
         ],
         icon: baseURL + 'eth.png',
         contracts: {
@@ -378,6 +379,10 @@ export const tokens: TokenInfo[] = [
                 address: '0xa9754f0D9055d14EB0D2d196E4C51d8B2Ee6f4d3', //WETH
                 decimal: 18,
             },
+            [ChainId.TaikoTest]: {
+                address: '0xC6C7c2edF70A3245ad6051E93809162B9758ce08', //WETH
+                decimal: 18,
+            },
         },
     },
     {
@@ -387,6 +392,7 @@ export const tokens: TokenInfo[] = [
             ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, 
             ChainId.MantleTestnet, ChainId.LineaTest, ChainId.MantaTest, 
             ChainId.KromaTest, ChainId.ScrollSepoliaTest, ChainId.BlastTest,
+            ChainId.TaikoTest,
         ],
         icon: baseURL + 'WETH.png',
         contracts: {
@@ -424,6 +430,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.BlastTest]: {
                 address: '0xa9754f0D9055d14EB0D2d196E4C51d8B2Ee6f4d3',
+                decimal: 18,
+            },
+            [ChainId.TaikoTest]: {
+                address: '0xC6C7c2edF70A3245ad6051E93809162B9758ce08', 
                 decimal: 18,
             },
         },
