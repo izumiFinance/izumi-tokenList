@@ -275,7 +275,7 @@ export const tokens: TokenInfo[] = [
             ChainId.ScrollTestnet, 
             ChainId.RolluxBedrockTest, 
             ChainId.MantaTest, ChainId.KromaTest, ChainId.ScrollSepoliaTest, ChainId.GasZeroGoerliL2,
-            ChainId.X1Test, ChainId.TaikoTest
+            ChainId.X1Test, ChainId.TaikoTest, ChainId.BlastTest,
         ],
         contracts: {
             [ChainId.Izumi]: {
@@ -334,6 +334,11 @@ export const tokens: TokenInfo[] = [
                 address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
                 decimal: 18,
             },
+            [ChainId.BlastTest]: {
+                address: '0x2A2E08ea99E63482BDad8Bf69c7b69752F07736F',
+                decimal: 18,
+            },
+
         },
     },
     {
