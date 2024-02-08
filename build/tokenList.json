@@ -2132,6 +2132,20 @@
     }
   },
   {
+    "name": "Mantle Dragon Token",
+    "symbol": "$MDragon",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dragon.png",
+    "chains": [
+      5000
+    ],
+    "contracts": {
+      "5000": {
+        "address": "0x217B4382a1De262C0FBa97C1B8378904B4a25e4D",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "LUSD Stablecoin",
     "symbol": "LUSD",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/lusd.png",

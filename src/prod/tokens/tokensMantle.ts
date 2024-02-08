@@ -73,6 +73,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Mantle Dragon Token",
+        symbol: TokenSymbol.DRAGONMantle,
+        icon: baseURL + 'dragon.png',
+        chains: [ChainId.Mantle],
+        contracts: {
+            [ChainId.Mantle]: {
+                address: '0x217B4382a1De262C0FBa97C1B8378904B4a25e4D',  
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "LUSD Stablecoin",
         symbol: TokenSymbol.LUSDMANTLE,
         icon: baseURL + 'lusd.png',

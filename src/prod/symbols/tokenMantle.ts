@@ -17,4 +17,6 @@ export enum TokenSymbol {
     METHMantle = 'mETH',
     USDLRMantle = 'USDLR',
     STUSDMantle = 'stUSD',
+    DRAGONMantle = '$MDragon',
 }
+
