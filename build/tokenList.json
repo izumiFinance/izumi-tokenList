@@ -3472,6 +3472,20 @@
     }
   },
   {
+    "name": "Hyperion Exchange Token",
+    "symbol": "HPX",
+    "chains": [
+      42766
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/hpx.png",
+    "contracts": {
+      "42766": {
+        "address": "0x825b4244684d5A07fCeF8124D9B21FD868b39654",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Side Token",
     "symbol": "SIDE",
     "chains": [

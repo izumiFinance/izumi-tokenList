@@ -85,6 +85,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Hyperion Exchange Token",
+        symbol: TokenSymbol.HPXZKFair,
+        chains: [ChainId.ZKFair],
+        icon: baseURL + 'hpx.png',
+        contracts: {
+            [ChainId.ZKFair]: {
+                address: '0x825b4244684d5A07fCeF8124D9B21FD868b39654',
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Side Token",
         symbol: TokenSymbol.SIDEZKFair,
         chains: [ChainId.ZKFair],
