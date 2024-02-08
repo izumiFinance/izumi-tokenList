@@ -276,6 +276,7 @@ export const tokens: TokenInfo[] = [
             ChainId.RolluxBedrockTest, 
             ChainId.MantaTest, ChainId.KromaTest, ChainId.ScrollSepoliaTest, ChainId.GasZeroGoerliL2,
             ChainId.X1Test, ChainId.TaikoTest, ChainId.BlastTest,
+            ChainId.MorphTest,
         ],
         contracts: {
             [ChainId.Izumi]: {
@@ -338,6 +339,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x2A2E08ea99E63482BDad8Bf69c7b69752F07736F',
                 decimal: 18,
             },
+            [ChainId.MorphTest]: {
+                address: '0x551197e6350936976DfFB66B2c3bb15DDB723250',
+                decimal: 18,
+            },
 
         },
     },
@@ -348,7 +353,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Izumi, ChainId.AuroraTestnet, ChainId.ScrollTestnet, 
             ChainId.ZkSyncAlphaTest, ChainId.LineaTest, ChainId.MantaTest, 
             ChainId.KromaTest, ChainId.ScrollSepoliaTest, ChainId.BlastTest,
-            ChainId.TaikoTest,
+            ChainId.TaikoTest, ChainId.MorphTest,
         ],
         icon: baseURL + 'eth.png',
         contracts: {
@@ -392,6 +397,10 @@ export const tokens: TokenInfo[] = [
                 address: '0xC6C7c2edF70A3245ad6051E93809162B9758ce08', //WETH
                 decimal: 18,
             },
+            [ChainId.MorphTest]: {
+                address: '0xC6C7c2edF70A3245ad6051E93809162B9758ce08', //WETH
+                decimal: 18,
+            },
         },
     },
     {
@@ -401,7 +410,7 @@ export const tokens: TokenInfo[] = [
             ChainId.AuroraTestnet, ChainId.ScrollTestnet, ChainId.ZkSyncAlphaTest, 
             ChainId.MantleTestnet, ChainId.LineaTest, ChainId.MantaTest, 
             ChainId.KromaTest, ChainId.ScrollSepoliaTest, ChainId.BlastTest,
-            ChainId.TaikoTest,
+            ChainId.TaikoTest, ChainId.MorphTest
         ],
         icon: baseURL + 'WETH.png',
         contracts: {
@@ -443,6 +452,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.TaikoTest]: {
                 address: '0xC6C7c2edF70A3245ad6051E93809162B9758ce08', 
+                decimal: 18,
+            },
+            [ChainId.MorphTest]: {
+                address: '0xC6C7c2edF70A3245ad6051E93809162B9758ce08',
                 decimal: 18,
             },
         },
