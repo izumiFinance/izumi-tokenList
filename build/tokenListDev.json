@@ -1,5 +1,33 @@
 [
   {
+    "name": "Berachain Token",
+    "symbol": "BERA",
+    "chains": [
+      80085
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bera.png",
+    "contracts": {
+      "80085": {
+        "address": "0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped Bera",
+    "symbol": "WBERA",
+    "chains": [
+      80085
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bera.png",
+    "contracts": {
+      "80085": {
+        "address": "0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Ontology Gas",
     "symbol": "ONG",
     "chains": [
@@ -88,7 +116,6 @@
     "symbol": "iZi",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/izumi.svg",
     "chains": [
-      1337,
       12008,
       12021,
       7001,
@@ -117,10 +144,6 @@
       },
       "280": {
         "address": "0xA5900cce51c45Ab9730039943B3863C822342034",
-        "decimal": 18
-      },
-      "1337": {
-        "address": "0xEe5e3852434eB67F8e9E97015e32845861ea15E8",
         "decimal": 18
       },
       "2358": {
@@ -288,7 +311,8 @@
       195,
       167008,
       168587773,
-      2710
+      2710,
+      80085
     ],
     "contracts": {
       "97": {
@@ -329,6 +353,10 @@
       },
       "57000": {
         "address": "0x876508837C162aCedcc5dd7721015E83cbb4e339",
+        "decimal": 18
+      },
+      "80085": {
+        "address": "0x551197e6350936976DfFB66B2c3bb15DDB723250",
         "decimal": 18
       },
       "167008": {

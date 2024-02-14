@@ -89,7 +89,6 @@ export const tokens: TokenInfo[] = [
         symbol: TokenSymbol.IZI,
         icon: baseURL + 'izumi.svg',
         chains: [
-            ChainId.Izumi,
             ChainId.OpsideRolluxTest,
             ChainId.GasZeroGoerliL2,
             ChainId.ZetaTest,
@@ -108,10 +107,6 @@ export const tokens: TokenInfo[] = [
             ChainId.X1Test,
         ],
         contracts: {
-            [ChainId.Izumi]: {
-                address: '0xEe5e3852434eB67F8e9E97015e32845861ea15E8',
-                decimal: 18,
-            },
             [ChainId.BSCTestnet]: {
                 address: '0x551197e6350936976DfFB66B2c3bb15DDB723250',
                 decimal: 18,
@@ -277,6 +272,7 @@ export const tokens: TokenInfo[] = [
             ChainId.MantaTest, ChainId.KromaTest, ChainId.ScrollSepoliaTest, ChainId.GasZeroGoerliL2,
             ChainId.X1Test, ChainId.TaikoTest, ChainId.BlastTest,
             ChainId.MorphTest,
+            ChainId.BeraTest,
         ],
         contracts: {
             [ChainId.Izumi]: {
@@ -343,7 +339,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x551197e6350936976DfFB66B2c3bb15DDB723250',
                 decimal: 18,
             },
-
+            [ChainId.BeraTest]: {
+                address: '0x551197e6350936976DfFB66B2c3bb15DDB723250',
+                decimal: 18,
+            },
         },
     },
     {
