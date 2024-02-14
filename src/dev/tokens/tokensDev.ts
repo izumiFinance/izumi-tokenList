@@ -340,7 +340,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.BeraTest]: {
-                address: '0x551197e6350936976DfFB66B2c3bb15DDB723250',
+                address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
                 decimal: 18,
             },
         },
