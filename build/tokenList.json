@@ -3696,6 +3696,20 @@
     }
   },
   {
+    "name": "Zeta Cat Token",
+    "symbol": "ZCat",
+    "chains": [
+      7000
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/zcat.png",
+    "contracts": {
+      "7000": {
+        "address": "0xc51e043B110672729d27332e1C145011065559b1",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "USDLR by Stable",
     "symbol": "USDLR",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdlr.png",

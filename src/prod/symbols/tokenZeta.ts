@@ -10,4 +10,5 @@ export enum TokenSymbol {
     USDCETHZeta = 'USDC.ETH',
     STZETAZeta = 'stZETA',
     HUHUZeta = 'HUHU',
+    ZCATZeta = 'ZCat',
 }

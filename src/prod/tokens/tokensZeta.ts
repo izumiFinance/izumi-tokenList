@@ -144,4 +144,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Zeta Cat Token",
+        symbol: TokenSymbol.ZCATZeta,
+        chains: [ChainId.Zeta],
+        icon: baseURL + 'zcat.png',
+        contracts: {
+            [ChainId.Zeta]: {
+                address: '0xc51e043B110672729d27332e1C145011065559b1',
+                decimal: 18, 
+            },
+        },
+    },
 ]
