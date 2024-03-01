@@ -1880,6 +1880,20 @@
     }
   },
   {
+    "name": "Blast ETH",
+    "symbol": "BETH",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/beth.png",
+    "chains": [
+      169
+    ],
+    "contracts": {
+      "169": {
+        "address": "0xaff124456115674d04B1caAD15b627Da95dBd85C",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "LayerBank Token",
     "symbol": "LAB.m",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/labm.png",

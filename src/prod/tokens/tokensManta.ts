@@ -169,6 +169,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Blast ETH",
+        symbol: TokenSymbol.BETHManta, 
+        icon: baseURL + 'beth.png',
+        chains: [ChainId.Manta],
+        contracts: {
+            [ChainId.Manta]: {
+                address: '0xaff124456115674d04B1caAD15b627Da95dBd85C',
+                decimal: 18,
+            }, 
+        },
+    },
+    {
         name: "LayerBank Token",
         symbol: TokenSymbol.LABManta, 
         icon: baseURL + 'labm.png',
