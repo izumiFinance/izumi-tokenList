@@ -1320,6 +1320,48 @@
     }
   },
   {
+    "name": "Ether",
+    "symbol": "ETH",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
+    "chains": [
+      81457
+    ],
+    "contracts": {
+      "81457": {
+        "address": "0x4300000000000000000000000000000000000004",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WETH.png",
+    "chains": [
+      81457
+    ],
+    "contracts": {
+      "81457": {
+        "address": "0x4300000000000000000000000000000000000004",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Rebasing USD",
+    "symbol": "USDB",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdb.png",
+    "chains": [
+      81457
+    ],
+    "contracts": {
+      "81457": {
+        "address": "0x4300000000000000000000000000000000000003",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Conflux Token",
     "symbol": "CFX",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cfx.png",
