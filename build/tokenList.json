@@ -154,7 +154,8 @@
       5000,
       8453,
       534352,
-      169
+      169,
+      81457
     ],
     "contracts": {
       "1": {
@@ -190,6 +191,10 @@
         "decimal": 18
       },
       "59144": {
+        "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
+        "decimal": 18
+      },
+      "81457": {
         "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
         "decimal": 18
       },
