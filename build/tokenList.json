@@ -3682,6 +3682,20 @@
     }
   },
   {
+    "name": "Accumulated Finance stZETA",
+    "symbol": "stZETA",
+    "chains": [
+      7000
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/stzetaaf.png",
+    "contracts": {
+      "7000": {
+        "address": "0xcba2aeec821b0b119857a9ab39e09b034249681a",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "HUHU Cat Token",
     "symbol": "HUHU",
     "chains": [

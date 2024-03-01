@@ -133,6 +133,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Accumulated Finance stZETA",
+        symbol: TokenSymbol.STZETA2Zeta,
+        chains: [ChainId.Zeta],
+        icon: baseURL + 'stzetaaf.png',
+        contracts: {
+            [ChainId.Zeta]: {
+                address: '0xcba2aeec821b0b119857a9ab39e09b034249681a',
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "HUHU Cat Token",
         symbol: TokenSymbol.HUHUZeta,
         chains: [ChainId.Zeta],
