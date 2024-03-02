@@ -84,5 +84,17 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Frog Rich",
+        symbol: TokenSymbol.RICHBLAST,
+        icon: baseURL + 'rich.png',
+        chains: [ChainId.Blast],
+        contracts: {
+            [ChainId.Blast]: {
+                address: '0x038f1C6ED5FccF690A920a27b39366eeeF27eFCe', 
+                decimal: 18,
+            },
+        },
+    },
 
 ]
