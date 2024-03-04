@@ -131,7 +131,8 @@
       1351057110,
       2358,
       534351,
-      195
+      195,
+      5003
     ],
     "contracts": {
       "97": {
@@ -152,6 +153,10 @@
       },
       "5001": {
         "address": "0x876508837C162aCedcc5dd7721015E83cbb4e339",
+        "decimal": 18
+      },
+      "5003": {
+        "address": "0x551197e6350936976DfFB66B2c3bb15DDB723250",
         "decimal": 18
       },
       "5851": {
@@ -312,7 +317,8 @@
       167008,
       168587773,
       2710,
-      80085
+      80085,
+      5003
     ],
     "contracts": {
       "97": {
@@ -337,6 +343,10 @@
       },
       "5001": {
         "address": "0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b",
+        "decimal": 18
+      },
+      "5003": {
+        "address": "0x876508837C162aCedcc5dd7721015E83cbb4e339",
         "decimal": 18
       },
       "7001": {
@@ -849,6 +859,34 @@
     "contracts": {
       "5001": {
         "address": "0x6e1723460D190B4A092a2c13BA42BcC57d71870b",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Mantle Token",
+    "symbol": "MNT",
+    "chains": [
+      5003
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mnt.png",
+    "contracts": {
+      "5003": {
+        "address": "0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped MNT",
+    "symbol": "WMNT",
+    "chains": [
+      5003
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mnt.png",
+    "contracts": {
+      "5003": {
+        "address": "0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF",
         "decimal": 18
       }
     }

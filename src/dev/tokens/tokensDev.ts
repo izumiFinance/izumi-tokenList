@@ -105,6 +105,7 @@ export const tokens: TokenInfo[] = [
             ChainId.KromaTest, 
             ChainId.ScrollSepoliaTest,
             ChainId.X1Test,
+            ChainId.MantleTest2,
         ],
         contracts: {
             [ChainId.BSCTestnet]: {
@@ -168,6 +169,10 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.X1Test]: {
+                address: '0x551197e6350936976DfFB66B2c3bb15DDB723250',
+                decimal: 18,
+            },
+            [ChainId.MantleTest2]: {
                 address: '0x551197e6350936976DfFB66B2c3bb15DDB723250',
                 decimal: 18,
             },
@@ -273,6 +278,7 @@ export const tokens: TokenInfo[] = [
             ChainId.X1Test, ChainId.TaikoTest, ChainId.BlastTest,
             ChainId.MorphTest,
             ChainId.BeraTest,
+            ChainId.MantleTest2,
         ],
         contracts: {
             [ChainId.Izumi]: {
@@ -340,6 +346,10 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.BeraTest]: {
+                address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
+                decimal: 18,
+            },
+            [ChainId.MantleTest2]: {
                 address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
                 decimal: 18,
             },

@@ -38,4 +38,5 @@ export enum ChainId {
     TaikoTest = 167008,
     MorphTest = 2710,
     BeraTest = 80085,
+    MantleTest2 = 5003,
 }
