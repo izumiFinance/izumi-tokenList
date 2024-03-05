@@ -72,6 +72,43 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+   
+    {
+        name: "Scrolly The Map",
+        symbol: TokenSymbol.SCROLLYScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'scrolly.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0xb65aD8d81d1E4Cb2975352338805AF6e39BA8Be8',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Danjuan Cat",
+        symbol: TokenSymbol.CATScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'cat.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0xdd6a49995ad38fe7409b5d5cb5539261bd1bc901',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Panda Token",
+        symbol: TokenSymbol.PANDAScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'panda.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0x61a9cc561b6c1f9c31bcdeb447afecf25f33bbf9',
+                decimal: 18,
+            },
+        },
+    },
     {
         name: "Uniswap token",
         symbol: TokenSymbol.UNIScroll,
@@ -240,30 +277,7 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "Scrolly The Map",
-        symbol: TokenSymbol.SCROLLYScroll,
-        chains: [ChainId.Scroll],
-        icon: baseURL + 'scrolly.png',
-        contracts: {
-            [ChainId.Scroll]: {
-                address: '0xb65aD8d81d1E4Cb2975352338805AF6e39BA8Be8',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: "Danjuan Cat",
-        symbol: TokenSymbol.CATScroll,
-        chains: [ChainId.Scroll],
-        icon: baseURL + 'cat.png',
-        contracts: {
-            [ChainId.Scroll]: {
-                address: '0xdd6a49995ad38fe7409b5d5cb5539261bd1bc901',
-                decimal: 18,
-            },
-        },
-    },
+   
     {
         name: "蛋卷",
         symbol: TokenSymbol.EGGROLLScroll,

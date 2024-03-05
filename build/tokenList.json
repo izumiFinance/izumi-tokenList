@@ -3150,6 +3150,48 @@
     }
   },
   {
+    "name": "Scrolly The Map",
+    "symbol": "SCROLLY",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/scrolly.png",
+    "contracts": {
+      "534352": {
+        "address": "0xb65aD8d81d1E4Cb2975352338805AF6e39BA8Be8",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Danjuan Cat",
+    "symbol": "CAT",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cat.png",
+    "contracts": {
+      "534352": {
+        "address": "0xdd6a49995ad38fe7409b5d5cb5539261bd1bc901",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Panda Token",
+    "symbol": "PANDA",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/panda.png",
+    "contracts": {
+      "534352": {
+        "address": "0x61a9cc561b6c1f9c31bcdeb447afecf25f33bbf9",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Uniswap token",
     "symbol": "UNI",
     "chains": [
@@ -3341,34 +3383,6 @@
     "contracts": {
       "534352": {
         "address": "0x95a52EC1d60e74CD3Eb002fE54A2c74b185A4C16",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Scrolly The Map",
-    "symbol": "SCROLLY",
-    "chains": [
-      534352
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/scrolly.png",
-    "contracts": {
-      "534352": {
-        "address": "0xb65aD8d81d1E4Cb2975352338805AF6e39BA8Be8",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Danjuan Cat",
-    "symbol": "CAT",
-    "chains": [
-      534352
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cat.png",
-    "contracts": {
-      "534352": {
-        "address": "0xdd6a49995ad38fe7409b5d5cb5539261bd1bc901",
         "decimal": 18
       }
     }
