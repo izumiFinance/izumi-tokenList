@@ -56,34 +56,6 @@
     }
   },
   {
-    "name": "Arctic Token",
-    "symbol": "ARC",
-    "chains": [
-      1313161555
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arc.png",
-    "contracts": {
-      "1313161555": {
-        "address": "0xa341a31CCdD570cAEab465c96D64c880db609021",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Aurora Token",
-    "symbol": "AURORA",
-    "chains": [
-      1313161555
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/aurora.png",
-    "contracts": {
-      "1313161555": {
-        "address": "0xcC2DE5D1A8154f7fa0e80a6732a38422D8fBEB10",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "Rollux Syscoin Token",
     "symbol": "RSYS",
     "chains": [
@@ -120,7 +92,6 @@
       12021,
       7001,
       97,
-      1313161555,
       534353,
       280,
       57000,
@@ -132,7 +103,8 @@
       2358,
       534351,
       195,
-      5003
+      5003,
+      810182
     ],
     "contracts": {
       "97": {
@@ -191,12 +163,12 @@
         "address": "0xdB1A8CF7e6d2fa2C0775D090BCc2cfB3A9e00CdC",
         "decimal": 18
       },
-      "3441005": {
-        "address": "0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b",
+      "810182": {
+        "address": "0x8474F8D17aAdB2eD1264265781311EFa9381FC87",
         "decimal": 18
       },
-      "1313161555": {
-        "address": "0x876508837C162aCedcc5dd7721015E83cbb4e339",
+      "3441005": {
+        "address": "0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b",
         "decimal": 18
       },
       "1351057110": {
@@ -210,7 +182,6 @@
     "symbol": "iUSD",
     "chains": [
       97,
-      1313161555,
       280,
       5851
     ],
@@ -226,10 +197,6 @@
       },
       "5851": {
         "address": "0x551197e6350936976DfFB66B2c3bb15DDB723250",
-        "decimal": 18
-      },
-      "1313161555": {
-        "address": "0xb0453a1bAf6056393897e60dfd851C61A825ef67",
         "decimal": 18
       }
     }
@@ -253,10 +220,8 @@
     "symbol": "USDC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
     "chains": [
-      1337,
       12008,
       97,
-      1313161555,
       57000,
       1351057110,
       12021,
@@ -271,10 +236,6 @@
         "address": "0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b",
         "decimal": 18
       },
-      "1337": {
-        "address": "0xe507AAC9eFb2A08F53C7BC73B3B1b8BCf883E41B",
-        "decimal": 6
-      },
       "12008": {
         "address": "0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b",
         "decimal": 18
@@ -287,10 +248,6 @@
         "address": "0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b",
         "decimal": 18
       },
-      "1313161555": {
-        "address": "0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b",
-        "decimal": 6
-      },
       "1351057110": {
         "address": "0x6AECfe44225A50895e9EC7ca46377B9397D1Bb5b",
         "decimal": 18
@@ -302,11 +259,9 @@
     "symbol": "USDT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
     "chains": [
-      1337,
       12008,
       7001,
       97,
-      1313161555,
       534353,
       57000,
       3441005,
@@ -318,7 +273,8 @@
       168587773,
       2710,
       80085,
-      5003
+      5003,
+      810182
     ],
     "contracts": {
       "97": {
@@ -328,10 +284,6 @@
       "195": {
         "address": "0x876508837C162aCedcc5dd7721015E83cbb4e339",
         "decimal": 18
-      },
-      "1337": {
-        "address": "0x2d2bA91b026E08e0f23Eb01d7ecAb0e7E279a45f",
-        "decimal": 6
       },
       "2358": {
         "address": "0x551197e6350936976DfFB66B2c3bb15DDB723250",
@@ -381,6 +333,10 @@
         "address": "0xe9805A0bA7A8E253fd93A3f9b360619c4819da50",
         "decimal": 18
       },
+      "810182": {
+        "address": "0x9A0C674c7FC173d3680f7b889CBB9a8570C5Ce73",
+        "decimal": 18
+      },
       "3441005": {
         "address": "0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b",
         "decimal": 18
@@ -388,10 +344,6 @@
       "168587773": {
         "address": "0x2A2E08ea99E63482BDad8Bf69c7b69752F07736F",
         "decimal": 18
-      },
-      "1313161555": {
-        "address": "0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b",
-        "decimal": 6
       }
     }
   },
@@ -399,8 +351,6 @@
     "name": "Ether",
     "symbol": "ETH",
     "chains": [
-      1337,
-      1313161555,
       534353,
       280,
       59140,
@@ -415,10 +365,6 @@
     "contracts": {
       "280": {
         "address": "0x8C3e3f2983DB650727F3e05B7a7773e4D641537B",
-        "decimal": 18
-      },
-      "1337": {
-        "address": "0x3AD23A16A81Cd40010F39309876978F20DD2f682",
         "decimal": 18
       },
       "2358": {
@@ -452,10 +398,6 @@
       "168587773": {
         "address": "0xa9754f0D9055d14EB0D2d196E4C51d8B2Ee6f4d3",
         "decimal": 18
-      },
-      "1313161555": {
-        "address": "0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF",
-        "decimal": 18
       }
     }
   },
@@ -463,7 +405,6 @@
     "name": "Wrapped Ether",
     "symbol": "WETH",
     "chains": [
-      1313161555,
       534353,
       280,
       5001,
@@ -516,10 +457,6 @@
       "168587773": {
         "address": "0xa9754f0D9055d14EB0D2d196E4C51d8B2Ee6f4d3",
         "decimal": 18
-      },
-      "1313161555": {
-        "address": "0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF",
-        "decimal": 18
       }
     }
   },
@@ -555,7 +492,6 @@
     "name": "BIT Dao",
     "symbol": "BIT",
     "chains": [
-      1337,
       97,
       5001
     ],
@@ -563,10 +499,6 @@
     "contracts": {
       "97": {
         "address": "0xac360dc0F8EF1C94Ab4034220E0A01567acbFdE4",
-        "decimal": 18
-      },
-      "1337": {
-        "address": "0x41BC21bdcF0FA87ae6eeFcBE0e4dB29dB2b650C1",
         "decimal": 18
       },
       "5001": {
@@ -585,39 +517,6 @@
     "contracts": {
       "5001": {
         "address": "0x69AC69b272f96F5f17DDD9da3832ad9Dc86D1d8A",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Decentralized Eternal Virtual Traveller",
-    "symbol": "DEVT",
-    "chains": [
-      1337
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/devt.png",
-    "contracts": {
-      "1337": {
-        "address": "0xD93FfD9B4d5D643A175B7DcBf4Fb0dA0016D35C7",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "YIN Finance",
-    "symbol": "YIN",
-    "chains": [
-      1337,
-      97
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/yin.png",
-    "contracts": {
-      "97": {
-        "address": "0xB2cdca00D1B07064064e83C377aE9A490ad06bc2",
-        "decimal": 18
-      },
-      "1337": {
-        "address": "0x628571078add0031Ff6E9975AE6ddE1123fC423b",
         "decimal": 18
       }
     }

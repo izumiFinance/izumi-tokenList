@@ -39,4 +39,5 @@ export enum ChainId {
     MorphTest = 2710,
     BeraTest = 80085,
     MantleTest2 = 5003,
+    ZklinkNovaTest = 810182,
 }
