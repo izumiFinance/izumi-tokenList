@@ -1801,6 +1801,62 @@
     }
   },
   {
+    "name": "MAP Protocol Token",
+    "symbol": "MAPO",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mapo.png",
+    "chains": [
+      22776
+    ],
+    "contracts": {
+      "22776": {
+        "address": "0x13cb04d4a5dfb6398fc5ab005a6c84337256ee23",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped MAPO",
+    "symbol": "WMAPO",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mapo.png",
+    "chains": [
+      22776
+    ],
+    "contracts": {
+      "22776": {
+        "address": "0x13cb04d4a5dfb6398fc5ab005a6c84337256ee23",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Mapped Tether USD",
+    "symbol": "USDT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
+    "chains": [
+      22776
+    ],
+    "contracts": {
+      "22776": {
+        "address": "0x33daba9618a75a7aff103e53afe530fbacf4a3dd",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Mapped Wrapped Ether",
+    "symbol": "ETH",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
+    "chains": [
+      22776
+    ],
+    "contracts": {
+      "22776": {
+        "address": "0x05ab928d446d8ce6761e368c8e7be03c3168a9ec",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Ether",
     "symbol": "ETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
