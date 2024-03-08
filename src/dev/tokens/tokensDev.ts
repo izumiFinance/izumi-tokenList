@@ -361,7 +361,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.ZklinkNovaTest]: {
-                address: '0x8C3e3f2983DB650727F3e05B7a7773e4D641537B', //WETH
+                address: '0xAec84500e96F90370C55657d08f375A8d05F4D8c', //WETH
                 decimal: 18,
             },
         },
@@ -418,7 +418,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.ZklinkNovaTest]: {
-                address: '0x8C3e3f2983DB650727F3e05B7a7773e4D641537B', 
+                address: '0xAec84500e96F90370C55657d08f375A8d05F4D8c', 
                 decimal: 18,
             },
         },
