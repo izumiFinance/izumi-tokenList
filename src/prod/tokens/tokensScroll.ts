@@ -230,6 +230,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Wassie Token",
+        symbol: TokenSymbol.WASSIEScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'wassie.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0xab48f0427cd97a5ce3e78bf05faaac3a7f77a117',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Gho Token",
         symbol: TokenSymbol.GHOScroll,
         chains: [ChainId.Scroll],

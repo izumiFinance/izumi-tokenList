@@ -3388,6 +3388,20 @@
     }
   },
   {
+    "name": "Wassie Token",
+    "symbol": "WASSIE",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wassie.png",
+    "contracts": {
+      "534352": {
+        "address": "0xab48f0427cd97a5ce3e78bf05faaac3a7f77a117",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Gho Token",
     "symbol": "GHO",
     "chains": [
