@@ -36,4 +36,5 @@ export enum ChainId {
     Zeta = 7000,
     Blast = 81457,
     MAPProtocol = 22776,
+    Zklink = 810180,
 }

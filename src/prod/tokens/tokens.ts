@@ -410,7 +410,7 @@ export const tokens: TokenInfo[] = [
         name: "Ether",
         symbol: TokenSymbol.ETH,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png',
-        chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.Aurora, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Base, ChainId.Optimism],
+        chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.Aurora, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Base, ChainId.Optimism, ChainId.Zklink],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',  //weth
@@ -444,6 +444,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x4200000000000000000000000000000000000006',
                 decimal: 18,
             }, // WETH on Optimism
+            [ChainId.Zklink]: {
+                address: '0x8280a4e7D5B3B658ec4580d3Bc30f5e50454F169', //weth
+                decimal: 18,
+            }, 
         },
     },
     {
@@ -478,7 +482,7 @@ export const tokens: TokenInfo[] = [
         name: "Wrapped Ether",
         symbol: TokenSymbol.WETH,
         icon: baseURL + 'WETH.png',
-        chains: [ChainId.EthereumMainnet, ChainId.Aurora, ChainId.Cronos, ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Base, ChainId.Optimism],
+        chains: [ChainId.EthereumMainnet, ChainId.Aurora, ChainId.Cronos, ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Base, ChainId.Optimism, ChainId.Zklink],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
@@ -516,6 +520,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x4200000000000000000000000000000000000006',
                 decimal: 18,
             }, // WETH on Optimism
+            [ChainId.Zklink]: {
+                address: '0x8280a4e7D5B3B658ec4580d3Bc30f5e50454F169', 
+                decimal: 18,
+            }, 
         },
     },
     {
