@@ -24,4 +24,64 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Tether USD (Linea)",
+        symbol: TokenSymbol.USDTLineaZkLink,
+        chains: [ChainId.Zklink],
+        icon: baseURL + 'usdt.png',
+        contracts: {
+            [ChainId.Zklink]: {
+                address: '0xAF5852CA4Fc29264226Ed0c396dE30C945589D6D',
+                decimal: 6, 
+            },
+        },
+    },
+    {
+        name: "USD Coin (Ethereum)",
+        symbol: TokenSymbol.USDCEthZklink,
+        chains: [ChainId.Zklink],
+        icon: baseURL + 'usdc.png',
+        contracts: {
+            [ChainId.Zklink]: {
+                address: '0x220B1C622c8c169a9174f42CEA89a9E2f83B63F6',
+                decimal: 6, 
+            },
+        },
+    },
+    {
+        name: "Tether USD (Ethereum)",
+        symbol: TokenSymbol.USDTEthZklink,
+        chains: [ChainId.Zklink],
+        icon: baseURL + 'usdt.png',
+        contracts: {
+            [ChainId.Zklink]: {
+                address: '0x0ace5E8e1Be0d3Df778f639d79fa8231b376b9F1',
+                decimal: 6, 
+            },
+        },
+    },
+    {
+        name: "USD Coin (ZkSync Era)",
+        symbol: TokenSymbol.USDCZkSyncZklink,
+        chains: [ChainId.Zklink],
+        icon: baseURL + 'usdc.png',
+        contracts: {
+            [ChainId.Zklink]: {
+                address: '0x60CF0D62329699A23E988d500A7E40Faae4a3E4D',
+                decimal: 6, 
+            },
+        },
+    },
+    {
+        name: "Tether USD (ZkSync Era)",
+        symbol: TokenSymbol.USDTZkSynZklink,
+        chains: [ChainId.Zklink],
+        icon: baseURL + 'usdt.png',
+        contracts: {
+            [ChainId.Zklink]: {
+                address: '0x8Fed4307f02eCcbd9EC88C84081Ba5eDCAcD0964',
+                decimal: 6, 
+            },
+        },
+    },
 ]
