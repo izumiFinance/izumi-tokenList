@@ -104,7 +104,8 @@
       534351,
       195,
       5003,
-      810182
+      810182,
+      919
     ],
     "contracts": {
       "97": {
@@ -117,6 +118,10 @@
       },
       "280": {
         "address": "0xA5900cce51c45Ab9730039943B3863C822342034",
+        "decimal": 18
+      },
+      "919": {
+        "address": "0x876508837C162aCedcc5dd7721015E83cbb4e339",
         "decimal": 18
       },
       "2358": {
@@ -274,7 +279,8 @@
       2710,
       80085,
       5003,
-      810182
+      810182,
+      919
     ],
     "contracts": {
       "97": {
@@ -283,6 +289,10 @@
       },
       "195": {
         "address": "0x876508837C162aCedcc5dd7721015E83cbb4e339",
+        "decimal": 18
+      },
+      "919": {
+        "address": "0x551197e6350936976DfFB66B2c3bb15DDB723250",
         "decimal": 18
       },
       "2358": {
@@ -360,12 +370,17 @@
       168587773,
       167008,
       2710,
-      810182
+      810182,
+      919
     ],
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
     "contracts": {
       "280": {
         "address": "0x8C3e3f2983DB650727F3e05B7a7773e4D641537B",
+        "decimal": 18
+      },
+      "919": {
+        "address": "0xeb72756ee12309Eae82a0deb9787e69f5b62949c",
         "decimal": 18
       },
       "2358": {
@@ -420,12 +435,17 @@
       168587773,
       167008,
       2710,
-      810182
+      810182,
+      919
     ],
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WETH.png",
     "contracts": {
       "280": {
         "address": "0x8C3e3f2983DB650727F3e05B7a7773e4D641537B",
+        "decimal": 18
+      },
+      "919": {
+        "address": "0xeb72756ee12309Eae82a0deb9787e69f5b62949c",
         "decimal": 18
       },
       "2358": {

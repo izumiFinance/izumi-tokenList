@@ -82,6 +82,7 @@ export const tokens: TokenInfo[] = [
             ChainId.X1Test,
             ChainId.MantleTest2,
             ChainId.ZklinkNovaTest,
+            ChainId.ModeTest,
         ],
         contracts: {
             [ChainId.BSCTestnet]: {
@@ -150,6 +151,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.ZklinkNovaTest]: {
                 address: '0x8474F8D17aAdB2eD1264265781311EFa9381FC87',
+                decimal: 18,
+            },
+            [ChainId.ModeTest]: {
+                address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
                 decimal: 18,
             },
         },
@@ -241,6 +246,7 @@ export const tokens: TokenInfo[] = [
             ChainId.BeraTest,
             ChainId.MantleTest2,
             ChainId.ZklinkNovaTest,
+            ChainId.ModeTest,
         ],
         contracts: {
             [ChainId.BSCTestnet]: {
@@ -311,6 +317,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x9A0C674c7FC173d3680f7b889CBB9a8570C5Ce73',
                 decimal: 18,
             },
+            [ChainId.ModeTest]: {
+                address: '0x551197e6350936976DfFB66B2c3bb15DDB723250',
+                decimal: 18,
+            },
         },
     },
     {
@@ -321,6 +331,7 @@ export const tokens: TokenInfo[] = [
             ChainId.ZkSyncAlphaTest, ChainId.LineaTest, ChainId.MantaTest, 
             ChainId.KromaTest, ChainId.ScrollSepoliaTest, ChainId.BlastTest,
             ChainId.TaikoTest, ChainId.MorphTest, ChainId.ZklinkNovaTest,
+            ChainId.ModeTest,
         ],
         icon: baseURL + 'eth.png',
         contracts: {
@@ -364,6 +375,10 @@ export const tokens: TokenInfo[] = [
                 address: '0xAec84500e96F90370C55657d08f375A8d05F4D8c', //WETH
                 decimal: 18,
             },
+            [ChainId.ModeTest]: {
+                address: '0xeb72756ee12309Eae82a0deb9787e69f5b62949c', //WETH
+                decimal: 18,
+            },
         },
     },
     {
@@ -374,6 +389,7 @@ export const tokens: TokenInfo[] = [
             ChainId.MantleTestnet, ChainId.LineaTest, ChainId.MantaTest, 
             ChainId.KromaTest, ChainId.ScrollSepoliaTest, ChainId.BlastTest,
             ChainId.TaikoTest, ChainId.MorphTest, ChainId.ZklinkNovaTest,
+            ChainId.ModeTest,
         ],
         icon: baseURL + 'WETH.png',
         contracts: {
@@ -419,6 +435,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.ZklinkNovaTest]: {
                 address: '0xAec84500e96F90370C55657d08f375A8d05F4D8c', 
+                decimal: 18,
+            },
+            [ChainId.ModeTest]: {
+                address: '0xeb72756ee12309Eae82a0deb9787e69f5b62949c', 
                 decimal: 18,
             },
         },
