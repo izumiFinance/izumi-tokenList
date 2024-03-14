@@ -109,6 +109,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "USD Coin (Manta)",
+        symbol: TokenSymbol.USDCMantaZkLink,
+        chains: [ChainId.Zklink],
+        icon: baseURL + 'usdc.png',
+        contracts: {
+            [ChainId.Zklink]: {
+                address: '0xA8A59Bb7fe9fE2364ae39a3B48E219fAB096c852',
+                decimal: 6, 
+            },
+        },
+    },
+    {
         name: "Wrapped BTC (Ethereum)",
         symbol: TokenSymbol.WBTCEthZkLink,
         chains: [ChainId.Zklink],

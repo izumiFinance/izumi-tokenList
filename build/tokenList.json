@@ -4047,6 +4047,20 @@
     }
   },
   {
+    "name": "USD Coin (Manta)",
+    "symbol": "USDC.Manta",
+    "chains": [
+      810180
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "contracts": {
+      "810180": {
+        "address": "0xA8A59Bb7fe9fE2364ae39a3B48E219fAB096c852",
+        "decimal": 6
+      }
+    }
+  },
+  {
     "name": "Wrapped BTC (Ethereum)",
     "symbol": "WBTC.Eth",
     "chains": [

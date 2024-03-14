@@ -7,6 +7,7 @@ export enum TokenSymbol {
     USDCZkSyncZklink = 'USDC.ZkSync',
     USDCArbiZkLink = 'USDC.Arbi',
     USDTArbiZkLink = 'USDT.Arbi',
+    USDCMantaZkLink = 'USDC.Manta',
     WBTCEthZkLink = 'WBTC.Eth',
     WBTCArbiZkLink = 'WBTC.Arbi',
 }
