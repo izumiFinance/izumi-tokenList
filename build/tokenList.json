@@ -4019,6 +4019,62 @@
     }
   },
   {
+    "name": "USD Coin (Arbitrum)",
+    "symbol": "USDC.Arbi",
+    "chains": [
+      810180
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "contracts": {
+      "810180": {
+        "address": "0x7581469cb53E786F39ff26E8aF6Fd750213dAcEd",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Tether USD (Arbitrum)",
+    "symbol": "USDT.Arbi",
+    "chains": [
+      810180
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
+    "contracts": {
+      "810180": {
+        "address": "0xAF5852CA4Fc29264226Ed0c396dE30C945589D6D",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Wrapped BTC (Ethereum)",
+    "symbol": "WBTC.Eth",
+    "chains": [
+      810180
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WBTC.png",
+    "contracts": {
+      "810180": {
+        "address": "0xEbc45Ef3B6D7E31573DAa9BE81825624725939f9",
+        "decimal": 8
+      }
+    }
+  },
+  {
+    "name": "Wrapped BTC (Arbitrum)",
+    "symbol": "WBTC.Arbi",
+    "chains": [
+      810180
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WBTC.png",
+    "contracts": {
+      "810180": {
+        "address": "0x3DabBd8A31a411E85f628278d6601fCeD82f6844",
+        "decimal": 8
+      }
+    }
+  },
+  {
     "name": "USDLR by Stable",
     "symbol": "USDLR",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdlr.png",

@@ -84,4 +84,52 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "USD Coin (Arbitrum)",
+        symbol: TokenSymbol.USDCArbiZkLink,
+        chains: [ChainId.Zklink],
+        icon: baseURL + 'usdc.png',
+        contracts: {
+            [ChainId.Zklink]: {
+                address: '0x7581469cb53E786F39ff26E8aF6Fd750213dAcEd',
+                decimal: 6, 
+            },
+        },
+    },
+    {
+        name: "Tether USD (Arbitrum)",
+        symbol: TokenSymbol.USDTArbiZkLink,
+        chains: [ChainId.Zklink],
+        icon: baseURL + 'usdt.png',
+        contracts: {
+            [ChainId.Zklink]: {
+                address: '0xAF5852CA4Fc29264226Ed0c396dE30C945589D6D',
+                decimal: 6, 
+            },
+        },
+    },
+    {
+        name: "Wrapped BTC (Ethereum)",
+        symbol: TokenSymbol.WBTCEthZkLink,
+        chains: [ChainId.Zklink],
+        icon: baseURL + 'WBTC.png',
+        contracts: {
+            [ChainId.Zklink]: {
+                address: '0xEbc45Ef3B6D7E31573DAa9BE81825624725939f9',
+                decimal: 8, 
+            },
+        },
+    },
+    {
+        name: "Wrapped BTC (Arbitrum)",
+        symbol: TokenSymbol.WBTCArbiZkLink,
+        chains: [ChainId.Zklink],
+        icon: baseURL + 'WBTC.png',
+        contracts: {
+            [ChainId.Zklink]: {
+                address: '0x3DabBd8A31a411E85f628278d6601fCeD82f6844',
+                decimal: 8, 
+            },
+        },
+    },
 ]
