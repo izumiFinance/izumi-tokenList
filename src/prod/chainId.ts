@@ -37,4 +37,5 @@ export enum ChainId {
     Blast = 81457,
     MAPProtocol = 22776,
     Zklink = 810180,
+    Mode = 34443,
 }

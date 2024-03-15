@@ -258,7 +258,10 @@ export const tokens: TokenInfo[] = [
         chains: [
             ChainId.EthereumMainnet, 
             ChainId.ZkSyncEra,
-            ChainId.Arbitrum, ChainId.Matic, ChainId.BSC, ChainId.Aurora, ChainId.Cronos, ChainId.Icplaza, ChainId.Conflux, ChainId.TELOS, ChainId.Ontology, ChainId.Optimism],
+            ChainId.Arbitrum, ChainId.Matic, ChainId.BSC, ChainId.Aurora, ChainId.Cronos, ChainId.Icplaza, ChainId.Conflux, ChainId.TELOS, ChainId.Ontology, 
+            ChainId.Optimism,
+            ChainId.Mode,
+        ],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0xdac17f958d2ee523a2206206994597c13d831ec7',
@@ -306,6 +309,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.ZkSyncEra]: {
                 address: '0x493257fD37EDB34451f62EDf8D2a0C418852bA4C',
+                decimal: 6,
+            },
+            [ChainId.Mode]: {
+                address: '0xf0F161fDA2712DB8b566946122a5af183995e2eD',
                 decimal: 6,
             },
         },
@@ -410,7 +417,7 @@ export const tokens: TokenInfo[] = [
         name: "Ether",
         symbol: TokenSymbol.ETH,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png',
-        chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.Aurora, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Base, ChainId.Optimism, ChainId.Zklink],
+        chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.Aurora, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Base, ChainId.Optimism, ChainId.Zklink, ChainId.Mode],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',  //weth
@@ -448,6 +455,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x8280a4e7D5B3B658ec4580d3Bc30f5e50454F169', //weth
                 decimal: 18,
             }, 
+            [ChainId.Mode]: {
+                address: '0x4200000000000000000000000000000000000006',  //weth
+                decimal: 18,
+            }, 
         },
     },
     {
@@ -482,7 +493,19 @@ export const tokens: TokenInfo[] = [
         name: "Wrapped Ether",
         symbol: TokenSymbol.WETH,
         icon: baseURL + 'WETH.png',
-        chains: [ChainId.EthereumMainnet, ChainId.Aurora, ChainId.Cronos, ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Base, ChainId.Optimism, ChainId.Zklink],
+        chains: [
+            ChainId.EthereumMainnet, 
+            ChainId.Aurora, 
+            ChainId.Cronos, 
+            ChainId.Matic, 
+            ChainId.Arbitrum, 
+            ChainId.ZkSyncEra, 
+            ChainId.Linea, 
+            ChainId.Base, 
+            ChainId.Optimism, 
+            ChainId.Zklink,
+            ChainId.Mode,
+        ],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
@@ -522,6 +545,10 @@ export const tokens: TokenInfo[] = [
             }, // WETH on Optimism
             [ChainId.Zklink]: {
                 address: '0x8280a4e7D5B3B658ec4580d3Bc30f5e50454F169', 
+                decimal: 18,
+            }, 
+            [ChainId.Mode]: {
+                address: '0x4200000000000000000000000000000000000006', 
                 decimal: 18,
             }, 
         },
