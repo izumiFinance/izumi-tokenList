@@ -103,7 +103,7 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'usdt.png',
         contracts: {
             [ChainId.Zklink]: {
-                address: '0xAF5852CA4Fc29264226Ed0c396dE30C945589D6D',
+                address: '0x012726F9f458a63f86055b24E67BA0aa26505028',
                 decimal: 6, 
             },
         },
@@ -116,6 +116,18 @@ export const tokens: TokenInfo[] = [
         contracts: {
             [ChainId.Zklink]: {
                 address: '0xA8A59Bb7fe9fE2364ae39a3B48E219fAB096c852',
+                decimal: 6, 
+            },
+        },
+    },
+    {
+        name: "USD Coin (Mantle)",
+        symbol: TokenSymbol.USDCMantleZkLink,
+        chains: [ChainId.Zklink],
+        icon: baseURL + 'usdc.png',
+        contracts: {
+            [ChainId.Zklink]: {
+                address: '0x4E340B4Ea46ca1D1CE6e2dF7b21e649e2921521f',
                 decimal: 6, 
             },
         },

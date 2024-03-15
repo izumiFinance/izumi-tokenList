@@ -4041,7 +4041,7 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
     "contracts": {
       "810180": {
-        "address": "0xAF5852CA4Fc29264226Ed0c396dE30C945589D6D",
+        "address": "0x012726F9f458a63f86055b24E67BA0aa26505028",
         "decimal": 6
       }
     }
@@ -4056,6 +4056,20 @@
     "contracts": {
       "810180": {
         "address": "0xA8A59Bb7fe9fE2364ae39a3B48E219fAB096c852",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "USD Coin (Mantle)",
+    "symbol": "USDC.Mantle",
+    "chains": [
+      810180
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "contracts": {
+      "810180": {
+        "address": "0x4E340B4Ea46ca1D1CE6e2dF7b21e649e2921521f",
         "decimal": 6
       }
     }
