@@ -223,7 +223,8 @@
       25,
       42161,
       324,
-      10
+      10,
+      34443
     ],
     "contracts": {
       "1": {
@@ -256,6 +257,10 @@
       },
       "324": {
         "address": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4",
+        "decimal": 6
+      },
+      "34443": {
+        "address": "0xd988097fb8612cc24eeC14542bC03424c656005f",
         "decimal": 6
       },
       "42161": {
@@ -2849,6 +2854,20 @@
       "82": {
         "address": "0xc1f6C86ABEe8e2e0B6fd5BD80F0b51fef783635C",
         "decimal": 8
+      }
+    }
+  },
+  {
+    "name": "Renzo Restaked ETH",
+    "symbol": "ezETH",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ezeth.png",
+    "chains": [
+      34443
+    ],
+    "contracts": {
+      "34443": {
+        "address": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+        "decimal": 18
       }
     }
   },

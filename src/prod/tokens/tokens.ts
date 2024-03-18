@@ -203,6 +203,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Arbitrum,
             ChainId.ZkSyncEra,
             ChainId.Optimism,
+            ChainId.Mode,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -247,6 +248,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.ZkSyncEra]: {
                 address: '0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4',
+                decimal: 6,
+            },
+            [ChainId.Mode]: {
+                address: '0xd988097fb8612cc24eeC14542bC03424c656005f',
                 decimal: 6,
             },
         },
