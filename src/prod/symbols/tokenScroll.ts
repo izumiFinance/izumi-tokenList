@@ -24,5 +24,6 @@ export enum TokenSymbol {
     EGGROLLScroll = 'EGGROLL',
     PANDAScroll = 'PANDA',
     WASSIEScroll = 'WASSIE',
+    VENScroll = 'VEN',
 }
 

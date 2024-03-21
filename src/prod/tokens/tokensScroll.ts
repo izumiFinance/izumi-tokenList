@@ -230,6 +230,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Venium Token",
+        symbol: TokenSymbol.VENScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'ven.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0x690f1d2da47d9a759a93dd2b0ace3c1627f216ba',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Wassie Token",
         symbol: TokenSymbol.WASSIEScroll,
         chains: [ChainId.Scroll],

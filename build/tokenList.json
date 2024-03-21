@@ -3432,6 +3432,20 @@
     }
   },
   {
+    "name": "Venium Token",
+    "symbol": "VEN",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ven.png",
+    "contracts": {
+      "534352": {
+        "address": "0x690f1d2da47d9a759a93dd2b0ace3c1627f216ba",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Wassie Token",
     "symbol": "WASSIE",
     "chains": [
