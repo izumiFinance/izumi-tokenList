@@ -7,4 +7,5 @@ export enum TokenSymbol {
     DAIKroma = 'DAI',
     WEMIXKroma = 'WEMIX.e',
     STWEMIXKroma = 'stWEMIX.e',
+    SONKroma = 'SON',
 }

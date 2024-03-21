@@ -781,104 +781,6 @@
     }
   },
   {
-    "name": "USN Stable Coin",
-    "symbol": "USN",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usn.png",
-    "chains": [
-      1313161554
-    ],
-    "contracts": {
-      "1313161554": {
-        "address": "0x5183e1B1091804BC2602586919E6880ac1cf2896",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Aurigami Token",
-    "symbol": "PLY",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ply.png",
-    "chains": [
-      1313161554
-    ],
-    "contracts": {
-      "1313161554": {
-        "address": "0x09C9D464b58d96837f8d8b6f4d9fE4aD408d3A4f",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Trisolaris Token",
-    "symbol": "TRI",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/tri.png",
-    "chains": [
-      1313161554
-    ],
-    "contracts": {
-      "1313161554": {
-        "address": "0xFa94348467f64D5A457F75F8bc40495D33c65aBB",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Bastion Token",
-    "symbol": "BSTN",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bstn.png",
-    "chains": [
-      1313161554
-    ],
-    "contracts": {
-      "1313161554": {
-        "address": "0x9f1F933C660a1DC856F0E0Fe058435879c5CCEf0",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Ref Finance Token",
-    "symbol": "REF",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ref.png",
-    "chains": [
-      1313161554
-    ],
-    "contracts": {
-      "1313161554": {
-        "address": "0x221292443758F63563a1ed04b547278B05845FCb",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Tiny Coin",
-    "symbol": "TINC",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TINC.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x05aD6E30A855BE07AfA57e08a4f30d00810a402e",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "ChiChaCoin",
-    "symbol": "CCC",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ccc.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x383268691ee31c68489b19b8f2d7003ec504d534",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "Arbipad",
     "symbol": "ARBI",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arbi.png",
@@ -888,76 +790,6 @@
     "contracts": {
       "56": {
         "address": "0xa7bD657C5838472dDF85FF0797A2e6fce8fd4833",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "TokenPocket Token",
-    "symbol": "TPT",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/TPT.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xECa41281c24451168a37211F0bc2b8645AF45092",
-        "decimal": 4
-      }
-    }
-  },
-  {
-    "name": "BurgerCities",
-    "symbol": "BURGER",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/burger.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xAe9269f27437f0fcBC232d39Ec814844a51d6b8f",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Metazodiac Token",
-    "symbol": "MW",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/MW.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x154d746794449B6CF534FA11A2Cf7FfF5C968977",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Shield",
-    "symbol": "SLD",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/sld.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x1ef6A7e2c966fb7C5403EFEFdE38338b1a95a084",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "KillSwitch Token",
-    "symbol": "KSW",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/KSW.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x270178366a592bA598C2e9d2971DA65f7bAa7C86",
         "decimal": 18
       }
     }
@@ -973,48 +805,6 @@
       "56": {
         "address": "0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9",
         "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Nebulas Token",
-    "symbol": "NAS",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/nas.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x2E1F3D4cB35980F6339C006e64AC3a555dB6676d",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Jupyter",
-    "symbol": "IOM",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/iom.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xD6ea4ec77fB7e0d5c331F9109f00CcEdE255b9C8",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Zero Verse Coin",
-    "symbol": "ZVC",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ZVC.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x8f76907B173FBf65ddd84A86519C8767a90b8B90",
-        "decimal": 9
       }
     }
   },
@@ -1103,20 +893,6 @@
     }
   },
   {
-    "name": "Volt Inu",
-    "symbol": "VOLT",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/volt.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x7db5af2B9624e1b3B4Bb69D6DeBd9aD1016A58Ac",
-        "decimal": 9
-      }
-    }
-  },
-  {
     "name": "ZEBEC token",
     "symbol": "ZBC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/zbc.png",
@@ -1145,20 +921,6 @@
     }
   },
   {
-    "name": "Lingose Token",
-    "symbol": "LING",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ling.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x68c0E798b749183c97239114BB76fd1e5e3DB98C",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "MAP Protocol",
     "symbol": "MAP",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/map.png",
@@ -1168,20 +930,6 @@
     "contracts": {
       "56": {
         "address": "0x8105ECe4ce08B6B6449539A5db23e23b973DfA8f",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Gameta Diamond",
-    "symbol": "GDO",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gdo.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x1c37948Cb9fC4a802f91e946CA15df4504c91D03",
         "decimal": 18
       }
     }
@@ -1215,20 +963,6 @@
     }
   },
   {
-    "name": "DegenReborn Token",
-    "symbol": "DEGEN",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/degen.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x1a131F7B106D58f33eAf0fE5B47DB2f2045E5732",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "HALO token",
     "symbol": "HALO",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/halo.png",
@@ -1252,20 +986,6 @@
     "contracts": {
       "56": {
         "address": "0x14778860e937f509e651192a90589de711fb88a9",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "WOD.AI-BSC",
-    "symbol": "WOD",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wod.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x7133ced95c468b76175168600590c6260164f74b",
         "decimal": 18
       }
     }
@@ -1672,6 +1392,20 @@
     "contracts": {
       "255": {
         "address": "0xA5c7992710A94A2ef2e8E910b441bD70385DBAB8",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Souni Token",
+    "symbol": "SON",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/son.png",
+    "chains": [
+      255
+    ],
+    "contracts": {
+      "255": {
+        "address": "0xe775281b378c7a6d35ed62f8ef15618604f061f5",
         "decimal": 18
       }
     }

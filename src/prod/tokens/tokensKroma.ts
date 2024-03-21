@@ -109,4 +109,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Souni Token",
+        symbol: TokenSymbol.SONKroma,
+        icon: baseURL + 'son.png',
+        chains: [ChainId.Kroma],
+        contracts: {
+            [ChainId.Kroma]: {
+                address: '0xe775281b378c7a6d35ed62f8ef15618604f061f5',
+                decimal: 18,
+            },
+        },
+    },
 ]
