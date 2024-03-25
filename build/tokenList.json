@@ -739,48 +739,6 @@
     }
   },
   {
-    "name": "Poodlera Token",
-    "symbol": "POOD",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/pood.png",
-    "chains": [
-      42161
-    ],
-    "contracts": {
-      "42161": {
-        "address": "0x4Bd840786F87aEa5c31BC87705516cB9Cc55eDB9",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Arbipad",
-    "symbol": "ARBI",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arbi.png",
-    "chains": [
-      42161
-    ],
-    "contracts": {
-      "42161": {
-        "address": "0x07DD5BEAffb65B8fF2e575d500BDf324a05295DC",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "MetaLine Gold",
-    "symbol": "MTG",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mtg.png",
-    "chains": [
-      42161
-    ],
-    "contracts": {
-      "42161": {
-        "address": "0x748b5BE12ac1Ce2EF73035189F943591C1822B7d",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "Arbipad",
     "symbol": "ARBI",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arbi.png",
@@ -1616,6 +1574,48 @@
     "contracts": {
       "22776": {
         "address": "0x05ab928d446d8ce6761e368c8e7be03c3168a9ec",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "EEAA Token",
+    "symbol": "EEAA",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eeaa.png",
+    "chains": [
+      22776
+    ],
+    "contracts": {
+      "22776": {
+        "address": "0x040a66ed7def1c037c5c9848bc5d44dcd3b0fc62",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "LSGS Token",
+    "symbol": "LSGS",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/lsgs.png",
+    "chains": [
+      22776
+    ],
+    "contracts": {
+      "22776": {
+        "address": "0x756af1d3810a01d3292fad62f295bbcc6c200aea",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "RATS (brc-20) Token",
+    "symbol": "RATS",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/rats.png",
+    "chains": [
+      22776
+    ],
+    "contracts": {
+      "22776": {
+        "address": "0x6369414f2b0e973c7e85a362141aa1430bc30056",
         "decimal": 18
       }
     }
@@ -2741,174 +2741,6 @@
     "contracts": {
       "10": {
         "address": "0x4200000000000000000000000000000000000042",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "LUNA (Wormhole)",
-    "symbol": "LUNA",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/luna.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x156ab3346823B651294766e23e6Cf87254d68962",
-        "decimal": 6
-      }
-    }
-  },
-  {
-    "name": "Ripple Token",
-    "symbol": "XRP",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/xrp.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Biswap Token",
-    "symbol": "BSW",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bsw.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x965F527D9159dCe6288a2219DB51fc6Eef120dD1",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Uniswap",
-    "symbol": "UNI",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/uni.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Polkadot Token",
-    "symbol": "DOT",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dot.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "ChainLink Token",
-    "symbol": "LINK",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/link.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Litecoin",
-    "symbol": "LTC",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ltc.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x4338665CBB7B2485A8855A139b75D5e34AB0DB94",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Filecoin",
-    "symbol": "FIL",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/fil.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x0D8Ce2A99Bb6e3B7Db580eD848240e4a0F9aE153",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "TRON",
-    "symbol": "TRX",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/trx.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "SHIBA INU Token",
-    "symbol": "SHIB",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/shib.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x2859e4544C4bB03966803b044A93563Bd2D0DD4D",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Wombat Token",
-    "symbol": "WOM",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wom.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xAD6742A35fB341A9Cc6ad674738Dd8da98b94Fb1",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Wombex Token",
-    "symbol": "WMX",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wmx.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xa75d9ca2a0a1D547409D82e1B06618EC284A2CeD",
         "decimal": 18
       }
     }

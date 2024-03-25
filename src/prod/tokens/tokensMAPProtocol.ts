@@ -63,4 +63,43 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+
+    {
+        name: "EEAA Token",
+        symbol: TokenSymbol.EEAAMAP,
+        icon: baseURL + 'eeaa.png',
+        chains: [ChainId.MAPProtocol],
+        contracts: {
+            [ChainId.MAPProtocol]: {
+                address: '0x040a66ed7def1c037c5c9848bc5d44dcd3b0fc62',  
+                decimal: 18,
+            },
+        },
+    },
+
+    {
+        name: "LSGS Token",
+        symbol: TokenSymbol.LSGSMAP,
+        icon: baseURL + 'lsgs.png',
+        chains: [ChainId.MAPProtocol],
+        contracts: {
+            [ChainId.MAPProtocol]: {
+                address: '0x756af1d3810a01d3292fad62f295bbcc6c200aea',  
+                decimal: 18,
+            },
+        },
+    },
+
+    {
+        name: "RATS (brc-20) Token",
+        symbol: TokenSymbol.RATSMAP,
+        icon: baseURL + 'rats.png',
+        chains: [ChainId.MAPProtocol],
+        contracts: {
+            [ChainId.MAPProtocol]: {
+                address: '0x6369414f2b0e973c7e85a362141aa1430bc30056',  
+                decimal: 18,
+            },
+        },
+    }
 ]

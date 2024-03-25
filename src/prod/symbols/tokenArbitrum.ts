@@ -1,5 +1,1 @@
-export enum TokenSymbol {
-    POOD = 'POOD',
-    MTG = 'MTG',
-    ARBIARB = 'ARBI',
-}
+export enum TokenSymbol {}

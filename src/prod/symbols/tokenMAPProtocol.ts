@@ -3,5 +3,8 @@ export enum TokenSymbol {
     WMAPOMAP = 'WMAPO',
     USDTMAP = 'USDT',
     ETHMAP = 'ETH',
+    EEAAMAP = 'EEAA',
+    LSGSMAP = 'LSGS',
+    RATSMAP = 'RATS',
 }
 
