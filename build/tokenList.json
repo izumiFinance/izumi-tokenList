@@ -1579,6 +1579,20 @@
     }
   },
   {
+    "name": "stMAPO Token",
+    "symbol": "stMAPO",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/stmapo.png",
+    "chains": [
+      22776
+    ],
+    "contracts": {
+      "22776": {
+        "address": "0x9bd1e0a3a727d0d4f4e9a6d59022e071ddc79924",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "EEAA Token",
     "symbol": "EEAA",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eeaa.png",

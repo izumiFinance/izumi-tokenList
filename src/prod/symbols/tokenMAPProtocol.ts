@@ -6,5 +6,6 @@ export enum TokenSymbol {
     EEAAMAP = 'EEAA',
     LSGSMAP = 'LSGS',
     RATSMAP = 'RATS',
+    STMAPOMAP = 'stMAPO',
 }
 

@@ -63,7 +63,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-
+    {
+        name: "stMAPO Token",
+        symbol: TokenSymbol.STMAPOMAP,
+        icon: baseURL + 'stmapo.png',
+        chains: [ChainId.MAPProtocol],
+        contracts: {
+            [ChainId.MAPProtocol]: {
+                address: '0x9bd1e0a3a727d0d4f4e9a6d59022e071ddc79924',  
+                decimal: 18,
+            },
+        },
+    },
     {
         name: "EEAA Token",
         symbol: TokenSymbol.EEAAMAP,
