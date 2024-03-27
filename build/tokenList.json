@@ -1481,48 +1481,6 @@
     }
   },
   {
-    "name": "Loot token",
-    "symbol": "AGLD",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/agld.png",
-    "chains": [
-      5151706
-    ],
-    "contracts": {
-      "5151706": {
-        "address": "0x7a524c7e82874226F0b51aade60A1BE4D430Cf0F",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Wrapped AGLD",
-    "symbol": "WAGLD",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/agld.png",
-    "chains": [
-      5151706
-    ],
-    "contracts": {
-      "5151706": {
-        "address": "0x7a524c7e82874226F0b51aade60A1BE4D430Cf0F",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "(Pos) Dai Stablecoin",
-    "symbol": "DAI",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dai.png",
-    "chains": [
-      5151706
-    ],
-    "contracts": {
-      "5151706": {
-        "address": "0x7E25eb56a8A7c0fa8514dF2d39faf3aF783Ff807",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "MAP Protocol Token",
     "symbol": "MAPO",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mapo.png",
@@ -2302,20 +2260,6 @@
     "contracts": {
       "137": {
         "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Peak Token",
-    "symbol": "PKTK",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/pktk.png",
-    "chains": [
-      137
-    ],
-    "contracts": {
-      "137": {
-        "address": "0x55bb4d4b4545a886df159354e5fa5791c2d13496",
         "decimal": 18
       }
     }
@@ -4230,82 +4174,6 @@
     "contracts": {
       "324": {
         "address": "0x14ACCcD04393f26BA155E5402aA6fdDBB8e2254a",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Shared-liquidity USDT",
-    "symbol": "slUSDT",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/slusdt.png",
-    "chains": [
-      56,
-      42161
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x65CD2E7d7BAcDaC3AA9dAe68fb5d548dfE1fEFB5",
-        "decimal": 18
-      },
-      "42161": {
-        "address": "0x65CD2E7d7BAcDaC3AA9dAe68fb5d548dfE1fEFB5",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Shared-liquidity USDC",
-    "symbol": "slUSDC",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/slusdc.png",
-    "chains": [
-      56,
-      42161
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x55a26773A8ba7FA9a8242B43e14a69488e6D2B05",
-        "decimal": 18
-      },
-      "42161": {
-        "address": "0x55a26773A8ba7FA9a8242B43e14a69488e6D2B05",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Shared-liquidity BTC",
-    "symbol": "slBTC",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/slbtc.png",
-    "chains": [
-      56,
-      42161
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xe04B30F233E3Bc96Da2401EE146a94f1C7C54917",
-        "decimal": 18
-      },
-      "42161": {
-        "address": "0xe04B30F233E3Bc96Da2401EE146a94f1C7C54917",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Shared-liquidity ETH",
-    "symbol": "slETH",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/sleth.png",
-    "chains": [
-      56,
-      42161
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xdF6964C7ccfaBaACe7C3f918B795fA4a894589C8",
-        "decimal": 18
-      },
-      "42161": {
-        "address": "0xdF6964C7ccfaBaACe7C3f918B795fA4a894589C8",
         "decimal": 18
       }
     }
