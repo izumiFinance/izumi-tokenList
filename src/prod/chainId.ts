@@ -38,4 +38,5 @@ export enum ChainId {
     MAPProtocol = 22776,
     Zklink = 810180,
     Mode = 34443,
+    AINNL2 = 2649,
 }

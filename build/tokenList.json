@@ -739,6 +739,34 @@
     }
   },
   {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "chains": [
+      2649
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/btc.png",
+    "contracts": {
+      "2649": {
+        "address": "0x1470a4831F76954686BfB4dE8180F7469EA8dE6F",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "AINN Layer2 BTC",
+    "symbol": "ABTC",
+    "chains": [
+      2649
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/btc.png",
+    "contracts": {
+      "2649": {
+        "address": "0x1470a4831F76954686BfB4dE8180F7469EA8dE6F",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Arbipad",
     "symbol": "ARBI",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arbi.png",

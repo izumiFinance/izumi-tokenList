@@ -1,4 +1,6 @@
 export enum TokenSymbol {
+BTCAINN='BTC',
+ABTCAINN='ABTC',
 CCC='CCC',
 TINC='TINC',
 ARBIBSC='ARBI',
