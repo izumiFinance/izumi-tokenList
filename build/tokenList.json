@@ -767,6 +767,20 @@
     }
   },
   {
+    "name": "iZUMi Bond USD",
+    "symbol": "iUSD",
+    "chains": [
+      2649
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/iusd.png",
+    "contracts": {
+      "2649": {
+        "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Arbipad",
     "symbol": "ARBI",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arbi.png",

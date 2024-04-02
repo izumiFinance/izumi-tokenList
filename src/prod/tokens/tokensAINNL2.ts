@@ -36,5 +36,17 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "iZUMi Bond USD",
+        symbol: TokenSymbol.IUSDAINN,
+        chains: [ChainId.AINNL2],
+        icon: baseURL + 'iusd.png',
+        contracts: {
+            [ChainId.AINNL2]: {
+                address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D', 
+                decimal: 18,
+            },
+        },
+    },
 
 ]
