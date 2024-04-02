@@ -7,5 +7,9 @@ export enum TokenSymbol {
     LSGSMAP = 'LSGS',
     RATSMAP = 'RATS',
     STMAPOMAP = 'stMAPO',
+    BTCMAP = 'BTC',
+    MBTCMAP = 'M-BTC',
+    STSTMAP = 'STST',
+    ROUPMAP = 'ROUP',
 }
 
