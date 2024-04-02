@@ -66,7 +66,7 @@ export const tokens: TokenInfo[] = [
     {
         name: "Merlin's Seal BTC",
         symbol: TokenSymbol.MBTCMAP,
-        icon: baseURL + 'mbtc.png',
+        icon: baseURL + 'mbtc.svg',
         chains: [ChainId.MAPProtocol],
         contracts: {
             [ChainId.MAPProtocol]: {

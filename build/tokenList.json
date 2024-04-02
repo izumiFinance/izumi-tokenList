@@ -1581,7 +1581,7 @@
   {
     "name": "Merlin's Seal BTC",
     "symbol": "M-BTC",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mbtc.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mbtc.svg",
     "chains": [
       22776
     ],
