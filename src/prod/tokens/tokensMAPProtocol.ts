@@ -52,6 +52,31 @@ export const tokens: TokenInfo[] = [
     },
 
     {
+        name: "Mapped Bitcoin",
+        symbol: TokenSymbol.BTCMAP,
+        icon: baseURL + 'btc.png',
+        chains: [ChainId.MAPProtocol],
+        contracts: {
+            [ChainId.MAPProtocol]: {
+                address: '0xb877e3562a660c7861117c2f1361a26abaf19beb',  
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Merlin's Seal BTC",
+        symbol: TokenSymbol.MBTCMAP,
+        icon: baseURL + 'mbtc.png',
+        chains: [ChainId.MAPProtocol],
+        contracts: {
+            [ChainId.MAPProtocol]: {
+                address: '0x1d22c0ab633f393c84a98cf4f2fad10ba47bb7b3',  
+                decimal: 18,
+            },
+        },
+    },
+
+    {
         name: "Mapped Wrapped Ether",
         symbol: TokenSymbol.ETHMAP,
         icon: baseURL + 'eth.png',
@@ -109,6 +134,30 @@ export const tokens: TokenInfo[] = [
         contracts: {
             [ChainId.MAPProtocol]: {
                 address: '0x6369414f2b0e973c7e85a362141aa1430bc30056',  
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "STST (brc-20) Token",
+        symbol: TokenSymbol.STSTMAP,
+        icon: baseURL + 'stst.png',
+        chains: [ChainId.MAPProtocol],
+        contracts: {
+            [ChainId.MAPProtocol]: {
+                address: '0xf5a59f961a8e86285dae2e45ac4ae50e4e47ba97',  
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "ROUP (brc-20) Token",
+        symbol: TokenSymbol.ROUPMAP,
+        icon: baseURL + 'roup.png',
+        chains: [ChainId.MAPProtocol],
+        contracts: {
+            [ChainId.MAPProtocol]: {
+                address: '0x5a1c3f3aae616146c7b9bf9763e0aba9bafc5eae',  
                 decimal: 18,
             },
         },
