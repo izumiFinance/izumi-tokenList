@@ -13,30 +13,6 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
     {
-        name: "Arctic Token",
-        symbol: TokenSymbol.ARC,
-        chains: [ChainId.Aurora],
-        icon: baseURL + 'arc.png',
-        contracts: {
-            [ChainId.Aurora]: {
-                address: '0xBCD4e5E349Cc2810830E94f7fFEa4BD6b04c5978',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: "Aurora Token",
-        symbol: TokenSymbol.AURORA,
-        chains: [ChainId.Aurora],
-        icon: baseURL + 'aurora.png',
-        contracts: {
-            [ChainId.Aurora]: {
-                address: '0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79',
-                decimal: 18,
-            },
-        },
-    },
-    {
         name: "Ether Classic",
         symbol: TokenSymbol.ETC,
         chains: [ChainId.ETC],
@@ -64,8 +40,8 @@ export const tokens: TokenInfo[] = [
         name: 'iZUMi Token',
         symbol: TokenSymbol.IZI,
         icon: baseURL + 'izumi.svg',
-        chains: [ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.BSC, ChainId.Aurora, ChainId.ETC, 
-                 ChainId.Cronos, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Mantle,
+        chains: [ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.BSC, ChainId.ETC, 
+                 ChainId.ZkSyncEra, ChainId.Linea, ChainId.Mantle,
                  ChainId.Base, ChainId.Scroll, ChainId.Manta, ChainId.Kroma, ChainId.Zeta],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -84,15 +60,7 @@ export const tokens: TokenInfo[] = [
                 address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
                 decimal: 18,
             },
-            [ChainId.Aurora]: {
-                address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
-                decimal: 18,
-            },
             [ChainId.ETC]: {
-                address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
-                decimal: 18,
-            },
-            [ChainId.Cronos]: {
                 address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
                 decimal: 18,
             },
@@ -134,7 +102,7 @@ export const tokens: TokenInfo[] = [
         name: "iZUMi Bond USD",
         symbol: TokenSymbol.IUSD,
         icon: baseURL + 'iusd.png',
-        chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.Aurora, ChainId.ETC, ChainId.Arbitrum, 
+        chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.ETC, ChainId.Arbitrum, 
                  ChainId.ZkSyncEra, ChainId.Linea, ChainId.Mantle, ChainId.Base, ChainId.Scroll, ChainId.Manta, ChainId.Blast],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -142,10 +110,6 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.BSC]: {
-                address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
-                decimal: 18,
-            },
-            [ChainId.Aurora]: {
                 address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
                 decimal: 18,
             },
@@ -198,8 +162,6 @@ export const tokens: TokenInfo[] = [
             ChainId.Matic,
             ChainId.Fantom,
             ChainId.Harmony,
-            ChainId.Aurora,
-            ChainId.Cronos,
             ChainId.Arbitrum,
             ChainId.ZkSyncEra,
             ChainId.Optimism,
@@ -238,14 +200,6 @@ export const tokens: TokenInfo[] = [
                 address: '0x985458e523db3d53125813ed68c274899e9dfab4',
                 decimal: 6,
             },
-            [ChainId.Aurora]: {
-                address: '0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
-                decimal: 6,
-            },
-            [ChainId.Cronos]: {
-                address: '0xc21223249CA28397B4B6541dfFaEcC539BfF0c59',
-                decimal: 6,
-            },
             [ChainId.ZkSyncEra]: {
                 address: '0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4',
                 decimal: 6,
@@ -263,9 +217,13 @@ export const tokens: TokenInfo[] = [
         chains: [
             ChainId.EthereumMainnet, 
             ChainId.ZkSyncEra,
-            ChainId.Arbitrum, ChainId.Matic, ChainId.BSC, ChainId.Aurora, ChainId.Cronos, ChainId.Icplaza, ChainId.Conflux, ChainId.TELOS, ChainId.Ontology, 
+            ChainId.Arbitrum, 
+            ChainId.Matic, 
+            ChainId.BSC, 
+            ChainId.Ontology, 
             ChainId.Optimism,
             ChainId.Mode,
+            ChainId.XLayer,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -284,26 +242,6 @@ export const tokens: TokenInfo[] = [
                 address: '0x55d398326f99059fF775485246999027B3197955',
                 decimal: 18,
             },
-            [ChainId.Aurora]: {
-                address: '0x4988a896b1227218e4A686fdE5EabdcAbd91571f',
-                decimal: 6,
-            },
-            [ChainId.Cronos]: {
-                address: '0x66e428c3f67a68878562e79A0234c1F83c208770',
-                decimal: 6,
-            },
-            [ChainId.Icplaza]: {
-                address: '0x334A4801C21Bc279a63cB80E703E4da704057C13',
-                decimal: 18,
-            },
-            [ChainId.Conflux]: {
-                address: '0xfe97e85d13abd9c1c33384e796f10b73905637ce',
-                decimal: 18,
-            },
-            [ChainId.TELOS]: {
-                address: '0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73',
-                decimal: 18,
-            },
             [ChainId.Ontology]: {
                 address: '0x72b0f5612802d473a13716db71a0348bcf631d98',
                 decimal: 6,
@@ -318,6 +256,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Mode]: {
                 address: '0xf0F161fDA2712DB8b566946122a5af183995e2eD',
+                decimal: 6,
+            },
+            [ChainId.XLayer]: {
+                address: '0x1E4a5963aBFD975d8c9021ce480b42188849D41d',
                 decimal: 6,
             },
         },
@@ -378,18 +320,10 @@ export const tokens: TokenInfo[] = [
         name: "Wrapped BTC",
         symbol: TokenSymbol.WBTC,
         icon: baseURL + 'WBTC.png',
-        chains: [ChainId.EthereumMainnet, ChainId.Aurora, ChainId.Cronos, ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra],
+        chains: [ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599',
-                decimal: 8,
-            },
-            [ChainId.Aurora]: {
-                address: '0xF4eB217Ba2454613b15dBdea6e5f22276410e89e',
-                decimal: 8,
-            },
-            [ChainId.Cronos]: {
-                address: '0x062E66477Faf219F25D27dCED647BF57C3107d52',
                 decimal: 8,
             },
             [ChainId.Matic]: {
@@ -422,7 +356,7 @@ export const tokens: TokenInfo[] = [
         name: "Ether",
         symbol: TokenSymbol.ETH,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png',
-        chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.Aurora, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Base, ChainId.Optimism, ChainId.Zklink, ChainId.Mode],
+        chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Base, ChainId.Optimism, ChainId.Zklink, ChainId.Mode],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',  //weth
@@ -430,10 +364,6 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.BSC]: {
                 address: '0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
-                decimal: 18,
-            },
-            [ChainId.Aurora]: {
-                address: '0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',  //weth
                 decimal: 18,
             },
             [ChainId.Arbitrum]: {
@@ -467,29 +397,17 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: "NEAR Token",
-        symbol: TokenSymbol.NEAR,
-        icon: baseURL + 'near.png',
-        chains: [ChainId.Aurora],
-        contracts: {
-            [ChainId.Aurora]: {
-                address: '0xC42C30aC6Cc15faC9bD938618BcaA1a1FaE8501d',
-                decimal: 24,
-            },
-        },
-    },
-    {
         name: "Dai Stablecoin",
         symbol: TokenSymbol.DAI,
         icon: baseURL + 'dai.png',
-        chains: [ChainId.EthereumMainnet, ChainId.Aurora],
+        chains: [ChainId.EthereumMainnet, ChainId.XLayer],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
                 decimal: 18,
             },
-            [ChainId.Aurora]: {
-                address: '0xe3520349F477A5F6EB06107066048508498A291b',
+            [ChainId.XLayer]: {
+                address: '0xC5015b9d9161Dca7e18e32f6f25C4aD850731Fd4',
                 decimal: 18,
             },
         },
@@ -500,8 +418,6 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'WETH.png',
         chains: [
             ChainId.EthereumMainnet, 
-            ChainId.Aurora, 
-            ChainId.Cronos, 
             ChainId.Matic, 
             ChainId.Arbitrum, 
             ChainId.ZkSyncEra, 
@@ -514,14 +430,6 @@ export const tokens: TokenInfo[] = [
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
-                decimal: 18,
-            },
-            [ChainId.Aurora]: {
-                address: '0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',
-                decimal: 18,
-            },
-            [ChainId.Cronos]: {
-                address: '0xe44Fd7fCb2b1581822D0c862B68222998a0c299a',
                 decimal: 18,
             },
             [ChainId.Matic]: {
@@ -599,18 +507,6 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: "Green Metaverse Token",
-        symbol: TokenSymbol.GMT,
-        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gmt.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1',
-                decimal: 8,
-            },
-        },
-    },
-    {
         name: "Milo Inu",
         symbol: TokenSymbol.MILO,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/milo.png',
@@ -658,16 +554,4 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    // {
-    //     name: "SHIBA INU Token",
-    //     symbol: TokenSymbol.SHIB,
-    //     icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/shib.png',
-    //     chains: [ChainId.BSC],
-    //     contracts: {
-    //         [ChainId.BSC]: {
-    //             address: '0x2859e4544C4bB03966803b044A93563Bd2D0DD4D',
-    //             decimal: 18,
-    //         },
-    //     },
-    // },
 ]

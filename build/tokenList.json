@@ -1,33 +1,5 @@
 [
   {
-    "name": "Arctic Token",
-    "symbol": "ARC",
-    "chains": [
-      1313161554
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arc.png",
-    "contracts": {
-      "1313161554": {
-        "address": "0xBCD4e5E349Cc2810830E94f7fFEa4BD6b04c5978",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Aurora Token",
-    "symbol": "AURORA",
-    "chains": [
-      1313161554
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/aurora.png",
-    "contracts": {
-      "1313161554": {
-        "address": "0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "Ether Classic",
     "symbol": "ETC",
     "chains": [
@@ -64,9 +36,7 @@
       137,
       42161,
       56,
-      1313161554,
       61,
-      25,
       324,
       59144,
       5000,
@@ -79,10 +49,6 @@
     "contracts": {
       "1": {
         "address": "0x9ad37205d608B8b219e6a2573f922094CEc5c200",
-        "decimal": 18
-      },
-      "25": {
-        "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
         "decimal": 18
       },
       "56": {
@@ -132,10 +98,6 @@
       "534352": {
         "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
         "decimal": 18
-      },
-      "1313161554": {
-        "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
-        "decimal": 18
       }
     }
   },
@@ -146,7 +108,6 @@
     "chains": [
       1,
       56,
-      1313161554,
       61,
       42161,
       324,
@@ -201,10 +162,6 @@
       "534352": {
         "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
         "decimal": 18
-      },
-      "1313161554": {
-        "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
-        "decimal": 18
       }
     }
   },
@@ -219,8 +176,6 @@
       137,
       250,
       1666600000,
-      1313161554,
-      25,
       42161,
       324,
       10,
@@ -233,10 +188,6 @@
       },
       "10": {
         "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
-        "decimal": 6
-      },
-      "25": {
-        "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
         "decimal": 6
       },
       "56": {
@@ -267,10 +218,6 @@
         "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
         "decimal": 6
       },
-      "1313161554": {
-        "address": "0xB12BFcA5A55806AaF64E99521918A4bf0fC40802",
-        "decimal": 6
-      },
       "1666600000": {
         "address": "0x985458e523db3d53125813ed68c274899e9dfab4",
         "decimal": 6
@@ -287,14 +234,10 @@
       42161,
       137,
       56,
-      1313161554,
-      25,
-      142857,
-      1030,
-      40,
       58,
       10,
-      34443
+      34443,
+      196
     ],
     "contracts": {
       "1": {
@@ -304,14 +247,6 @@
       "10": {
         "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
         "decimal": 6
-      },
-      "25": {
-        "address": "0x66e428c3f67a68878562e79A0234c1F83c208770",
-        "decimal": 6
-      },
-      "40": {
-        "address": "0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73",
-        "decimal": 18
       },
       "56": {
         "address": "0x55d398326f99059fF775485246999027B3197955",
@@ -325,13 +260,13 @@
         "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
         "decimal": 6
       },
+      "196": {
+        "address": "0x1E4a5963aBFD975d8c9021ce480b42188849D41d",
+        "decimal": 6
+      },
       "324": {
         "address": "0x493257fD37EDB34451f62EDf8D2a0C418852bA4C",
         "decimal": 6
-      },
-      "1030": {
-        "address": "0xfe97e85d13abd9c1c33384e796f10b73905637ce",
-        "decimal": 18
       },
       "34443": {
         "address": "0xf0F161fDA2712DB8b566946122a5af183995e2eD",
@@ -339,14 +274,6 @@
       },
       "42161": {
         "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
-        "decimal": 6
-      },
-      "142857": {
-        "address": "0x334A4801C21Bc279a63cB80E703E4da704057C13",
-        "decimal": 18
-      },
-      "1313161554": {
-        "address": "0x4988a896b1227218e4A686fdE5EabdcAbd91571f",
         "decimal": 6
       }
     }
@@ -418,8 +345,6 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WBTC.png",
     "chains": [
       1,
-      1313161554,
-      25,
       137,
       42161,
       324
@@ -427,10 +352,6 @@
     "contracts": {
       "1": {
         "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-        "decimal": 8
-      },
-      "25": {
-        "address": "0x062E66477Faf219F25D27dCED647BF57C3107d52",
         "decimal": 8
       },
       "137": {
@@ -443,10 +364,6 @@
       },
       "42161": {
         "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
-        "decimal": 8
-      },
-      "1313161554": {
-        "address": "0xF4eB217Ba2454613b15dBdea6e5f22276410e89e",
         "decimal": 8
       }
     }
@@ -472,7 +389,6 @@
     "chains": [
       1,
       56,
-      1313161554,
       42161,
       324,
       59144,
@@ -517,24 +433,6 @@
       "810180": {
         "address": "0x8280a4e7D5B3B658ec4580d3Bc30f5e50454F169",
         "decimal": 18
-      },
-      "1313161554": {
-        "address": "0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "NEAR Token",
-    "symbol": "NEAR",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/near.png",
-    "chains": [
-      1313161554
-    ],
-    "contracts": {
-      "1313161554": {
-        "address": "0xC42C30aC6Cc15faC9bD938618BcaA1a1FaE8501d",
-        "decimal": 24
       }
     }
   },
@@ -544,15 +442,15 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dai.png",
     "chains": [
       1,
-      1313161554
+      196
     ],
     "contracts": {
       "1": {
         "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimal": 18
       },
-      "1313161554": {
-        "address": "0xe3520349F477A5F6EB06107066048508498A291b",
+      "196": {
+        "address": "0xC5015b9d9161Dca7e18e32f6f25C4aD850731Fd4",
         "decimal": 18
       }
     }
@@ -563,8 +461,6 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WETH.png",
     "chains": [
       1,
-      1313161554,
-      25,
       137,
       42161,
       324,
@@ -581,10 +477,6 @@
       },
       "10": {
         "address": "0x4200000000000000000000000000000000000006",
-        "decimal": 18
-      },
-      "25": {
-        "address": "0xe44Fd7fCb2b1581822D0c862B68222998a0c299a",
         "decimal": 18
       },
       "137": {
@@ -613,10 +505,6 @@
       },
       "810180": {
         "address": "0x8280a4e7D5B3B658ec4580d3Bc30f5e50454F169",
-        "decimal": 18
-      },
-      "1313161554": {
-        "address": "0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB",
         "decimal": 18
       }
     }
@@ -664,20 +552,6 @@
     "contracts": {
       "56": {
         "address": "0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
-        "decimal": 8
-      }
-    }
-  },
-  {
-    "name": "Green Metaverse Token",
-    "symbol": "GMT",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gmt.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1",
         "decimal": 8
       }
     }
@@ -1173,62 +1047,6 @@
     }
   },
   {
-    "name": "Conflux Token",
-    "symbol": "CFX",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cfx.png",
-    "chains": [
-      1030
-    ],
-    "contracts": {
-      "1030": {
-        "address": "0x14b2d3bc65e74dae1030eafd8ac30c533c976a9b",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Wrapped Conflux Token",
-    "symbol": "WCFX",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cfx.png",
-    "chains": [
-      1030
-    ],
-    "contracts": {
-      "1030": {
-        "address": "0x14b2d3bc65e74dae1030eafd8ac30c533c976a9b",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Cronos Token",
-    "symbol": "CRO",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cro.png",
-    "chains": [
-      25
-    ],
-    "contracts": {
-      "25": {
-        "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Wrapped Cronos Token",
-    "symbol": "WCRO",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cro.png",
-    "chains": [
-      25
-    ],
-    "contracts": {
-      "25": {
-        "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "CyberConnect Token",
     "symbol": "CYBER",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cyber.png",
@@ -1238,48 +1056,6 @@
     "contracts": {
       "1": {
         "address": "0x14778860E937f509e651192a90589dE711Fb88a9",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Icplaza Token",
-    "symbol": "ICT",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ict.png",
-    "chains": [
-      142857
-    ],
-    "contracts": {
-      "142857": {
-        "address": "0xc59d478873d11CCc68F9c63571E821a253c5B605",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Wrapped ICT",
-    "symbol": "WICT",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ict.png",
-    "chains": [
-      142857
-    ],
-    "contracts": {
-      "142857": {
-        "address": "0xc59d478873d11CCc68F9c63571E821a253c5B605",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "BICT",
-    "symbol": "BICT",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ict.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x93Ac66639D295332762bdCBf223194f16E84Cc70",
         "decimal": 18
       }
     }
@@ -3152,39 +2928,6 @@
     }
   },
   {
-    "name": "Telos Token",
-    "symbol": "TLOS",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/tlos.png",
-    "chains": [
-      40,
-      56
-    ],
-    "contracts": {
-      "40": {
-        "address": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
-        "decimal": 18
-      },
-      "56": {
-        "address": "0xb6C53431608E626AC81a9776ac3e999c5556717c",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Wrapped Telos Token",
-    "symbol": "WTLOS",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/tlos.png",
-    "chains": [
-      40
-    ],
-    "contracts": {
-      "40": {
-        "address": "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "ULX MirrorWorld",
     "symbol": "xULX",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/xulx.png",
@@ -3279,6 +3022,34 @@
       "1231": {
         "address": "0x3c4e0fded74876295ca36f62da289f69e3929cc4",
         "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "OKB Token",
+    "symbol": "OKB",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/okb.png",
+    "chains": [
+      196
+    ],
+    "contracts": {
+      "196": {
+        "address": "0xe538905cf8410324e03a5a23c1c177a474d59b2b",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped OKB",
+    "symbol": "WOKB",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/okb.png",
+    "chains": [
+      196
+    ],
+    "contracts": {
+      "196": {
+        "address": "0xe538905cf8410324e03a5a23c1c177a474d59b2b",
+        "decimal": 18
       }
     }
   },
