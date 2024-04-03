@@ -1495,6 +1495,20 @@
     }
   },
   {
+    "name": "FOX2 Token",
+    "symbol": "FOX2",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/fox2.png",
+    "chains": [
+      22776
+    ],
+    "contracts": {
+      "22776": {
+        "address": "0x1ddecb7126028ea347408edef9d218f74b226d22",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Ether",
     "symbol": "ETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",

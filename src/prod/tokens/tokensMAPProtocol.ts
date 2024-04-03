@@ -123,6 +123,7 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+
     {
         name: "EEAA Token",
         symbol: TokenSymbol.EEAAMAP,
@@ -184,5 +185,17 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
         },
-    }
+    },
+    {
+        name: "FOX2 Token",
+        symbol: TokenSymbol.FOX2MAP,
+        icon: baseURL + 'fox2.png',
+        chains: [ChainId.MAPProtocol],
+        contracts: {
+            [ChainId.MAPProtocol]: {
+                address: '0x1ddecb7126028ea347408edef9d218f74b226d22',  
+                decimal: 18,
+            },
+        },
+    },
 ]
