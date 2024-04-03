@@ -145,13 +145,25 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: "HUHU Cat Token",
-        symbol: TokenSymbol.HUHUZeta,
+        name: "Zebra USD",
+        symbol: TokenSymbol.ZBRUSDZeta,
         chains: [ChainId.Zeta],
-        icon: baseURL + 'huhu.png',
+        icon: baseURL + 'zbrusd.png',
         contracts: {
             [ChainId.Zeta]: {
-                address: '0x7a677e59dC2C8a42d6aF3a62748c5595034A008b',
+                address: '0x5d8dc3b34d7b07bb09495c480ad629900c0a2e02',
+                decimal: 18, 
+            },
+        },
+    },
+    {
+        name: "Zeta Cat Token",
+        symbol: TokenSymbol.ZCATZeta,
+        chains: [ChainId.Zeta],
+        icon: baseURL + 'zcat.png',
+        contracts: {
+            [ChainId.Zeta]: {
+                address: '0xc51e043B110672729d27332e1C145011065559b1',
                 decimal: 18, 
             },
         },
