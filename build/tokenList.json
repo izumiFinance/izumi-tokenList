@@ -1369,6 +1369,20 @@
     }
   },
   {
+    "name": "SolvBTC",
+    "symbol": "solvBTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/solvbtc.png",
+    "chains": [
+      22776
+    ],
+    "contracts": {
+      "22776": {
+        "address": "0x7eb8b1fe3ee3287fd5864e50f32322ce3285b39d",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Mapped Wrapped Ether",
     "symbol": "ETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",

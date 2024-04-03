@@ -75,7 +75,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-
+    {
+        name: "SolvBTC",
+        symbol: TokenSymbol.SOLVBTCMAP,
+        icon: baseURL + 'solvbtc.png',
+        chains: [ChainId.MAPProtocol],
+        contracts: {
+            [ChainId.MAPProtocol]: {
+                address: '0x7eb8b1fe3ee3287fd5864e50f32322ce3285b39d',  
+                decimal: 18,
+            },
+        },
+    },
     {
         name: "Mapped Wrapped Ether",
         symbol: TokenSymbol.ETHMAP,
