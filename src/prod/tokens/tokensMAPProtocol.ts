@@ -52,6 +52,18 @@ export const tokens: TokenInfo[] = [
     },
 
     {
+        name: "iZUMi Bond USD",
+        symbol: TokenSymbol.IUSDMAP,
+        icon: baseURL + 'iusd.png',
+        chains: [ChainId.MAPProtocol],
+        contracts: {
+            [ChainId.MAPProtocol]: {
+                address: '0x61899ce1396ff351e5fdb9c8ad36fee9411c73c2',  
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Mapped Bitcoin",
         symbol: TokenSymbol.BTCMAP,
         icon: baseURL + 'btc.png',

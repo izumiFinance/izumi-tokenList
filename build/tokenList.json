@@ -1341,6 +1341,20 @@
     }
   },
   {
+    "name": "iZUMi Bond USD",
+    "symbol": "iUSD",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/iusd.png",
+    "chains": [
+      22776
+    ],
+    "contracts": {
+      "22776": {
+        "address": "0x61899ce1396ff351e5fdb9c8ad36fee9411c73c2",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Mapped Bitcoin",
     "symbol": "BTC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/btc.png",

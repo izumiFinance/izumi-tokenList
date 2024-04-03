@@ -12,5 +12,6 @@ export enum TokenSymbol {
     STSTMAP = 'STST',
     ROUPMAP = 'ROUP',
     SOLVBTCMAP = 'solvBTC',
+    IUSDMAP = 'iUSD',
 }
 
