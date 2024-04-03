@@ -133,18 +133,6 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: "GeJuToken token",
-        symbol: TokenSymbol.GEJU,
-        icon: baseURL + 'geju.png',
-        chains: [ChainId.ZkSyncEra],
-        contracts: {
-            [ChainId.ZkSyncEra]: {
-                address: '0x98141754F0148A34F59f46744503eDB1A2b1e29D', 
-                decimal: 18,
-            },
-        },
-    },
-    {
         name: "veSync token",
         symbol: TokenSymbol.VS,
         icon: baseURL + 'vs.png',
@@ -253,18 +241,6 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: "PEPERA token",
-        symbol: TokenSymbol.PEPERA,
-        icon: baseURL + 'pepera.png',
-        chains: [ChainId.ZkSyncEra],
-        contracts: {
-            [ChainId.ZkSyncEra]: {
-                address: '0x60143F39b54a731aC790708c8719211878e638C3', 
-                decimal: 18,
-            },
-        },
-    },
-    {
         name: "Good Games Guild",
         symbol: TokenSymbol.GGG,
         icon: baseURL + 'ggg.png',
@@ -272,18 +248,6 @@ export const tokens: TokenInfo[] = [
         contracts: {
             [ChainId.ZkSyncEra]: {
                 address: '0x7E2A6456Bb3eCEcbdb38bC76Ad8dF9e448B15835', 
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: "Kannagi Token",
-        symbol: TokenSymbol.KANA,
-        icon: baseURL + 'kana.png',
-        chains: [ChainId.ZkSyncEra],
-        contracts: {
-            [ChainId.ZkSyncEra]: {
-                address: '0x26aC1D9945f65392B8E4E6b895969b5c01A7B414', 
                 decimal: 18,
             },
         },
@@ -397,30 +361,6 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: 'PIKO Token',
-        symbol: TokenSymbol.PIKO,
-        icon: baseURL + 'piko.png',
-        chains: [ChainId.ZkSyncEra],
-        contracts: {
-            [ChainId.ZkSyncEra]: {
-                address: '0xf8C6dA1bbdc31Ea5F968AcE76E931685cA7F9962',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: 'ONEZ Stablecoin',
-        symbol: TokenSymbol.ONEZ,
-        icon: baseURL + 'onez.png',
-        chains: [ChainId.ZkSyncEra],
-        contracts: {
-            [ChainId.ZkSyncEra]: {
-                address: '0x90059C32Eeeb1A2aa1351a58860d98855f3655aD',
-                decimal: 18,
-            },
-        },
-    },
-    {
         name: 'Holdstation',
         symbol: TokenSymbol.HOLD,
         icon: baseURL + 'hold.png',
@@ -428,18 +368,6 @@ export const tokens: TokenInfo[] = [
         contracts: {
             [ChainId.ZkSyncEra]: {
                 address: '0xed4040fD47629e7c8FBB7DA76bb50B3e7695F0f2',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: 'Touch Fan Token',
-        symbol: TokenSymbol.TFT,
-        icon: baseURL + 'tft.png',
-        chains: [ChainId.ZkSyncEra],
-        contracts: {
-            [ChainId.ZkSyncEra]: {
-                address: '0x14ACCcD04393f26BA155E5402aA6fdDBB8e2254a',
                 decimal: 18,
             },
         },
