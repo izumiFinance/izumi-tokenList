@@ -1,6 +1,8 @@
 export enum TokenSymbol {
 BERABera='BERA',
 WBERABera='WBERA',
+HONEYBera='HONEY',
+STGUSDCBera='stgUSDC',
 GAS0Test='GAS0',
 WGAS0Test='WGAS0',
 USDCLinea='USDC',

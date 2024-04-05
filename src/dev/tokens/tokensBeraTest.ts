@@ -36,4 +36,28 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Stargate USD Coin",
+        symbol: TokenSymbol.STGUSDCBera,
+        chains: [ChainId.BeraTest],
+        icon: baseURL + 'stgusdc.png',
+        contracts: {
+            [ChainId.BeraTest]: {
+                address: '0x6581e59a1c8da66ed0d313a0d4029dce2f746cc5', 
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Honey Token",
+        symbol: TokenSymbol.STGUSDCBera,
+        chains: [ChainId.BeraTest],
+        icon: baseURL + 'honey.png',
+        contracts: {
+            [ChainId.BeraTest]: {
+                address: '0x7eeca4205ff31f947edbd49195a7a88e6a91161b', 
+                decimal: 18,
+            },
+        },
+    },
 ]

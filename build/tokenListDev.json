@@ -28,6 +28,34 @@
     }
   },
   {
+    "name": "Stargate USD Coin",
+    "symbol": "stgUSDC",
+    "chains": [
+      80085
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/stgusdc.png",
+    "contracts": {
+      "80085": {
+        "address": "0x6581e59a1c8da66ed0d313a0d4029dce2f746cc5",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Honey Token",
+    "symbol": "stgUSDC",
+    "chains": [
+      80085
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/honey.png",
+    "contracts": {
+      "80085": {
+        "address": "0x7eeca4205ff31f947edbd49195a7a88e6a91161b",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Ontology Gas",
     "symbol": "ONG",
     "chains": [
