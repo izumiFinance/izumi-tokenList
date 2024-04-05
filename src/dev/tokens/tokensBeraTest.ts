@@ -50,7 +50,7 @@ export const tokens: TokenInfo[] = [
     },
     {
         name: "Honey Token",
-        symbol: TokenSymbol.STGUSDCBera,
+        symbol: TokenSymbol.HONEYBera,
         chains: [ChainId.BeraTest],
         icon: baseURL + 'honey.png',
         contracts: {
