@@ -1,4 +1,8 @@
 export enum TokenSymbol {
+    USDCZklink =  'USDC',
+    USDTZklink =  'USDT',
+    WBTCZklink = 'WBTC',
+    DAIZklink = 'DAI',
     USDCLineaZklink = 'USDC.Linea',
     USDTLineaZkLink = 'USDT.Linea',
     USDTEthZklink = 'USDT.Eth',

@@ -13,6 +13,55 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
     {
+        name: "Nova Tether USD",
+        symbol: TokenSymbol.USDTZklink,
+        chains: [ChainId.Zklink],
+        icon: baseURL + 'usdt.png',
+        contracts: {
+            [ChainId.Zklink]: {
+                address: '0x2F8A25ac62179B31D62D7F80884AE57464699059',
+                decimal: 6, 
+            },
+        },
+    },
+    {
+        name: "Nova USD Coin",
+        symbol: TokenSymbol.USDCZklink,
+        chains: [ChainId.Zklink],
+        icon: baseURL + 'usdc.png',
+        contracts: {
+            [ChainId.Zklink]: {
+                address: '0x1a1A3b2ff016332e866787B311fcB63928464509',
+                decimal: 6, 
+            },
+        },
+    },
+    {
+        name: "Nova Dai Stablecoin",
+        symbol: TokenSymbol.DAIZklink,
+        chains: [ChainId.Zklink],
+        icon: baseURL + 'dai.png',
+        contracts: {
+            [ChainId.Zklink]: {
+                address: '0xF573fA04A73d5AC442F3DEa8741317fEaA3cDeab',
+                decimal: 18, 
+            },
+        },
+    },
+    {
+        name: "Nova Wrapped BTC",
+        symbol: TokenSymbol.WBTCZklink,
+        chains: [ChainId.Zklink],
+        icon: baseURL + 'wbtc.png',
+        contracts: {
+            [ChainId.Zklink]: {
+                address: '0xDa4AaEd3A53962c83B35697Cd138cc6df43aF71f',
+                decimal: 8, 
+            },
+        },
+    },
+
+    {
         name: "USD Coin (Linea)",
         symbol: TokenSymbol.USDCLineaZklink,
         chains: [ChainId.Zklink],
