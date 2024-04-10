@@ -60,7 +60,6 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-
     {
         name: "USD Coin (Linea)",
         symbol: TokenSymbol.USDCLineaZklink,
