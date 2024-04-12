@@ -13,6 +13,18 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
     {
+        name: "Merlin BTC",
+        symbol: TokenSymbol.MBTCMode,
+        icon: baseURL + 'mbtc.svg',
+        chains: [ChainId.Mode],
+        contracts: {
+            [ChainId.Mode]: {
+                address: '0x59889b7021243dB5B1e065385F918316cD90D46c',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Renzo Restaked ETH",
         symbol: TokenSymbol.EZETHMode,
         icon: baseURL + 'ezeth.png',
