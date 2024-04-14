@@ -163,7 +163,6 @@ export const tokens: TokenInfo[] = [
             ChainId.Fantom,
             ChainId.Harmony,
             ChainId.Arbitrum,
-            ChainId.ZkSyncEra,
             ChainId.Optimism,
             ChainId.Mode,
         ],
@@ -198,10 +197,6 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Harmony]: {
                 address: '0x985458e523db3d53125813ed68c274899e9dfab4',
-                decimal: 6,
-            },
-            [ChainId.ZkSyncEra]: {
-                address: '0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4',
                 decimal: 6,
             },
             [ChainId.Mode]: {
