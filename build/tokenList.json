@@ -3670,6 +3670,20 @@
     }
   },
   {
+    "name": "USDC (Circle native)",
+    "symbol": "USDC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4",
+        "decimal": 6
+      }
+    }
+  },
+  {
     "name": "USDLR by Stable",
     "symbol": "USDLR",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdlr.png",

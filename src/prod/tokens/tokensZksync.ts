@@ -13,6 +13,18 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
     {
+        name: 'USDC (Circle native)',
+        symbol: TokenSymbol.USDCNATIVE,
+        icon: baseURL + 'usdc.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4',
+                decimal: 6,
+            },
+        },
+    },
+    {
         name: 'USDLR by Stable',
         symbol: TokenSymbol.USDLR,
         icon: baseURL + 'usdlr.png',

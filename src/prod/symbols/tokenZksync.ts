@@ -29,5 +29,6 @@ export enum TokenSymbol {
     SLR = 'SLR',
     USDLR = 'USDLR',
     HOLD = 'HOLD',
+    USDCNATIVE = 'USDC',
 }
 
