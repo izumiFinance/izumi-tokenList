@@ -3105,6 +3105,34 @@
     }
   },
   {
+    "name": "X Layer Cat",
+    "symbol": "XCAT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/xcat2.png",
+    "chains": [
+      196
+    ],
+    "contracts": {
+      "196": {
+        "address": "0x019f7fdc7342b5bf5d180272ef0fe9c16ae4ee83",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Xcat Token",
+    "symbol": "Xcat",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/xcat1.png",
+    "chains": [
+      196
+    ],
+    "contracts": {
+      "196": {
+        "address": "0x734ddad5e0cdab730da30c580f32aea83beab218",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "USD Coin",
     "symbol": "USDC",
     "chains": [

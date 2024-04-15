@@ -36,4 +36,28 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "X Layer Cat",
+        symbol: TokenSymbol.XCAT2XLayer,
+        icon: baseURL + 'xcat2.png',
+        chains: [ChainId.XLayer],
+        contracts: {
+            [ChainId.XLayer]: {
+                address: '0x019f7fdc7342b5bf5d180272ef0fe9c16ae4ee83',  
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Xcat Token",
+        symbol: TokenSymbol.XCAT1XLayer,
+        icon: baseURL + 'xcat1.png',
+        chains: [ChainId.XLayer],
+        contracts: {
+            [ChainId.XLayer]: {
+                address: '0x734ddad5e0cdab730da30c580f32aea83beab218',  
+                decimal: 18,
+            },
+        },
+    },
 ]
