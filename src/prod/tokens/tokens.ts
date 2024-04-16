@@ -165,6 +165,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Arbitrum,
             ChainId.Optimism,
             ChainId.Mode,
+            ChainId.XLayer,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -201,6 +202,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Mode]: {
                 address: '0xd988097fb8612cc24eeC14542bC03424c656005f',
+                decimal: 6,
+            },
+            [ChainId.XLayer]: {
+                address: '0x74b7f16337b8972027f6196a17a631ac6de26d22',
                 decimal: 6,
             },
         },
