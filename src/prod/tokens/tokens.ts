@@ -315,7 +315,7 @@ export const tokens: TokenInfo[] = [
         name: "Wrapped BTC",
         symbol: TokenSymbol.WBTC,
         icon: baseURL + 'WBTC.png',
-        chains: [ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra],
+        chains: [ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.XLayer],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599',
@@ -331,6 +331,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.ZkSyncEra]: {
                 address: '0xBBeB516fb02a01611cBBE0453Fe3c580D7281011',
+                decimal: 8,
+            },
+            [ChainId.XLayer]: {
+                address: '0xEA034fb02eB1808C2cc3adbC15f447B93CbE08e1',
                 decimal: 8,
             },
         },

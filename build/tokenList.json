@@ -342,7 +342,8 @@
       1,
       137,
       42161,
-      324
+      324,
+      196
     ],
     "contracts": {
       "1": {
@@ -351,6 +352,10 @@
       },
       "137": {
         "address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+        "decimal": 8
+      },
+      "196": {
+        "address": "0xEA034fb02eB1808C2cc3adbC15f447B93CbE08e1",
         "decimal": 8
       },
       "324": {
