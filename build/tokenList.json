@@ -3166,6 +3166,20 @@
     }
   },
   {
+    "name": "okx xPEPE Token",
+    "symbol": "XPEPE",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/xpepe.png",
+    "chains": [
+      196
+    ],
+    "contracts": {
+      "196": {
+        "address": "0x3e40cc5b2ffe8f848e881c28f641131f62eb4ae9",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "USD Coin",
     "symbol": "USDC",
     "chains": [

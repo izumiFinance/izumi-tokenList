@@ -84,4 +84,17 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+
+    {
+        name: "okx xPEPE Token",
+        symbol: TokenSymbol.XPEPELayer,
+        icon: baseURL + 'xpepe.png',
+        chains: [ChainId.XLayer],
+        contracts: {
+            [ChainId.XLayer]: {
+                address: '0x3e40cc5b2ffe8f848e881c28f641131f62eb4ae9',  
+                decimal: 18,
+            },
+        },
+    },
 ]
