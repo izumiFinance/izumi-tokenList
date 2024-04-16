@@ -3110,6 +3110,20 @@
     }
   },
   {
+    "name": "Tiny Tiger Cat",
+    "symbol": "TCAT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/caca.png",
+    "chains": [
+      196
+    ],
+    "contracts": {
+      "196": {
+        "address": "0xf782E172A14Ee1c85cD980C15375bA0E87957028",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "X Layer Cat",
     "symbol": "XCAT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/xcat2.png",

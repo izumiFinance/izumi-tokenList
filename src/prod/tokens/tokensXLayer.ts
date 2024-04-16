@@ -37,6 +37,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Tiny Tiger Cat",
+        symbol: TokenSymbol.TCATXLayer,
+        icon: baseURL + 'caca.png',
+        chains: [ChainId.XLayer],
+        contracts: {
+            [ChainId.XLayer]: {
+                address: '0xf782E172A14Ee1c85cD980C15375bA0E87957028',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "X Layer Cat",
         symbol: TokenSymbol.XCAT2XLayer,
         icon: baseURL + 'xcat2.png',
