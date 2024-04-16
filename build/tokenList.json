@@ -3133,6 +3133,20 @@
     }
   },
   {
+    "name": "Xlayerinu Token",
+    "symbol": "XINU",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/xinu.png",
+    "chains": [
+      196
+    ],
+    "contracts": {
+      "196": {
+        "address": "0xe7e267284e38461c951e7d464958c8c717c9da9d",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "USD Coin",
     "symbol": "USDC",
     "chains": [

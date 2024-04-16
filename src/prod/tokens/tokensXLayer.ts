@@ -60,4 +60,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Xlayerinu Token",
+        symbol: TokenSymbol.XINUXLayer,
+        icon: baseURL + 'xinu.png',
+        chains: [ChainId.XLayer],
+        contracts: {
+            [ChainId.XLayer]: {
+                address: '0xe7e267284e38461c951e7d464958c8c717c9da9d',  
+                decimal: 18,
+            },
+        },
+    },
 ]
