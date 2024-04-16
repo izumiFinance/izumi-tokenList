@@ -421,6 +421,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Optimism, 
             ChainId.Zklink,
             ChainId.Mode,
+            ChainId.XLayer,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -457,6 +458,10 @@ export const tokens: TokenInfo[] = [
             }, 
             [ChainId.Mode]: {
                 address: '0x4200000000000000000000000000000000000006', 
+                decimal: 18,
+            }, 
+            [ChainId.XLayer]: {
+                address: '0x5A77f1443D16ee5761d310e38b62f77f726bC71c',
                 decimal: 18,
             }, 
         },
