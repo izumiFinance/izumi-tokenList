@@ -665,6 +665,20 @@
     }
   },
   {
+    "name": "AINN Token",
+    "symbol": "AINN",
+    "chains": [
+      2649
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ainn.png",
+    "contracts": {
+      "2649": {
+        "address": "0xc5ed6c946cdc82f4599f0f2f012e1822502e70e3",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Arbipad",
     "symbol": "ARBI",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arbi.png",

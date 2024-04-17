@@ -48,5 +48,17 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "AINN Token",
+        symbol: TokenSymbol.AINNAINN,
+        chains: [ChainId.AINNL2],
+        icon: baseURL + 'ainn.png',
+        contracts: {
+            [ChainId.AINNL2]: {
+                address: '0xc5ed6c946cdc82f4599f0f2f012e1822502e70e3', 
+                decimal: 18,
+            },
+        },
+    },
 
 ]
