@@ -2728,6 +2728,20 @@
     }
   },
   {
+    "name": "Stake Stone Ether",
+    "symbol": "STONE",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/stone.png",
+    "contracts": {
+      "534352": {
+        "address": "0x80137510979822322193FC997d400D5A6C747bf7",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Scrolly The Map",
     "symbol": "SCROLLY",
     "chains": [

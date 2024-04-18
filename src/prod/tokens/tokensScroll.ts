@@ -72,6 +72,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Stake Stone Ether",
+        symbol: TokenSymbol.STONEScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'stone.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0x80137510979822322193FC997d400D5A6C747bf7',
+                decimal: 18,
+            },
+        },
+    },
    
     {
         name: "Scrolly The Map",
