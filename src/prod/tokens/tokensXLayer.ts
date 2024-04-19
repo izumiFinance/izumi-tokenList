@@ -37,6 +37,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Xlayerinu Token",
+        symbol: TokenSymbol.XINUXLayer,
+        icon: baseURL + 'xinu.png',
+        chains: [ChainId.XLayer],
+        contracts: {
+            [ChainId.XLayer]: {
+                address: '0xe7e267284e38461c951e7d464958c8c717c9da9d',  
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Tiny Tiger Cat",
         symbol: TokenSymbol.TCATXLayer,
         icon: baseURL + 'caca.png',
@@ -72,14 +84,15 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+  
     {
-        name: "Xlayerinu Token",
-        symbol: TokenSymbol.XINUXLayer,
-        icon: baseURL + 'xinu.png',
+        name: "OKOX Token",
+        symbol: TokenSymbol.OKOXXLayer,
+        icon: baseURL + 'okox.png',
         chains: [ChainId.XLayer],
         contracts: {
             [ChainId.XLayer]: {
-                address: '0xe7e267284e38461c951e7d464958c8c717c9da9d',  
+                address: '0x980855ca48b601df572e6877ff908c8bed38bcb5',  
                 decimal: 18,
             },
         },

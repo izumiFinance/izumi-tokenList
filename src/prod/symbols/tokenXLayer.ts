@@ -6,4 +6,5 @@ export enum TokenSymbol {
     XCAT2XLayer = 'XCAT',
     XINUXLayer = 'XINU',
     XPEPELayer = 'XPEPE',
+    OKOXXLayer = 'OKOX',
 }

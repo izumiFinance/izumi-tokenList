@@ -3148,6 +3148,20 @@
     }
   },
   {
+    "name": "Xlayerinu Token",
+    "symbol": "XINU",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/xinu.png",
+    "chains": [
+      196
+    ],
+    "contracts": {
+      "196": {
+        "address": "0xe7e267284e38461c951e7d464958c8c717c9da9d",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Tiger Cat",
     "symbol": "TCAT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/caca.png",
@@ -3190,15 +3204,15 @@
     }
   },
   {
-    "name": "Xlayerinu Token",
-    "symbol": "XINU",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/xinu.png",
+    "name": "OKOX Token",
+    "symbol": "OKOX",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/okox.png",
     "chains": [
       196
     ],
     "contracts": {
       "196": {
-        "address": "0xe7e267284e38461c951e7d464958c8c717c9da9d",
+        "address": "0x980855ca48b601df572e6877ff908c8bed38bcb5",
         "decimal": 18
       }
     }
