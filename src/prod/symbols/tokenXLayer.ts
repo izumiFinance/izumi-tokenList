@@ -7,4 +7,5 @@ export enum TokenSymbol {
     XINUXLayer = 'XINU',
     XPEPELayer = 'XPEPE',
     OKOXXLayer = 'OKOX',
+    MUKIXLayer = 'MUKI',
 }

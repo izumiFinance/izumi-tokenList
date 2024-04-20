@@ -61,6 +61,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "MUKI Token",
+        symbol: TokenSymbol.MUKIXLayer,
+        icon: baseURL + 'muki.png',
+        chains: [ChainId.XLayer],
+        contracts: {
+            [ChainId.XLayer]: {
+                address: '0x73644a48a4f540fa49a8b4d41dba2ded5df3912b',  
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "X Layer Cat",
         symbol: TokenSymbol.XCAT2XLayer,
         icon: baseURL + 'xcat2.png',
