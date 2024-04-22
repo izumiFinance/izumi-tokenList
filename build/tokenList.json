@@ -36,7 +36,6 @@
       137,
       42161,
       56,
-      61,
       324,
       59144,
       5000,
@@ -52,10 +51,6 @@
         "decimal": 18
       },
       "56": {
-        "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
-        "decimal": 18
-      },
-      "61": {
         "address": "0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747",
         "decimal": 18
       },
@@ -108,7 +103,6 @@
     "chains": [
       1,
       56,
-      61,
       42161,
       324,
       59144,
@@ -124,10 +118,6 @@
         "decimal": 18
       },
       "56": {
-        "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
-        "decimal": 18
-      },
-      "61": {
         "address": "0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D",
         "decimal": 18
       },

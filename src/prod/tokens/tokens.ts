@@ -40,7 +40,8 @@ export const tokens: TokenInfo[] = [
         name: 'iZUMi Token',
         symbol: TokenSymbol.IZI,
         icon: baseURL + 'izumi.svg',
-        chains: [ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.BSC, ChainId.ETC, 
+        chains: [ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.BSC, 
+                 //ChainId.ETC, 
                  ChainId.ZkSyncEra, ChainId.Linea, ChainId.Mantle,
                  ChainId.Base, ChainId.Scroll, ChainId.Manta, ChainId.Kroma, ChainId.Zeta],
         contracts: {
@@ -60,10 +61,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
                 decimal: 18,
             },
-            [ChainId.ETC]: {
-                address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
-                decimal: 18,
-            },
+            // [ChainId.ETC]: {
+            //     address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
+            //     decimal: 18,
+            // },
             [ChainId.ZkSyncEra]: {
                 address: '0x16A9494e257703797D747540f01683952547EE5b',
                 decimal: 18,
@@ -102,7 +103,10 @@ export const tokens: TokenInfo[] = [
         name: "iZUMi Bond USD",
         symbol: TokenSymbol.IUSD,
         icon: baseURL + 'iusd.png',
-        chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.ETC, ChainId.Arbitrum, 
+        chains: [
+                 ChainId.EthereumMainnet, ChainId.BSC, 
+                 //ChainId.ETC, 
+                 ChainId.Arbitrum, 
                  ChainId.ZkSyncEra, ChainId.Linea, ChainId.Mantle, ChainId.Base, ChainId.Scroll, ChainId.Manta, ChainId.Blast],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -113,10 +117,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
                 decimal: 18,
             },
-            [ChainId.ETC]: {
-                address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
-                decimal: 18,
-            },
+            // [ChainId.ETC]: {
+            //     address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
+            //     decimal: 18,
+            // },
             [ChainId.Arbitrum]: {
                 address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
                 decimal: 18,
