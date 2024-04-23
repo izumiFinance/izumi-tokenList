@@ -2508,6 +2508,20 @@
     }
   },
   {
+    "name": "Wrapped eETH",
+    "symbol": "weETH",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/weeth.png",
+    "chains": [
+      34443
+    ],
+    "contracts": {
+      "34443": {
+        "address": "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Wrapped ONT",
     "symbol": "WONT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wont.png",
