@@ -38,7 +38,7 @@ export const tokens: TokenInfo[] = [
     },
     {
         name: "Wrapped eETH",
-        symbol: TokenSymbol.WEETHMode,
+        symbol: TokenSymbol.WEETHMODEMode,
         icon: baseURL + 'weeth.png',
         chains: [ChainId.Mode],
         contracts: {

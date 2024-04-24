@@ -2523,7 +2523,7 @@
   },
   {
     "name": "Wrapped eETH",
-    "symbol": "weETH",
+    "symbol": "weETH.mode",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/weeth.png",
     "chains": [
       34443
