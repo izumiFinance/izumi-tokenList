@@ -1257,6 +1257,20 @@
     }
   },
   {
+    "name": "Renzo Restaked ETH",
+    "symbol": "ezETH",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ezeth.png",
+    "chains": [
+      59144
+    ],
+    "contracts": {
+      "59144": {
+        "address": "0x2416092f143378750bb29b79ed961ab195cceea5",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "LineaBank Token",
     "symbol": "LAB",
     "chains": [

@@ -7,4 +7,5 @@ export enum TokenSymbol {
     ZKUSDLinea = 'ZKUSD',
     LYULinea = 'LYU',
     LINELinea = 'LINE',
+    EZETHLinea = 'ezETH',
 }

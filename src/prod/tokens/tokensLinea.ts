@@ -61,6 +61,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Renzo Restaked ETH",
+        symbol: TokenSymbol.EZETHLinea,
+        icon: baseURL + 'ezeth.png',
+        chains: [ChainId.Linea],
+        contracts: {
+            [ChainId.Linea]: {
+                address: '0x2416092f143378750bb29b79ed961ab195cceea5',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "LineaBank Token",
         symbol: TokenSymbol.LABLinea,
         chains: [ChainId.Linea],
