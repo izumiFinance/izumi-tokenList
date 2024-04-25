@@ -51,7 +51,7 @@ export const tokens: TokenInfo[] = [
     {
         name: "XDOG Token",
         symbol: TokenSymbol.XDOGXLayer,
-        icon: baseURL + 'xdog.png',
+        icon: baseURL + 'xdogxlayer.png',
         chains: [ChainId.XLayer],
         contracts: {
             [ChainId.XLayer]: {
