@@ -3180,6 +3180,20 @@
     }
   },
   {
+    "name": "XDOG Token",
+    "symbol": "XDOG",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/xdog.png",
+    "chains": [
+      196
+    ],
+    "contracts": {
+      "196": {
+        "address": "0x0eae5d6bb2c534d20a0452e51479957de49583ca",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tiny Tiger Cat",
     "symbol": "TCAT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/caca.png",

@@ -49,6 +49,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "XDOG Token",
+        symbol: TokenSymbol.XDOGXLayer,
+        icon: baseURL + 'xdog.png',
+        chains: [ChainId.XLayer],
+        contracts: {
+            [ChainId.XLayer]: {
+                address: '0x0eae5d6bb2c534d20a0452e51479957de49583ca',  
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Tiny Tiger Cat",
         symbol: TokenSymbol.TCATXLayer,
         icon: baseURL + 'caca.png',
