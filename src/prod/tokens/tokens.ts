@@ -170,6 +170,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Optimism,
             ChainId.Mode,
             ChainId.XLayer,
+            ChainId.Cyber,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -212,6 +213,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x74b7f16337b8972027f6196a17a631ac6de26d22',
                 decimal: 6,
             },
+            [ChainId.Cyber]: {
+                address: '0x81759AdbF5520aD94da10991DfA29Ff147d3337b',
+                decimal: 6,
+            },
         },
     },
     {
@@ -228,6 +233,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Optimism,
             ChainId.Mode,
             ChainId.XLayer,
+            ChainId.Cyber,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -264,6 +270,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.XLayer]: {
                 address: '0x1E4a5963aBFD975d8c9021ce480b42188849D41d',
+                decimal: 6,
+            },
+            [ChainId.Cyber]: {
+                address: '0x6F6238c8eaea56F54Df418823585d61FDD7DE5Da',
                 decimal: 6,
             },
         },
@@ -364,7 +374,18 @@ export const tokens: TokenInfo[] = [
         name: "Ether",
         symbol: TokenSymbol.ETH,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png',
-        chains: [ChainId.EthereumMainnet, ChainId.BSC, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.Linea, ChainId.Base, ChainId.Optimism, ChainId.Zklink, ChainId.Mode],
+        chains: [
+            ChainId.EthereumMainnet, 
+            ChainId.BSC, 
+            ChainId.Arbitrum, 
+            ChainId.ZkSyncEra, 
+            ChainId.Linea, 
+            ChainId.Base, 
+            ChainId.Optimism, 
+            ChainId.Zklink, 
+            ChainId.Mode,
+            ChainId.Cyber,
+        ],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',  //weth
@@ -402,6 +423,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x4200000000000000000000000000000000000006',  //weth
                 decimal: 18,
             }, 
+            [ChainId.Cyber]: {
+                address: '0x4200000000000000000000000000000000000006',  //weth
+                decimal: 18,
+            }, 
         },
     },
     {
@@ -435,6 +460,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Zklink,
             ChainId.Mode,
             ChainId.XLayer,
+            ChainId.Cyber,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -475,6 +501,10 @@ export const tokens: TokenInfo[] = [
             }, 
             [ChainId.XLayer]: {
                 address: '0x5A77f1443D16ee5761d310e38b62f77f726bC71c',
+                decimal: 18,
+            }, 
+            [ChainId.Cyber]: {
+                address: '0x4200000000000000000000000000000000000006',  
                 decimal: 18,
             }, 
         },

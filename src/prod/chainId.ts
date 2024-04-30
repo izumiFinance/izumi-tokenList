@@ -40,4 +40,5 @@ export enum ChainId {
     Mode = 34443,
     AINNL2 = 2649,
     XLayer = 196,
+    Cyber = 7560,
 }
