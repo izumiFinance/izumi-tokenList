@@ -83,6 +83,7 @@ export const tokens: TokenInfo[] = [
             ChainId.MantleTest2,
             ChainId.ZklinkNovaTest,
             ChainId.ModeTest,
+            ChainId.TaikoHeklaTest,
         ],
         contracts: {
             [ChainId.BSCTestnet]: {
@@ -155,6 +156,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.ModeTest]: {
                 address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
+                decimal: 18,
+            },
+            [ChainId.TaikoHeklaTest]: {
+                address: '0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b',
                 decimal: 18,
             },
         },
@@ -247,6 +252,7 @@ export const tokens: TokenInfo[] = [
             ChainId.MantleTest2,
             ChainId.ZklinkNovaTest,
             ChainId.ModeTest,
+            ChainId.TaikoHeklaTest,
         ],
         contracts: {
             [ChainId.BSCTestnet]: {
@@ -319,6 +325,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.ModeTest]: {
                 address: '0x551197e6350936976DfFB66B2c3bb15DDB723250',
+                decimal: 18,
+            },
+            [ChainId.TaikoHeklaTest]: {
+                address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
                 decimal: 18,
             },
         },
