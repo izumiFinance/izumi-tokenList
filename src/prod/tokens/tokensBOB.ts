@@ -24,4 +24,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "tBTC V2",
+        symbol: TokenSymbol.TBTCBOB,
+        chains: [ChainId.BOB],
+        icon: baseURL + 'tbtc.png',
+        contracts: {
+            [ChainId.BOB]: {
+                address: '0xBBa2eF945D523C4e2608C9E1214C2Cc64D4fc2e2',
+                decimal: 18,
+            },
+        },
+    },
 ]
