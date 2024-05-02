@@ -234,6 +234,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Mode,
             ChainId.XLayer,
             ChainId.Cyber,
+            ChainId.BOB,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -274,6 +275,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Cyber]: {
                 address: '0x6F6238c8eaea56F54Df418823585d61FDD7DE5Da',
+                decimal: 6,
+            },
+            [ChainId.BOB]: {
+                address: '0x05D032ac25d322df992303dCa074EE7392C117b9',
                 decimal: 6,
             },
         },
@@ -334,7 +339,10 @@ export const tokens: TokenInfo[] = [
         name: "Wrapped BTC",
         symbol: TokenSymbol.WBTC,
         icon: baseURL + 'WBTC.png',
-        chains: [ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.XLayer],
+        chains: [
+            ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.XLayer,
+            ChainId.BOB,
+        ],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599',
@@ -354,6 +362,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.XLayer]: {
                 address: '0xEA034fb02eB1808C2cc3adbC15f447B93CbE08e1',
+                decimal: 8,
+            },
+            [ChainId.BOB]: {
+                address: '0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3',
                 decimal: 8,
             },
         },
@@ -385,6 +397,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Zklink, 
             ChainId.Mode,
             ChainId.Cyber,
+            ChainId.BOB,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -427,6 +440,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x4200000000000000000000000000000000000006',  //weth
                 decimal: 18,
             }, 
+            [ChainId.BOB]: {
+                address: '0x4200000000000000000000000000000000000006',  //weth
+                decimal: 18,
+            }, 
         },
     },
     {
@@ -461,6 +478,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Mode,
             ChainId.XLayer,
             ChainId.Cyber,
+            ChainId.BOB,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -504,6 +522,10 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             }, 
             [ChainId.Cyber]: {
+                address: '0x4200000000000000000000000000000000000006',  
+                decimal: 18,
+            }, 
+            [ChainId.BOB]: {
                 address: '0x4200000000000000000000000000000000000006',  
                 decimal: 18,
             }, 
