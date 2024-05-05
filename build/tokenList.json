@@ -737,6 +737,34 @@
     }
   },
   {
+    "name": "Rocket Pool ETH",
+    "symbol": "rETH",
+    "chains": [
+      60808
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/reth.png",
+    "contracts": {
+      "60808": {
+        "address": "0xB5686c4f60904Ec2BDA6277d6FE1F7cAa8D1b41a",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Stake Stone Ether",
+    "symbol": "STONE",
+    "chains": [
+      60808
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/stone.png",
+    "contracts": {
+      "60808": {
+        "address": "0x96147A9Ae9a42d7Da551fD2322ca15B71032F342",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Arbipad",
     "symbol": "ARBI",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arbi.png",
