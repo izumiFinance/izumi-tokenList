@@ -3,4 +3,5 @@ export enum TokenSymbol {
     TBTCBOB = 'tBTC',
     RETHBOB = 'rETH',
     STONEBOB = 'STONE',
+    WSTETHBOB = 'wstETH',
 }

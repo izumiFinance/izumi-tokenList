@@ -765,6 +765,20 @@
     }
   },
   {
+    "name": "Wrapped liquid staked Ether 2.0",
+    "symbol": "wstETH",
+    "chains": [
+      60808
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wsteth.png",
+    "contracts": {
+      "60808": {
+        "address": "0x85008aE6198BC91aC0735CB5497CF125ddAAc528",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Arbipad",
     "symbol": "ARBI",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arbi.png",

@@ -60,4 +60,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Wrapped liquid staked Ether 2.0",
+        symbol: TokenSymbol.WSTETHBOB,
+        chains: [ChainId.BOB],
+        icon: baseURL + 'wsteth.png',
+        contracts: {
+            [ChainId.BOB]: {
+                address: '0x85008aE6198BC91aC0735CB5497CF125ddAAc528',
+                decimal: 18,
+            },
+        },
+    },
 ]
