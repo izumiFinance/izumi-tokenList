@@ -13,6 +13,18 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
     {
+        name: "Mode Token",
+        symbol: TokenSymbol.MODEMode,
+        icon: baseURL + 'mode.png',
+        chains: [ChainId.Mode],
+        contracts: {
+            [ChainId.Mode]: {
+                address: '0xDfc7C877a950e49D2610114102175A06C2e3167a',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Merlin BTC",
         symbol: TokenSymbol.MBTCMode,
         icon: baseURL + 'mbtc.svg',
