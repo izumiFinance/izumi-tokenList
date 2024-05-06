@@ -204,4 +204,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "BTCT Token",
+        symbol: TokenSymbol.BTCTZkLink,
+        chains: [ChainId.Zklink],
+        icon: baseURL + 'btct.png',
+        contracts: {
+            [ChainId.Zklink]: {
+                address: '0xFb8dBdc644eb54dAe0D7A9757f1e6444a07F8067',
+                decimal: 18, 
+            },
+        },
+    },
 ]

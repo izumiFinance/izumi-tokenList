@@ -3934,6 +3934,20 @@
     }
   },
   {
+    "name": "BTCT Token",
+    "symbol": "BTCT",
+    "chains": [
+      810180
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/btct.png",
+    "contracts": {
+      "810180": {
+        "address": "0xFb8dBdc644eb54dAe0D7A9757f1e6444a07F8067",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Bridged USD Coin",
     "symbol": "USDC.e",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
