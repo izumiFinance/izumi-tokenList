@@ -1185,6 +1185,34 @@
     }
   },
   {
+    "name": "Klaytn Token",
+    "symbol": "KLAY",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/klaytn.png",
+    "chains": [
+      8217
+    ],
+    "contracts": {
+      "8217": {
+        "address": "0x19Aac5f612f524B754CA7e7c41cbFa2E981A4432",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped KLAY",
+    "symbol": "WKLAY",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/klaytn.png",
+    "chains": [
+      8217
+    ],
+    "contracts": {
+      "8217": {
+        "address": "0x19Aac5f612f524B754CA7e7c41cbFa2E981A4432",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Ether",
     "symbol": "ETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
