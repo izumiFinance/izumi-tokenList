@@ -11,6 +11,7 @@ export enum TokenSymbol {
     STZETAZeta = 'stZETA',
     STZETA2Zeta = 'stZETA',
     HUHUZeta = 'HUHU',
+    RBZeta = 'RB',
     ZCATZeta = 'ZCat',
     ZBRUSDZeta = 'zbrUSD',
 

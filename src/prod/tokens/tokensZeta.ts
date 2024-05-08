@@ -157,6 +157,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Runes Bridge Token",
+        symbol: TokenSymbol.RBZeta,
+        chains: [ChainId.Zeta],
+        icon: baseURL + 'rb.png',
+        contracts: {
+            [ChainId.Zeta]: {
+                address: '0xe21399d1ad140afebeb83158f8e85ab553f03bca',
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "HUHU Cat Token",
         symbol: TokenSymbol.HUHUZeta,
         chains: [ChainId.Zeta],

@@ -3724,6 +3724,20 @@
     }
   },
   {
+    "name": "Runes Bridge Token",
+    "symbol": "RB",
+    "chains": [
+      7000
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/rb.png",
+    "contracts": {
+      "7000": {
+        "address": "0xe21399d1ad140afebeb83158f8e85ab553f03bca",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "HUHU Cat Token",
     "symbol": "HUHU",
     "chains": [
