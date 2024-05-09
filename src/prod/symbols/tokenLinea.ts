@@ -8,4 +8,5 @@ export enum TokenSymbol {
     LYULinea = 'LYU',
     LINELinea = 'LINE',
     EZETHLinea = 'ezETH',
+    ZEROLinea = 'ZERO',
 }

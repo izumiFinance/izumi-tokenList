@@ -1423,6 +1423,20 @@
     }
   },
   {
+    "name": "ZeroLend Token",
+    "symbol": "ZERO",
+    "chains": [
+      59144
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/zero.png",
+    "contracts": {
+      "59144": {
+        "address": "0x78354f8dccb269a615a7e0a24f9b0718fdc3c7a7",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "ZKUSD Stablecoin",
     "symbol": "ZKUSD",
     "chains": [

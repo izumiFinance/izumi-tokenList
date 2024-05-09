@@ -85,6 +85,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "ZeroLend Token",
+        symbol: TokenSymbol.ZEROLinea,
+        chains: [ChainId.Linea],
+        icon: baseURL + 'zero.png',
+        contracts: {
+            [ChainId.Linea]: {
+                address: '0x78354f8dccb269a615a7e0a24f9b0718fdc3c7a7',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "ZKUSD Stablecoin",
         symbol: TokenSymbol.ZKUSDLinea,
         chains: [ChainId.Linea],
