@@ -205,6 +205,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Free Bridged SolvBTC",
+        symbol: TokenSymbol.SOLVBTCZkLink,
+        chains: [ChainId.Zklink],
+        icon: baseURL + 'solvbtc.png',
+        contracts: {
+            [ChainId.Zklink]: {
+                address: '0xbEAf16cFD8eFe0FC97C2a07E349B9411F5dC272C',
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "BTCT Token",
         symbol: TokenSymbol.BTCTZkLink,
         chains: [ChainId.Zklink],

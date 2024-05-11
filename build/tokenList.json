@@ -4004,6 +4004,20 @@
     }
   },
   {
+    "name": "Free Bridged SolvBTC",
+    "symbol": "SolvBTC.m",
+    "chains": [
+      810180
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/solvbtc.png",
+    "contracts": {
+      "810180": {
+        "address": "0xbEAf16cFD8eFe0FC97C2a07E349B9411F5dC272C",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "BTCT Token",
     "symbol": "BTCT",
     "chains": [
