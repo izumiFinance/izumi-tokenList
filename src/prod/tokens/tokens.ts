@@ -105,9 +105,17 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'iusd.png',
         chains: [
                  ChainId.EthereumMainnet, ChainId.BSC, 
-                 //ChainId.ETC, 
+                 ChainId.ETC, 
                  ChainId.Arbitrum, 
-                 ChainId.ZkSyncEra, ChainId.Linea, ChainId.Mantle, ChainId.Base, ChainId.Scroll, ChainId.Manta, ChainId.Blast],
+                 ChainId.ZkSyncEra, 
+                 ChainId.Linea, 
+                 ChainId.Mantle, 
+                 ChainId.Base, 
+                 ChainId.Scroll, 
+                 ChainId.Manta, 
+                 ChainId.Blast,
+                 ChainId.Klaytn
+                ],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
@@ -117,10 +125,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
                 decimal: 18,
             },
-            // [ChainId.ETC]: {
-            //     address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
-            //     decimal: 18,
-            // },
+            [ChainId.ETC]: {
+                address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
+                decimal: 18,
+            },
             [ChainId.Arbitrum]: {
                 address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
                 decimal: 18,
@@ -150,6 +158,10 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             },
             [ChainId.Blast]: {
+                address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
+                decimal: 18,
+            },
+            [ChainId.Klaytn]: {
                 address: '0x0A3BB08b3a15A19b4De82F8AcFc862606FB69A2D',
                 decimal: 18,
             },
