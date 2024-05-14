@@ -86,6 +86,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Spectrum Staked ETH",
+        symbol: TokenSymbol.SPETHKroma,
+        icon: baseURL + 'speth.png',
+        chains: [ChainId.Kroma],
+        contracts: {
+            [ChainId.Kroma]: {
+                address: '0x61e0d34b5206fa8005ec1de8000df9b9ddee23db',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "WEMIX.e Token",
         symbol: TokenSymbol.WEMIXKroma,
         icon: baseURL + 'wemix.png',
