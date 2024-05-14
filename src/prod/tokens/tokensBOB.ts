@@ -72,4 +72,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "SlerfBOB Token",
+        symbol: TokenSymbol.SLERFBOB,
+        chains: [ChainId.BOB],
+        icon: baseURL + 'slerf.png',
+        contracts: {
+            [ChainId.BOB]: {
+                address: '0x6db2721586abcc682b44c5425b97f3c27ffb5b27',
+                decimal: 18,
+            },
+        },
+    },
 ]

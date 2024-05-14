@@ -789,6 +789,20 @@
     }
   },
   {
+    "name": "SlerfBOB Token",
+    "symbol": "SLERFB",
+    "chains": [
+      60808
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/slerf.png",
+    "contracts": {
+      "60808": {
+        "address": "0x6db2721586abcc682b44c5425b97f3c27ffb5b27",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Arbipad",
     "symbol": "ARBI",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arbi.png",
