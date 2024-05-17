@@ -1480,6 +1480,20 @@
     }
   },
   {
+    "name": "Wrapped eETH",
+    "symbol": "weETH",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/weeth.png",
+    "chains": [
+      59144
+    ],
+    "contracts": {
+      "59144": {
+        "address": "0x1bf74c010e6320bab11e2e5a532b5ac15e0b8aa6",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "LineaBank Token",
     "symbol": "LAB",
     "chains": [

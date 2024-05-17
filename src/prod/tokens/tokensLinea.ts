@@ -73,6 +73,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Wrapped eETH",
+        symbol: TokenSymbol.WEETHLinea,
+        icon: baseURL + 'weeth.png',
+        chains: [ChainId.Linea],
+        contracts: {
+            [ChainId.Linea]: {
+                address: '0x1bf74c010e6320bab11e2e5a532b5ac15e0b8aa6',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "LineaBank Token",
         symbol: TokenSymbol.LABLinea,
         chains: [ChainId.Linea],
