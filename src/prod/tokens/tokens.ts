@@ -354,6 +354,7 @@ export const tokens: TokenInfo[] = [
         chains: [
             ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.XLayer,
             ChainId.BOB,
+            ChainId.Mode,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -380,6 +381,11 @@ export const tokens: TokenInfo[] = [
                 address: '0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3',
                 decimal: 8,
             },
+            [ChainId.Mode]: {
+                address: '0xcDd475325D6F564d27247D1DddBb0DAc6fA0a5CF',
+                decimal: 8,
+            },
+
         },
     },
     {
