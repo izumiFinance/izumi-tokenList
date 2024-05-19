@@ -482,7 +482,8 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dai.png",
     "chains": [
       1,
-      196
+      196,
+      60808
     ],
     "contracts": {
       "1": {
@@ -491,6 +492,10 @@
       },
       "196": {
         "address": "0xC5015b9d9161Dca7e18e32f6f25C4aD850731Fd4",
+        "decimal": 18
+      },
+      "60808": {
+        "address": "0x6c851F501a3F24E29A8E39a29591cddf09369080",
         "decimal": 18
       }
     }
