@@ -36,4 +36,28 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "USD Coin",
+        symbol: TokenSymbol.USDCKlaytn,
+        icon: baseURL + 'usdcklaytn.png',
+        chains: [ChainId.Klaytn],
+        contracts: {
+            [ChainId.Klaytn]: {
+                address: '0x608792deb376cce1c9fa4d0e6b7b44f507cffa6a', 
+                decimal: 6,
+            },
+        },
+    },
+    {
+        name: "Tether USD",
+        symbol: TokenSymbol.USDTKlaytn,
+        icon: baseURL + 'usdtklaytn.png',
+        chains: [ChainId.Klaytn],
+        contracts: {
+            [ChainId.Klaytn]: {
+                address: '0x5c13e303a62fc5dedf5b52d66873f2e59fedadc2', 
+                decimal: 6,
+            },
+        },
+    },
 ]
