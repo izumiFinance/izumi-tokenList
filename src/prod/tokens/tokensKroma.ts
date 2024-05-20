@@ -133,4 +133,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "ZapankiSwap Token",
+        symbol: TokenSymbol.ZAPKroma,
+        icon: baseURL + 'zapkroma.png',
+        chains: [ChainId.Kroma],
+        contracts: {
+            [ChainId.Kroma]: {
+                address: '0xfDF68008ec2ec321c0db050EB5FfcAf25Fab3df8',
+                decimal: 18,
+            },
+        },
+    },
 ]
