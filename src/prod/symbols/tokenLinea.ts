@@ -9,5 +9,7 @@ export enum TokenSymbol {
     LINELinea = 'LINE',
     EZETHLinea = 'ezETH',
     ZEROLinea = 'ZERO',
-    WEETHLinea = 'weETH'
+    WEETHLinea = 'weETH',
+    SOLVBTCLinea = 'SolvBTC.m',
+    MBTCLinea = 'M-BTC',
 }

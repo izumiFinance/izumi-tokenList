@@ -1471,6 +1471,34 @@
     }
   },
   {
+    "name": "Merlin BTC",
+    "symbol": "M-BTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mbtc.png",
+    "chains": [
+      59144
+    ],
+    "contracts": {
+      "59144": {
+        "address": "0xe4D584ae9b753e549cAE66200A6475d2f00705f7",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Free Bridged SolvBTC",
+    "symbol": "SolvBTC.m",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/solvbtc.png",
+    "chains": [
+      59144
+    ],
+    "contracts": {
+      "59144": {
+        "address": "0x5FFcE65A40f6d3de5332766ffF6A28BF491C868c",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Renzo Restaked ETH",
     "symbol": "ezETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ezeth.png",

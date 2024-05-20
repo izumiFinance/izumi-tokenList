@@ -61,6 +61,30 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Merlin BTC",
+        symbol: TokenSymbol.MBTCLinea,
+        icon: baseURL + 'mbtc.png',
+        chains: [ChainId.Linea],
+        contracts: {
+            [ChainId.Linea]: {
+                address: '0xe4D584ae9b753e549cAE66200A6475d2f00705f7',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Free Bridged SolvBTC",
+        symbol: TokenSymbol.SOLVBTCLinea,
+        icon: baseURL + 'solvbtc.png',
+        chains: [ChainId.Linea],
+        contracts: {
+            [ChainId.Linea]: {
+                address: '0x5FFcE65A40f6d3de5332766ffF6A28BF491C868c',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Renzo Restaked ETH",
         symbol: TokenSymbol.EZETHLinea,
         icon: baseURL + 'ezeth.png',
