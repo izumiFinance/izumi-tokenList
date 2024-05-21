@@ -63,7 +63,7 @@ export const tokens: TokenInfo[] = [
     {
         name: "Merlin BTC",
         symbol: TokenSymbol.MBTCLinea,
-        icon: baseURL + 'mbtc.png',
+        icon: baseURL + 'mbtc.svg',
         chains: [ChainId.Linea],
         contracts: {
             [ChainId.Linea]: {
