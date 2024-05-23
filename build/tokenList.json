@@ -483,7 +483,8 @@
     "chains": [
       1,
       196,
-      60808
+      60808,
+      59144
     ],
     "contracts": {
       "1": {
@@ -492,6 +493,10 @@
       },
       "196": {
         "address": "0xC5015b9d9161Dca7e18e32f6f25C4aD850731Fd4",
+        "decimal": 18
+      },
+      "59144": {
+        "address": "0x4af15ec2a0bd43db75dd04e62faa3b8ef36b00d5",
         "decimal": 18
       },
       "60808": {
