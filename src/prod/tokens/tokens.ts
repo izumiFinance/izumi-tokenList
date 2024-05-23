@@ -468,7 +468,7 @@ export const tokens: TokenInfo[] = [
         name: "Dai Stablecoin",
         symbol: TokenSymbol.DAI,
         icon: baseURL + 'dai.png',
-        chains: [ChainId.EthereumMainnet, ChainId.XLayer, ChainId.BOB, ChainId.Linea],
+        chains: [ChainId.EthereumMainnet, ChainId.XLayer, ChainId.BOB, ChainId.Linea, ChainId.ZkSyncEra],
         contracts: {
             [ChainId.EthereumMainnet]: {
                 address: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
@@ -484,6 +484,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Linea]: {
                 address: '0x4af15ec2a0bd43db75dd04e62faa3b8ef36b00d5',
+                decimal: 18,
+            },
+            [ChainId.ZkSyncEra]: {
+                address: '0x4b9eb6c0b6ea15176bbf62841c6b2a8a398cb656',
                 decimal: 18,
             },
         },
