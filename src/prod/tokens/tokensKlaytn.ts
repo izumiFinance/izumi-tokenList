@@ -60,4 +60,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "KKUL THE PARROT",
+        symbol: TokenSymbol.KKULPKlaytn,
+        icon: baseURL + 'kkulp.png',
+        chains: [ChainId.Klaytn],
+        contracts: {
+            [ChainId.Klaytn]: {
+                address: '0x0f58d0abaae2f586b0d3b6d045305463e89ba603', 
+                decimal: 18,
+            },
+        },
+    },
 ]
