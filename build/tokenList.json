@@ -1775,6 +1775,20 @@
     }
   },
   {
+    "name": "HiveSwap Token",
+    "symbol": "HIVP",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/hivp.png",
+    "chains": [
+      22776
+    ],
+    "contracts": {
+      "22776": {
+        "address": "0x69c43364667cf6279016bbec76445174c78f142d",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "stMAPO Token",
     "symbol": "stMAPO",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/stmapo.png",

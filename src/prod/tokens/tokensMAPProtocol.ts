@@ -112,6 +112,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "HiveSwap Token",
+        symbol: TokenSymbol.HIVPMAP,
+        icon: baseURL + 'hivp.png',
+        chains: [ChainId.MAPProtocol],
+        contracts: {
+            [ChainId.MAPProtocol]: {
+                address: '0x69c43364667cf6279016bbec76445174c78f142d',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "stMAPO Token",
         symbol: TokenSymbol.STMAPOMAP,
         icon: baseURL + 'stmapo.png',
