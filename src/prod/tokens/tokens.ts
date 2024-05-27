@@ -183,6 +183,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Mode,
             ChainId.XLayer,
             ChainId.Cyber,
+            ChainId.Taiko,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -227,6 +228,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Cyber]: {
                 address: '0x81759AdbF5520aD94da10991DfA29Ff147d3337b',
+                decimal: 6,
+            },
+            [ChainId.Taiko]: {
+                address: '0x07d83526730c7438048D55A4fc0b850e2aaB6f0b',
                 decimal: 6,
             },
         },
@@ -416,6 +421,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Mode,
             ChainId.Cyber,
             ChainId.BOB,
+            ChainId.Taiko,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -461,6 +467,10 @@ export const tokens: TokenInfo[] = [
             [ChainId.BOB]: {
                 address: '0x4200000000000000000000000000000000000006',  //weth
                 decimal: 18,
+            }, 
+            [ChainId.Taiko]: {
+                address: '0xA51894664A773981C6C112C43ce576f315d5b1B6',   //Weth
+                decimal: 18, 
             }, 
         },
     },
@@ -509,6 +519,7 @@ export const tokens: TokenInfo[] = [
             ChainId.XLayer,
             ChainId.Cyber,
             ChainId.BOB,
+            ChainId.Taiko,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -557,6 +568,10 @@ export const tokens: TokenInfo[] = [
             }, 
             [ChainId.BOB]: {
                 address: '0x4200000000000000000000000000000000000006',  
+                decimal: 18,
+            }, 
+            [ChainId.Taiko]: {
+                address: '0xA51894664A773981C6C112C43ce576f315d5b1B6',  
                 decimal: 18,
             }, 
         },
