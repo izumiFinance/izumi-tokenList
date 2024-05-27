@@ -1,3 +1,4 @@
 export enum TokenSymbol {
-    TKOTaiko = 'TKO'
+    TKOTaiko = 'TKO',
+    MAGATaiko = 'MAGA',
 }

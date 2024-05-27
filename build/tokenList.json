@@ -3419,6 +3419,20 @@
     }
   },
   {
+    "name": "MAGA Token",
+    "symbol": "MAGA",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/maga.png",
+    "chains": [
+      167000
+    ],
+    "contracts": {
+      "167000": {
+        "address": "0x2D9E1dA77F086c50f93db46E554974B71536a9Ee",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "ULX MirrorWorld",
     "symbol": "xULX",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/xulx.png",
