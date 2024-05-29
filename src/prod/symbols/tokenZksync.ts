@@ -9,6 +9,7 @@ export enum TokenSymbol {
     DEXTF = 'DEXTF',
     BOLT = 'BOLT',
     CHEEMS = 'Cheems',
+    CHEEMS2 = 'Cheems',
     SLUSDT = 'slUSDT',
     SLSTETH = 'stETH',
     SLBTC = 'BTC',
