@@ -72,4 +72,40 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Bridged USDC (Stargate)",
+        symbol: TokenSymbol.USDCSTARKlaytn,
+        icon: baseURL + 'usdcstar.png',
+        chains: [ChainId.Klaytn],
+        contracts: {
+            [ChainId.Klaytn]: {
+                address: '0xe2053bcf56d2030d2470fb454574237cf9ee3d4b', 
+                decimal: 6,
+            },
+        },
+    },
+    {
+        name: "Tether USD (Stargate)",
+        symbol: TokenSymbol.USDTSTARKlaytn,
+        icon: baseURL + 'usdtstar.png',
+        chains: [ChainId.Klaytn],
+        contracts: {
+            [ChainId.Klaytn]: {
+                address: '0x9025095263d1e548dc890a7589a4c78038ac40ab', 
+                decimal: 6,
+            },
+        },
+    },
+    {
+        name: "Wrapped ETH (Stargate)",
+        symbol: TokenSymbol.WETHSTARKlaytn,
+        icon: baseURL + 'wethstar.png',
+        chains: [ChainId.Klaytn],
+        contracts: {
+            [ChainId.Klaytn]: {
+                address: '0x55acee547df909cf844e32dd66ee55a6f81dc71b', 
+                decimal: 18,
+            },
+        },
+    },
 ]

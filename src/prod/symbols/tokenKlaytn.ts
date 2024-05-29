@@ -4,4 +4,8 @@ export enum TokenSymbol {
     USDCKlaytn = 'USDC',
     USDTKlaytn = 'USDT',
     KKULPKlaytn = 'KKULP',
+    USDCSTARKlaytn = 'USDC.e',
+    USDTSTARKlaytn = 'USDT',
+    WETHSTARKlaytn = 'WETH',
+
 }
