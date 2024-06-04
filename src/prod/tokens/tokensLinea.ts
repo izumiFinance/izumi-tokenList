@@ -109,6 +109,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Foxy Token",
+        symbol: TokenSymbol.FOXYLinea,
+        icon: baseURL + 'foxy.png',
+        chains: [ChainId.Linea],
+        contracts: {
+            [ChainId.Linea]: {
+                address: '0x5FBDF89403270a1846F5ae7D113A989F850d1566',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "LineaBank Token",
         symbol: TokenSymbol.LABLinea,
         chains: [ChainId.Linea],

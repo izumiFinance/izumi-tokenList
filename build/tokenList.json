@@ -1650,6 +1650,20 @@
     }
   },
   {
+    "name": "Foxy Token",
+    "symbol": "FOXY",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/foxy.png",
+    "chains": [
+      59144
+    ],
+    "contracts": {
+      "59144": {
+        "address": "0x5FBDF89403270a1846F5ae7D113A989F850d1566",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "LineaBank Token",
     "symbol": "LAB",
     "chains": [
