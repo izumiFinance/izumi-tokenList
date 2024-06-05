@@ -13,6 +13,18 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
     {
+        name: "TAIKO Token",
+        symbol: TokenSymbol.TAIKOTaiko,
+        icon: baseURL + 'taiko.png',
+        chains: [ChainId.Taiko],
+        contracts: {
+            [ChainId.Taiko]: {
+                address: '0xA9d23408b9bA935c230493c40C73824Df71A0975', 
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "MAGA Token",
         symbol: TokenSymbol.MAGATaiko,
         icon: baseURL + 'maga.png',
