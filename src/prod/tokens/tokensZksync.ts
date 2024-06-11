@@ -37,6 +37,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: 'ZkSync Token',
+        symbol: TokenSymbol.ZKZKsync,
+        icon: baseURL + 'zk.png',
+        chains: [ChainId.ZkSyncEra],
+        contracts: {
+            [ChainId.ZkSyncEra]: {
+                address: '0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: 'USDLR by Stable',
         symbol: TokenSymbol.USDLR,
         icon: baseURL + 'usdlr.png',

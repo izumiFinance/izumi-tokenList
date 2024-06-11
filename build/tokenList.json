@@ -4357,6 +4357,20 @@
     }
   },
   {
+    "name": "ZkSync Token",
+    "symbol": "ZK",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/zk.png",
+    "chains": [
+      324
+    ],
+    "contracts": {
+      "324": {
+        "address": "0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "USDLR by Stable",
     "symbol": "USDLR",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdlr.png",

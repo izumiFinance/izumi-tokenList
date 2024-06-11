@@ -32,5 +32,6 @@ export enum TokenSymbol {
     HOLD = 'HOLD',
     USDCNATIVE = 'USDC',
     USDCBRIDGE = 'USDC.e',
+    ZKZKsync = 'ZK',
 }
 
