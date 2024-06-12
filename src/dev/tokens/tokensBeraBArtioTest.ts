@@ -19,7 +19,7 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'bera.png',
         contracts: {
             [ChainId.BERABArtioBeraTest]: {
-                address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF', // wbera
+                address: '0x7507c1dc16935B82698e4C63f2746A2fCf994dF8', // wbera
                 decimal: 18,
             },
         },
@@ -31,7 +31,7 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'bera.png',
         contracts: {
             [ChainId.BERABArtioBeraTest]: {
-                address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF', 
+                address: '0x7507c1dc16935B82698e4C63f2746A2fCf994dF8', 
                 decimal: 18,
             },
         },
