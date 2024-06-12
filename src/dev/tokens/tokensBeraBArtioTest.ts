@@ -15,10 +15,10 @@ export const tokens: TokenInfo[] = [
     {
         name: "Berachain Token",
         symbol: TokenSymbol.BERABArtioBera,
-        chains: [ChainId.BeraTest],
+        chains: [ChainId.BERABArtioBeraTest],
         icon: baseURL + 'bera.png',
         contracts: {
-            [ChainId.BeraTest]: {
+            [ChainId.BERABArtioBeraTest]: {
                 address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF', // wbera
                 decimal: 18,
             },
@@ -27,10 +27,10 @@ export const tokens: TokenInfo[] = [
     {
         name: "Wrapped Bera",
         symbol: TokenSymbol.WBERABartioBera,
-        chains: [ChainId.BeraTest],
+        chains: [ChainId.BERABArtioBeraTest],
         icon: baseURL + 'bera.png',
         contracts: {
-            [ChainId.BeraTest]: {
+            [ChainId.BERABArtioBeraTest]: {
                 address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF', 
                 decimal: 18,
             },
