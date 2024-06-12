@@ -253,6 +253,7 @@ export const tokens: TokenInfo[] = [
             ChainId.ZklinkNovaTest,
             ChainId.ModeTest,
             ChainId.TaikoHeklaTest,
+            ChainId.BERABArtioBeraTest,
         ],
         contracts: {
             [ChainId.BSCTestnet]: {
@@ -329,6 +330,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.TaikoHeklaTest]: {
                 address: '0x876508837C162aCedcc5dd7721015E83cbb4e339',
+                decimal: 18,
+            },
+            [ChainId.BERABArtioBeraTest]: {
+                address: '0xD67EAB117504baAF5c24873f7a4c37d9290253E8',
                 decimal: 18,
             },
         },

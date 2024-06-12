@@ -42,4 +42,5 @@ export enum ChainId {
     MantleTest2 = 5003,
     ZklinkNovaTest = 810182,
     ModeTest = 919,
+    BERABArtioBeraTest = 80084,
 }

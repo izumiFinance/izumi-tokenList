@@ -1,4 +1,6 @@
 export enum TokenSymbol {
+BERABArtioBera='BERA',
+WBERABartioBera='WBERA',
 BERABera='BERA',
 WBERABera='WBERA',
 HONEYBera='HONEY',

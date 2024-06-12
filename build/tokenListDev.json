@@ -28,6 +28,34 @@
     }
   },
   {
+    "name": "Berachain Token",
+    "symbol": "BERA",
+    "chains": [
+      80085
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bera.png",
+    "contracts": {
+      "80085": {
+        "address": "0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped Bera",
+    "symbol": "WBERA",
+    "chains": [
+      80085
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bera.png",
+    "contracts": {
+      "80085": {
+        "address": "0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Stargate USD Coin",
     "symbol": "stgUSDC",
     "chains": [
@@ -309,7 +337,8 @@
       5003,
       810182,
       919,
-      167009
+      167009,
+      80084
     ],
     "contracts": {
       "97": {
@@ -354,6 +383,10 @@
       },
       "57000": {
         "address": "0x876508837C162aCedcc5dd7721015E83cbb4e339",
+        "decimal": 18
+      },
+      "80084": {
+        "address": "0xD67EAB117504baAF5c24873f7a4c37d9290253E8",
         "decimal": 18
       },
       "80085": {
