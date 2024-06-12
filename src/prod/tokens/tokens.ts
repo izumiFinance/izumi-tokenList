@@ -360,6 +360,7 @@ export const tokens: TokenInfo[] = [
             ChainId.EthereumMainnet, ChainId.Matic, ChainId.Arbitrum, ChainId.ZkSyncEra, ChainId.XLayer,
             ChainId.BOB,
             ChainId.Mode,
+            ChainId.Kava,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -388,6 +389,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Mode]: {
                 address: '0xcDd475325D6F564d27247D1DddBb0DAc6fA0a5CF',
+                decimal: 8,
+            },
+            [ChainId.Kava]: {
+                address: '0xb5c4423a65B953905949548276654C96fcaE6992',
                 decimal: 8,
             },
 
@@ -422,6 +427,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Cyber,
             ChainId.BOB,
             ChainId.Taiko,
+            ChainId.Kava,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -470,6 +476,10 @@ export const tokens: TokenInfo[] = [
             }, 
             [ChainId.Taiko]: {
                 address: '0xA51894664A773981C6C112C43ce576f315d5b1B6',   //Weth
+                decimal: 18, 
+            }, 
+            [ChainId.Kava]: {
+                address: '0x2DfD4dE5AE386Cd3f4fC8e2cb39240852E47F5E8',   //Weth
                 decimal: 18, 
             }, 
         },

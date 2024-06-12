@@ -370,7 +370,8 @@
       324,
       196,
       60808,
-      34443
+      34443,
+      2222
     ],
     "contracts": {
       "1": {
@@ -387,6 +388,10 @@
       },
       "324": {
         "address": "0xBBeB516fb02a01611cBBE0453Fe3c580D7281011",
+        "decimal": 8
+      },
+      "2222": {
+        "address": "0xb5c4423a65B953905949548276654C96fcaE6992",
         "decimal": 8
       },
       "34443": {
@@ -433,7 +438,8 @@
       34443,
       7560,
       60808,
-      167000
+      167000,
+      2222
     ],
     "contracts": {
       "1": {
@@ -450,6 +456,10 @@
       },
       "324": {
         "address": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+        "decimal": 18
+      },
+      "2222": {
+        "address": "0x2DfD4dE5AE386Cd3f4fC8e2cb39240852E47F5E8",
         "decimal": 18
       },
       "7560": {
@@ -1267,6 +1277,48 @@
     "contracts": {
       "1": {
         "address": "0x14778860E937f509e651192a90589dE711Fb88a9",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Tether USDt",
+    "symbol": "USDt",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
+    "chains": [
+      2222
+    ],
+    "contracts": {
+      "2222": {
+        "address": "0x919C1c267BC06a7039e03fcc2eF738525769109c",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Kava Token",
+    "symbol": "KAVA",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/kava.png",
+    "chains": [
+      2222
+    ],
+    "contracts": {
+      "2222": {
+        "address": "0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped KAVA",
+    "symbol": "WKAVA",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/kava.png",
+    "chains": [
+      2222
+    ],
+    "contracts": {
+      "2222": {
+        "address": "0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b",
         "decimal": 18
       }
     }

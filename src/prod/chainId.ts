@@ -44,4 +44,5 @@ export enum ChainId {
     BOB = 60808,
     Klaytn = 8217,
     Taiko = 167000,
+    Kava = 2222,
 }
