@@ -614,6 +614,20 @@
     }
   },
   {
+    "name": "YIN Finance",
+    "symbol": "YIN",
+    "chains": [
+      97
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/yin.png",
+    "contracts": {
+      "97": {
+        "address": "0xb2cdca00d1b07064064e83c377ae9a490ad06bc2",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Wrapped BIT",
     "symbol": "WBIT",
     "chains": [

@@ -509,6 +509,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "YIN Finance",
+        symbol: TokenSymbol.YIN,
+        chains: [ChainId.BSCTestnet],
+        icon: baseURL + 'yin.png',
+        contracts: {
+            [ChainId.BSCTestnet]: {
+                address: '0xb2cdca00d1b07064064e83c377ae9a490ad06bc2',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Wrapped BIT",
         symbol: TokenSymbol.WBIT,
         chains: [ChainId.MantleTestnet],
