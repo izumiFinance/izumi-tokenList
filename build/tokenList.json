@@ -1282,6 +1282,34 @@
     }
   },
   {
+    "name": "TRUCK",
+    "symbol": "TRUCK",
+    "chains": [
+      7560
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/truck.png",
+    "contracts": {
+      "7560": {
+        "address": "0x2ea53081b5a184dfd9860a81633649e5d0f63d38",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Cyber Inu",
+    "symbol": "CINU",
+    "chains": [
+      7560
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cinu.png",
+    "contracts": {
+      "7560": {
+        "address": "0x590b8e9A79B51cF8A62f082d2C248c1C5Bf77D34",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Ether Classic",
     "symbol": "ETC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/etc.png",
