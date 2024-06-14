@@ -1268,6 +1268,20 @@
     }
   },
   {
+    "name": "Staked CYBER",
+    "symbol": "stCYBER",
+    "chains": [
+      7560
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/stcyber.svg",
+    "contracts": {
+      "7560": {
+        "address": "0x3efe22fa52f6789ddfc263cec5bcf435b14b77e2",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Ether Classic",
     "symbol": "ETC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/etc.png",

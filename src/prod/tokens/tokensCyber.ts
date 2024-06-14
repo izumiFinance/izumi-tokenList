@@ -36,4 +36,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Staked CYBER",
+        symbol: TokenSymbol.STCYBERCyber,
+        chains: [ChainId.Cyber],
+        icon: baseURL + 'stcyber.svg',
+        contracts: {
+            [ChainId.Cyber]: {
+                address: '0x3efe22fa52f6789ddfc263cec5bcf435b14b77e2',
+                decimal: 18, 
+            },
+        },
+    },
 ]
