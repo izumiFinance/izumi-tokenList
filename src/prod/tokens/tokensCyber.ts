@@ -60,4 +60,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Cyber Inu",
+        symbol: TokenSymbol.CINUCyber,
+        chains: [ChainId.Cyber],
+        icon: baseURL + 'cinu.png',
+        contracts: {
+            [ChainId.Cyber]: {
+                address: '0x590b8e9A79B51cF8A62f082d2C248c1C5Bf77D34',
+                decimal: 18, 
+            },
+        },
+    },
 ]
