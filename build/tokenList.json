@@ -1254,6 +1254,20 @@
     }
   },
   {
+    "name": "Compound CYBER",
+    "symbol": "cCYBER",
+    "chains": [
+      7560
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ccyber.svg",
+    "contracts": {
+      "7560": {
+        "address": "0x522D3A9C2Bc14cE1C4D210ED41ab239FdED02F2b",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Ether Classic",
     "symbol": "ETC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/etc.png",

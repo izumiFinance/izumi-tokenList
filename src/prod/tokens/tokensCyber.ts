@@ -24,4 +24,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Compound CYBER",
+        symbol: TokenSymbol.CCYBERCyber,
+        chains: [ChainId.Cyber],
+        icon: baseURL + 'ccyber.svg',
+        contracts: {
+            [ChainId.Cyber]: {
+                address: '0x522D3A9C2Bc14cE1C4D210ED41ab239FdED02F2b',
+                decimal: 18, 
+            },
+        },
+    },
 ]
