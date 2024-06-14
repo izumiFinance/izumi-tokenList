@@ -48,4 +48,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "TRUCK",
+        symbol: TokenSymbol.TRUCKCyber,
+        chains: [ChainId.Cyber],
+        icon: baseURL + 'truck.png',
+        contracts: {
+            [ChainId.Cyber]: {
+                address: '0x2ea53081b5a184dfd9860a81633649e5d0f63d38',
+                decimal: 18, 
+            },
+        },
+    },
 ]
