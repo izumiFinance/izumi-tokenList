@@ -43,4 +43,5 @@ export enum ChainId {
     ZklinkNovaTest = 810182,
     ModeTest = 919,
     BERABArtioBeraTest = 80084,
+    KakarotTestnet = 1802203764,
 }
