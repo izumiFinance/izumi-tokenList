@@ -48,16 +48,4 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "WING token",
-        symbol: TokenSymbol.WING,
-        icon: baseURL + 'wing.png',
-        chains: [ChainId.Ontology],
-        contracts: {
-            [ChainId.Ontology]: {
-                address: '0x6ea9f7B81bdEB047d63A023b1F28Bea481a5785a',
-                decimal: 9,
-            },
-        },
-    },
 ]

@@ -848,34 +848,6 @@
     }
   },
   {
-    "name": "Arbipad",
-    "symbol": "ARBI",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arbi.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xa7bD657C5838472dDF85FF0797A2e6fce8fd4833",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Froyo Token",
-    "symbol": "FROYO",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/froyo.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "Liquid Staking BNB",
     "symbol": "BNBx",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bnbx.png",
@@ -932,20 +904,6 @@
     }
   },
   {
-    "name": "INFIBLUE WORLD",
-    "symbol": "MONIE",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/monie.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0x7E60C74b9096f8FA6fb5a9FD88405dED8B7D44f3",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "Great Resilient Incentive",
     "symbol": "GRI",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gri.png",
@@ -997,48 +955,6 @@
     "contracts": {
       "56": {
         "address": "0x8105ECe4ce08B6B6449539A5db23e23b973DfA8f",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Meta Interstellar Token",
-    "symbol": "MIT",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mit.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xe6906717f129427eebade5406de68cadd57aa0c0",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Hydroxyl Token",
-    "symbol": "HYT",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/HYT.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xe28c51f4fa57dc44af3691c6f73d1ca578b586be",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "HALO token",
-    "symbol": "HALO",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/halo.png",
-    "chains": [
-      56
-    ],
-    "contracts": {
-      "56": {
-        "address": "0xB6b8CCD230Bb4235C7b87986274E7aB550b72261",
         "decimal": 18
       }
     }
@@ -2799,244 +2715,6 @@
     }
   },
   {
-    "name": "Wrapped USDT from Ethereum on Meter",
-    "symbol": "USDT.eth",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
-    "chains": [
-      82
-    ],
-    "contracts": {
-      "82": {
-        "address": "0x5fa41671c48e3c951afc30816947126ccc8c162e",
-        "decimal": 6
-      }
-    }
-  },
-  {
-    "name": "Wrapped BUSD from BSC",
-    "symbol": "BUSD.bsc",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/busd.png",
-    "chains": [
-      82
-    ],
-    "contracts": {
-      "82": {
-        "address": "0x24aa189dfaa76c671c279262f94434770f557c35",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "AmpleForth",
-    "symbol": "AMPL",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ampl.png",
-    "chains": [
-      82
-    ],
-    "contracts": {
-      "82": {
-        "address": "0x1cf09D1B5Da9d9d24365D87B932A7c4bD018A419",
-        "decimal": 9
-      }
-    }
-  },
-  {
-    "name": "BNB from BSC on Meter",
-    "symbol": "BNB",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bnb.png",
-    "chains": [
-      82
-    ],
-    "contracts": {
-      "82": {
-        "address": "0xF0E86246519Be0810C9FAfc8430C49799985aAA8",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Civilization from Ethereum on Meter",
-    "symbol": "CIV",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/civ.png",
-    "chains": [
-      82
-    ],
-    "contracts": {
-      "82": {
-        "address": "0xdf3ff78702fac3885acac3b42a99fb37dfce912e",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "ETH from Ethereum on Meter",
-    "symbol": "ETH",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
-    "chains": [
-      82
-    ],
-    "contracts": {
-      "82": {
-        "address": "0x983147FB73A45FC7F8B4DFA1cd61Bdc7b111e5b6",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Factory Builders Token",
-    "symbol": "FTB",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ftb.png",
-    "chains": [
-      82
-    ],
-    "contracts": {
-      "82": {
-        "address": "0x6CFe9AdaD5215195c1Aa9755DAed29360e6Ab986",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "iZUMi Bond USD",
-    "symbol": "iUSD",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/iusd.png",
-    "chains": [
-      82
-    ],
-    "contracts": {
-      "82": {
-        "address": "0x46b40202da16761633e757674661683fd733b845",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "iZUMi Token",
-    "symbol": "iZi",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/izumi.svg",
-    "chains": [
-      82
-    ],
-    "contracts": {
-      "82": {
-        "address": "0x55137322647150d4ff0de22967589690c57a24d3",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Meter MEN",
-    "symbol": "MEN",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/men.png",
-    "chains": [
-      82
-    ],
-    "contracts": {
-      "82": {
-        "address": "0x01d18666A27Cf91F32549f181F53e517BA6dc473",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "MOVR from MoonRiver on Meter",
-    "symbol": "MOVR",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/movr.png",
-    "chains": [
-      82
-    ],
-    "contracts": {
-      "82": {
-        "address": "0xb158870beB809Ad955Bf56065C5C10D7Fd957cC0",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "SKILL by cryptoblades.io",
-    "symbol": "SKILL",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/skill.png",
-    "chains": [
-      82
-    ],
-    "contracts": {
-      "82": {
-        "address": "0x45a7ca9511a49508B01d37F09f9F142bEa85Ce14",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Theta Drop",
-    "symbol": "TDROP",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/tdrop.png",
-    "chains": [
-      82
-    ],
-    "contracts": {
-      "82": {
-        "address": "0xd5e615BB3c761AB4cD9251dEEd78Dac58BE9CcBF",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Theta Fuel",
-    "symbol": "TFUEL",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/tfuel.png",
-    "chains": [
-      82
-    ],
-    "contracts": {
-      "82": {
-        "address": "0x75Fd6F7EDCc5E7A8100eAd3D29CCD844153ef0F3",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Wrapped USDC from Ethereum on Meter",
-    "symbol": "USDC.eth",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
-    "chains": [
-      82
-    ],
-    "contracts": {
-      "82": {
-        "address": "0xd86e243fc0007e6226b07c9a50c9d70d78299eb5",
-        "decimal": 6
-      }
-    }
-  },
-  {
-    "name": "Volt",
-    "symbol": "VOLT",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/voltmeter.png",
-    "chains": [
-      82
-    ],
-    "contracts": {
-      "82": {
-        "address": "0x8Df95e66Cb0eF38F91D2776DA3c921768982fBa0",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "WBTC from Ethereum on Meter",
-    "symbol": "WBTC.eth",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/WBTC.png",
-    "chains": [
-      82
-    ],
-    "contracts": {
-      "82": {
-        "address": "0xc1f6C86ABEe8e2e0B6fd5BD80F0b51fef783635C",
-        "decimal": 8
-      }
-    }
-  },
-  {
     "name": "Mode Token",
     "symbol": "MODE",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mode.png",
@@ -3135,20 +2813,6 @@
     }
   },
   {
-    "name": "WING token",
-    "symbol": "WING",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wing.png",
-    "chains": [
-      58
-    ],
-    "contracts": {
-      "58": {
-        "address": "0x6ea9f7B81bdEB047d63A023b1F28Bea481a5785a",
-        "decimal": 9
-      }
-    }
-  },
-  {
     "name": "OpBNB Token",
     "symbol": "BNB",
     "chains": [
@@ -3228,6 +2892,48 @@
     "contracts": {
       "10": {
         "address": "0x4200000000000000000000000000000000000042",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Rootstock BTC",
+    "symbol": "RBTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/btc.png",
+    "chains": [
+      30
+    ],
+    "contracts": {
+      "30": {
+        "address": "0x542fda317318ebf1d3deaf76e0b632741a7e677d",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped RBTC",
+    "symbol": "RBTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/btc.png",
+    "chains": [
+      30
+    ],
+    "contracts": {
+      "30": {
+        "address": "0x542fda317318ebf1d3deaf76e0b632741a7e677d",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Rootstock USDT",
+    "symbol": "rUSDT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
+    "chains": [
+      30
+    ],
+    "contracts": {
+      "30": {
+        "address": "0xef213441a85df4d7acbdae0cf78004e1e486bb96",
         "decimal": 18
       }
     }

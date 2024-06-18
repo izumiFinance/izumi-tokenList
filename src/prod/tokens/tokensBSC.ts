@@ -13,30 +13,6 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
     {
-        name: "Arbipad",
-        symbol: TokenSymbol.ARBIBSC,
-        icon: baseURL + 'arbi.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0xa7bD657C5838472dDF85FF0797A2e6fce8fd4833', 
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: 'Froyo Token',
-        symbol: TokenSymbol.FROYO,
-        icon: baseURL + 'froyo.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0xe369fec23380f9F14ffD07a1DC4b7c1a9fdD81c9',
-                decimal: 18,
-            },
-        },
-    },
-    {
         name: 'Liquid Staking BNB',
         symbol: TokenSymbol.BNBX,
         icon: baseURL + 'bnbx.png',
@@ -85,18 +61,6 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
-        name: 'INFIBLUE WORLD',
-        symbol: TokenSymbol.MONIE,
-        icon: baseURL + 'monie.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0x7E60C74b9096f8FA6fb5a9FD88405dED8B7D44f3',
-                decimal: 18,
-            },
-        },
-    },
-    {
         name: 'Great Resilient Incentive',
         symbol: TokenSymbol.GRI,
         icon: baseURL + 'gri.png',
@@ -140,42 +104,6 @@ export const tokens: TokenInfo[] = [
         contracts: {
             [ChainId.BSC]: {
                 address: '0x8105ECe4ce08B6B6449539A5db23e23b973DfA8f',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: 'Meta Interstellar Token',
-        symbol: TokenSymbol.MIT,
-        icon: baseURL + 'mit.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0xe6906717f129427eebade5406de68cadd57aa0c0',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: 'Hydroxyl Token',
-        symbol: TokenSymbol.HYT,
-        icon: baseURL + 'HYT.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0xe28c51f4fa57dc44af3691c6f73d1ca578b586be',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: 'HALO token',
-        symbol: TokenSymbol.HALO,
-        icon: baseURL + 'halo.png',
-        chains: [ChainId.BSC],
-        contracts: {
-            [ChainId.BSC]: {
-                address: '0xB6b8CCD230Bb4235C7b87986274E7aB550b72261',
                 decimal: 18,
             },
         },
