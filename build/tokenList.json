@@ -2912,7 +2912,7 @@
   },
   {
     "name": "Wrapped RBTC",
-    "symbol": "RBTC",
+    "symbol": "WRBTC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/btc.png",
     "chains": [
       30

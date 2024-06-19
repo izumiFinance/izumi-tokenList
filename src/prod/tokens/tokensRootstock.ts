@@ -26,7 +26,7 @@ export const tokens: TokenInfo[] = [
     },
     {
         name: "Wrapped RBTC",
-        symbol: TokenSymbol.RBTCRoot,
+        symbol: TokenSymbol.WRBTCRoot,
         icon: baseURL + 'btc.png',
         chains: [ChainId.RootStock],
         contracts: {
