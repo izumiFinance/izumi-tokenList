@@ -48,4 +48,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Merlin BTC",
+        symbol: TokenSymbol.MBTCKava,
+        icon: baseURL + 'mbtc.svg',
+        chains: [ChainId.Kava],
+        contracts: {
+            [ChainId.Kava]: {
+                address: '0x59889b7021243dB5B1e065385F918316cD90D46c',
+                decimal: 18,
+            },
+        },
+    },
 ]

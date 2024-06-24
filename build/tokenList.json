@@ -1343,6 +1343,20 @@
     }
   },
   {
+    "name": "Merlin BTC",
+    "symbol": "M-BTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mbtc.svg",
+    "chains": [
+      2222
+    ],
+    "contracts": {
+      "2222": {
+        "address": "0x59889b7021243dB5B1e065385F918316cD90D46c",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Klaytn Token",
     "symbol": "KLAY",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/klaytn.png",
