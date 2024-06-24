@@ -252,6 +252,7 @@ export const tokens: TokenInfo[] = [
             ChainId.XLayer,
             ChainId.Cyber,
             ChainId.BOB,
+            ChainId.Core,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -296,6 +297,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.BOB]: {
                 address: '0x05D032ac25d322df992303dCa074EE7392C117b9',
+                decimal: 6,
+            },
+            [ChainId.Core]: {
+                address: '0x900101d06a7426441ae63e9ab3b9b0f63be145f1',
                 decimal: 6,
             },
         },

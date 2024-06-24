@@ -249,7 +249,8 @@
       34443,
       196,
       7560,
-      60808
+      60808,
+      1116
     ],
     "contracts": {
       "1": {
@@ -278,6 +279,10 @@
       },
       "324": {
         "address": "0x493257fD37EDB34451f62EDf8D2a0C418852bA4C",
+        "decimal": 6
+      },
+      "1116": {
+        "address": "0x900101d06a7426441ae63e9ab3b9b0f63be145f1",
         "decimal": 6
       },
       "7560": {
@@ -1151,6 +1156,34 @@
     "contracts": {
       "81457": {
         "address": "0x038f1C6ED5FccF690A920a27b39366eeeF27eFCe",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "CORE Token",
+    "symbol": "CORE",
+    "chains": [
+      1116
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/core.png",
+    "contracts": {
+      "1116": {
+        "address": "0x40375c92d9faf44d2f9db9bd9ba41a3317a2404f",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped CORE",
+    "symbol": "WCORE",
+    "chains": [
+      1116
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/core.png",
+    "contracts": {
+      "1116": {
+        "address": "0x40375c92d9faf44d2f9db9bd9ba41a3317a2404f",
         "decimal": 18
       }
     }
