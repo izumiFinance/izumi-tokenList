@@ -48,4 +48,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "ETHs",
+        symbol: TokenSymbol.ETHSRoot,
+        icon: baseURL + 'eth.png',
+        chains: [ChainId.RootStock],
+        contracts: {
+            [ChainId.RootStock]: {
+                address: '0x1d931bf8656d795e50ef6d639562c5bd8ac2b78f', 
+                decimal: 18,
+            },
+        },
+    },
 ]

@@ -2986,6 +2986,20 @@
     }
   },
   {
+    "name": "ETHs",
+    "symbol": "ETHs",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
+    "chains": [
+      30
+    ],
+    "contracts": {
+      "30": {
+        "address": "0x1d931bf8656d795e50ef6d639562c5bd8ac2b78f",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Ether",
     "symbol": "ETH",
     "chains": [
