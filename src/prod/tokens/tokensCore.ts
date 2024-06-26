@@ -41,7 +41,7 @@ export const tokens: TokenInfo[] = [
         name: "Core Wrapped BTC Token",
         symbol: TokenSymbol.COREBTCCore,
         chains: [ChainId.Core],
-        icon: baseURL + 'corebtc.png',
+        icon: baseURL + 'corebtc.svg',
         contracts: {
             [ChainId.Core]: {
                 address: '0x8034ab88c3512246bf7894f57c834dddbd1de01f', 
@@ -53,7 +53,7 @@ export const tokens: TokenInfo[] = [
         name: "Free Bridged SolvBTC.b",
         symbol: TokenSymbol.SOLVEBTCBCore,
         chains: [ChainId.Core],
-        icon: baseURL + 'solvbtcb.png',
+        icon: baseURL + 'solvbtcb.svg',
         contracts: {
             [ChainId.Core]: {
                 address: '0x5b1fb849f1f76217246b8aaac053b5c7b15b7dc3', 

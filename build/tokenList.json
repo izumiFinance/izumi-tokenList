@@ -1194,7 +1194,7 @@
     "chains": [
       1116
     ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/corebtc.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/corebtc.svg",
     "contracts": {
       "1116": {
         "address": "0x8034ab88c3512246bf7894f57c834dddbd1de01f",
@@ -1208,7 +1208,7 @@
     "chains": [
       1116
     ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/solvbtcb.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/solvbtcb.svg",
     "contracts": {
       "1116": {
         "address": "0x5b1fb849f1f76217246b8aaac053b5c7b15b7dc3",
