@@ -6,4 +6,5 @@ export enum TokenSymbol {
     BANGBLAST = 'BANG',
     CACABLAST = 'CACA',
     RICHBLAST = 'RICH',
+    BLASTBLAST = 'BLAST',
 }

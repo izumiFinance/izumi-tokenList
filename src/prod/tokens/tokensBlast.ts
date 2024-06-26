@@ -49,6 +49,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Blast Token",
+        symbol: TokenSymbol.BLASTBLAST,
+        icon: baseURL + 'blast.png',
+        chains: [ChainId.Blast],
+        contracts: {
+            [ChainId.Blast]: {
+                address: '0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad', 
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Ting Tiger Cat",
         symbol: TokenSymbol.CACABLAST,
         icon: baseURL + 'caca.png',
