@@ -3434,6 +3434,34 @@
     }
   },
   {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
+    "chains": [
+      167000
+    ],
+    "contracts": {
+      "167000": {
+        "address": "0x9c2dc7377717603eB92b2655c5f2E7997a4945BD",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Bridged USDC (Stargate)",
+    "symbol": "USDC.e",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdcstar.png",
+    "chains": [
+      167000
+    ],
+    "contracts": {
+      "167000": {
+        "address": "0x19e26B0638bf63aa9fa4d14c6baF8D52eBE86C5C",
+        "decimal": 6
+      }
+    }
+  },
+  {
     "name": "TAIKO Token",
     "symbol": "TAIKO",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/taiko.png",
