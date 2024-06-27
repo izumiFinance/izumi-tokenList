@@ -84,6 +84,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Wrapped eETH",
+        symbol: TokenSymbol.WEETHScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'weeth.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0x01f0a31698c4d065659b9bdc21b3610292a1c506',
+                decimal: 18,
+            },
+        },
+    },
    
     {
         name: "Scrolly The Map",

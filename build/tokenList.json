@@ -3126,6 +3126,20 @@
     }
   },
   {
+    "name": "Wrapped eETH",
+    "symbol": "weETH",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/weeth.png",
+    "contracts": {
+      "534352": {
+        "address": "0x01f0a31698c4d065659b9bdc21b3610292a1c506",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Scrolly The Map",
     "symbol": "SCROLLY",
     "chains": [
