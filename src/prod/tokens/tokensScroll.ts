@@ -96,7 +96,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-   
+    {
+        name: "Puffer Vault",
+        symbol: TokenSymbol.PUFETHScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'pufeth.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0xc4d46e8402f476f269c379677c99f18e22ea030e',
+                decimal: 18,
+            },
+        },
+    },
     {
         name: "Scrolly The Map",
         symbol: TokenSymbol.SCROLLYScroll,

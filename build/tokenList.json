@@ -3140,6 +3140,20 @@
     }
   },
   {
+    "name": "Puffer Vault",
+    "symbol": "PufETH",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/pufeth.png",
+    "contracts": {
+      "534352": {
+        "address": "0xc4d46e8402f476f269c379677c99f18e22ea030e",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Scrolly The Map",
     "symbol": "SCROLLY",
     "chains": [
