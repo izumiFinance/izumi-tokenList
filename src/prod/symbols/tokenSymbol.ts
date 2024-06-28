@@ -10,6 +10,7 @@ export enum TokenSymbol {
     MIM= 'MIM',
     stETH= 'stETH',
     wstETH = 'wstETH',
+    WEETH = 'weETH',
     SPELL= 'SPELL',
     LIDO= 'LIDO',
     YIN= 'YIN',

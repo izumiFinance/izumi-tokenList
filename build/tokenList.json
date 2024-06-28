@@ -181,7 +181,8 @@
       34443,
       196,
       7560,
-      167000
+      167000,
+      1625
     ],
     "contracts": {
       "1": {
@@ -210,6 +211,10 @@
       },
       "250": {
         "address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
+        "decimal": 6
+      },
+      "1625": {
+        "address": "0x9aEA9DBb3E0982D2E7b4933018C3eBc304316752",
         "decimal": 6
       },
       "7560": {
@@ -250,7 +255,8 @@
       196,
       7560,
       60808,
-      1116
+      1116,
+      1625
     ],
     "contracts": {
       "1": {
@@ -283,6 +289,10 @@
       },
       "1116": {
         "address": "0x900101d06a7426441ae63e9ab3b9b0f63be145f1",
+        "decimal": 6
+      },
+      "1625": {
+        "address": "0xD03ee9632901D1E355D39158A474fA42b248BC05",
         "decimal": 6
       },
       "7560": {
@@ -376,7 +386,8 @@
       196,
       60808,
       34443,
-      2222
+      2222,
+      1625
     ],
     "contracts": {
       "1": {
@@ -393,6 +404,10 @@
       },
       "324": {
         "address": "0xBBeB516fb02a01611cBBE0453Fe3c580D7281011",
+        "decimal": 8
+      },
+      "1625": {
+        "address": "0x729ed87bbE7B7e4B7F09BCb9c668580818d98BB9",
         "decimal": 8
       },
       "2222": {
@@ -552,7 +567,8 @@
       196,
       7560,
       60808,
-      167000
+      167000,
+      1625
     ],
     "contracts": {
       "1": {
@@ -573,6 +589,10 @@
       },
       "324": {
         "address": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+        "decimal": 18
+      },
+      "1625": {
+        "address": "0xe2913E5d24E42303E7D4B2a5BF3f9D2Ccd399424",
         "decimal": 18
       },
       "7560": {
@@ -615,15 +635,34 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wsteth.png",
     "chains": [
       59144,
-      534352
+      534352,
+      1625
     ],
     "contracts": {
+      "1625": {
+        "address": "0xBC0f4Ca84D2ac97bc4702564b033A6402159e8DE",
+        "decimal": 18
+      },
       "59144": {
         "address": "0xb5bedd42000b71fdde22d3ee8a79bd49a568fc8f",
         "decimal": 18
       },
       "534352": {
         "address": "0x2Bbbdf97295F73175b12CC087cF446765931e1C3",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped eETH",
+    "symbol": "weETH",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/weeth.png",
+    "chains": [
+      1625
+    ],
+    "contracts": {
+      "1625": {
+        "address": "0xeD244AaFCE5962cF43CD780b948c11591663D79d",
         "decimal": 18
       }
     }
@@ -1338,6 +1377,34 @@
     "contracts": {
       "1": {
         "address": "0x14778860E937f509e651192a90589dE711Fb88a9",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Gravity Token",
+    "symbol": "G.",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gravity.png",
+    "chains": [
+      1625
+    ],
+    "contracts": {
+      "1625": {
+        "address": "0xBB859E225ac8Fb6BE1C7e38D87b767e95Fef0EbD",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped G.",
+    "symbol": "WG",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gravity.png",
+    "chains": [
+      1625
+    ],
+    "contracts": {
+      "1625": {
+        "address": "0xBB859E225ac8Fb6BE1C7e38D87b767e95Fef0EbD",
         "decimal": 18
       }
     }

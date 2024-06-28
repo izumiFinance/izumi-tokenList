@@ -184,6 +184,7 @@ export const tokens: TokenInfo[] = [
             ChainId.XLayer,
             ChainId.Cyber,
             ChainId.Taiko,
+            ChainId.Gravity,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -234,6 +235,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x07d83526730c7438048D55A4fc0b850e2aaB6f0b',
                 decimal: 6,
             },
+            [ChainId.Gravity]: {
+                address: '0x9aEA9DBb3E0982D2E7b4933018C3eBc304316752',
+                decimal: 6,
+            },
         },
     },
     {
@@ -253,6 +258,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Cyber,
             ChainId.BOB,
             ChainId.Core,
+            ChainId.Gravity,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -301,6 +307,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Core]: {
                 address: '0x900101d06a7426441ae63e9ab3b9b0f63be145f1',
+                decimal: 6,
+            },
+            [ChainId.Gravity]: {
+                address: '0xD03ee9632901D1E355D39158A474fA42b248BC05',
                 decimal: 6,
             },
         },
@@ -366,6 +376,7 @@ export const tokens: TokenInfo[] = [
             ChainId.BOB,
             ChainId.Mode,
             ChainId.Kava,
+            ChainId.Gravity,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -398,6 +409,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Kava]: {
                 address: '0xb5c4423a65B953905949548276654C96fcaE6992',
+                decimal: 8,
+            },
+            [ChainId.Gravity]: {
+                address: '0x729ed87bbE7B7e4B7F09BCb9c668580818d98BB9',
                 decimal: 8,
             },
 
@@ -535,6 +550,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Cyber,
             ChainId.BOB,
             ChainId.Taiko,
+            ChainId.Gravity,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -589,13 +605,17 @@ export const tokens: TokenInfo[] = [
                 address: '0xA51894664A773981C6C112C43ce576f315d5b1B6',  
                 decimal: 18,
             }, 
+            [ChainId.Gravity]: {
+                address: '0xe2913E5d24E42303E7D4B2a5BF3f9D2Ccd399424',  
+                decimal: 18,
+            }, 
         },
     },
     {
         name: "Wrapped liquid staked Ether 2.0",
         symbol: TokenSymbol.wstETH,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wsteth.png',
-        chains: [ChainId.Linea,ChainId.Scroll],
+        chains: [ChainId.Linea,ChainId.Scroll, ChainId.Gravity],
         contracts: {
             [ChainId.Linea]: {
                 address: '0xb5bedd42000b71fdde22d3ee8a79bd49a568fc8f',
@@ -603,6 +623,22 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Scroll]: {
                 address: '0x2Bbbdf97295F73175b12CC087cF446765931e1C3',
+                decimal: 18,
+            },
+            [ChainId.Gravity]: {
+                address: '0xBC0f4Ca84D2ac97bc4702564b033A6402159e8DE',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Wrapped eETH",
+        symbol: TokenSymbol.WEETH,
+        icon: baseURL  + 'weeth.png',
+        chains: [ChainId.Gravity],
+        contracts: {
+            [ChainId.Gravity]: {
+                address: '0xeD244AaFCE5962cF43CD780b948c11591663D79d',
                 decimal: 18,
             },
         },

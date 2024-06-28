@@ -47,4 +47,5 @@ export enum ChainId {
     Kava = 2222,
     RootStock = 30,
     Core = 1116,
+    Gravity = 1625,
 }
