@@ -1270,6 +1270,20 @@
     }
   },
   {
+    "name": "Free Bridged SolvBTC.m",
+    "symbol": "SolvBTC.m",
+    "chains": [
+      1116
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/solvbtcm.png",
+    "contracts": {
+      "1116": {
+        "address": "0xe04d21d999faedf1e72ade6629e20a11a1ed14fa",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Cyber Token",
     "symbol": "CYBER",
     "chains": [

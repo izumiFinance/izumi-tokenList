@@ -3,4 +3,5 @@ export enum TokenSymbol {
     WCORECore = 'WCORE',
     COREBTCCore = 'COREBTC',
     SOLVEBTCBCore = 'SolvBTC.b',
+    SOLVEBTCMCore = 'SolvBTC.m',
 }

@@ -61,4 +61,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Free Bridged SolvBTC.m",
+        symbol: TokenSymbol.SOLVEBTCMCore,
+        chains: [ChainId.Core],
+        icon: baseURL + 'solvbtcm.png',
+        contracts: {
+            [ChainId.Core]: {
+                address: '0xe04d21d999faedf1e72ade6629e20a11a1ed14fa', 
+                decimal: 18, 
+            },
+        },
+    },
 ]
