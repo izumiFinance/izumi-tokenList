@@ -108,4 +108,28 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Kkakdugi",
+        symbol: TokenSymbol.KKAKKlaytn,
+        icon: baseURL + 'kkak.png',
+        chains: [ChainId.Klaytn],
+        contracts: {
+            [ChainId.Klaytn]: {
+                address: '0xe3f85b41a284ed965826adc98365e70e67a2f556', 
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "KkakDog",
+        symbol: TokenSymbol.KKAKKDOGlaytn,
+        icon: baseURL + 'kkakdog.svg',
+        chains: [ChainId.Klaytn],
+        contracts: {
+            [ChainId.Klaytn]: {
+                address: '0x1afa932f90bf84cce04116d3370165acd7257cc5', 
+                decimal: 18,
+            },
+        },
+    },
 ]

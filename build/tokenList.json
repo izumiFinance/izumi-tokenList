@@ -1592,6 +1592,34 @@
     }
   },
   {
+    "name": "Kkakdugi",
+    "symbol": "KKAK",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/kkak.png",
+    "chains": [
+      8217
+    ],
+    "contracts": {
+      "8217": {
+        "address": "0xe3f85b41a284ed965826adc98365e70e67a2f556",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "KkakDog",
+    "symbol": "KKAKDOG",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/kkakdog.svg",
+    "chains": [
+      8217
+    ],
+    "contracts": {
+      "8217": {
+        "address": "0x1afa932f90bf84cce04116d3370165acd7257cc5",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Ether",
     "symbol": "ETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
