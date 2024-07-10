@@ -13,7 +13,7 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
     {
-        name: "Tether USD",
+        name: "Tether USD (Stargate)",
         symbol: TokenSymbol.USDTSTARTaiko,
         icon: baseURL + 'usdt.png',
         chains: [ChainId.Taiko],

@@ -259,6 +259,7 @@ export const tokens: TokenInfo[] = [
             ChainId.BOB,
             ChainId.Core,
             ChainId.Gravity,
+            ChainId.Taiko,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -311,6 +312,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Gravity]: {
                 address: '0xD03ee9632901D1E355D39158A474fA42b248BC05',
+                decimal: 6,
+            },
+            [ChainId.Taiko]: {
+                address: '0x2DEF195713CF4a606B49D07E520e22C17899a736',
                 decimal: 6,
             },
         },

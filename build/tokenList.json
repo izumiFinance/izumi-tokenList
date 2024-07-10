@@ -256,7 +256,8 @@
       7560,
       60808,
       1116,
-      1625
+      1625,
+      167000
     ],
     "contracts": {
       "1": {
@@ -309,6 +310,10 @@
       },
       "60808": {
         "address": "0x05D032ac25d322df992303dCa074EE7392C117b9",
+        "decimal": 6
+      },
+      "167000": {
+        "address": "0x2DEF195713CF4a606B49D07E520e22C17899a736",
         "decimal": 6
       }
     }
@@ -3543,7 +3548,7 @@
     }
   },
   {
-    "name": "Tether USD",
+    "name": "Tether USD (Stargate)",
     "symbol": "USDT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
     "chains": [
