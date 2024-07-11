@@ -9,4 +9,5 @@ export enum TokenSymbol {
     WETHSTARKlaytn = 'WETH',
     KKAKKlaytn = 'KKAK',
     KKAKKDOGlaytn = 'KKAKDOG',
+    PINGKlaytn = 'PING',
 }

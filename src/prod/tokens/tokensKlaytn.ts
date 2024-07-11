@@ -132,4 +132,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Birds Ping",
+        symbol: TokenSymbol.PINGKlaytn,
+        icon: baseURL + 'ping.png',
+        chains: [ChainId.Klaytn],
+        contracts: {
+            [ChainId.Klaytn]: {
+                address: '0x608e8512d31cae43cd8058d81e6b56203a112539', 
+                decimal: 18,
+            },
+        },
+    },
 ]

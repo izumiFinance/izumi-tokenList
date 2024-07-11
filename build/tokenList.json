@@ -1625,6 +1625,20 @@
     }
   },
   {
+    "name": "Birds Ping",
+    "symbol": "PING",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ping.png",
+    "chains": [
+      8217
+    ],
+    "contracts": {
+      "8217": {
+        "address": "0x608e8512d31cae43cd8058d81e6b56203a112539",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Ether",
     "symbol": "ETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
