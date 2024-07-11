@@ -1639,6 +1639,20 @@
     }
   },
   {
+    "name": "Multa Ping",
+    "symbol": "MPING",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mping.png",
+    "chains": [
+      8217
+    ],
+    "contracts": {
+      "8217": {
+        "address": "0x8882ec400e9348ff60ae85d3d90a93cf97ce8869",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Ether",
     "symbol": "ETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",

@@ -144,4 +144,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Multa Ping",
+        symbol: TokenSymbol.MPINGKlaytn,
+        icon: baseURL + 'mping.png',
+        chains: [ChainId.Klaytn],
+        contracts: {
+            [ChainId.Klaytn]: {
+                address: '0x8882ec400e9348ff60ae85d3d90a93cf97ce8869', 
+                decimal: 18,
+            },
+        },
+    },
 ]
