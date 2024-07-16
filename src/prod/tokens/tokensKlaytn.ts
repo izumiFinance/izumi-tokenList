@@ -156,4 +156,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Seryuk Ping",
+        symbol: TokenSymbol.KPINGKlaytn,
+        icon: baseURL + 'kping.png',
+        chains: [ChainId.Klaytn],
+        contracts: {
+            [ChainId.Klaytn]: {
+                address: '0x4cad05f5afdd4bfc072e356e88b05c33316bb1c5', 
+                decimal: 18,
+            },
+        },
+    },
 ]
