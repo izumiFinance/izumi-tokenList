@@ -236,7 +236,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 6,
             },
             [ChainId.Gravity]: {
-                address: '0x9aEA9DBb3E0982D2E7b4933018C3eBc304316752',
+                address: '0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6',
                 decimal: 6,
             },
         },
@@ -311,7 +311,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 6,
             },
             [ChainId.Gravity]: {
-                address: '0xD03ee9632901D1E355D39158A474fA42b248BC05',
+                address: '0x816E810f9F787d669FB71932DeabF6c83781Cd48',
                 decimal: 6,
             },
             [ChainId.Taiko]: {
@@ -611,7 +611,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             }, 
             [ChainId.Gravity]: {
-                address: '0xe2913E5d24E42303E7D4B2a5BF3f9D2Ccd399424',  
+                address: '0xf6f832466Cd6C21967E0D954109403f36Bc8ceaA',  
                 decimal: 18,
             }, 
         },
