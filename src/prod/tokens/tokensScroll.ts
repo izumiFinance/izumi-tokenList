@@ -121,6 +121,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Scroll Wif Hat",
+        symbol: TokenSymbol.SWIFScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'swif.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0x4e198da3efc21ffad5c2d1501a439354157b3269',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Danjuan Cat",
         symbol: TokenSymbol.CATScroll,
         chains: [ChainId.Scroll],

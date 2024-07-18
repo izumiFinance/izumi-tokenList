@@ -3324,6 +3324,20 @@
     }
   },
   {
+    "name": "Scroll Wif Hat",
+    "symbol": "SWIF",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/swif.png",
+    "contracts": {
+      "534352": {
+        "address": "0x4e198da3efc21ffad5c2d1501a439354157b3269",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Danjuan Cat",
     "symbol": "CAT",
     "chains": [
