@@ -4486,6 +4486,20 @@
     }
   },
   {
+    "name": "ZK",
+    "symbol": "ZK",
+    "chains": [
+      810180
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/zk.png",
+    "contracts": {
+      "810180": {
+        "address": "0x6d316f7bfc72d3924ef37c782f066044a4347da8",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Bridged USD Coin",
     "symbol": "USDC.e",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",

@@ -228,4 +228,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "ZK",
+        symbol: TokenSymbol.ZKZkLink,
+        chains: [ChainId.Zklink],
+        icon: baseURL + 'zk.png',
+        contracts: {
+            [ChainId.Zklink]: {
+                address: '0x6d316f7bfc72d3924ef37c782f066044a4347da8',
+                decimal: 18, 
+            },
+        },
+    },
 ]

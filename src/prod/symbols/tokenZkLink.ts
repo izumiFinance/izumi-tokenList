@@ -17,4 +17,5 @@ export enum TokenSymbol {
     WBTCArbiZkLink = 'WBTC.Arbi',
     BTCTZkLink = 'BTCT',
     SOLVBTCZkLink = 'SolvBTC.m',
+    ZKZkLink = 'ZK',
 }
