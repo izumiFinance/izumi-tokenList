@@ -4234,6 +4234,20 @@
     }
   },
   {
+    "name": "zkLink Token",
+    "symbol": "ZK",
+    "chains": [
+      810180
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/zkl.png",
+    "contracts": {
+      "810180": {
+        "address": "0xC967dabf591B1f4B86CFc74996EAD065867aF19E",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Nova Tether USD",
     "symbol": "USDT",
     "chains": [

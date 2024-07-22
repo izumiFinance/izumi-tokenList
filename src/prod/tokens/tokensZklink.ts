@@ -13,6 +13,18 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
     {
+        name: "zkLink Token",
+        symbol: TokenSymbol.ZKZkLink,
+        chains: [ChainId.Zklink],
+        icon: baseURL + 'zkl.png',
+        contracts: {
+            [ChainId.Zklink]: {
+                address: '0xC967dabf591B1f4B86CFc74996EAD065867aF19E',
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Nova Tether USD",
         symbol: TokenSymbol.USDTZklink,
         chains: [ChainId.Zklink],
