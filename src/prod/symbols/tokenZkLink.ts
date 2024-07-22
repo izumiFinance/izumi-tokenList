@@ -18,4 +18,5 @@ export enum TokenSymbol {
     BTCTZkLink = 'BTCT',
     SOLVBTCZkLink = 'SolvBTC.m',
     ZKZkLink = 'ZK',
+    ZKLZkLink = 'ZKL',
 }

@@ -14,7 +14,7 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 export const tokens: TokenInfo[] = [
     {
         name: "zkLink Token",
-        symbol: TokenSymbol.ZKZkLink,
+        symbol: TokenSymbol.ZKLZkLink,
         chains: [ChainId.Zklink],
         icon: baseURL + 'zkl.png',
         contracts: {
