@@ -1597,6 +1597,20 @@
     }
   },
   {
+    "name": "Merlin BTC",
+    "symbol": "M-BTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mbtc.svg",
+    "chains": [
+      8217
+    ],
+    "contracts": {
+      "8217": {
+        "address": "0x0f921c39efd98809fe6d20a88a4357454578987a",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Kkakdugi",
     "symbol": "KKAK",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/kkak.png",

@@ -12,4 +12,5 @@ export enum TokenSymbol {
     PINGKlaytn = 'PING',
     MPINGKlaytn = 'MPING',
     KPINGKlaytn = 'KPING',
+    MBTCKlaytn = 'M-BTC',
 }

@@ -109,6 +109,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Merlin BTC",
+        symbol: TokenSymbol.MBTCKlaytn,
+        icon: baseURL + 'mbtc.svg',
+        chains: [ChainId.Klaytn],
+        contracts: {
+            [ChainId.Klaytn]: {
+                address: '0x0f921c39efd98809fe6d20a88a4357454578987a',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Kkakdugi",
         symbol: TokenSymbol.KKAKKlaytn,
         icon: baseURL + 'kkak.png',
