@@ -121,6 +121,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Puffer Vault",
+        symbol: TokenSymbol.PUFETHZeta,
+        chains: [ChainId.Zeta],
+        icon: baseURL + 'pufeth.png',
+        contracts: {
+            [ChainId.Zeta]: {
+                address: '0x1e4bF3CaBD7707089138dD5a545B077413FA83FC',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Staked ZETA",
         symbol: TokenSymbol.STZETAZeta,
         chains: [ChainId.Zeta],

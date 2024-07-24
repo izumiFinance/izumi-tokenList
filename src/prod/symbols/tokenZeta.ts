@@ -14,5 +14,5 @@ export enum TokenSymbol {
     RBZeta = 'RB',
     ZCATZeta = 'ZCat',
     ZBRUSDZeta = 'zbrUSD',
-
+    PUFETHZeta = 'pufETH',
 }
