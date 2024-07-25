@@ -180,4 +180,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "PER Project",
+        symbol: TokenSymbol.PERKlaytn,
+        icon: baseURL + 'per.png',
+        chains: [ChainId.Klaytn],
+        contracts: {
+            [ChainId.Klaytn]: {
+                address: '0x7eee60a000986e9efe7f5c90340738558c24317b', 
+                decimal: 18,
+            },
+        },
+    },
 ]

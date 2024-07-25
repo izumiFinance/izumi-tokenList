@@ -1681,6 +1681,20 @@
     }
   },
   {
+    "name": "PER Project",
+    "symbol": "PER",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/per.png",
+    "chains": [
+      8217
+    ],
+    "contracts": {
+      "8217": {
+        "address": "0x7eee60a000986e9efe7f5c90340738558c24317b",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Ether",
     "symbol": "ETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
