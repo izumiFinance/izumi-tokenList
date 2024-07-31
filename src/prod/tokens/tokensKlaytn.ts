@@ -181,6 +181,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Drum Ping",
+        symbol: TokenSymbol.DPINGKlaytn,
+        icon: baseURL + 'dping.png',
+        chains: [ChainId.Klaytn],
+        contracts: {
+            [ChainId.Klaytn]: {
+                address: '0xb242cb981952c183421e4ac9b0d4861c27d9dc73', 
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "PER Project",
         symbol: TokenSymbol.PERKlaytn,
         icon: baseURL + 'per.png',

@@ -1681,6 +1681,20 @@
     }
   },
   {
+    "name": "Drum Ping",
+    "symbol": "DPING",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dping.png",
+    "chains": [
+      8217
+    ],
+    "contracts": {
+      "8217": {
+        "address": "0xb242cb981952c183421e4ac9b0d4861c27d9dc73",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "PER Project",
     "symbol": "PER",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/per.png",
