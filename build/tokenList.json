@@ -3352,6 +3352,20 @@
     }
   },
   {
+    "name": "rsETH Wrapper",
+    "symbol": "wrsETH",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wrseth.png",
+    "contracts": {
+      "534352": {
+        "address": "0xa25b25548b4c98b0c7d3d27dca5d5ca743d68b7f",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Scrolly The Map",
     "symbol": "SCROLLY",
     "chains": [

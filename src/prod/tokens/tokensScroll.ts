@@ -109,6 +109,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "rsETH Wrapper",
+        symbol: TokenSymbol.WRSETHScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'wrseth.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0xa25b25548b4c98b0c7d3d27dca5d5ca743d68b7f',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Scrolly The Map",
         symbol: TokenSymbol.SCROLLYScroll,
         chains: [ChainId.Scroll],
