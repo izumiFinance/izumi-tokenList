@@ -4214,7 +4214,7 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/pufeth.png",
     "contracts": {
       "7000": {
-        "address": "0x1e4bF3CaBD7707089138dD5a545B077413FA83FC",
+        "address": "0x1e4bF3CaBD7707089138dD5a545B077413FA83Fc",
         "decimal": 18
       }
     }

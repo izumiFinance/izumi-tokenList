@@ -127,7 +127,7 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'pufeth.png',
         contracts: {
             [ChainId.Zeta]: {
-                address: '0x1e4bF3CaBD7707089138dD5a545B077413FA83FC',
+                address: '0x1e4bF3CaBD7707089138dD5a545B077413FA83Fc',
                 decimal: 18,
             },
         },
