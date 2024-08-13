@@ -1471,6 +1471,34 @@
     }
   },
   {
+    "name": "USD Coin",
+    "symbol": "ioUSDC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "chains": [
+      4689
+    ],
+    "contracts": {
+      "4689": {
+        "address": "0x3B2bf2b523f54C4E454F08Aa286D03115aFF326c",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Wrapped Ether",
+    "symbol": "ioETH",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
+    "chains": [
+      4689
+    ],
+    "contracts": {
+      "4689": {
+        "address": "0x0258866edAf84D6081df17660357aB20A07d0c80",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tether USDt",
     "symbol": "USDt",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
