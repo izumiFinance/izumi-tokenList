@@ -48,4 +48,5 @@ export enum ChainId {
     RootStock = 30,
     Core = 1116,
     Gravity = 1625,
+    Iotex = 4689,
 }
