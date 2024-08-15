@@ -30,5 +30,6 @@ export enum TokenSymbol {
     PUFETHScroll = 'PufETH',
     SWIFScroll = 'SWIF',
     WRSETHScroll = 'wrsETH',
+    KALAScroll = 'KALA',
 }
 

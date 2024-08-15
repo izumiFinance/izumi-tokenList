@@ -37,6 +37,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "teleBTC",
+        symbol: TokenSymbol.TELEBTCBOB,
+        chains: [ChainId.BOB],
+        icon: baseURL + 'telebtc.png',
+        contracts: {
+            [ChainId.BOB]: {
+                address: '0x0670beedc28e9bf0748cb254abd946c87f033d9d',
+                decimal: 8,
+            },
+        },
+    },
+    {
         name: "Rocket Pool ETH",
         symbol: TokenSymbol.RETHBOB,
         chains: [ChainId.BOB],

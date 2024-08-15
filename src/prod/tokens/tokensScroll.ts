@@ -325,6 +325,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Kalax Token",
+        symbol: TokenSymbol.KALAScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'kala.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0x1f4f171676f8cb3b1c3fd38867b3b160679f934a',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "LayerBank Token",
         symbol: TokenSymbol.LABScroll,
         chains: [ChainId.Scroll],
