@@ -1421,7 +1421,7 @@
   },
   {
     "name": "Gravity Token",
-    "symbol": "G.",
+    "symbol": "G",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gravity.png",
     "chains": [
       1625
