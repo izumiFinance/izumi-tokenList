@@ -1308,6 +1308,20 @@
     }
   },
   {
+    "name": "Liquid staked CORE",
+    "symbol": "stCORE",
+    "chains": [
+      1116
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/stcore.png",
+    "contracts": {
+      "1116": {
+        "address": "0xb3a8f0f0da9ffc65318aa39e55079796093029ad",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Cyber Token",
     "symbol": "CYBER",
     "chains": [

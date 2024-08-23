@@ -73,4 +73,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Liquid staked CORE",
+        symbol: TokenSymbol.STCORECore,
+        chains: [ChainId.Core],
+        icon: baseURL + 'stcore.png',
+        contracts: {
+            [ChainId.Core]: {
+                address: '0xb3a8f0f0da9ffc65318aa39e55079796093029ad', 
+                decimal: 18, 
+            },
+        },
+    },
 ]
