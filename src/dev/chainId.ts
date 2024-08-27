@@ -44,4 +44,5 @@ export enum ChainId {
     ModeTest = 919,
     BERABArtioBeraTest = 80084,
     KakarotTestnet = 1802203764,
+    DuckchainTestnet = 202105,
 }
