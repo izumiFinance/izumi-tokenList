@@ -45,4 +45,5 @@ export enum ChainId {
     BERABArtioBeraTest = 80084,
     KakarotTestnet = 1802203764,
     DuckchainTestnet = 202105,
+    FlowTest = 545,
 }
