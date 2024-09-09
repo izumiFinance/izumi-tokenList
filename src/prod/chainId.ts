@@ -49,4 +49,5 @@ export enum ChainId {
     Core = 1116,
     Gravity = 1625,
     Iotex = 4689,
+    Flow = 747,
 }

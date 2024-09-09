@@ -1434,6 +1434,34 @@
     }
   },
   {
+    "name": "Flow Token",
+    "symbol": "FLOW",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/flow.png",
+    "chains": [
+      747
+    ],
+    "contracts": {
+      "747": {
+        "address": "0xd3bF53DAC106A0290B0483EcBC89d40FcC961f3e",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped FLOW",
+    "symbol": "WFLOW",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/flow.png",
+    "chains": [
+      747
+    ],
+    "contracts": {
+      "747": {
+        "address": "0xd3bF53DAC106A0290B0483EcBC89d40FcC961f3e",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Gravity Token",
     "symbol": "G",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gravity.png",
