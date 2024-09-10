@@ -1462,6 +1462,20 @@
     }
   },
   {
+    "name": "Bridged USDC (Celer)",
+    "symbol": "USDC.e",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "chains": [
+      747
+    ],
+    "contracts": {
+      "747": {
+        "address": "0x7f27352D5F83Db87a5A3E00f4B07Cc2138D8ee52",
+        "decimal": 6
+      }
+    }
+  },
+  {
     "name": "Gravity Token",
     "symbol": "G",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gravity.png",

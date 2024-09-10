@@ -36,4 +36,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Bridged USDC (Celer)",
+        symbol: TokenSymbol.USDCEFlow,
+        icon: baseURL + 'usdc.png',
+        chains: [ChainId.Flow],
+        contracts: {
+            [ChainId.Flow]: {
+                address: '0x7f27352D5F83Db87a5A3E00f4B07Cc2138D8ee52', 
+                decimal: 6,
+            },
+        },
+    },
 ]
