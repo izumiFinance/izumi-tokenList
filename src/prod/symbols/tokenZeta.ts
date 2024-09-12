@@ -15,4 +15,5 @@ export enum TokenSymbol {
     ZCATZeta = 'ZCat',
     ZBRUSDZeta = 'zbrUSD',
     PUFETHZeta = 'pufETH',
+    UNIBTCZeta = 'uniBTC',
 }

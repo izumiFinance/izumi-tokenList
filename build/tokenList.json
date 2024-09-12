@@ -4379,6 +4379,20 @@
     }
   },
   {
+    "name": "uniBTC Token",
+    "symbol": "uniBTC",
+    "chains": [
+      7000
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/unibtc.png",
+    "contracts": {
+      "7000": {
+        "address": "0x6B2a01A5f79dEb4c2f3c0eDa7b01DF456FbD726a",
+        "decimal": 8
+      }
+    }
+  },
+  {
     "name": "Staked ZETA",
     "symbol": "stZETA",
     "chains": [

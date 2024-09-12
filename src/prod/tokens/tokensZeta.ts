@@ -133,6 +133,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "uniBTC Token",
+        symbol: TokenSymbol.UNIBTCZeta,
+        chains: [ChainId.Zeta],
+        icon: baseURL + 'unibtc.png',
+        contracts: {
+            [ChainId.Zeta]: {
+                address: '0x6B2a01A5f79dEb4c2f3c0eDa7b01DF456FbD726a',
+                decimal: 8, 
+            },
+        },
+    },
+    {
         name: "Staked ZETA",
         symbol: TokenSymbol.STZETAZeta,
         chains: [ChainId.Zeta],
