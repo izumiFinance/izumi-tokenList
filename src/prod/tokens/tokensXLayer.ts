@@ -37,6 +37,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "FBPAY Token",
+        symbol: TokenSymbol.FBXLayer,
+        icon: baseURL + 'fb.png',
+        chains: [ChainId.XLayer],
+        contracts: {
+            [ChainId.XLayer]: {
+                address: '0x770f030fdbf63ebf1c939de8bcff8943c2c2d454',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Xlayerinu Token",
         symbol: TokenSymbol.XINUXLayer,
         icon: baseURL + 'xinu.png',

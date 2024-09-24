@@ -1756,6 +1756,20 @@
     }
   },
   {
+    "name": "Lair Staked KAIA",
+    "symbol": "stKAIA",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/stkaia.png",
+    "chains": [
+      8217
+    ],
+    "contracts": {
+      "8217": {
+        "address": "0x42952b873ed6f7f0a7e4992e2a9818e3a9001995",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Kkakdugi",
     "symbol": "KKAK",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/kkak.png",
@@ -3996,6 +4010,20 @@
     "contracts": {
       "196": {
         "address": "0xe538905cf8410324e03a5a23c1c177a474d59b2b",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "FBPAY Token",
+    "symbol": "FB",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/fb.png",
+    "chains": [
+      196
+    ],
+    "contracts": {
+      "196": {
+        "address": "0x770f030fdbf63ebf1c939de8bcff8943c2c2d454",
         "decimal": 18
       }
     }

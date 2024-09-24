@@ -9,4 +9,5 @@ export enum TokenSymbol {
     OKOXXLayer = 'OKOX',
     MUKIXLayer = 'MUKI',
     XDOGXLayer = 'XDOG',
+    FBXLayer = 'FB',
 }

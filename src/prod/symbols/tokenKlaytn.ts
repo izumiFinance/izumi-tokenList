@@ -15,4 +15,5 @@ export enum TokenSymbol {
     MBTCKlaytn = 'M-BTC',
     PERKlaytn = 'PER',
     DPINGKlaytn = 'DPING',
+    STKAIAKlaytn = 'stKAIA',
 }

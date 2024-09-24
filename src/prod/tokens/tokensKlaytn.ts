@@ -121,6 +121,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Lair Staked KAIA",
+        symbol: TokenSymbol.STKAIAKlaytn,
+        icon: baseURL + 'stkaia.png',
+        chains: [ChainId.Klaytn],
+        contracts: {
+            [ChainId.Klaytn]: {
+                address: '0x42952b873ed6f7f0a7e4992e2a9818e3a9001995', 
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Kkakdugi",
         symbol: TokenSymbol.KKAKKlaytn,
         icon: baseURL + 'kkak.png',
