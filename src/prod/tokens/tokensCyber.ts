@@ -49,6 +49,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Phavercoin",
+        symbol: TokenSymbol.SOCIALCyber,
+        chains: [ChainId.Cyber],
+        icon: baseURL + 'social.png',
+        contracts: {
+            [ChainId.Cyber]: {
+                address: '0xd3c68968137317a57a9babeacc7707ec433548b4',
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "TRUCK",
         symbol: TokenSymbol.TRUCKCyber,
         chains: [ChainId.Cyber],

@@ -1364,6 +1364,20 @@
     }
   },
   {
+    "name": "Phavercoin",
+    "symbol": "SOCIAL",
+    "chains": [
+      7560
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/social.png",
+    "contracts": {
+      "7560": {
+        "address": "0xd3c68968137317a57a9babeacc7707ec433548b4",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "TRUCK",
     "symbol": "TRUCK",
     "chains": [

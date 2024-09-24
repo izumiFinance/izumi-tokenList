@@ -4,4 +4,5 @@ export enum TokenSymbol {
     STCYBERCyber = 'stCYBER',
     TRUCKCyber = 'TRUCK',
     CINUCyber = 'CINU',
+    SOCIALCyber = 'SOCIAL',
 }
