@@ -1882,6 +1882,20 @@
     }
   },
   {
+    "name": "Genesis Ryan",
+    "symbol": "RYAN",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ryan.png",
+    "chains": [
+      8217
+    ],
+    "contracts": {
+      "8217": {
+        "address": "0xd4627dbf2c6eaebba0519b358e9e8cfd5b15d7c7",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Ether",
     "symbol": "ETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",

@@ -216,4 +216,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Genesis Ryan",
+        symbol: TokenSymbol.RYANKlaytn,
+        icon: baseURL + 'ryan.png',
+        chains: [ChainId.Klaytn],
+        contracts: {
+            [ChainId.Klaytn]: {
+                address: '0xd4627dbf2c6eaebba0519b358e9e8cfd5b15d7c7', 
+                decimal: 18,
+            },
+        },
+    },
 ]

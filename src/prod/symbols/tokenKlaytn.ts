@@ -16,4 +16,5 @@ export enum TokenSymbol {
     PERKlaytn = 'PER',
     DPINGKlaytn = 'DPING',
     STKAIAKlaytn = 'stKAIA',
+    RYANKlaytn = 'RYAN',
 }
