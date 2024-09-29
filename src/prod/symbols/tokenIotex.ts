@@ -4,4 +4,6 @@ export enum TokenSymbol {
     IOUSDTIotex = 'ioUSDT',
     IOUSDCIotex = 'ioUSDC',
     IOETHIotex = 'ioETH',
+    WENIotex = 'WEN',
+    UNIIOTXIotex = 'uniIOTX',
 }

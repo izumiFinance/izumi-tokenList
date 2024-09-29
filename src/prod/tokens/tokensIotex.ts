@@ -72,4 +72,28 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Universal IOTX",
+        symbol: TokenSymbol.UNIIOTXIotex,
+        icon: baseURL + 'uniiotx.svg',
+        chains: [ChainId.Iotex],
+        contracts: {
+            [ChainId.Iotex]: {
+                address: '0x236f8c0a61da474db21b693fb2ea7aab0c803894',  
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "WEN Token",
+        symbol: TokenSymbol.WENIotex,
+        icon: baseURL + 'wen.png',
+        chains: [ChainId.Iotex],
+        contracts: {
+            [ChainId.Iotex]: {
+                address: '0x6c0bf4b53696b5434a0d21c7d13aa3cbf754913e',
+                decimal: 18,
+            },
+        },
+    },
 ]

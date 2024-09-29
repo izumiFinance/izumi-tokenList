@@ -1588,6 +1588,34 @@
     }
   },
   {
+    "name": "Universal IOTX",
+    "symbol": "uniIOTX",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/uniiotx.svg",
+    "chains": [
+      4689
+    ],
+    "contracts": {
+      "4689": {
+        "address": "0x236f8c0a61da474db21b693fb2ea7aab0c803894",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "WEN Token",
+    "symbol": "WEN",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wen.png",
+    "chains": [
+      4689
+    ],
+    "contracts": {
+      "4689": {
+        "address": "0x6c0bf4b53696b5434a0d21c7d13aa3cbf754913e",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tether USDt",
     "symbol": "USDt",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
