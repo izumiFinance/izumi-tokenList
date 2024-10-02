@@ -48,4 +48,28 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Increment Staked FLOW",
+        symbol: TokenSymbol.STFLOWFlow,
+        icon: baseURL + 'stflow.png',
+        chains: [ChainId.Flow],
+        contracts: {
+            [ChainId.Flow]: {
+                address: '0x5598c0652b899eb40f169dd5949bdbe0bf36ffde', 
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Ankr Staked FLOW EVM",
+        symbol: TokenSymbol.ANKRFLOWFlow,
+        icon: baseURL + 'ankrflow.png',
+        chains: [ChainId.Flow],
+        contracts: {
+            [ChainId.Flow]: {
+                address: '0x1b97100ea1d7126c4d60027e231ea4cb25314bdb', 
+                decimal: 18,
+            },
+        },
+    },
 ]

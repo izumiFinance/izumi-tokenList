@@ -1490,6 +1490,34 @@
     }
   },
   {
+    "name": "Increment Staked FLOW",
+    "symbol": "stFLOW",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/stflow.png",
+    "chains": [
+      747
+    ],
+    "contracts": {
+      "747": {
+        "address": "0x5598c0652b899eb40f169dd5949bdbe0bf36ffde",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Ankr Staked FLOW EVM",
+    "symbol": "ankrFLOWEVM",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ankrflow.png",
+    "chains": [
+      747
+    ],
+    "contracts": {
+      "747": {
+        "address": "0x1b97100ea1d7126c4d60027e231ea4cb25314bdb",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Gravity Token",
     "symbol": "G",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gravity.png",
