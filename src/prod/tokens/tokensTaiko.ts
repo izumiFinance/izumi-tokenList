@@ -49,6 +49,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Affine ultraETHs 2.0",
+        symbol: TokenSymbol.ULTRAETHSTaiko,
+        icon: baseURL + 'ultraeths.png',
+        chains: [ChainId.Taiko],
+        contracts: {
+            [ChainId.Taiko]: {
+                address: '0x5217c8f3b7fb8b6501c8ff2a4c09b14b4b08c9f9', 
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "MAGA Token",
         symbol: TokenSymbol.MAGATaiko,
         icon: baseURL + 'maga.png',
