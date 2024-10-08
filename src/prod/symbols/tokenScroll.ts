@@ -1,4 +1,5 @@
 export enum TokenSymbol {
+    SCRScroll = 'SCR',
     AAVEScroll = 'AAVE',
     BALScroll = 'BAL',
     CAKEScroll = 'CAKE',

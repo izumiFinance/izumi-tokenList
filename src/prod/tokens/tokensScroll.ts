@@ -37,6 +37,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Scroll Token",
+        symbol: TokenSymbol.SCRScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'scr.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0xd29687c813D741E2F938F4aC377128810E217b1b',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Wrapped BTC",
         symbol: TokenSymbol.WBTCScroll,
         chains: [ChainId.Scroll],
