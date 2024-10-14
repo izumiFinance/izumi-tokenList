@@ -3,5 +3,5 @@ export enum TokenSymbol {
     WFLOWFlow = 'WFLOW',
     USDCEFlow = 'USDC.e',
     STFLOWFlow = 'stFLOW',
-    ANKRFLOWFlow = 'ankrFLOWEVM',
+    ANKRFLOWFlow = 'ankrFLOW',
 }

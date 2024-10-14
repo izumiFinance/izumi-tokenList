@@ -1505,7 +1505,7 @@
   },
   {
     "name": "Ankr Staked FLOW EVM",
-    "symbol": "ankrFLOWEVM",
+    "symbol": "ankrFLOW",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ankrflow.png",
     "chains": [
       747
@@ -3506,6 +3506,20 @@
     "contracts": {
       "534352": {
         "address": "0x5300000000000000000000000000000000000004",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Scroll Token",
+    "symbol": "SCR",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/scr.png",
+    "contracts": {
+      "534352": {
+        "address": "0xd29687c813D741E2F938F4aC377128810E217b1b",
         "decimal": 18
       }
     }
