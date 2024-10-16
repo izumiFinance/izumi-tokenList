@@ -181,6 +181,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "ebaggoooor Token",
+        symbol: TokenSymbol.BAGGORScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'baggor.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0x17a60bb4649a7bb885d05c008d7118a5e513d895',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Uniswap token",
         symbol: TokenSymbol.UNIScroll,
         chains: [ChainId.Scroll],

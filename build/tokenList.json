@@ -3623,6 +3623,20 @@
     }
   },
   {
+    "name": "ebaggoooor Token",
+    "symbol": "BAGGOR",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/baggor.png",
+    "contracts": {
+      "534352": {
+        "address": "0x17a60bb4649a7bb885d05c008d7118a5e513d895",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Uniswap token",
     "symbol": "UNI",
     "chains": [
