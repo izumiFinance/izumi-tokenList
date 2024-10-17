@@ -49,6 +49,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "ZRC20 Base Mainnet ETH",
+        symbol: TokenSymbol.ETHBASEZeta,
+        chains: [ChainId.Zeta],
+        icon: baseURL + 'eth.png',
+        contracts: {
+            [ChainId.Zeta]: {
+                address: '0x1de70f3e971B62A0707dA18100392af14f7fB677',
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "ZRC20 BNB-bsc_mainnet",
         symbol: TokenSymbol.BNBBSCZeta,
         chains: [ChainId.Zeta],
@@ -116,6 +128,18 @@ export const tokens: TokenInfo[] = [
         contracts: {
             [ChainId.Zeta]: {
                 address: '0x0cbe0dF132a6c6B4a2974Fa1b7Fb953CF0Cc798a',
+                decimal: 6, 
+            },
+        },
+    },
+    {
+        name: "ZRC20 USDC Base Mainnet",
+        symbol: TokenSymbol.USDCBASEZeta,
+        chains: [ChainId.Zeta],
+        icon: baseURL + 'usdc.png',
+        contracts: {
+            [ChainId.Zeta]: {
+                address: '0x96152e6180e085fa57c7708e18af8f05e37b479d',
                 decimal: 6, 
             },
         },
