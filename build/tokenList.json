@@ -1378,6 +1378,34 @@
     }
   },
   {
+    "name": "TON Token",
+    "symbol": "TON",
+    "chains": [
+      5545
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ton.png",
+    "contracts": {
+      "5545": {
+        "address": "0x7F9308E8d724e724EC31395f3af52e0593BB2e3f",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped TON Token",
+    "symbol": "WTON",
+    "chains": [
+      5545
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ton.png",
+    "contracts": {
+      "5545": {
+        "address": "0x7F9308E8d724e724EC31395f3af52e0593BB2e3f",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Ether Classic",
     "symbol": "ETC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/etc.png",

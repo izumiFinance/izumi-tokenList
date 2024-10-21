@@ -50,4 +50,5 @@ export enum ChainId {
     Gravity = 1625,
     Iotex = 4689,
     Flow = 747,
+    Duckchain = 5545,
 }
