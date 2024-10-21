@@ -37,6 +37,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Circle EURC Token",
+        symbol: TokenSymbol.EURCBase,
+        chains: [ChainId.Base],
+        icon: baseURL + 'eurc.png',
+        contracts: {
+            [ChainId.Base]: {
+                address: '0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42',
+                decimal: 6,
+            },
+        },
+    },
+    {
         name: "USD Base Coin",
         symbol: TokenSymbol.USDBCBase,
         chains: [ChainId.Base],
@@ -45,18 +57,6 @@ export const tokens: TokenInfo[] = [
             [ChainId.Base]: {
                 address: '0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA',
                 decimal: 6,
-            },
-        },
-    },
-    {
-        name: "Magic Internet Money",
-        symbol: TokenSymbol.MIMBase,
-        chains: [ChainId.Base],
-        icon: baseURL + 'mim.png',
-        contracts: {
-            [ChainId.Base]: {
-                address: '0x4A3A6Dd60A34bB2Aba60D73B4C88315E9CeB6A3D',
-                decimal: 18,
             },
         },
     },
@@ -73,6 +73,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Coinbase Wrapped BTC",
+        symbol: TokenSymbol.CBBTCBase,
+        chains: [ChainId.Base],
+        icon: baseURL + 'cbbtc.png',
+        contracts: {
+            [ChainId.Base]: {
+                address: '0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf',
+                decimal: 8,
+            },
+        },
+    },
+    {
         name: "Dai Stablecoin",
         symbol: TokenSymbol.DAIBase,
         chains: [ChainId.Base],
@@ -80,6 +92,18 @@ export const tokens: TokenInfo[] = [
         contracts: {
             [ChainId.Base]: {
                 address: '0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Magic Internet Money",
+        symbol: TokenSymbol.MIMBase,
+        chains: [ChainId.Base],
+        icon: baseURL + 'mim.png',
+        contracts: {
+            [ChainId.Base]: {
+                address: '0x4A3A6Dd60A34bB2Aba60D73B4C88315E9CeB6A3D',
                 decimal: 18,
             },
         },

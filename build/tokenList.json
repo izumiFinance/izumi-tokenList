@@ -1070,6 +1070,20 @@
     }
   },
   {
+    "name": "Circle EURC Token",
+    "symbol": "EURC",
+    "chains": [
+      8453
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eurc.png",
+    "contracts": {
+      "8453": {
+        "address": "0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42",
+        "decimal": 6
+      }
+    }
+  },
+  {
     "name": "USD Base Coin",
     "symbol": "USDbC",
     "chains": [
@@ -1080,20 +1094,6 @@
       "8453": {
         "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
         "decimal": 6
-      }
-    }
-  },
-  {
-    "name": "Magic Internet Money",
-    "symbol": "MIM",
-    "chains": [
-      8453
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mim.png",
-    "contracts": {
-      "8453": {
-        "address": "0x4A3A6Dd60A34bB2Aba60D73B4C88315E9CeB6A3D",
-        "decimal": 18
       }
     }
   },
@@ -1112,6 +1112,20 @@
     }
   },
   {
+    "name": "Coinbase Wrapped BTC",
+    "symbol": "cbBTC",
+    "chains": [
+      8453
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cbbtc.png",
+    "contracts": {
+      "8453": {
+        "address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+        "decimal": 8
+      }
+    }
+  },
+  {
     "name": "Dai Stablecoin",
     "symbol": "DAI",
     "chains": [
@@ -1121,6 +1135,20 @@
     "contracts": {
       "8453": {
         "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Magic Internet Money",
+    "symbol": "MIM",
+    "chains": [
+      8453
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mim.png",
+    "contracts": {
+      "8453": {
+        "address": "0x4A3A6Dd60A34bB2Aba60D73B4C88315E9CeB6A3D",
         "decimal": 18
       }
     }

@@ -5,4 +5,6 @@ export enum TokenSymbol {
     DAIBase = 'DAI',
     MIMBase  = 'MIM',
     CBETHBase = 'cbETH',
+    CBBTCBase = 'cbBTC',
+    EURCBase ='EURC',
 }
