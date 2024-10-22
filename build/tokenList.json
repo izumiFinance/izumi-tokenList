@@ -3072,6 +3072,20 @@
     }
   },
   {
+    "name": "cmETH",
+    "symbol": "cmETH",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cmeth.svg",
+    "chains": [
+      5000
+    ],
+    "contracts": {
+      "5000": {
+        "address": "0xE6829d9a7eE3040e1276Fa75293Bde931859e8fA",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Mantle Inu Token",
     "symbol": "MINU",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/minu.png",

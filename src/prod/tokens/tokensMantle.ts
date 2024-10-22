@@ -157,6 +157,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "cmETH",
+        symbol: TokenSymbol.CMETHMantle,
+        icon: baseURL + 'cmeth.svg',
+        chains: [ChainId.Mantle],
+        contracts: {
+            [ChainId.Mantle]: {
+                address: '0xE6829d9a7eE3040e1276Fa75293Bde931859e8fA',  
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Mantle Inu Token",
         symbol: TokenSymbol.MINUMantle,
         icon: baseURL + 'minu.png',
