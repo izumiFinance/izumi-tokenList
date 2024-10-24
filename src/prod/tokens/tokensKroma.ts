@@ -86,6 +86,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Merlin BTC",
+        symbol: TokenSymbol.MBTCKroma,
+        icon: baseURL + 'mbtc.svg',
+        chains: [ChainId.Kroma],
+        contracts: {
+            [ChainId.Kroma]: {
+                address: '0x0f921c39efd98809fe6d20a88a4357454578987a',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Spectrum Staked ETH",
         symbol: TokenSymbol.SPETHKroma,
         icon: baseURL + 'speth.png',

@@ -10,4 +10,5 @@ export enum TokenSymbol {
     SONKroma = 'SON',
     SPETHKroma = 'spETH',
     ZAPKroma = 'ZAP',
+    MBTCKroma = 'M-BTC',
 }
