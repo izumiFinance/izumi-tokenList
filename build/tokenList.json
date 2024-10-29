@@ -4631,6 +4631,20 @@
     }
   },
   {
+    "name": "PumpToken BTC",
+    "symbol": "pumpBTC",
+    "chains": [
+      7000
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/pumpbtc.png",
+    "contracts": {
+      "7000": {
+        "address": "0x1fCca65fb6Ae3b2758b9b2B394CB227eAE404e1E",
+        "decimal": 8
+      }
+    }
+  },
+  {
     "name": "Staked ZETA",
     "symbol": "stZETA",
     "chains": [

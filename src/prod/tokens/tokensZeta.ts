@@ -169,6 +169,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "PumpToken BTC",
+        symbol: TokenSymbol.PUMPBTCZeta,
+        chains: [ChainId.Zeta],
+        icon: baseURL + 'pumpbtc.png',
+        contracts: {
+            [ChainId.Zeta]: {
+                address: '0x1fCca65fb6Ae3b2758b9b2B394CB227eAE404e1E',
+                decimal: 8, 
+            },
+        },
+    },
+    {
         name: "Staked ZETA",
         symbol: TokenSymbol.STZETAZeta,
         chains: [ChainId.Zeta],
