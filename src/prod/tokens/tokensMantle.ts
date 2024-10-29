@@ -169,6 +169,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "COOK Token",
+        symbol: TokenSymbol.COOKMantle,
+        icon: baseURL + 'cook.svg',
+        chains: [ChainId.Mantle],
+        contracts: {
+            [ChainId.Mantle]: {
+                address: '0x9F0C013016E8656bC256f948CD4B79ab25c7b94D',  
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Mantle Inu Token",
         symbol: TokenSymbol.MINUMantle,
         icon: baseURL + 'minu.png',
