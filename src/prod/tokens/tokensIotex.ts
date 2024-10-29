@@ -13,6 +13,18 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
     {
+        name: "Bridged USDC",
+        symbol: TokenSymbol.USDCEIotex,
+        icon: baseURL + 'usdc.png',
+        chains: [ChainId.Iotex],
+        contracts: {
+            [ChainId.Iotex]: {
+                address: '0xcdf79194c6c285077a58da47641d4dbe51f63542',
+                decimal: 6,
+            },
+        },
+    },
+    {
         name: "Iotex Token",
         symbol: TokenSymbol.IOTXIotex,
         icon: baseURL + 'iotex.png',

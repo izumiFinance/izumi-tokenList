@@ -1546,6 +1546,20 @@
     }
   },
   {
+    "name": "Bridged USDC",
+    "symbol": "USDC.e",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "chains": [
+      4689
+    ],
+    "contracts": {
+      "4689": {
+        "address": "0xcdf79194c6c285077a58da47641d4dbe51f63542",
+        "decimal": 6
+      }
+    }
+  },
+  {
     "name": "Iotex Token",
     "symbol": "IOTX",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/iotex.png",
