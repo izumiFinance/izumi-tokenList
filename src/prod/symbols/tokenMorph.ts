@@ -1,2 +1,4 @@
-export enum TokenSymbol {}
+export enum TokenSymbol {
+    KOLMorph = 'KOL',
+}
 

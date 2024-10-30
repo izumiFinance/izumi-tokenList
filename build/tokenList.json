@@ -3386,6 +3386,20 @@
     }
   },
   {
+    "name": "Morph Koala",
+    "symbol": "KOL",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/koala.png",
+    "chains": [
+      2818
+    ],
+    "contracts": {
+      "2818": {
+        "address": "0xD8b8d868e994df5D4Ba8bD599eadBc21598a732E",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Wrapped ONT",
     "symbol": "WONT",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wont.png",
