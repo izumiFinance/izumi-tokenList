@@ -264,6 +264,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Core,
             ChainId.Gravity,
             ChainId.Taiko,
+            ChainId.Morph,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -320,6 +321,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Taiko]: {
                 address: '0x2DEF195713CF4a606B49D07E520e22C17899a736',
+                decimal: 6,
+            },
+            [ChainId.Morph]: {
+                address: '0xc7D67A9cBB121b3b0b9c053DD9f469523243379A',
                 decimal: 6,
             },
         },
@@ -457,6 +462,7 @@ export const tokens: TokenInfo[] = [
             ChainId.BOB,
             ChainId.Taiko,
             ChainId.Kava,
+            ChainId.Morph,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -511,6 +517,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x2DfD4dE5AE386Cd3f4fC8e2cb39240852E47F5E8',   //Weth
                 decimal: 18, 
             }, 
+            [ChainId.Morph]: {
+                address: '0x5300000000000000000000000000000000000011',  //weth
+                decimal: 18,
+            }, 
         },
     },
     {
@@ -560,6 +570,7 @@ export const tokens: TokenInfo[] = [
             ChainId.BOB,
             ChainId.Taiko,
             ChainId.Gravity,
+            ChainId.Morph,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -616,6 +627,10 @@ export const tokens: TokenInfo[] = [
             }, 
             [ChainId.Gravity]: {
                 address: '0xf6f832466Cd6C21967E0D954109403f36Bc8ceaA',  
+                decimal: 18,
+            }, 
+            [ChainId.Morph]: {
+                address: '0x5300000000000000000000000000000000000011',  //weth
                 decimal: 18,
             }, 
         },
