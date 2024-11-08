@@ -359,6 +359,7 @@ export const tokens: TokenInfo[] = [
             ChainId.ModeTest,
             ChainId.TaikoHeklaTest,
             ChainId.KakarotTestnet,
+            ChainId.KakarotStarknetTest,
         ],
         icon: baseURL + 'eth.png',
         contracts: {
@@ -414,6 +415,10 @@ export const tokens: TokenInfo[] = [
                 address: '0xC6C7c2edF70A3245ad6051E93809162B9758ce08',  //WETH
                 decimal: 18,
             },
+            [ChainId.KakarotStarknetTest]: {
+                address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF', // WETH
+                decimal: 18,
+            },
         },
     },
     {
@@ -427,6 +432,7 @@ export const tokens: TokenInfo[] = [
             ChainId.ModeTest,
             ChainId.TaikoHeklaTest,
             ChainId.KakarotTestnet,
+            ChainId.KakarotStarknetTest,
         ],
         icon: baseURL + 'WETH.png',
         contracts: {
@@ -484,6 +490,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.KakarotTestnet]: {
                 address: '0xC6C7c2edF70A3245ad6051E93809162B9758ce08', 
+                decimal: 18,
+            },
+            [ChainId.KakarotStarknetTest]: {
+                address: '0x67A1f4A939b477A6b7c5BF94D97E45dE87E608eF', // WETH
                 decimal: 18,
             },
         },
