@@ -46,4 +46,5 @@ export enum ChainId {
     KakarotTestnet = 1802203764,
     DuckchainTestnet = 202105,
     FlowTest = 545,
+    KakarotStarknetTest = 920637907288165,
 }
