@@ -37,6 +37,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Universal BTC",
+        symbol: TokenSymbol.UNIBTCMode,
+        icon: baseURL + 'unibtc.png',
+        chains: [ChainId.Mode],
+        contracts: {
+            [ChainId.Mode]: {
+                address: '0x6B2a01A5f79dEb4c2f3c0eDa7b01DF456FbD726a',
+                decimal: 8,
+            },
+        },
+    },
+    {
         name: "Renzo Restaked ETH",
         symbol: TokenSymbol.EZETHMode,
         icon: baseURL + 'ezeth.png',

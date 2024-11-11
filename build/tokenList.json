@@ -3358,6 +3358,20 @@
     }
   },
   {
+    "name": "Universal BTC",
+    "symbol": "uniBTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/unibtc.png",
+    "chains": [
+      34443
+    ],
+    "contracts": {
+      "34443": {
+        "address": "0x6B2a01A5f79dEb4c2f3c0eDa7b01DF456FbD726a",
+        "decimal": 8
+      }
+    }
+  },
+  {
     "name": "Renzo Restaked ETH",
     "symbol": "ezETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ezeth.png",
