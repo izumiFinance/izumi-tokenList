@@ -1631,6 +1631,20 @@
     }
   },
   {
+    "name": "ioUSD Token",
+    "symbol": "ioUSD",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/iousd.png",
+    "chains": [
+      4689
+    ],
+    "contracts": {
+      "4689": {
+        "address": "0xa1A1531f6aE90192edCc32e9F38E98F303708144",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Wrapped Ether",
     "symbol": "ioETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",

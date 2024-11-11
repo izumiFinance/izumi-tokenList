@@ -73,6 +73,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "ioUSD Token",
+        symbol: TokenSymbol.IOUSDIotex,
+        icon: baseURL + 'iousd.png',
+        chains: [ChainId.Iotex],
+        contracts: {
+            [ChainId.Iotex]: {
+                address: '0xa1A1531f6aE90192edCc32e9F38E98F303708144',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Wrapped Ether",
         symbol: TokenSymbol.IOETHIotex,
         icon: baseURL + 'eth.png',
