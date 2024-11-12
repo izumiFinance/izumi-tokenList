@@ -1025,6 +1025,48 @@
     }
   },
   {
+    "name": "M Token",
+    "symbol": "M",
+    "chains": [
+      43521
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/memecore.png",
+    "contracts": {
+      "43521": {
+        "address": "0x1eE5eDC5Fe498a2dD82862746D674DB2a5e7fef6",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped M Token",
+    "symbol": "WM",
+    "chains": [
+      43521
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/memecore.png",
+    "contracts": {
+      "43521": {
+        "address": "0x1eE5eDC5Fe498a2dD82862746D674DB2a5e7fef6",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "chains": [
+      43521
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
+    "contracts": {
+      "43521": {
+        "address": "0xb0453a1bAf6056393897e60dfd851C61A825ef67",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Bitcoin",
     "symbol": "BTC",
     "chains": [
