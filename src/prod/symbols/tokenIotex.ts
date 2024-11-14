@@ -8,4 +8,5 @@ export enum TokenSymbol {
     WENIotex = 'WEN',
     UNIIOTXIotex = 'uniIOTX',
     IOUSDIotex = 'ioUSD',
+    USDAIotex = 'USDa',
 }

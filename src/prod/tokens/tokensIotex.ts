@@ -85,6 +85,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "USDa Token",
+        symbol: TokenSymbol.USDAIotex,
+        icon: baseURL + 'usda.png',
+        chains: [ChainId.Iotex],
+        contracts: {
+            [ChainId.Iotex]: {
+                address: '0x2d9526e2cabd30c6e8f89ea60d230503c59c6603',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Wrapped Ether",
         symbol: TokenSymbol.IOETHIotex,
         icon: baseURL + 'eth.png',
