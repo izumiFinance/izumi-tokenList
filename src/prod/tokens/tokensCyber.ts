@@ -49,6 +49,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Chibs Token",
+        symbol: TokenSymbol.CHIBSCyber,
+        chains: [ChainId.Cyber],
+        icon: baseURL + 'chibs.png',
+        contracts: {
+            [ChainId.Cyber]: {
+                address: '0x38f970260c3eeee0adcaed0e2c3e937e8e2e9780',
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Phavercoin",
         symbol: TokenSymbol.SOCIALCyber,
         chains: [ChainId.Cyber],

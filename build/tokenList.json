@@ -1365,6 +1365,20 @@
     }
   },
   {
+    "name": "Chibs Token",
+    "symbol": "CHIBS",
+    "chains": [
+      7560
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/chibs.png",
+    "contracts": {
+      "7560": {
+        "address": "0x38f970260c3eeee0adcaed0e2c3e937e8e2e9780",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Phavercoin",
     "symbol": "SOCIAL",
     "chains": [
