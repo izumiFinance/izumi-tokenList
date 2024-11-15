@@ -656,6 +656,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Merlin BTC",
+        symbol: TokenSymbol.MBTC,
+        icon: baseURL + 'mbtc.png',
+        chains: [ChainId.Taiko],
+        contracts: {
+            [ChainId.Taiko]: {
+                address: '0xf7fb2df9280eb0a76427dc3b34761db8b1441a49',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Wrapped eETH",
         symbol: TokenSymbol.WEETH,
         icon: baseURL  + 'weeth.png',

@@ -679,6 +679,20 @@
     }
   },
   {
+    "name": "Merlin BTC",
+    "symbol": "M-BTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mbtc.png",
+    "chains": [
+      167000
+    ],
+    "contracts": {
+      "167000": {
+        "address": "0xf7fb2df9280eb0a76427dc3b34761db8b1441a49",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Wrapped eETH",
     "symbol": "weETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/weeth.png",
@@ -1640,6 +1654,20 @@
     "contracts": {
       "4689": {
         "address": "0xa1A1531f6aE90192edCc32e9F38E98F303708144",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "USDa Token",
+    "symbol": "USDa",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usda.png",
+    "chains": [
+      4689
+    ],
+    "contracts": {
+      "4689": {
+        "address": "0x2d9526e2cabd30c6e8f89ea60d230503c59c6603",
         "decimal": 18
       }
     }
