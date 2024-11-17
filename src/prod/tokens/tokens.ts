@@ -668,6 +668,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "uniBTC",
+        symbol: TokenSymbol.UNIBTC,
+        icon: baseURL + 'unibtc.png',
+        chains: [ChainId.Taiko],
+        contracts: {
+            [ChainId.Taiko]: {
+                address: '0x93919784c523f39cacaa98ee0a9d96c3f32b593e',
+                decimal: 8,
+            },
+        },
+    },
+    {
         name: "Wrapped eETH",
         symbol: TokenSymbol.WEETH,
         icon: baseURL  + 'weeth.png',

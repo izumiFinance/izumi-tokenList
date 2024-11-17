@@ -36,4 +36,5 @@ export enum TokenSymbol {
     ARB = 'ARB',
     ID = 'ID',
     MBTC = 'M-BTC',
+    UNIBTC = 'uniBTC',
 }

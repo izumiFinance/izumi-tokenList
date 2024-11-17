@@ -693,6 +693,20 @@
     }
   },
   {
+    "name": "uniBTC",
+    "symbol": "uniBTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/unibtc.png",
+    "chains": [
+      167000
+    ],
+    "contracts": {
+      "167000": {
+        "address": "0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+        "decimal": 8
+      }
+    }
+  },
+  {
     "name": "Wrapped eETH",
     "symbol": "weETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/weeth.png",
