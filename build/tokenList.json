@@ -1015,6 +1015,34 @@
     }
   },
   {
+    "name": "Babylon Staking Cap 1 YAT Token",
+    "symbol": "yBBN1",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ybbn1.svg",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xD4a16cfD2900e513aBDF66a998f4CDBC518a9053",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Babylon Staking Cap 2 YAT Token",
+    "symbol": "yBBN2",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ybbn2.svg",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0x5607CF8b8C9FD433b4BB90E3EBb9FCFBc1e5296E",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Great Resilient Incentive",
     "symbol": "GRI",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gri.png",

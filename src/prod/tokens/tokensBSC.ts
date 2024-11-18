@@ -61,6 +61,30 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: 'Babylon Staking Cap 1 YAT Token',
+        symbol: TokenSymbol.YBBN1,
+        icon: baseURL + 'ybbn1.svg',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xD4a16cfD2900e513aBDF66a998f4CDBC518a9053',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: 'Babylon Staking Cap 2 YAT Token',
+        symbol: TokenSymbol.YBBN2,
+        icon: baseURL + 'ybbn2.svg',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0x5607CF8b8C9FD433b4BB90E3EBb9FCFBc1e5296E',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: 'Great Resilient Incentive',
         symbol: TokenSymbol.GRI,
         icon: baseURL + 'gri.png',
