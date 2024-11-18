@@ -36,4 +36,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Duckchain PEPE",
+        symbol: TokenSymbol.DPEPEDuckchain,
+        chains: [ChainId.Duckchain],
+        icon: baseURL + 'dpepe.png',
+        contracts: {
+            [ChainId.Duckchain]: {
+                address: '0x2D9E1dA77F086c50f93db46E554974B71536a9Ee',
+                decimal: 18, 
+            },
+        },
+    },
 ]
