@@ -48,4 +48,28 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Dackie Token",
+        symbol: TokenSymbol.DACKIEDuckchain,
+        chains: [ChainId.Duckchain],
+        icon: baseURL + 'dackie.png',
+        contracts: {
+            [ChainId.Duckchain]: {
+                address: '0xD70Cb40a07665630C88684bDb04b6b84461041dA',
+                decimal: 18, 
+            },
+        },
+    },
+    {
+        name: "Duckchain MOON",
+        symbol: TokenSymbol.MOONDuckchain,
+        chains: [ChainId.Duckchain],
+        icon: baseURL + 'moon.png',
+        contracts: {
+            [ChainId.Duckchain]: {
+                address: '0xCdCF0E27F7D458eBFF82249cC5b9Bf7e6183F3a2',
+                decimal: 18, 
+            },
+        },
+    },
 ]

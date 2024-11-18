@@ -1505,6 +1505,34 @@
     }
   },
   {
+    "name": "Dackie Token",
+    "symbol": "Dackie",
+    "chains": [
+      5545
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dackie.png",
+    "contracts": {
+      "5545": {
+        "address": "0xD70Cb40a07665630C88684bDb04b6b84461041dA",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Duckchain MOON",
+    "symbol": "MOON",
+    "chains": [
+      5545
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/moon.png",
+    "contracts": {
+      "5545": {
+        "address": "0xCdCF0E27F7D458eBFF82249cC5b9Bf7e6183F3a2",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Ether Classic",
     "symbol": "ETC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/etc.png",
