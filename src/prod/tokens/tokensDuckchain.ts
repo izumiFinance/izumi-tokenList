@@ -13,6 +13,18 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
     {
+        name: "Bridged Tether USD",
+        symbol: TokenSymbol.USDTDuckchain,
+        chains: [ChainId.Duckchain],
+        icon: baseURL + 'usdt.png',
+        contracts: {
+            [ChainId.Duckchain]: {
+                address: '0xbE138aD5D41FDc392AE0B61b09421987C1966CC3',
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "TON Token",
         symbol: TokenSymbol.TONDuckchain,
         chains: [ChainId.Duckchain],

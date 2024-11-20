@@ -4,4 +4,5 @@ export enum TokenSymbol {
     DPEPEDuckchain = 'DPEPE',
     DACKIEDuckchain = 'Dackie',
     MOONDuckchain = 'MOON',
+    USDTDuckchain = 'USDT',
 }
