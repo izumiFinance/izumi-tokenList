@@ -211,12 +211,12 @@ export const tokens: TokenInfo[] = [
                 address: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174',
                 decimal: 6,
             },
-            [ChainId.Fantom]: {
-                address: '0x04068DA6C83AFCFA0e13ba15A6696662335D5B75',
+            [ChainId.Arbitrum]: {
+                address: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
                 decimal: 6,
             },
-            [ChainId.Arbitrum]: {
-                address: '0xff970a61a04b1ca14834a43f5de4533ebddb5cc8',
+            [ChainId.Fantom]: {
+                address: '0x04068DA6C83AFCFA0e13ba15A6696662335D5B75',
                 decimal: 6,
             },
             [ChainId.Harmony]: {
@@ -244,6 +244,20 @@ export const tokens: TokenInfo[] = [
                 decimal: 6,
             },
         },
+    },
+    {
+        name: 'Bridged USD Coin',
+        symbol: TokenSymbol.USDCE,
+        icon: baseURL + 'usdc.png',
+        chains: [
+            ChainId.Arbitrum,
+        ],
+        contracts: {
+            [ChainId.Arbitrum]: {
+                address: '0xff970a61a04b1ca14834a43f5de4533ebddb5cc8',
+                decimal: 6,
+            },
+        }
     },
     {
         name: "Tether USD",

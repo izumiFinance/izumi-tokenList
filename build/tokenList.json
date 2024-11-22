@@ -231,7 +231,7 @@
         "decimal": 6
       },
       "42161": {
-        "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+        "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "decimal": 6
       },
       "167000": {
@@ -240,6 +240,20 @@
       },
       "1666600000": {
         "address": "0x985458e523db3d53125813ed68c274899e9dfab4",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Bridged USD Coin",
+    "symbol": "USDC.e",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "chains": [
+      42161
+    ],
+    "contracts": {
+      "42161": {
+        "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
         "decimal": 6
       }
     }
