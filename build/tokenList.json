@@ -2149,6 +2149,20 @@
     }
   },
   {
+    "name": "Klaytu TOken",
+    "symbol": "KTU",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ktu.png",
+    "chains": [
+      8217
+    ],
+    "contracts": {
+      "8217": {
+        "address": "0xe2f3bfca452859089f5733b050434113a9caa8d3",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Ether",
     "symbol": "ETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",

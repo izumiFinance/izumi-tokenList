@@ -228,4 +228,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Klaytu TOken",
+        symbol: TokenSymbol.KTUKlaytn,
+        icon: baseURL + 'ktu.png',
+        chains: [ChainId.Klaytn],
+        contracts: {
+            [ChainId.Klaytn]: {
+                address: '0xe2f3bfca452859089f5733b050434113a9caa8d3', 
+                decimal: 18,
+            },
+        },
+    },
 ]
