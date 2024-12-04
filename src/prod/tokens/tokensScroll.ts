@@ -181,6 +181,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Pencils Protocol Token",
+        symbol: TokenSymbol.DAPPScroll,
+        chains: [ChainId.Scroll],
+        icon: baseURL + 'dapp.png',
+        contracts: {
+            [ChainId.Scroll]: {
+                address: '0xb0643f7b3e2e2f10fe4e38728a763ec05f4adec3',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "ebaggoooor Token",
         symbol: TokenSymbol.BAGGORScroll,
         chains: [ChainId.Scroll],

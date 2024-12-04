@@ -33,5 +33,6 @@ export enum TokenSymbol {
     WRSETHScroll = 'wrsETH',
     KALAScroll = 'KALA',
     BAGGORScroll = 'BAGGOR',
+    DAPPScroll = 'DAPP',
 }
 
