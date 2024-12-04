@@ -3974,6 +3974,20 @@
     }
   },
   {
+    "name": "Pencils Protocol Token",
+    "symbol": "DAPP",
+    "chains": [
+      534352
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/dapp.png",
+    "contracts": {
+      "534352": {
+        "address": "0xb0643f7b3e2e2f10fe4e38728a763ec05f4adec3",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "ebaggoooor Token",
     "symbol": "BAGGOR",
     "chains": [
