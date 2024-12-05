@@ -3,4 +3,5 @@ export enum TokenSymbol {
     WRBTCRoot = 'WRBTC',
     RUSDTRoot = 'rUSDT',
     ETHSRoot = 'ETHs',
+    RIFRoot = 'RIF',
 }

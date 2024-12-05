@@ -60,4 +60,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "RIF Token",
+        symbol: TokenSymbol.RIFRoot,
+        icon: baseURL + 'rif.svg',
+        chains: [ChainId.RootStock],
+        contracts: {
+            [ChainId.RootStock]: {
+                address: '0x2acc95758f8b5f583470ba265eb685a8f45fc9d5', 
+                decimal: 18,
+            },
+        },
+    },
 ]

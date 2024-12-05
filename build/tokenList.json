@@ -3582,6 +3582,20 @@
     }
   },
   {
+    "name": "Celeron Token",
+    "symbol": "CEL",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/cel.png",
+    "chains": [
+      34443
+    ],
+    "contracts": {
+      "34443": {
+        "address": "0x8b83ECC4EF8FaEc5c05b7D6EC002B659BE137120",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Morph Koala",
     "symbol": "KOL",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/koala.png",
@@ -3773,6 +3787,20 @@
     "contracts": {
       "30": {
         "address": "0x1d931bf8656d795e50ef6d639562c5bd8ac2b78f",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "RIF Token",
+    "symbol": "RIF",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/rif.svg",
+    "chains": [
+      30
+    ],
+    "contracts": {
+      "30": {
+        "address": "0x2acc95758f8b5f583470ba265eb685a8f45fc9d5",
         "decimal": 18
       }
     }

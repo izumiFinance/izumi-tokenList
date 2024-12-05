@@ -5,5 +5,6 @@ export enum TokenSymbol {
     WEETHMODEMode = 'weETH.mode',
     MODEMode = 'MODE',
     UNIBTCMode = 'uniBTC',
+    CELMode = 'CEL',
 }
 

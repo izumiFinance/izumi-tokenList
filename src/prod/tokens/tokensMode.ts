@@ -72,4 +72,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Celeron Token",
+        symbol: TokenSymbol.CELMode,
+        icon: baseURL + 'cel.png',
+        chains: [ChainId.Mode],
+        contracts: {
+            [ChainId.Mode]: {
+                address: '0x8b83ECC4EF8FaEc5c05b7D6EC002B659BE137120',
+                decimal: 18,
+            },
+        },
+    },
 ]
