@@ -1207,6 +1207,48 @@
     }
   },
   {
+    "name": "TAC Token",
+    "symbol": "TAC",
+    "chains": [
+      2390
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/tac.png",
+    "contracts": {
+      "2390": {
+        "address": "0x876508837C162aCedcc5dd7721015E83cbb4e339",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped TAC",
+    "symbol": "WTAC",
+    "chains": [
+      2390
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/tac.png",
+    "contracts": {
+      "2390": {
+        "address": "0x876508837C162aCedcc5dd7721015E83cbb4e339",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Bridged Tether USD",
+    "symbol": "USDT",
+    "chains": [
+      2390
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
+    "contracts": {
+      "2390": {
+        "address": "0x7336A5a3251b9259DDf8B9D02a96dA0153e0799d",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "OKB",
     "symbol": "OKB",
     "chains": [
