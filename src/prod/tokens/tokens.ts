@@ -689,6 +689,10 @@ export const tokens: TokenInfo[] = [
                 address: '0xf7fb2df9280eb0a76427dc3b34761db8b1441a49',
                 decimal: 18,
             },
+            [ChainId.ZkSyncEra]: {
+                address: '0xe757355edba7ced7b8c0271bba4efda184ad75ab',
+                decimal: 18,
+            },
         },
     },
     {
