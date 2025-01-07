@@ -254,11 +254,16 @@
     "symbol": "USDC.e",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
     "chains": [
-      42161
+      42161,
+      98865
     ],
     "contracts": {
       "42161": {
         "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+        "decimal": 6
+      },
+      "98865": {
+        "address": "0x3938A812c54304fEffD266C7E2E70B48F9475aD6",
         "decimal": 6
       }
     }
@@ -499,7 +504,8 @@
       60808,
       167000,
       2222,
-      2818
+      2818,
+      98865
     ],
     "contracts": {
       "1": {
@@ -548,6 +554,10 @@
       },
       "60808": {
         "address": "0x4200000000000000000000000000000000000006",
+        "decimal": 18
+      },
+      "98865": {
+        "address": "0x626613B473F7eF65747967017C11225436EFaEd7",
         "decimal": 18
       },
       "167000": {
@@ -613,7 +623,8 @@
       60808,
       167000,
       1625,
-      2818
+      2818,
+      98865
     ],
     "contracts": {
       "1": {
@@ -666,6 +677,10 @@
       },
       "60808": {
         "address": "0x4200000000000000000000000000000000000006",
+        "decimal": 18
+      },
+      "98865": {
+        "address": "0x626613B473F7eF65747967017C11225436EFaEd7",
         "decimal": 18
       },
       "167000": {
@@ -3746,6 +3761,34 @@
       "10": {
         "address": "0x4200000000000000000000000000000000000042",
         "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Plume ETH",
+    "symbol": "pETH",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/plumeeth.png",
+    "chains": [
+      98865
+    ],
+    "contracts": {
+      "98865": {
+        "address": "0xD630fb6A07c9c723cf709d2DaA9B63325d0E0B73",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Plume USD",
+    "symbol": "pUSD",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/plumeusd.png",
+    "chains": [
+      98865
+    ],
+    "contracts": {
+      "98865": {
+        "address": "0xdddD73F5Df1F0DC31373357beAC77545dC5A6f3F",
+        "decimal": 6
       }
     }
   },

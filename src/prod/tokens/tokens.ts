@@ -256,10 +256,15 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'usdc.png',
         chains: [
             ChainId.Arbitrum,
+            ChainId.Plume,
         ],
         contracts: {
             [ChainId.Arbitrum]: {
                 address: '0xff970a61a04b1ca14834a43f5de4533ebddb5cc8',
+                decimal: 6,
+            },
+            [ChainId.Plume]: {
+                address: '0x3938A812c54304fEffD266C7E2E70B48F9475aD6',
                 decimal: 6,
             },
         }
@@ -487,6 +492,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Taiko,
             ChainId.Kava,
             ChainId.Morph,
+            ChainId.Plume,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -545,6 +551,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x5300000000000000000000000000000000000011',  //weth
                 decimal: 18,
             }, 
+            [ChainId.Plume]: {
+                address: '0x626613B473F7eF65747967017C11225436EFaEd7',  //weth
+                decimal: 18,
+            }, 
         },
     },
     {
@@ -595,6 +605,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Taiko,
             ChainId.Gravity,
             ChainId.Morph,
+            ChainId.Plume,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -655,6 +666,10 @@ export const tokens: TokenInfo[] = [
             }, 
             [ChainId.Morph]: {
                 address: '0x5300000000000000000000000000000000000011',  //weth
+                decimal: 18,
+            }, 
+            [ChainId.Plume]: {
+                address: '0x626613B473F7eF65747967017C11225436EFaEd7',  
                 decimal: 18,
             }, 
         },

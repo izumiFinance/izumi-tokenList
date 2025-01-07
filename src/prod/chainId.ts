@@ -52,4 +52,5 @@ export enum ChainId {
     Flow = 747,
     Duckchain = 5545,
     Morph = 2818,
+    Plume = 98865,
 }
