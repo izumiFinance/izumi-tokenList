@@ -49,6 +49,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Bridged UTONIC TON",
+        symbol: TokenSymbol.UTONDuckchain,
+        chains: [ChainId.Duckchain],
+        icon: baseURL + 'uton.png',
+        contracts: {
+            [ChainId.Duckchain]: {
+                address: '0x3D46452b3486d7d4201Dd69127d325ce53E1cC80',
+                decimal: 18, 
+            },
+        },
+    },
+    {
         name: "Duckchain PEPE",
         symbol: TokenSymbol.DPEPEDuckchain,
         chains: [ChainId.Duckchain],

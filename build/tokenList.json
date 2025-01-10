@@ -1548,6 +1548,20 @@
     }
   },
   {
+    "name": "Bridged UTONIC TON",
+    "symbol": "uTON",
+    "chains": [
+      5545
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/uton.png",
+    "contracts": {
+      "5545": {
+        "address": "0x3D46452b3486d7d4201Dd69127d325ce53E1cC80",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Duckchain PEPE",
     "symbol": "DPEPE",
     "chains": [
