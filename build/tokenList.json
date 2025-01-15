@@ -1562,6 +1562,20 @@
     }
   },
   {
+    "name": "DUCK",
+    "symbol": "DUCK",
+    "chains": [
+      5545
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/duck.png",
+    "contracts": {
+      "5545": {
+        "address": "0xdA65892eA771d3268610337E9964D916028B7dAD",
+        "decimal": 9
+      }
+    }
+  },
+  {
     "name": "Duckchain PEPE",
     "symbol": "DPEPE",
     "chains": [
