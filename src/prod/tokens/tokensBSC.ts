@@ -61,6 +61,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: 'SOLV',
+        symbol: TokenSymbol.SOLV,
+        icon: baseURL + 'solv.png',
+        chains: [ChainId.BSC],
+        contracts: {
+            [ChainId.BSC]: {
+                address: '0xabE8E5CabE24Cb36df9540088fD7cE1175b9bc52',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: 'Babylon Staking Cap 1 YAT Token',
         symbol: TokenSymbol.YBBN1,
         icon: baseURL + 'ybbn1.svg',

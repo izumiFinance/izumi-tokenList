@@ -53,4 +53,5 @@ export enum ChainId {
     Duckchain = 5545,
     Morph = 2818,
     Plume = 98865,
+    HashKey = 177,
 }

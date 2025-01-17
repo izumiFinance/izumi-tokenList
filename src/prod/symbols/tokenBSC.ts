@@ -35,4 +35,5 @@ export enum TokenSymbol {
     WOD = 'WOD',
     YBBN1 = 'yBBN1',
     YBBN2 = 'yBBN2',
+    SOLV = 'SOLV',
 }

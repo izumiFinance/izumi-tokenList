@@ -287,7 +287,8 @@
       1116,
       1625,
       167000,
-      2818
+      2818,
+      177
     ],
     "contracts": {
       "1": {
@@ -308,6 +309,10 @@
       },
       "137": {
         "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "decimal": 6
+      },
+      "177": {
+        "address": "0xF1B50eD67A9e2CC94Ad3c477779E2d4cBfFf9029",
         "decimal": 6
       },
       "196": {
@@ -624,7 +629,8 @@
       167000,
       1625,
       2818,
-      98865
+      98865,
+      177
     ],
     "contracts": {
       "1": {
@@ -637,6 +643,10 @@
       },
       "137": {
         "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "decimal": 18
+      },
+      "177": {
+        "address": "0xefd4bC9afD210517803f293ABABd701CaeeCdfd0",
         "decimal": 18
       },
       "196": {
@@ -1053,6 +1063,20 @@
     "contracts": {
       "56": {
         "address": "0x52F24a5e03aee338Da5fd9Df68D2b6FAe1178827",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "SOLV",
+    "symbol": "SOLV",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/solv.png",
+    "chains": [
+      56
+    ],
+    "contracts": {
+      "56": {
+        "address": "0xabE8E5CabE24Cb36df9540088fD7cE1175b9bc52",
         "decimal": 18
       }
     }
@@ -1753,6 +1777,34 @@
     "contracts": {
       "1625": {
         "address": "0xBB859E225ac8Fb6BE1C7e38D87b767e95Fef0EbD",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Hashkey Token",
+    "symbol": "HSK",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/hsk.png",
+    "chains": [
+      177
+    ],
+    "contracts": {
+      "177": {
+        "address": "0xB210D2120d57b758EE163cFfb43e73728c471Cf1",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped HSK",
+    "symbol": "WHSK",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/hsk.png",
+    "chains": [
+      177
+    ],
+    "contracts": {
+      "177": {
+        "address": "0xB210D2120d57b758EE163cFfb43e73728c471Cf1",
         "decimal": 18
       }
     }
