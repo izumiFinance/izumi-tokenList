@@ -340,7 +340,8 @@
       167009,
       80084,
       1802203764,
-      920637907288165
+      920637907288165,
+      10143
     ],
     "contracts": {
       "97": {
@@ -372,6 +373,10 @@
         "decimal": 18
       },
       "7001": {
+        "address": "0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b",
+        "decimal": 18
+      },
+      "10143": {
         "address": "0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b",
         "decimal": 18
       },
@@ -1104,6 +1109,34 @@
     "contracts": {
       "686868": {
         "address": "0x876508837C162aCedcc5dd7721015E83cbb4e339",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Monad Token",
+    "symbol": "MON",
+    "chains": [
+      10143
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mon.png",
+    "contracts": {
+      "10143": {
+        "address": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped MON",
+    "symbol": "WMON",
+    "chains": [
+      10143
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mon.png",
+    "contracts": {
+      "10143": {
+        "address": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701",
         "decimal": 18
       }
     }
