@@ -257,6 +257,7 @@ export const tokens: TokenInfo[] = [
         chains: [
             ChainId.Arbitrum,
             ChainId.Plume,
+            ChainId.Hemi,
         ],
         contracts: {
             [ChainId.Arbitrum]: {
@@ -265,6 +266,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Plume]: {
                 address: '0x3938A812c54304fEffD266C7E2E70B48F9475aD6',
+                decimal: 6,
+            },
+            [ChainId.Hemi]: {
+                address: '0xad11a8BEb98bbf61dbb1aa0F6d6F2ECD87b35afA',
                 decimal: 6,
             },
         }
@@ -290,6 +295,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Taiko,
             ChainId.Morph,
             ChainId.HashKey,
+            ChainId.Hemi,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -354,6 +360,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.HashKey]: {
                 address: '0xF1B50eD67A9e2CC94Ad3c477779E2d4cBfFf9029',
+                decimal: 6,
+            },
+            [ChainId.Hemi]: {
+                address: '0xbB0D083fb1be0A9f6157ec484b6C79E0A4e31C2e',
                 decimal: 6,
             },
         },
@@ -421,6 +431,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Kava,
             ChainId.Gravity,
             ChainId.Morph,
+            ChainId.Hemi,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -463,6 +474,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x803DcE4D3f4Ae2e17AF6C51343040dEe320C149D',
                 decimal: 8,
             },
+            [ChainId.Hemi]: {
+                address: '0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3',
+                decimal: 8,
+            },
 
         },
     },
@@ -498,6 +513,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Kava,
             ChainId.Morph,
             ChainId.Plume,
+            ChainId.Hemi,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -560,6 +576,10 @@ export const tokens: TokenInfo[] = [
                 address: '0x626613B473F7eF65747967017C11225436EFaEd7',  //weth
                 decimal: 18,
             }, 
+            [ChainId.Hemi]: {
+                address: '0x4200000000000000000000000000000000000006',  //weth
+                decimal: 18,
+            }, 
         },
     },
     {
@@ -612,6 +632,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Morph,
             ChainId.Plume,
             ChainId.HashKey,
+            ChainId.Hemi,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -682,6 +703,10 @@ export const tokens: TokenInfo[] = [
                 address: '0xefd4bC9afD210517803f293ABABd701CaeeCdfd0',  
                 decimal: 18,
             }, 
+            [ChainId.Hemi]: {
+                address: '0x4200000000000000000000000000000000000006', 
+                decimal: 18,
+            }, 
         },
     },
     {
@@ -708,7 +733,7 @@ export const tokens: TokenInfo[] = [
         name: "Merlin BTC",
         symbol: TokenSymbol.MBTC,
         icon: baseURL + 'mbtc.svg',
-        chains: [ChainId.Taiko],
+        chains: [ChainId.Taiko,ChainId.ZkSyncEra, ChainId.Hemi],
         contracts: {
             [ChainId.Taiko]: {
                 address: '0xf7fb2df9280eb0a76427dc3b34761db8b1441a49',
@@ -716,6 +741,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.ZkSyncEra]: {
                 address: '0xe757355edba7ced7b8c0271bba4efda184ad75ab',
+                decimal: 18,
+            },
+            [ChainId.Hemi]: {
+                address: '0x9BFA177621119e64CecbEabE184ab9993E2ef727',
                 decimal: 18,
             },
         },
