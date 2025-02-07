@@ -713,7 +713,7 @@ export const tokens: TokenInfo[] = [
         name: "Wrapped liquid staked Ether 2.0",
         symbol: TokenSymbol.wstETH,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wsteth.png',
-        chains: [ChainId.Linea,ChainId.Scroll, ChainId.Gravity],
+        chains: [ChainId.Linea,ChainId.Scroll, ChainId.Gravity, ChainId.ZkSyncEra],
         contracts: {
             [ChainId.Linea]: {
                 address: '0xb5bedd42000b71fdde22d3ee8a79bd49a568fc8f',
@@ -725,6 +725,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Gravity]: {
                 address: '0xBC0f4Ca84D2ac97bc4702564b033A6402159e8DE',
+                decimal: 18,
+            },
+            [ChainId.ZkSyncEra]: {
+                address: '0x703b52F2b28fEbcB60E1372858AF5b18849FE867',
                 decimal: 18,
             },
         },

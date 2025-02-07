@@ -146,6 +146,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "JAB Token",
+        symbol: TokenSymbol.JABKroma,
+        icon: baseURL + 'jab.png',
+        chains: [ChainId.Kroma],
+        contracts: {
+            [ChainId.Kroma]: {
+                address: '0x1611f71c69c8718ff1d1748d7b3e12e2f0c4fd0c',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Souni Token",
         symbol: TokenSymbol.SONKroma,
         icon: baseURL + 'son.png',

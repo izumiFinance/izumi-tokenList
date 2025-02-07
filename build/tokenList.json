@@ -735,9 +735,14 @@
     "chains": [
       59144,
       534352,
-      1625
+      1625,
+      324
     ],
     "contracts": {
+      "324": {
+        "address": "0x703b52F2b28fEbcB60E1372858AF5b18849FE867",
+        "decimal": 18
+      },
       "1625": {
         "address": "0xBC0f4Ca84D2ac97bc4702564b033A6402159e8DE",
         "decimal": 18
@@ -2452,6 +2457,20 @@
     "contracts": {
       "255": {
         "address": "0xA5c7992710A94A2ef2e8E910b441bD70385DBAB8",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "JAB Token",
+    "symbol": "JAB",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/jab.png",
+    "chains": [
+      255
+    ],
+    "contracts": {
+      "255": {
+        "address": "0x1611f71c69c8718ff1d1748d7b3e12e2f0c4fd0c",
         "decimal": 18
       }
     }
