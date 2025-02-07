@@ -296,6 +296,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Morph,
             ChainId.HashKey,
             ChainId.Hemi,
+            ChainId.OverProtocol,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -364,6 +365,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.Hemi]: {
                 address: '0xbB0D083fb1be0A9f6157ec484b6C79E0A4e31C2e',
+                decimal: 6,
+            },
+            [ChainId.OverProtocol]: {
+                address: '0xA510432E4aa60B4acd476fb850EC84B7EE226b2d',
                 decimal: 6,
             },
         },
@@ -633,6 +638,7 @@ export const tokens: TokenInfo[] = [
             ChainId.Plume,
             ChainId.HashKey,
             ChainId.Hemi,
+            ChainId.OverProtocol,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -705,6 +711,10 @@ export const tokens: TokenInfo[] = [
             }, 
             [ChainId.Hemi]: {
                 address: '0x4200000000000000000000000000000000000006', 
+                decimal: 18,
+            }, 
+            [ChainId.OverProtocol]: {
+                address: '0x123D24D1f9C8D30E812d2fFf7D4Ae101533Cf3d7', 
                 decimal: 18,
             }, 
         },

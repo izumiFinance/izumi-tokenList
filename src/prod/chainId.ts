@@ -55,4 +55,5 @@ export enum ChainId {
     Plume = 98865,
     HashKey = 177,
     Hemi = 43111,
+    OverProtocol = 54176,
 }

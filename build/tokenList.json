@@ -294,7 +294,8 @@
       167000,
       2818,
       177,
-      43111
+      43111,
+      54176
     ],
     "contracts": {
       "1": {
@@ -355,6 +356,10 @@
       },
       "43111": {
         "address": "0xbB0D083fb1be0A9f6157ec484b6C79E0A4e31C2e",
+        "decimal": 6
+      },
+      "54176": {
+        "address": "0xA510432E4aa60B4acd476fb850EC84B7EE226b2d",
         "decimal": 6
       },
       "60808": {
@@ -651,7 +656,8 @@
       2818,
       98865,
       177,
-      43111
+      43111,
+      54176
     ],
     "contracts": {
       "1": {
@@ -704,6 +710,10 @@
       },
       "43111": {
         "address": "0x4200000000000000000000000000000000000006",
+        "decimal": 18
+      },
+      "54176": {
+        "address": "0x123D24D1f9C8D30E812d2fFf7D4Ae101533Cf3d7",
         "decimal": 18
       },
       "59144": {
@@ -3890,6 +3900,34 @@
     "contracts": {
       "10": {
         "address": "0x4200000000000000000000000000000000000042",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Over Protocol Token",
+    "symbol": "OVER",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/over.png",
+    "chains": [
+      54176
+    ],
+    "contracts": {
+      "54176": {
+        "address": "0x59c914C8ac6F212bb655737CC80d9Abc79A1e273",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped OVER",
+    "symbol": "WOVER",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/over.png",
+    "chains": [
+      54176
+    ],
+    "contracts": {
+      "54176": {
+        "address": "0x59c914C8ac6F212bb655737CC80d9Abc79A1e273",
         "decimal": 18
       }
     }
