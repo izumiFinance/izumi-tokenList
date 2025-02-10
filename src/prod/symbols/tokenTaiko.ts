@@ -5,4 +5,5 @@ export enum TokenSymbol {
     USDCSTARTaiko = 'USDC.e',
     USDTSTARTaiko = 'USDT',
     ULTRAETHSTaiko = 'ultraETHs',
+    AVLTaiko = 'AVL',
 }

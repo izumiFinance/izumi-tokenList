@@ -4563,6 +4563,20 @@
     }
   },
   {
+    "name": "AVL Token",
+    "symbol": "AVL",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/avl.svg",
+    "chains": [
+      167000
+    ],
+    "contracts": {
+      "167000": {
+        "address": "0xe9ca67e5051e1806546d0a06ee465221c5877fee",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "MAGA Token",
     "symbol": "MAGA",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/maga.png",

@@ -61,6 +61,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "AVL Token",
+        symbol: TokenSymbol.AVLTaiko,
+        icon: baseURL + 'avl.svg',
+        chains: [ChainId.Taiko],
+        contracts: {
+            [ChainId.Taiko]: {
+                address: '0xe9ca67e5051e1806546d0a06ee465221c5877fee', 
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "MAGA Token",
         symbol: TokenSymbol.MAGATaiko,
         icon: baseURL + 'maga.png',
