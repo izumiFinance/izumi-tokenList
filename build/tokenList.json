@@ -657,7 +657,8 @@
       98865,
       177,
       43111,
-      54176
+      54176,
+      747
     ],
     "contracts": {
       "1": {
@@ -682,6 +683,10 @@
       },
       "324": {
         "address": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+        "decimal": 18
+      },
+      "747": {
+        "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
         "decimal": 18
       },
       "1625": {
@@ -1767,6 +1772,34 @@
     "contracts": {
       "747": {
         "address": "0x7f27352D5F83Db87a5A3E00f4B07Cc2138D8ee52",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Bridged USDC (Stargate)",
+    "symbol": "stgUSDC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "chains": [
+      747
+    ],
+    "contracts": {
+      "747": {
+        "address": "0xF1815bd50389c46847f0Bda824eC8da914045D14",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "USD Flow",
+    "symbol": "USDF",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdf.png",
+    "chains": [
+      747
+    ],
+    "contracts": {
+      "747": {
+        "address": "0x2aaBea2058b5aC2D339b163C6Ab6f2b6d53aabED",
         "decimal": 6
       }
     }

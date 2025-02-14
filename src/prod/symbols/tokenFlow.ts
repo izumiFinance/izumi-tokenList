@@ -4,4 +4,6 @@ export enum TokenSymbol {
     USDCEFlow = 'USDC.e',
     STFLOWFlow = 'stFLOW',
     ANKRFLOWFlow = 'ankrFLOW',
+    USDFFlow = 'USDF',
+    STGUSDCFlow = 'stgUSDC',
 }

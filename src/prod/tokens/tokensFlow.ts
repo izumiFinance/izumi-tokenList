@@ -49,6 +49,30 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Bridged USDC (Stargate)",
+        symbol: TokenSymbol.STGUSDCFlow,
+        icon: baseURL + 'usdc.png',
+        chains: [ChainId.Flow],
+        contracts: {
+            [ChainId.Flow]: {
+                address: '0xF1815bd50389c46847f0Bda824eC8da914045D14', 
+                decimal: 6,
+            },
+        },
+    },
+    {
+        name: "USD Flow",
+        symbol: TokenSymbol.USDFFlow,
+        icon: baseURL + 'usdf.png',
+        chains: [ChainId.Flow],
+        contracts: {
+            [ChainId.Flow]: {
+                address: '0x2aaBea2058b5aC2D339b163C6Ab6f2b6d53aabED', 
+                decimal: 6,
+            },
+        },
+    },
+    {
         name: "Increment Staked FLOW",
         symbol: TokenSymbol.STFLOWFlow,
         icon: baseURL + 'stflow.png',

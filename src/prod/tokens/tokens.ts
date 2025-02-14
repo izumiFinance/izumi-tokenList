@@ -639,6 +639,7 @@ export const tokens: TokenInfo[] = [
             ChainId.HashKey,
             ChainId.Hemi,
             ChainId.OverProtocol,
+            ChainId.Flow,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -715,6 +716,10 @@ export const tokens: TokenInfo[] = [
             }, 
             [ChainId.OverProtocol]: {
                 address: '0x123D24D1f9C8D30E812d2fFf7D4Ae101533Cf3d7', 
+                decimal: 18,
+            }, 
+            [ChainId.Flow]: {
+                address: '0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590', 
                 decimal: 18,
             }, 
         },
