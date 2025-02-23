@@ -48,4 +48,88 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Chog",
+        symbol: TokenSymbol.CHOGMonad,
+        chains: [ChainId.MonadTest],
+        icon: "https://imagedelivery.net/tWwhAahBw7afBzFUrX5mYQ/5d1206c2-042c-4edc-9f8b-dcef2e9e8f00/public",
+        contracts: {
+            [ChainId.MonadTest]: {
+                address: '0xE0590015A873bF326bd645c3E1266d4db41C4E6B',  
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Moyaki",
+        symbol: TokenSymbol.YAKIMonad,
+        chains: [ChainId.MonadTest],
+        icon: "https://imagedelivery.net/tWwhAahBw7afBzFUrX5mYQ/6679b698-a845-412b-504b-23463a3e1900/public",
+        contracts: {
+            [ChainId.MonadTest]: {
+                address: '0xfe140e1dCe99Be9F4F15d657CD9b7BF622270C50',  
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "USD Coin",
+        symbol: TokenSymbol.USDCMonad,
+        chains: [ChainId.MonadTest],
+        icon: "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public",
+        contracts: {
+            [ChainId.MonadTest]: {
+                address: '0xf817257fed379853cDe0fa4F97AB987181B1E5Ea',  
+                decimal: 6,
+            },
+        },
+    },
+    {
+        name: "Tether USD",
+        symbol: TokenSymbol.USDTOMonad,
+        chains: [ChainId.MonadTest],
+        icon: "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/images.png/public",
+        contracts: {
+            [ChainId.MonadTest]: {
+                address: '0x88b8E2161DEDC77EF4ab7585569D2415a1C1055D',  
+                decimal: 6,
+            },
+        },
+    },
+    {
+        name: "Wrapped BTC",
+        symbol: TokenSymbol.WBTCMonad,
+        chains: [ChainId.MonadTest],
+        icon: "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/wbtc.png/public",
+        contracts: {
+            [ChainId.MonadTest]: {
+                address: '0xcf5a6076cfa32686c0Df13aBaDa2b40dec133F1d',  
+                decimal: 8,
+            },
+        },
+    },
+    {
+        name: "Wrapped ETH",
+        symbol: TokenSymbol.WETHMonad,
+        chains: [ChainId.MonadTest],
+        icon: "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/weth.jpg/public",
+        contracts: {
+            [ChainId.MonadTest]: {
+                address: '0xB5a30b0FDc5EA94A52fDc42e3E9760Cb8449Fb37',  
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "Wrapped SOL",
+        symbol: TokenSymbol.SOLMonad,
+        chains: [ChainId.MonadTest],
+        icon: "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/sol.png/public",
+        contracts: {
+            [ChainId.MonadTest]: {
+                address: '0x369CD1E20Fa7ea1F8e6dc0759709bA0bD978abE7',  
+                decimal: 9,
+            },
+        },
+    },
 ]
