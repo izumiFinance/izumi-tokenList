@@ -36,4 +36,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Molandak",
+        symbol: TokenSymbol.DAKMonad,
+        chains: [ChainId.MonadTest],
+        icon: "https://imagedelivery.net/tWwhAahBw7afBzFUrX5mYQ/27759359-9374-4995-341c-b2636a432800/public",
+        contracts: {
+            [ChainId.MonadTest]: {
+                address: '0x0F0BDEbF0F83cD1EE3974779Bcb7315f9808c714',  
+                decimal: 18,
+            },
+        },
+    },
 ]
