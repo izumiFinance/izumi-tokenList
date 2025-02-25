@@ -340,8 +340,7 @@
       167009,
       80084,
       1802203764,
-      920637907288165,
-      10143
+      920637907288165
     ],
     "contracts": {
       "97": {
@@ -373,10 +372,6 @@
         "decimal": 18
       },
       "7001": {
-        "address": "0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b",
-        "decimal": 18
-      },
-      "10143": {
         "address": "0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b",
         "decimal": 18
       },
@@ -1199,7 +1194,7 @@
   },
   {
     "name": "Tether USD",
-    "symbol": "USDT0",
+    "symbol": "USDT",
     "chains": [
       10143
     ],
@@ -1250,6 +1245,20 @@
       "10143": {
         "address": "0x369CD1E20Fa7ea1F8e6dc0759709bA0bD978abE7",
         "decimal": 9
+      }
+    }
+  },
+  {
+    "name": "Tether USD (by iZUMi)",
+    "symbol": "USDT0",
+    "chains": [
+      10143
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
+    "contracts": {
+      "10143": {
+        "address": "0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b",
+        "decimal": 18
       }
     }
   },

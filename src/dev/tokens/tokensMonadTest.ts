@@ -24,6 +24,7 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+   
     {
         name: "Wrapped MON",
         symbol: TokenSymbol.WMONMonad,
@@ -86,7 +87,7 @@ export const tokens: TokenInfo[] = [
     },
     {
         name: "Tether USD",
-        symbol: TokenSymbol.USDTOMonad,
+        symbol: TokenSymbol.USDTMonad,
         chains: [ChainId.MonadTest],
         icon: "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/images.png/public",
         contracts: {
@@ -131,5 +132,17 @@ export const tokens: TokenInfo[] = [
                 decimal: 9,
             },
         },
+    },
+    {
+        name: "Tether USD (by iZUMi)",
+        symbol: TokenSymbol.USDTOMonad,
+        chains: [ChainId.MonadTest],
+        icon: baseURL + 'usdt.png',
+        contracts: {
+            [ChainId.MonadTest]: {
+                address: '0x6a7436775c0d0B70cfF4c5365404ec37c9d9aF4b',
+                decimal: 18,
+            },
+        }
     },
 ]

@@ -5,6 +5,7 @@ export enum TokenSymbol {
     CHOGMonad = 'CHODG',
     YAKIMonad = 'YAKI',
     USDCMonad = 'USDC',
+    USDTMonad = 'USDT',
     USDTOMonad = 'USDT0',
     WBTCMonad = 'WBTC',
     WETHMonad = 'WETH',
