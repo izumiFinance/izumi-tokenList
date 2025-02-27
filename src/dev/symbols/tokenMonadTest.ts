@@ -9,5 +9,5 @@ export enum TokenSymbol {
     USDTOMonad = 'USDT0',
     WBTCMonad = 'WBTC',
     WETHMonad = 'WETH',
-    SOLMonad = 'SOL',
+    WSOLMonad = 'WSOL',
 }

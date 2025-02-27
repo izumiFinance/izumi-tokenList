@@ -123,12 +123,12 @@ export const tokens: TokenInfo[] = [
     },
     {
         name: "Wrapped SOL",
-        symbol: TokenSymbol.SOLMonad,
+        symbol: TokenSymbol.WSOLMonad,
         chains: [ChainId.MonadTest],
         icon: "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/sol.png/public",
         contracts: {
             [ChainId.MonadTest]: {
-                address: '0x369CD1E20Fa7ea1F8e6dc0759709bA0bD978abE7',  
+                address: '0x5387C85A4965769f6B0Df430638a1388493486F1',  
                 decimal: 9,
             },
         },
