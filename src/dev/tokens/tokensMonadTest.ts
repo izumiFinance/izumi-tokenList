@@ -98,6 +98,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "Anago French BullDOG",
+        symbol: TokenSymbol.ANAGOMonad,
+        chains: [ChainId.MonadTest],
+        icon: baseURL + "anago.png",
+        contracts: {
+            [ChainId.MonadTest]: {
+                address: '0xE60c974ed6d3B19b97cA3097aD85181a814c888c',  
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Wrapped BTC",
         symbol: TokenSymbol.WBTCMonad,
         chains: [ChainId.MonadTest],

@@ -1207,6 +1207,20 @@
     }
   },
   {
+    "name": "Anago French BullDOG",
+    "symbol": "Anago",
+    "chains": [
+      10143
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/anago.png",
+    "contracts": {
+      "10143": {
+        "address": "0xE60c974ed6d3B19b97cA3097aD85181a814c888c",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Wrapped BTC",
     "symbol": "WBTC",
     "chains": [
