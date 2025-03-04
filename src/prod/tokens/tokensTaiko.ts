@@ -61,6 +61,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "DemSOL Token",
+        symbol: TokenSymbol.DEMSOLTaiko,
+        icon: baseURL + 'demsol.png',
+        chains: [ChainId.Taiko],
+        contracts: {
+            [ChainId.Taiko]: {
+                address: '0xBa4Ab4eEB7a6c9883fc20B8540c466f4c6C62875', 
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "AVL Token",
         symbol: TokenSymbol.AVLTaiko,
         icon: baseURL + 'avl.svg',

@@ -4596,6 +4596,20 @@
     }
   },
   {
+    "name": "DemSOL Token",
+    "symbol": "DemSOL",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/demsol.png",
+    "chains": [
+      167000
+    ],
+    "contracts": {
+      "167000": {
+        "address": "0xBa4Ab4eEB7a6c9883fc20B8540c466f4c6C62875",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "AVL Token",
     "symbol": "AVL",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/avl.svg",
