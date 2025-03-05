@@ -24,4 +24,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Hemi BTC",
+        symbol: TokenSymbol.HEMIBTCHemi,
+        icon: baseURL + 'hemibtc.png',
+        chains: [ChainId.Hemi],
+        contracts: {
+            [ChainId.Hemi]: {
+                address: '0xAA40c0c7644e0b2B224509571e10ad20d9C4ef28',
+                decimal: 8,
+            },
+        },
+    },
 ]
