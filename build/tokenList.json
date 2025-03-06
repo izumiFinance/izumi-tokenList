@@ -3695,6 +3695,34 @@
     }
   },
   {
+    "name": "M Token",
+    "symbol": "M",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/memecore.png",
+    "chains": [
+      4352
+    ],
+    "contracts": {
+      "4352": {
+        "address": "0x653e645e3d81a72e71328Bc01A04002945E3ef7A",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped M Token",
+    "symbol": "WM",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/memecore.png",
+    "chains": [
+      4352
+    ],
+    "contracts": {
+      "4352": {
+        "address": "0x653e645e3d81a72e71328Bc01A04002945E3ef7A",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Meter Token",
     "symbol": "MTR",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mtr.png",

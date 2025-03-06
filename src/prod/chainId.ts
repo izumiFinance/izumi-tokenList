@@ -56,4 +56,5 @@ export enum ChainId {
     HashKey = 177,
     Hemi = 43111,
     OverProtocol = 54176,
+    MemeCore = 4352,
 }
