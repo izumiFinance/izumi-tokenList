@@ -256,6 +256,7 @@ export const tokens: TokenInfo[] = [
             ChainId.BERABArtioBeraTest,
             ChainId.KakarotTestnet,
             ChainId.KakarotStarknetTest,
+            ChainId.EXPchainTest,
         ],
         contracts: {
             [ChainId.BSCTestnet]: {
@@ -344,6 +345,10 @@ export const tokens: TokenInfo[] = [
             },
             [ChainId.KakarotStarknetTest]: {
                 address: '0x1eE5eDC5Fe498a2dD82862746D674DB2a5e7fef6',
+                decimal: 18,
+            },
+            [ChainId.EXPchainTest]: {
+                address: '0xb0453a1bAf6056393897e60dfd851C61A825ef67',
                 decimal: 18,
             },
           

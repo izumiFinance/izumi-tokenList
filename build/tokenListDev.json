@@ -340,7 +340,8 @@
       167009,
       80084,
       1802203764,
-      920637907288165
+      920637907288165,
+      18880
     ],
     "contracts": {
       "97": {
@@ -381,6 +382,10 @@
       },
       "12021": {
         "address": "0x2A2E08ea99E63482BDad8Bf69c7b69752F07736F",
+        "decimal": 18
+      },
+      "18880": {
+        "address": "0xb0453a1bAf6056393897e60dfd851C61A825ef67",
         "decimal": 18
       },
       "57000": {
@@ -754,6 +759,34 @@
     "contracts": {
       "202105": {
         "address": "0xb0453a1bAf6056393897e60dfd851C61A825ef67",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "tZKJ",
+    "symbol": "tZKJ",
+    "chains": [
+      18880
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/tZKJ.png",
+    "contracts": {
+      "18880": {
+        "address": "0x1eE5eDC5Fe498a2dD82862746D674DB2a5e7fef6",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "wrapped tZKJ",
+    "symbol": "WtZKJ",
+    "chains": [
+      18880
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/tZKJ.png",
+    "contracts": {
+      "18880": {
+        "address": "0x1eE5eDC5Fe498a2dD82862746D674DB2a5e7fef6",
         "decimal": 18
       }
     }
