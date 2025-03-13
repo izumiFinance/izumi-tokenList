@@ -57,4 +57,5 @@ export enum ChainId {
     Hemi = 43111,
     OverProtocol = 54176,
     MemeCore = 4352,
+    PlumeNew = 98866,
 }

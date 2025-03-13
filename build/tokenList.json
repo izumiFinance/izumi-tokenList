@@ -188,7 +188,8 @@
       7560,
       167000,
       1625,
-      2818
+      2818,
+      98866
     ],
     "contracts": {
       "1": {
@@ -237,6 +238,10 @@
       },
       "42161": {
         "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+        "decimal": 6
+      },
+      "98866": {
+        "address": "0x54FD4da2Fa19Cf0f63d8f93A6EA5BEd3F9C042C6",
         "decimal": 6
       },
       "167000": {
@@ -531,7 +536,8 @@
       2222,
       2818,
       98865,
-      43111
+      43111,
+      98866
     ],
     "contracts": {
       "1": {
@@ -588,6 +594,10 @@
       },
       "98865": {
         "address": "0x626613B473F7eF65747967017C11225436EFaEd7",
+        "decimal": 18
+      },
+      "98866": {
+        "address": "0xEE9e50425E1599e4eC09f0a5F76Ce35A4924e4AC",
         "decimal": 18
       },
       "167000": {
@@ -4044,6 +4054,48 @@
     ],
     "contracts": {
       "98865": {
+        "address": "0xdddD73F5Df1F0DC31373357beAC77545dC5A6f3F",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Plume Token",
+    "symbol": "PLUME",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/plume.png",
+    "chains": [
+      98866
+    ],
+    "contracts": {
+      "98866": {
+        "address": "0xEa237441c92CAe6FC17Caaf9a7acB3f953be4bd1",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped PLUME",
+    "symbol": "WPLUME",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/plume.png",
+    "chains": [
+      98866
+    ],
+    "contracts": {
+      "98866": {
+        "address": "0xEa237441c92CAe6FC17Caaf9a7acB3f953be4bd1",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Plume USD",
+    "symbol": "pUSD",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/plumeusd.png",
+    "chains": [
+      98866
+    ],
+    "contracts": {
+      "98866": {
         "address": "0xdddD73F5Df1F0DC31373357beAC77545dC5A6f3F",
         "decimal": 6
       }
