@@ -36,4 +36,52 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "uniBTC",
+        symbol: TokenSymbol.UNIBTCHemi,
+        icon: baseURL + 'unibtc.png',
+        chains: [ChainId.Hemi],
+        contracts: {
+            [ChainId.Hemi]: {
+                address: '0xF9775085d726E782E83585033B58606f7731AB18',
+                decimal: 8,
+            },
+        },
+    },
+    {
+        name: "Sumerian BTC",
+        symbol: TokenSymbol.SUBTCHemi,
+        icon: baseURL + 'subtc.png',
+        chains: [ChainId.Hemi],
+        contracts: {
+            [ChainId.Hemi]: {
+                address: '0xe85411C030fB32A9D8b14Bbbc6CB19417391F711',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "brBTC",
+        symbol: TokenSymbol.BRBTCHemi,
+        icon: baseURL + 'btbtc.png',
+        chains: [ChainId.Hemi],
+        contracts: {
+            [ChainId.Hemi]: {
+                address: '0x93919784C523f39CACaa98Ee0a9d96c3F32b593e',
+                decimal: 8,
+            },
+        },
+    },
+    {
+        name: "BitFi Bitcoin",
+        symbol: TokenSymbol.BFBTCHemi,
+        icon: baseURL + 'bfbtc.png',
+        chains: [ChainId.Hemi],
+        contracts: {
+            [ChainId.Hemi]: {
+                address: '0x623F2774d9f27B59bc6b954544487532CE79d9DF',
+                decimal: 8,
+            },
+        },
+    },
 ]

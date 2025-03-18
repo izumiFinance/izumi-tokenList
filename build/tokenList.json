@@ -1927,6 +1927,62 @@
     }
   },
   {
+    "name": "uniBTC",
+    "symbol": "uniBTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/unibtc.png",
+    "chains": [
+      43111
+    ],
+    "contracts": {
+      "43111": {
+        "address": "0xF9775085d726E782E83585033B58606f7731AB18",
+        "decimal": 8
+      }
+    }
+  },
+  {
+    "name": "Sumerian BTC",
+    "symbol": "suBTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/subtc.png",
+    "chains": [
+      43111
+    ],
+    "contracts": {
+      "43111": {
+        "address": "0xe85411C030fB32A9D8b14Bbbc6CB19417391F711",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "brBTC",
+    "symbol": "brBTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/btbtc.png",
+    "chains": [
+      43111
+    ],
+    "contracts": {
+      "43111": {
+        "address": "0x93919784C523f39CACaa98Ee0a9d96c3F32b593e",
+        "decimal": 8
+      }
+    }
+  },
+  {
+    "name": "BitFi Bitcoin",
+    "symbol": "bfBTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/bfbtc.png",
+    "chains": [
+      43111
+    ],
+    "contracts": {
+      "43111": {
+        "address": "0x623F2774d9f27B59bc6b954544487532CE79d9DF",
+        "decimal": 8
+      }
+    }
+  },
+  {
     "name": "Bridged USDC",
     "symbol": "USDC.e",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
