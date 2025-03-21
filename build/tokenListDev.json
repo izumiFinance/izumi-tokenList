@@ -340,8 +340,7 @@
       167009,
       80084,
       1802203764,
-      920637907288165,
-      18880
+      920637907288165
     ],
     "contracts": {
       "97": {
@@ -382,10 +381,6 @@
       },
       "12021": {
         "address": "0x2A2E08ea99E63482BDad8Bf69c7b69752F07736F",
-        "decimal": 18
-      },
-      "18880": {
-        "address": "0xb0453a1bAf6056393897e60dfd851C61A825ef67",
         "decimal": 18
       },
       "57000": {
@@ -787,6 +782,146 @@
     "contracts": {
       "18880": {
         "address": "0x1eE5eDC5Fe498a2dD82862746D674DB2a5e7fef6",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "EXPchain: ETH",
+    "symbol": "ETH",
+    "chains": [
+      18880
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
+    "contracts": {
+      "18880": {
+        "address": "0xa966BDF2e0088eb921A39d6ff684b60388Fc277e",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "EXPchain: USDT",
+    "symbol": "USDT",
+    "chains": [
+      18880
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
+    "contracts": {
+      "18880": {
+        "address": "0xf4e77b64cFac6B5e4F5B958dBE2558F8b342aC8D",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "EXPchain: USDC",
+    "symbol": "USDC",
+    "chains": [
+      18880
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "contracts": {
+      "18880": {
+        "address": "0x09BE71c8Ff0594F051aa1953671420057634a83D",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Pepeya Coin",
+    "symbol": "PEYA",
+    "chains": [
+      18880
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/peya.png",
+    "contracts": {
+      "18880": {
+        "address": "0x314bC52eD0Fc732E8DE16B63419b567238AB4f0D",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Dog Waffle Hat",
+    "symbol": "WAFL",
+    "chains": [
+      18880
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wafl.png",
+    "contracts": {
+      "18880": {
+        "address": "0x8eDebd099Fe58bf61E723677d43Cf7d07c6962e2",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Not Stressed Guy",
+    "symbol": "STRESS",
+    "chains": [
+      18880
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/stress.png",
+    "contracts": {
+      "18880": {
+        "address": "0x12B41687A5a0f0AD30fdB782dAb173f3152a8c1e",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Robot Frog",
+    "symbol": "RIBOT",
+    "chains": [
+      18880
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ribot.png",
+    "contracts": {
+      "18880": {
+        "address": "0xB8a201547151068aA2298b71aB6f6a884FCec330",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Cat Nap Coin",
+    "symbol": "NAPS",
+    "chains": [
+      18880
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/naps.png",
+    "contracts": {
+      "18880": {
+        "address": "0x99B106D8CdA4702dABAe0eCF6E289D70bE1e8cE1",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Quantum Koala",
+    "symbol": "QKOALA",
+    "chains": [
+      18880
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/qkoala.png",
+    "contracts": {
+      "18880": {
+        "address": "0xe04c48b6e47BA4723dABf3346ca7035C58Fa3fAF",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Sky Potato",
+    "symbol": "SKYPOT",
+    "chains": [
+      18880
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/skypot.png",
+    "contracts": {
+      "18880": {
+        "address": "0x9eAE81Edaf832cC7fd16956f4cBdacE83eb51aa3",
         "decimal": 18
       }
     }
