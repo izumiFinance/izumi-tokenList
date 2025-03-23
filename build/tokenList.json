@@ -1957,7 +1957,7 @@
   {
     "name": "brBTC",
     "symbol": "brBTC",
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/btbtc.png",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/brbtc.png",
     "chains": [
       43111
     ],

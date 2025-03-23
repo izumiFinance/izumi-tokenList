@@ -63,7 +63,7 @@ export const tokens: TokenInfo[] = [
     {
         name: "brBTC",
         symbol: TokenSymbol.BRBTCHemi,
-        icon: baseURL + 'btbtc.png',
+        icon: baseURL + 'brbtc.png',
         chains: [ChainId.Hemi],
         contracts: {
             [ChainId.Hemi]: {
