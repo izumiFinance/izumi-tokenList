@@ -84,4 +84,28 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Bridged egETH",
+        symbol: TokenSymbol.EGETHHemi,
+        icon: baseURL + 'egeth.png',
+        chains: [ChainId.Hemi],
+        contracts: {
+            [ChainId.Hemi]: {
+                address: '0x027a9d301fb747cd972cfb29a63f3bda551dfc5c',
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "KelpDao Restaked ETH",
+        symbol: TokenSymbol.RSETHHemi,
+        icon: baseURL + 'rseth.png',
+        chains: [ChainId.Hemi],
+        contracts: {
+            [ChainId.Hemi]: {
+                address: '0xc3eacf0612346366db554c991d7858716db09f58',
+                decimal: 18,
+            },
+        },
+    },
 ]

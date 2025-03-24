@@ -36,18 +36,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "EXPchain: ETH",
-        symbol: TokenSymbol.ETHEXPchainTest,
-        chains: [ChainId.EXPchainTest],
-        icon: baseURL + 'eth.png',
-        contracts: {
-            [ChainId.EXPchainTest]: {
-                address: '0xa966BDF2e0088eb921A39d6ff684b60388Fc277e',
-                decimal: 18,
-            },
-        },
-    },
+    // {
+    //     name: "EXPchain: ETH",
+    //     symbol: TokenSymbol.ETHEXPchainTest,
+    //     chains: [ChainId.EXPchainTest],
+    //     icon: baseURL + 'eth.png',
+    //     contracts: {
+    //         [ChainId.EXPchainTest]: {
+    //             address: '0xa966BDF2e0088eb921A39d6ff684b60388Fc277e',
+    //             decimal: 18,
+    //         },
+    //     },
+    // },
     {
         name: "EXPchain: USDT",
         symbol: TokenSymbol.USDTEXPchainTest,
@@ -151,7 +151,7 @@ export const tokens: TokenInfo[] = [
         icon: baseURL + 'skypot.png',
         contracts: {
             [ChainId.EXPchainTest]: {
-                address: '0x9eAE81Edaf832cC7fd16956f4cBdacE83eb51aa3',
+                address: '',
                 decimal: 18,
             },
         },

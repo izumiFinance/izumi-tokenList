@@ -787,20 +787,6 @@
     }
   },
   {
-    "name": "EXPchain: ETH",
-    "symbol": "ETH",
-    "chains": [
-      18880
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/eth.png",
-    "contracts": {
-      "18880": {
-        "address": "0xa966BDF2e0088eb921A39d6ff684b60388Fc277e",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "EXPchain: USDT",
     "symbol": "USDT",
     "chains": [
@@ -921,7 +907,7 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/skypot.png",
     "contracts": {
       "18880": {
-        "address": "0x9eAE81Edaf832cC7fd16956f4cBdacE83eb51aa3",
+        "address": "",
         "decimal": 18
       }
     }

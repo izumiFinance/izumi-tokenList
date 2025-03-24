@@ -5,4 +5,6 @@ export enum TokenSymbol {
     SUBTCHemi = 'suBTC',
     BRBTCHemi = 'brBTC',
     BFBTCHemi = 'bfBTC',
+    EGETHHemi = 'egETH',
+    RSETHHemi = 'rsETH',
 }
