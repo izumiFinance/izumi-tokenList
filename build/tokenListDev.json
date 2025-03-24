@@ -843,34 +843,6 @@
     }
   },
   {
-    "name": "Not Stressed Guy",
-    "symbol": "STRESS",
-    "chains": [
-      18880
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/stress.png",
-    "contracts": {
-      "18880": {
-        "address": "0x12B41687A5a0f0AD30fdB782dAb173f3152a8c1e",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Robot Frog",
-    "symbol": "RIBOT",
-    "chains": [
-      18880
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/ribot.png",
-    "contracts": {
-      "18880": {
-        "address": "0xB8a201547151068aA2298b71aB6f6a884FCec330",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "Cat Nap Coin",
     "symbol": "NAPS",
     "chains": [
@@ -880,34 +852,6 @@
     "contracts": {
       "18880": {
         "address": "0x99B106D8CdA4702dABAe0eCF6E289D70bE1e8cE1",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Quantum Koala",
-    "symbol": "QKOALA",
-    "chains": [
-      18880
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/qkoala.png",
-    "contracts": {
-      "18880": {
-        "address": "0xe04c48b6e47BA4723dABf3346ca7035C58Fa3fAF",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Sky Potato",
-    "symbol": "SKYPOT",
-    "chains": [
-      18880
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/skypot.png",
-    "contracts": {
-      "18880": {
-        "address": "",
         "decimal": 18
       }
     }

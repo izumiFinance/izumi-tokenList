@@ -96,30 +96,30 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "Not Stressed Guy",
-        symbol: TokenSymbol.STRESSEXPchainTest,
-        chains: [ChainId.EXPchainTest],
-        icon: baseURL + 'stress.png',
-        contracts: {
-            [ChainId.EXPchainTest]: {
-                address: '0x12B41687A5a0f0AD30fdB782dAb173f3152a8c1e',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: "Robot Frog",
-        symbol: TokenSymbol.RIBOTEXPchainTest,
-        chains: [ChainId.EXPchainTest],
-        icon: baseURL + 'ribot.png',
-        contracts: {
-            [ChainId.EXPchainTest]: {
-                address: '0xB8a201547151068aA2298b71aB6f6a884FCec330',
-                decimal: 18,
-            },
-        },
-    },
+    // {
+    //     name: "Not Stressed Guy",
+    //     symbol: TokenSymbol.STRESSEXPchainTest,
+    //     chains: [ChainId.EXPchainTest],
+    //     icon: baseURL + 'stress.png',
+    //     contracts: {
+    //         [ChainId.EXPchainTest]: {
+    //             address: '0x12B41687A5a0f0AD30fdB782dAb173f3152a8c1e',
+    //             decimal: 18,
+    //         },
+    //     },
+    // },
+    // {
+    //     name: "Robot Frog",
+    //     symbol: TokenSymbol.RIBOTEXPchainTest,
+    //     chains: [ChainId.EXPchainTest],
+    //     icon: baseURL + 'ribot.png',
+    //     contracts: {
+    //         [ChainId.EXPchainTest]: {
+    //             address: '0xB8a201547151068aA2298b71aB6f6a884FCec330',
+    //             decimal: 18,
+    //         },
+    //     },
+    // },
     {
         name: "Cat Nap Coin",
         symbol: TokenSymbol.NAPSTEXPchainTest,
@@ -132,28 +132,28 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "Quantum Koala",
-        symbol: TokenSymbol.QKOALATEXPchainTest,
-        chains: [ChainId.EXPchainTest],
-        icon: baseURL + 'qkoala.png',
-        contracts: {
-            [ChainId.EXPchainTest]: {
-                address: '0xe04c48b6e47BA4723dABf3346ca7035C58Fa3fAF',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: "Sky Potato",
-        symbol: TokenSymbol.SKYPOTEXPchainTest,
-        chains: [ChainId.EXPchainTest],
-        icon: baseURL + 'skypot.png',
-        contracts: {
-            [ChainId.EXPchainTest]: {
-                address: '',
-                decimal: 18,
-            },
-        },
-    },
+    // {
+    //     name: "Quantum Koala",
+    //     symbol: TokenSymbol.QKOALATEXPchainTest,
+    //     chains: [ChainId.EXPchainTest],
+    //     icon: baseURL + 'qkoala.png',
+    //     contracts: {
+    //         [ChainId.EXPchainTest]: {
+    //             address: '0xe04c48b6e47BA4723dABf3346ca7035C58Fa3fAF',
+    //             decimal: 18,
+    //         },
+    //     },
+    // },
+    // {
+    //     name: "Sky Potato",
+    //     symbol: TokenSymbol.SKYPOTEXPchainTest,
+    //     chains: [ChainId.EXPchainTest],
+    //     icon: baseURL + 'skypot.png',
+    //     contracts: {
+    //         [ChainId.EXPchainTest]: {
+    //             address: '',
+    //             decimal: 18,
+    //         },
+    //     },
+    // },
 ]
