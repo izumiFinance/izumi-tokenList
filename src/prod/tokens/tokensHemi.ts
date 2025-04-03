@@ -85,6 +85,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "msBTC",
+        symbol: TokenSymbol.MSBTCHemi,
+        icon: baseURL + 'msbtc.png',
+        chains: [ChainId.Hemi],
+        contracts: {
+            [ChainId.Hemi]: {
+                address: '0x1855911ab07ed5Cd056008F409b709DfA9D01183',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Bridged egETH",
         symbol: TokenSymbol.EGETHHemi,
         icon: baseURL + 'egeth.png',

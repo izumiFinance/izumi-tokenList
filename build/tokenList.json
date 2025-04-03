@@ -1983,6 +1983,20 @@
     }
   },
   {
+    "name": "msBTC",
+    "symbol": "msBTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/msbtc.png",
+    "chains": [
+      43111
+    ],
+    "contracts": {
+      "43111": {
+        "address": "0x1855911ab07ed5Cd056008F409b709DfA9D01183",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Bridged egETH",
     "symbol": "egETH",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/egeth.png",
