@@ -49,6 +49,30 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "SolvBTC",
+        symbol: TokenSymbol.SOLVBTCRoot,
+        icon: baseURL + 'solvbtc.png',
+        chains: [ChainId.RootStock],
+        contracts: {
+            [ChainId.RootStock]: {
+                address: '0x541fd749419ca806a8bc7da8ac23d346f2df8b77', 
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "SolvBTC.BBN",
+        symbol: TokenSymbol.SOLVBTCBBNRoot,
+        icon: baseURL + 'solvbtcbbn.png',
+        chains: [ChainId.RootStock],
+        contracts: {
+            [ChainId.RootStock]: {
+                address: '0xCC0966D8418d412c599A6421b760a847eB169A8c', 
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "ETHs",
         symbol: TokenSymbol.ETHSRoot,
         icon: baseURL + 'eth.png',
