@@ -188,8 +188,7 @@
       7560,
       167000,
       1625,
-      2818,
-      98866
+      2818
     ],
     "contracts": {
       "1": {
@@ -240,10 +239,6 @@
         "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
         "decimal": 6
       },
-      "98866": {
-        "address": "0x54FD4da2Fa19Cf0f63d8f93A6EA5BEd3F9C042C6",
-        "decimal": 6
-      },
       "167000": {
         "address": "0x07d83526730c7438048D55A4fc0b850e2aaB6f0b",
         "decimal": 6
@@ -260,7 +255,6 @@
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
     "chains": [
       42161,
-      98865,
       43111
     ],
     "contracts": {
@@ -270,10 +264,6 @@
       },
       "43111": {
         "address": "0xad11a8BEb98bbf61dbb1aa0F6d6F2ECD87b35afA",
-        "decimal": 6
-      },
-      "98865": {
-        "address": "0x3938A812c54304fEffD266C7E2E70B48F9475aD6",
         "decimal": 6
       }
     }
@@ -535,9 +525,7 @@
       167000,
       2222,
       2818,
-      98865,
-      43111,
-      98866
+      43111
     ],
     "contracts": {
       "1": {
@@ -590,14 +578,6 @@
       },
       "60808": {
         "address": "0x4200000000000000000000000000000000000006",
-        "decimal": 18
-      },
-      "98865": {
-        "address": "0x626613B473F7eF65747967017C11225436EFaEd7",
-        "decimal": 18
-      },
-      "98866": {
-        "address": "0xEE9e50425E1599e4eC09f0a5F76Ce35A4924e4AC",
         "decimal": 18
       },
       "167000": {
@@ -664,11 +644,11 @@
       167000,
       1625,
       2818,
-      98865,
       177,
       43111,
       54176,
-      747
+      747,
+      98866
     ],
     "contracts": {
       "1": {
@@ -739,8 +719,8 @@
         "address": "0x4200000000000000000000000000000000000006",
         "decimal": 18
       },
-      "98865": {
-        "address": "0x626613B473F7eF65747967017C11225436EFaEd7",
+      "98866": {
+        "address": "0xca59cA09E5602fAe8B629DeE83FfA819741f14be",
         "decimal": 18
       },
       "167000": {
@@ -4195,6 +4175,104 @@
     "contracts": {
       "98866": {
         "address": "0xdddD73F5Df1F0DC31373357beAC77545dC5A6f3F",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Plume ETH",
+    "symbol": "pETH",
+    "icon": "https://assets.plumenetwork.xyz/images/logos/pETH/pETH-token.svg",
+    "chains": [
+      98866
+    ],
+    "contracts": {
+      "98866": {
+        "address": "0x39d1F90eF89C52dDA276194E9a832b484ee45574",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Bridged USDC (Stargate)",
+    "symbol": "USDC.e",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
+    "chains": [
+      98866
+    ],
+    "contracts": {
+      "98866": {
+        "address": "0x78adD880A697070c1e765Ac44D65323a0DcCE913",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Bridged USDT (Stargate)",
+    "symbol": "USDT",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt.png",
+    "chains": [
+      98866
+    ],
+    "contracts": {
+      "98866": {
+        "address": "0xda6087E69C51E7D31b6DBAD276a3c44703DFdCAd",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Nest RWA Vault",
+    "symbol": "nRWA",
+    "icon": "https://assets.plumenetwork.xyz/images/logos/nest/nRWA/nRWA-token.svg",
+    "chains": [
+      98866
+    ],
+    "contracts": {
+      "98866": {
+        "address": "0x593cCcA4c4bf58b7526a4C164cEEf4003C6388db",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Nest Treasuries Vault",
+    "symbol": "nTBILL",
+    "icon": "https://assets.plumenetwork.xyz/images/logos/nest/nTBILL/nTBILL-token.svg",
+    "chains": [
+      98866
+    ],
+    "contracts": {
+      "98866": {
+        "address": "0xe72fe64840f4ef80e3ec73a1c749491b5c938cb9",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Nest Institutional Core",
+    "symbol": "nELIXIR",
+    "icon": "https://assets.plumenetwork.xyz/images/logos/nest/nELIXIR/nELIXIR-token.svg",
+    "chains": [
+      98866
+    ],
+    "contracts": {
+      "98866": {
+        "address": "0x9fbC367B9Bb966a2A537989817A088AFCaFFDC4c",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Nest Basis",
+    "symbol": "nBASIS",
+    "icon": "https://assets.plumenetwork.xyz/images/logos/nest/nBASIS/nBASIS-token.svg",
+    "chains": [
+      98866
+    ],
+    "contracts": {
+      "98866": {
+        "address": "0x11113Ff3a60C2450F4b22515cB760417259eE94B",
         "decimal": 6
       }
     }

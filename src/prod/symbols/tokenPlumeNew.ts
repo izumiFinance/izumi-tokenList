@@ -2,4 +2,11 @@ export enum TokenSymbol {
     PLUMEPlumeNew = 'PLUME',
     WPLUMEPlumeNew = 'WPLUME',
     PUSDPlumeNew = 'pUSD',
+    PETHPlumeNew = 'pETH',
+    USDCPlumeNew = 'USDC.e',
+    USDTPlumeNew = 'USDT',
+    NRWAPlumeNew = 'nRWA',
+    NTBILLPlumeNew = 'nTBILL',
+    NELIXIRPlumeNew = 'nELIXIR',
+    NBASISPlumeNew = 'nBASIS',
 }
