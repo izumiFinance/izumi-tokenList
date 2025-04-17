@@ -8,4 +8,5 @@ export enum TokenSymbol {
     MSBTCHemi = 'msBTC',
     EGETHHemi = 'egETH',
     RSETHHemi = 'rsETH',
+    USBDHemi = 'USBD',
 }

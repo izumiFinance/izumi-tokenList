@@ -120,4 +120,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "US Bitcoin Dollar",
+        symbol: TokenSymbol.USBDHemi,
+        icon: baseURL + 'usbd.svg',
+        chains: [ChainId.Hemi],
+        contracts: {
+            [ChainId.Hemi]: {
+                address: '0x6bedE1c6009a78c222D9BDb7974bb67847fdB68c',
+                decimal: 18,
+            },
+        },
+    },
 ]

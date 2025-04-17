@@ -2005,6 +2005,20 @@
     }
   },
   {
+    "name": "US Bitcoin Dollar",
+    "symbol": "USBD",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usbd.svg",
+    "chains": [
+      43111
+    ],
+    "contracts": {
+      "43111": {
+        "address": "0x6bedE1c6009a78c222D9BDb7974bb67847fdB68c",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Bridged USDC",
     "symbol": "USDC.e",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdc.png",
