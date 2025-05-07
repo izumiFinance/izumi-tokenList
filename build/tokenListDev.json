@@ -1361,6 +1361,20 @@
     }
   },
   {
+    "name": "NAP",
+    "symbol": "NAP",
+    "chains": [
+      10143
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/napmonad.png",
+    "contracts": {
+      "10143": {
+        "address": "0x93E9CaE50424C7a4E3c5eCEb7855B6dab74Bc803",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tether USD (by iZUMi)",
     "symbol": "USDT0",
     "chains": [

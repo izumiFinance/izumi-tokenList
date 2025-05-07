@@ -11,4 +11,5 @@ export enum TokenSymbol {
     WETHMonad = 'WETH',
     WSOLMonad = 'WSOL',
     ANAGOMonad = 'Anago',
+    NAPMonad = 'NAP',
 }

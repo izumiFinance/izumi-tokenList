@@ -146,6 +146,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "NAP",
+        symbol: TokenSymbol.NAPMonad,
+        chains: [ChainId.MonadTest],
+        icon: baseURL + 'napmonad.png',
+        contracts: {
+            [ChainId.MonadTest]: {
+                address: '0x93E9CaE50424C7a4E3c5eCEb7855B6dab74Bc803',
+                decimal: 18,
+            },
+        }
+    },
+    {
         name: "Tether USD (by iZUMi)",
         symbol: TokenSymbol.USDTOMonad,
         chains: [ChainId.MonadTest],
