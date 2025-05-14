@@ -158,6 +158,18 @@ export const tokens: TokenInfo[] = [
         }
     },
     {
+        name: "ShMonad Token",
+        symbol: TokenSymbol.SHMONMonad,
+        chains: [ChainId.MonadTest],
+        icon: baseURL + 'shmon.png',
+        contracts: {
+            [ChainId.MonadTest]: {
+                address: '0x3a98250f98dd388c211206983453837c8365bdc1',
+                decimal: 18,
+            },
+        }
+    },
+    {
         name: "Tether USD (by iZUMi)",
         symbol: TokenSymbol.USDTOMonad,
         chains: [ChainId.MonadTest],
