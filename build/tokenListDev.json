@@ -1389,6 +1389,20 @@
     }
   },
   {
+    "name": "aPriori Monad LST",
+    "symbol": "aprMON",
+    "chains": [
+      10143
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/arpmon.svg",
+    "contracts": {
+      "10143": {
+        "address": "0xb2f82D0f38dc453D596Ad40A37799446Cc89274A",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tether USD (by iZUMi)",
     "symbol": "USDT0",
     "chains": [

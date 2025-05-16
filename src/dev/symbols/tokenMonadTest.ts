@@ -13,4 +13,5 @@ export enum TokenSymbol {
     ANAGOMonad = 'Anago',
     NAPMonad = 'NAP',
     SHMONMonad = 'shMON',
+    APRMONMonad = 'aprMON',
 }

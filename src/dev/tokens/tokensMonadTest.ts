@@ -170,6 +170,18 @@ export const tokens: TokenInfo[] = [
         }
     },
     {
+        name: "aPriori Monad LST",
+        symbol: TokenSymbol.APRMONMonad,
+        chains: [ChainId.MonadTest],
+        icon: baseURL + 'arpmon.svg',
+        contracts: {
+            [ChainId.MonadTest]: {
+                address: '0xb2f82D0f38dc453D596Ad40A37799446Cc89274A',
+                decimal: 18,
+            },
+        }
+    },
+    {
         name: "Tether USD (by iZUMi)",
         symbol: TokenSymbol.USDTOMonad,
         chains: [ChainId.MonadTest],
