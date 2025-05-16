@@ -173,7 +173,7 @@ export const tokens: TokenInfo[] = [
         name: "aPriori Monad LST",
         symbol: TokenSymbol.APRMONMonad,
         chains: [ChainId.MonadTest],
-        icon: baseURL + 'aprmon.svg',
+        icon: baseURL + 'aprmon.png',
         contracts: {
             [ChainId.MonadTest]: {
                 address: '0xb2f82D0f38dc453D596Ad40A37799446Cc89274A',
