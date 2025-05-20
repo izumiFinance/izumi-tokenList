@@ -14,4 +14,5 @@ export enum TokenSymbol {
     NAPMonad = 'NAP',
     SHMONMonad = 'shMON',
     APRMONMonad = 'aprMON',
+    MISTMonad = 'MIST',
 }

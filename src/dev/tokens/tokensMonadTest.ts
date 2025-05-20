@@ -182,6 +182,18 @@ export const tokens: TokenInfo[] = [
         }
     },
     {
+        name: "Mist Token",
+        symbol: TokenSymbol.MISTMonad,
+        chains: [ChainId.MonadTest],
+        icon: baseURL + 'mistmonad.png',
+        contracts: {
+            [ChainId.MonadTest]: {
+                address: '0xb38bb873cca844b20A9eE448a87Af3626a6e1EF5',
+                decimal: 18,
+            },
+        }
+    },
+    {
         name: "Tether USD (by iZUMi)",
         symbol: TokenSymbol.USDTOMonad,
         chains: [ChainId.MonadTest],
