@@ -1431,6 +1431,20 @@
     }
   },
   {
+    "name": "Kintsu Staked Monad",
+    "symbol": "sMON",
+    "chains": [
+      10143
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/smon.png",
+    "contracts": {
+      "10143": {
+        "address": "0xe1d2439b75fb9746E7Bc6cB777Ae10AA7f7ef9c5",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tether",
     "symbol": "USDT",
     "chains": [

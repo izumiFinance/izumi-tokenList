@@ -205,4 +205,16 @@ export const tokens: TokenInfo[] = [
             },
         }
     },
+    {
+        name: "Kintsu Staked Monad",
+        symbol: TokenSymbol.SMONMonad,
+        chains: [ChainId.MonadTest],
+        icon: baseURL + 'smon.png',
+        contracts: {
+            [ChainId.MonadTest]: {
+                address: '0xe1d2439b75fb9746E7Bc6cB777Ae10AA7f7ef9c5',
+                decimal: 18,
+            },
+        }
+    },
 ]
