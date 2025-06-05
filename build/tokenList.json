@@ -4236,20 +4236,6 @@
     }
   },
   {
-    "name": "Nest RWA Vault",
-    "symbol": "nRWA",
-    "icon": "https://assets.plumenetwork.xyz/images/logos/nest/nRWA/nRWA-token.svg",
-    "chains": [
-      98866
-    ],
-    "contracts": {
-      "98866": {
-        "address": "0x593cCcA4c4bf58b7526a4C164cEEf4003C6388db",
-        "decimal": 6
-      }
-    }
-  },
-  {
     "name": "Nest Treasuries Vault",
     "symbol": "nTBILL",
     "icon": "https://assets.plumenetwork.xyz/images/logos/nest/nTBILL/nTBILL-token.svg",
@@ -4264,20 +4250,6 @@
     }
   },
   {
-    "name": "Nest Institutional Core",
-    "symbol": "nELIXIR",
-    "icon": "https://assets.plumenetwork.xyz/images/logos/nest/nELIXIR/nELIXIR-token.svg",
-    "chains": [
-      98866
-    ],
-    "contracts": {
-      "98866": {
-        "address": "0x9fbC367B9Bb966a2A537989817A088AFCaFFDC4c",
-        "decimal": 6
-      }
-    }
-  },
-  {
     "name": "Nest Basis",
     "symbol": "nBASIS",
     "icon": "https://assets.plumenetwork.xyz/images/logos/nest/nBASIS/nBASIS-token.svg",
@@ -4287,6 +4259,34 @@
     "contracts": {
       "98866": {
         "address": "0x11113Ff3a60C2450F4b22515cB760417259eE94B",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Nest Credit Vault",
+    "symbol": "nCREDIT",
+    "icon": "https://assets.plume.org/images/logos/nest/nCREDIT/nCREDIT-token.svg",
+    "chains": [
+      98866
+    ],
+    "contracts": {
+      "98866": {
+        "address": "0xa5f78b2a0ab85429d2dfbf8b60abc70f4cec066c",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Nest ALPHA Vault",
+    "symbol": "nALPHA",
+    "icon": "https://assets.plume.org/images/logos/nest/nALPHA/nALPHA-token.svg",
+    "chains": [
+      98866
+    ],
+    "contracts": {
+      "98866": {
+        "address": "0x593cCcA4c4bf58b7526a4C164cEEf4003C6388db",
         "decimal": 6
       }
     }

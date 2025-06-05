@@ -9,4 +9,6 @@ export enum TokenSymbol {
     NTBILLPlumeNew = 'nTBILL',
     NELIXIRPlumeNew = 'nELIXIR',
     NBASISPlumeNew = 'nBASIS',
+    NCREDITPlumeNew = 'nCREDIT',
+    NALPHAPlumeNew = 'nALPHA',
 }

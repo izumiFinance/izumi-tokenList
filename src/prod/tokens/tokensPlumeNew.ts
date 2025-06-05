@@ -84,18 +84,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "Nest RWA Vault",
-        symbol: TokenSymbol.NRWAPlumeNew,
-        icon: "https://assets.plumenetwork.xyz/images/logos/nest/nRWA/nRWA-token.svg",
-        chains: [ChainId.PlumeNew],
-        contracts: {
-            [ChainId.PlumeNew]: {
-                address: '0x593cCcA4c4bf58b7526a4C164cEEf4003C6388db',
-                decimal: 6,
-            },
-        },
-    },
+    // {
+    //     name: "Nest RWA Vault",
+    //     symbol: TokenSymbol.NRWAPlumeNew,
+    //     icon: "https://assets.plumenetwork.xyz/images/logos/nest/nRWA/nRWA-token.svg",
+    //     chains: [ChainId.PlumeNew],
+    //     contracts: {
+    //         [ChainId.PlumeNew]: {
+    //             address: '0x593cCcA4c4bf58b7526a4C164cEEf4003C6388db',
+    //             decimal: 6,
+    //         },
+    //     },
+    // },
     {
         name: "Nest Treasuries Vault",
         symbol: TokenSymbol.NTBILLPlumeNew,
@@ -108,18 +108,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "Nest Institutional Core",
-        symbol: TokenSymbol.NELIXIRPlumeNew,
-        icon: "https://assets.plumenetwork.xyz/images/logos/nest/nELIXIR/nELIXIR-token.svg",
-        chains: [ChainId.PlumeNew],
-        contracts: {
-            [ChainId.PlumeNew]: {
-                address: '0x9fbC367B9Bb966a2A537989817A088AFCaFFDC4c',
-                decimal: 6,
-            },
-        },
-    },
+    // {
+    //     name: "Nest Institutional Core",
+    //     symbol: TokenSymbol.NELIXIRPlumeNew,
+    //     icon: "https://assets.plumenetwork.xyz/images/logos/nest/nELIXIR/nELIXIR-token.svg",
+    //     chains: [ChainId.PlumeNew],
+    //     contracts: {
+    //         [ChainId.PlumeNew]: {
+    //             address: '0x9fbC367B9Bb966a2A537989817A088AFCaFFDC4c',
+    //             decimal: 6,
+    //         },
+    //     },
+    // },
     {
         name: "Nest Basis",
         symbol: TokenSymbol.NBASISPlumeNew,
@@ -128,6 +128,30 @@ export const tokens: TokenInfo[] = [
         contracts: {
             [ChainId.PlumeNew]: {
                 address: '0x11113Ff3a60C2450F4b22515cB760417259eE94B',
+                decimal: 6,
+            },
+        },
+    },
+    {
+        name: "Nest Credit Vault",
+        symbol: TokenSymbol.NCREDITPlumeNew,
+        icon: "https://assets.plume.org/images/logos/nest/nCREDIT/nCREDIT-token.svg",
+        chains: [ChainId.PlumeNew],
+        contracts: {
+            [ChainId.PlumeNew]: {
+                address: '0xa5f78b2a0ab85429d2dfbf8b60abc70f4cec066c',
+                decimal: 6,
+            },
+        },
+    },
+    {
+        name: "Nest ALPHA Vault",
+        symbol: TokenSymbol.NALPHAPlumeNew,
+        icon: "https://assets.plume.org/images/logos/nest/nALPHA/nALPHA-token.svg",
+        chains: [ChainId.PlumeNew],
+        contracts: {
+            [ChainId.PlumeNew]: {
+                address: '0x593cCcA4c4bf58b7526a4C164cEEf4003C6388db',
                 decimal: 6,
             },
         },
