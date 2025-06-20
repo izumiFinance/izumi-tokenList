@@ -96,4 +96,28 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Froth",
+        symbol: TokenSymbol.FROTHFlow,
+        icon: baseURL + 'froth.png',
+        chains: [ChainId.Flow],
+        contracts: {
+            [ChainId.Flow]: {
+                address: '0xB73BF8e6A4477a952E0338e6CC00cC0ce5AD04bA', 
+                decimal: 18,
+            },
+        },
+    },
+    {
+        name: "FVIX",
+        symbol: TokenSymbol.FVIXFlow,
+        icon: baseURL + 'fvix.png',
+        chains: [ChainId.Flow],
+        contracts: {
+            [ChainId.Flow]: {
+                address: '0x00f4CE400130C9383115f3858F9CA54677426583', 
+                decimal: 18,
+            },
+        },
+    },
 ]
