@@ -16,4 +16,5 @@ export enum TokenSymbol {
     APRMONMonad = 'aprMON',
     SMONMonad = 'sMON',
     MISTMonad = 'MIST',
+    RUSDCMonad = 'rUSDC',
 }

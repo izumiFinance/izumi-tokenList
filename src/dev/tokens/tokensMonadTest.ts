@@ -217,4 +217,16 @@ export const tokens: TokenInfo[] = [
             },
         }
     },
+    {
+        name: "Relend Network USDC",
+        symbol: TokenSymbol.RUSDCMonad,
+        chains: [ChainId.MonadTest],
+        icon: baseURL + 'rusdc.png',
+        contracts: {
+            [ChainId.MonadTest]: {
+                address: '0x400a417fedeef43fc5b8be0d8cd6df687847ee8d',
+                decimal: 6,
+            },
+        }
+    },
 ]
