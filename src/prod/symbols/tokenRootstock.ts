@@ -6,4 +6,5 @@ export enum TokenSymbol {
     SOLVBTCRoot = 'SolvBTC',
     SOLVBTCBBNRoot = 'SolvBTC.BBN',
     RIFRoot = 'RIF',
+    USDT0Root = 'USDT0',
 }

@@ -49,6 +49,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "USDT0",
+        symbol: TokenSymbol.USDT0Root,
+        icon: baseURL + 'usdt0.png',
+        chains: [ChainId.RootStock],
+        contracts: {
+            [ChainId.RootStock]: {
+                address: '0x779dED0C9e1022225F8e0630b35A9B54Be713736', 
+                decimal: 6,
+            },
+        },
+    },
+    {
         name: "SolvBTC",
         symbol: TokenSymbol.SOLVBTCRoot,
         icon: baseURL + 'solvbtc.png',
