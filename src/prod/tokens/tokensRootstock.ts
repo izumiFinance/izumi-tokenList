@@ -55,7 +55,7 @@ export const tokens: TokenInfo[] = [
         chains: [ChainId.RootStock],
         contracts: {
             [ChainId.RootStock]: {
-                address: '0x779dED0C9e1022225F8e0630b35A9B54Be713736', 
+                address: '0x779ded0c9e1022225f8e0630b35a9b54be713736',
                 decimal: 6,
             },
         },
