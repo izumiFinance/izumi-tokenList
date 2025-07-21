@@ -630,6 +630,7 @@ export const tokens: TokenInfo[] = [
             ChainId.OverProtocol,
             ChainId.Flow,
             ChainId.PlumeNew,
+            ChainId.RootStock,
         ],
         contracts: {
             [ChainId.EthereumMainnet]: {
@@ -710,6 +711,10 @@ export const tokens: TokenInfo[] = [
             }, 
             [ChainId.PlumeNew]: {
                 address: '0xca59cA09E5602fAe8B629DeE83FfA819741f14be',  //weth
+                decimal: 18,
+            }, 
+            [ChainId.RootStock]: {
+                address: '0x2F6f07CDcf3588944bF4C42Ac74fF24bf56e7590',  //weth
                 decimal: 18,
             }, 
         },
