@@ -714,7 +714,7 @@ export const tokens: TokenInfo[] = [
                 decimal: 18,
             }, 
             [ChainId.RootStock]: {
-                address: '0x2F6f07CDcf3588944bF4C42Ac74fF24bf56e7590',  //weth
+                address: '0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590',  //weth
                 decimal: 18,
             }, 
         },
