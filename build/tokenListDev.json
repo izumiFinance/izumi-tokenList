@@ -1459,6 +1459,20 @@
     }
   },
   {
+    "name": "gMON Token",
+    "symbol": "gMON",
+    "chains": [
+      10143
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/gmon.png",
+    "contracts": {
+      "10143": {
+        "address": "0xaEef2f6B429Cb59C9B2D7bB2141ADa993E8571c3",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Tether",
     "symbol": "USDT",
     "chains": [

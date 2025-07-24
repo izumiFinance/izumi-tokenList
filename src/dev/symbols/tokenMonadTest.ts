@@ -17,4 +17,5 @@ export enum TokenSymbol {
     SMONMonad = 'sMON',
     MISTMonad = 'MIST',
     RUSDCMonad = 'rUSDC',
+    GMONMonad = 'gMON',
 }

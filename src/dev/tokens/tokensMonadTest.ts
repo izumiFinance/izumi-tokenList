@@ -229,4 +229,16 @@ export const tokens: TokenInfo[] = [
             },
         }
     },
+    {
+        name: "gMON Token",
+        symbol: TokenSymbol.GMONMonad,
+        chains: [ChainId.MonadTest],
+        icon: baseURL + 'gmon.png',
+        contracts: {
+            [ChainId.MonadTest]: {
+                address: '0xaEef2f6B429Cb59C9B2D7bB2141ADa993E8571c3',
+                decimal: 18,
+            },
+        }
+    },
 ]
