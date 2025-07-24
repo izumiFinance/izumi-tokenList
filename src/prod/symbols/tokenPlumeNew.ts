@@ -11,4 +11,5 @@ export enum TokenSymbol {
     NBASISPlumeNew = 'nBASIS',
     NCREDITPlumeNew = 'nCREDIT',
     NALPHAPlumeNew = 'nALPHA',
+    ESBTCPlumeNew = 'esBTC',
 }

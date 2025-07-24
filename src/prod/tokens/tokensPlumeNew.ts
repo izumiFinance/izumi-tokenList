@@ -84,6 +84,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "exSat Staking BTC",
+        symbol: TokenSymbol.ESBTCPlumeNew,
+        icon: baseURL + 'esbtc.png',
+        chains: [ChainId.PlumeNew],
+        contracts: {
+            [ChainId.PlumeNew]: {
+                address: '0xaFB068838136358CFa6B54BEa580B86DF70BBA7f',
+                decimal: 18,
+            },
+        },
+    },
     // {
     //     name: "Nest RWA Vault",
     //     symbol: TokenSymbol.NRWAPlumeNew,

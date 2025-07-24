@@ -4269,6 +4269,20 @@
     }
   },
   {
+    "name": "exSat Staking BTC",
+    "symbol": "esBTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/esbtc.png",
+    "chains": [
+      98866
+    ],
+    "contracts": {
+      "98866": {
+        "address": "0xaFB068838136358CFa6B54BEa580B86DF70BBA7f",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Nest Treasuries Vault",
     "symbol": "nTBILL",
     "icon": "https://assets.plumenetwork.xyz/images/logos/nest/nTBILL/nTBILL-token.svg",
