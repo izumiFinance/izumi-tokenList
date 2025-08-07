@@ -61,6 +61,30 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "UniBTC",
+        symbol: TokenSymbol.UNIBTCRoot,
+        icon: baseURL + 'unibtc.png',
+        chains: [ChainId.RootStock],
+        contracts: {
+            [ChainId.RootStock]: {
+                address: '0xd3C8Da379d71A33BFEe8875F87AC2748beb1D58d', 
+                decimal: 8,
+            },
+        },
+    },
+    {
+        name: "brBTC",
+        symbol: TokenSymbol.BRBTCRoot,
+        icon: baseURL + 'brbtc.png',
+        chains: [ChainId.RootStock],
+        contracts: {
+            [ChainId.RootStock]: {
+                address: '0xF1376bCef0F78459C0ed0ba5Ddce976f1dDF51F4', 
+                decimal: 8,
+            },
+        },
+    },
+    {
         name: "SolvBTC",
         symbol: TokenSymbol.SOLVBTCRoot,
         icon: baseURL + 'solvbtc.png',

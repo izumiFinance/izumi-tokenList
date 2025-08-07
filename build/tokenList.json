@@ -4395,6 +4395,34 @@
     }
   },
   {
+    "name": "UniBTC",
+    "symbol": "uniBTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/unibtc.png",
+    "chains": [
+      30
+    ],
+    "contracts": {
+      "30": {
+        "address": "0xd3C8Da379d71A33BFEe8875F87AC2748beb1D58d",
+        "decimal": 8
+      }
+    }
+  },
+  {
+    "name": "brBTC",
+    "symbol": "brBTC",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/brbtc.png",
+    "chains": [
+      30
+    ],
+    "contracts": {
+      "30": {
+        "address": "0xF1376bCef0F78459C0ed0ba5Ddce976f1dDF51F4",
+        "decimal": 8
+      }
+    }
+  },
+  {
     "name": "SolvBTC",
     "symbol": "SolvBTC",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/solvbtc.png",
