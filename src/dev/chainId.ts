@@ -51,4 +51,5 @@ export enum ChainId {
     TacTest = 2390,
     MonadTest = 10143,
     EXPchainTest = 18880,
+    StableTest = 2201,
 }
