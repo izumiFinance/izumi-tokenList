@@ -13,6 +13,18 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
     {
+        name: "Hemi Token",
+        symbol: TokenSymbol.HEMIHemi,
+        icon: baseURL + 'hemi.svg',
+        chains: [ChainId.Hemi],
+        contracts: {
+            [ChainId.Hemi]: {
+                address: '0x99e3dE3817F6081B2568208337ef83295b7f591D',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "VUSD Token",
         symbol: TokenSymbol.VUSDHemi,
         icon: baseURL + 'vusd.png',
