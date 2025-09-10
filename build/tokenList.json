@@ -2724,6 +2724,20 @@
     }
   },
   {
+    "name": "Linea Token",
+    "symbol": "LINEA",
+    "chains": [
+      59144
+    ],
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/linea.png",
+    "contracts": {
+      "59144": {
+        "address": "0x1789e0043623282D5DCc7F213d703C6D8BAfBB04",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "Celer BUSD",
     "symbol": "BUSD",
     "chains": [

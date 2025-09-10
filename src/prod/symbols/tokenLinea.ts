@@ -13,4 +13,5 @@ export enum TokenSymbol {
     SOLVBTCLinea = 'SolvBTC.m',
     MBTCLinea = 'M-BTC',
     FOXYLinea = 'FOXY',
+    LINEALinea = 'LINEA',
 }

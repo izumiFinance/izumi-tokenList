@@ -13,6 +13,18 @@ const baseURL = 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/'
 
 export const tokens: TokenInfo[] = [
     {
+        name: "Linea Token",
+        symbol: TokenSymbol.LINEALinea,
+        chains: [ChainId.Linea],
+        icon: baseURL + 'linea.png',
+        contracts: {
+            [ChainId.Linea]: {
+                address: '0x1789e0043623282D5DCc7F213d703C6D8BAfBB04',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "Celer BUSD",
         symbol: TokenSymbol.CEBUSDLinea,
         chains: [ChainId.Linea],
