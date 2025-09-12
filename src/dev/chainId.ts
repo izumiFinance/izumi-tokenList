@@ -52,4 +52,5 @@ export enum ChainId {
     MonadTest = 10143,
     EXPchainTest = 18880,
     StableTest = 2201,
+    GIWATest = 91342,
 }
