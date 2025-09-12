@@ -815,48 +815,6 @@
     }
   },
   {
-    "name": "Pepeya Coin",
-    "symbol": "PEYA",
-    "chains": [
-      18880
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/peya.png",
-    "contracts": {
-      "18880": {
-        "address": "0x314bC52eD0Fc732E8DE16B63419b567238AB4f0D",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Dog Waffle Hat",
-    "symbol": "WAFL",
-    "chains": [
-      18880
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/wafl.png",
-    "contracts": {
-      "18880": {
-        "address": "0x8eDebd099Fe58bf61E723677d43Cf7d07c6962e2",
-        "decimal": 18
-      }
-    }
-  },
-  {
-    "name": "Cat Nap Coin",
-    "symbol": "NAPS",
-    "chains": [
-      18880
-    ],
-    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/naps.png",
-    "contracts": {
-      "18880": {
-        "address": "0x99B106D8CdA4702dABAe0eCF6E289D70bE1e8cE1",
-        "decimal": 18
-      }
-    }
-  },
-  {
     "name": "Flow Token",
     "symbol": "FLOW",
     "chains": [

@@ -72,30 +72,30 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
-    {
-        name: "Pepeya Coin",
-        symbol: TokenSymbol.PEYAEXPchainTest,
-        chains: [ChainId.EXPchainTest],
-        icon: baseURL + 'peya.png',
-        contracts: {
-            [ChainId.EXPchainTest]: {
-                address: '0x314bC52eD0Fc732E8DE16B63419b567238AB4f0D',
-                decimal: 18,
-            },
-        },
-    },
-    {
-        name: "Dog Waffle Hat",
-        symbol: TokenSymbol.WAFLEXPchainTest,
-        chains: [ChainId.EXPchainTest],
-        icon: baseURL + 'wafl.png',
-        contracts: {
-            [ChainId.EXPchainTest]: {
-                address: '0x8eDebd099Fe58bf61E723677d43Cf7d07c6962e2',
-                decimal: 18,
-            },
-        },
-    },
+    // {
+    //     name: "Pepeya Coin",
+    //     symbol: TokenSymbol.PEYAEXPchainTest,
+    //     chains: [ChainId.EXPchainTest],
+    //     icon: baseURL + 'peya.png',
+    //     contracts: {
+    //         [ChainId.EXPchainTest]: {
+    //             address: '0x314bC52eD0Fc732E8DE16B63419b567238AB4f0D',
+    //             decimal: 18,
+    //         },
+    //     },
+    // },
+    // {
+    //     name: "Dog Waffle Hat",
+    //     symbol: TokenSymbol.WAFLEXPchainTest,
+    //     chains: [ChainId.EXPchainTest],
+    //     icon: baseURL + 'wafl.png',
+    //     contracts: {
+    //         [ChainId.EXPchainTest]: {
+    //             address: '0x8eDebd099Fe58bf61E723677d43Cf7d07c6962e2',
+    //             decimal: 18,
+    //         },
+    //     },
+    // },
     // {
     //     name: "Not Stressed Guy",
     //     symbol: TokenSymbol.STRESSEXPchainTest,
@@ -120,18 +120,18 @@ export const tokens: TokenInfo[] = [
     //         },
     //     },
     // },
-    {
-        name: "Cat Nap Coin",
-        symbol: TokenSymbol.NAPSTEXPchainTest,
-        chains: [ChainId.EXPchainTest],
-        icon: baseURL + 'naps.png',
-        contracts: {
-            [ChainId.EXPchainTest]: {
-                address: '0x99B106D8CdA4702dABAe0eCF6E289D70bE1e8cE1',
-                decimal: 18,
-            },
-        },
-    },
+    // {
+    //     name: "Cat Nap Coin",
+    //     symbol: TokenSymbol.NAPSTEXPchainTest,
+    //     chains: [ChainId.EXPchainTest],
+    //     icon: baseURL + 'naps.png',
+    //     contracts: {
+    //         [ChainId.EXPchainTest]: {
+    //             address: '0x99B106D8CdA4702dABAe0eCF6E289D70bE1e8cE1',
+    //             decimal: 18,
+    //         },
+    //     },
+    // },
     // {
     //     name: "Quantum Koala",
     //     symbol: TokenSymbol.QKOALATEXPchainTest,
