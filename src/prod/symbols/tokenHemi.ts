@@ -10,4 +10,5 @@ export enum TokenSymbol {
     RSETHHemi = 'rsETH',
     USBDHemi = 'USBD',
     HEMIHemi = 'HEMI',
+    HELLYHemi = 'HELLY',
 }

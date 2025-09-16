@@ -144,4 +144,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Helly Token",
+        symbol: TokenSymbol.HELLYHemi,
+        icon: baseURL + 'helly.png',
+        chains: [ChainId.Hemi],
+        contracts: {
+            [ChainId.Hemi]: {
+                address: '0x4d1876be68f77f8dc5138baeca574e44b22b44ad',
+                decimal: 18,
+            },
+        },
+    },
 ]
