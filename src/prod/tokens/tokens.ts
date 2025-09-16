@@ -369,6 +369,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "USDT0",
+        symbol: TokenSymbol.USDT0,
+        icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/usdt0.png',
+        chains: [ChainId.XLayer],
+        contracts: {
+            [ChainId.XLayer]: {
+                address: '0x779Ded0c9e1022225f8E0630b35a9b54bE713736',
+                decimal: 6,
+            },
+        },
+    },
+    {
         name: "Binance-Peg BUSD Token",
         symbol: TokenSymbol.BUSD,
         icon: 'https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/busd.png',

@@ -38,4 +38,5 @@ export enum TokenSymbol {
     MBTC = 'M-BTC',
     UNIBTC = 'uniBTC',
     USDCE = 'USDC.e',
+    USDT0 = 'USDT0',
 }
