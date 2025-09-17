@@ -37,6 +37,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "HULU CAT",
+        symbol: TokenSymbol.HULUXLayer,
+        icon: baseURL + 'huhu.png',
+        chains: [ChainId.XLayer],
+        contracts: {
+            [ChainId.XLayer]: {
+                address: '0xA53d5D9E63a8a9EBae89c5CB69327C0DBB6147d3',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "FBPAY Token",
         symbol: TokenSymbol.FBXLayer,
         icon: baseURL + 'fb.png',

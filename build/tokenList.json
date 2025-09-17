@@ -5249,6 +5249,20 @@
     }
   },
   {
+    "name": "HULU CAT",
+    "symbol": "HULU",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/huhu.png",
+    "chains": [
+      196
+    ],
+    "contracts": {
+      "196": {
+        "address": "0xA53d5D9E63a8a9EBae89c5CB69327C0DBB6147d3",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "FBPAY Token",
     "symbol": "FB",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/fb.png",
