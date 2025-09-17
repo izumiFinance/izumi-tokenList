@@ -156,4 +156,16 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+    {
+        name: "Quack Duck Token",
+        symbol: TokenSymbol.QUACKHemi,
+        icon: baseURL + 'quackk.png',
+        chains: [ChainId.Hemi],
+        contracts: {
+            [ChainId.Hemi]: {
+                address: '0xeAD278C55EDF4682283EEfB757A9C6AaEE18d4ED',
+                decimal: 18,
+            },
+        },
+    },
 ]
