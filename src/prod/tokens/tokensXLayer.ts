@@ -51,7 +51,7 @@ export const tokens: TokenInfo[] = [
     {
         name: "QUACK DUCK Token",
         symbol: TokenSymbol.DUCKXLayer,
-        icon: baseURL + 'quack.png',
+        icon: baseURL + 'quackk.png',
         chains: [ChainId.XLayer],
         contracts: {
             [ChainId.XLayer]: {
