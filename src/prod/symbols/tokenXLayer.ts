@@ -2,6 +2,7 @@ export enum TokenSymbol {
     OKBXLayer = 'OKB',
     WOKBXLayer = 'WOKB',
     HULUXLayer = 'HULU',
+    DUCKXLayer = 'DUCK',
     TCATXLayer = 'TCAT',
     XCAT1XLayer = 'Xcat',
     XCAT2XLayer = 'XCAT',

@@ -49,6 +49,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "QUACK DUCK Token",
+        symbol: TokenSymbol.DUCKXLayer,
+        icon: baseURL + 'quack.png',
+        chains: [ChainId.XLayer],
+        contracts: {
+            [ChainId.XLayer]: {
+                address: '0xc2282627AE1463dD6EeAdB81951a7B7761C67b1a',
+                decimal: 18,
+            },
+        },
+    },
+    {
         name: "FBPAY Token",
         symbol: TokenSymbol.FBXLayer,
         icon: baseURL + 'fb.png',

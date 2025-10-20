@@ -5263,6 +5263,20 @@
     }
   },
   {
+    "name": "QUACK DUCK Token",
+    "symbol": "DUCK",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/quack.png",
+    "chains": [
+      196
+    ],
+    "contracts": {
+      "196": {
+        "address": "0xc2282627AE1463dD6EeAdB81951a7B7761C67b1a",
+        "decimal": 18
+      }
+    }
+  },
+  {
     "name": "FBPAY Token",
     "symbol": "FB",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/fb.png",
