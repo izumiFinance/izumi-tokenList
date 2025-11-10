@@ -188,7 +188,8 @@
       7560,
       167000,
       1625,
-      2818
+      2818,
+      143
     ],
     "contracts": {
       "1": {
@@ -209,6 +210,10 @@
       },
       "137": {
         "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "decimal": 6
+      },
+      "143": {
+        "address": "0x754704Bc059F8C67012fEd69BC8A327a5aafb603",
         "decimal": 6
       },
       "196": {
@@ -663,7 +668,8 @@
       54176,
       747,
       98866,
-      30
+      30,
+      143
     ],
     "contracts": {
       "1": {
@@ -680,6 +686,10 @@
       },
       "137": {
         "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "decimal": 18
+      },
+      "143": {
+        "address": "0xEE8c0E9f1BFFb4Eb878d8f15f368A02a35481242",
         "decimal": 18
       },
       "177": {
@@ -4055,6 +4065,62 @@
       "34443": {
         "address": "0x8b83ECC4EF8FaEc5c05b7D6EC002B659BE137120",
         "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Monad Token",
+    "symbol": "MON",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mon.png",
+    "chains": [
+      143
+    ],
+    "contracts": {
+      "143": {
+        "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Wrapped MON",
+    "symbol": "WMON",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/mon.png",
+    "chains": [
+      143
+    ],
+    "contracts": {
+      "143": {
+        "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+        "decimal": 18
+      }
+    }
+  },
+  {
+    "name": "Agora USD",
+    "symbol": "AUSD",
+    "icon": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/ausd.jpg/public",
+    "chains": [
+      143
+    ],
+    "contracts": {
+      "143": {
+        "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+        "decimal": 6
+      }
+    }
+  },
+  {
+    "name": "Wrapped SOL",
+    "symbol": "WSOL",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/sol.png",
+    "chains": [
+      143
+    ],
+    "contracts": {
+      "143": {
+        "address": "0xea17E5a9efEBf1477dB45082d67010E2245217f1",
+        "decimal": 9
       }
     }
   },
