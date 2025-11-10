@@ -37,6 +37,18 @@ export const tokens: TokenInfo[] = [
         },
     },
     {
+        name: "HULU Cat Token",
+        symbol: TokenSymbol.HULUMonad,
+        icon: baseURL + 'huhu.png',
+        chains: [ChainId.Monad],
+        contracts: {
+            [ChainId.Monad]: {
+                address: '0xD8b8d868e994df5D4Ba8bD599eadBc21598a732E',
+                decimal: 18,
+            }, 
+        },
+    },
+    {
         name: "Agora USD",
         symbol: TokenSymbol.AUSDMonad,
         icon: 'https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/ausd.jpg/public',

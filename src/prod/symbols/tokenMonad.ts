@@ -3,4 +3,5 @@ export enum TokenSymbol {
     WMONMonad = 'WMON',
     AUSDMonad = 'AUSD',
     WSOLMonad = 'WSOL',
+    HULUMonad = 'HULU',
 }
