@@ -5,7 +5,7 @@ export enum TokenSymbol {
     STFLOWFlow = 'stFLOW',
     ANKRFLOWFlow = 'ankrFLOW',
     USDFFlow = 'USDF',
-    STGUSDCFlow = 'stgUSDC',
+    STGUSDCFlow = 'USDC',
     FROTHFlow = 'FROTH',
     FVIXFlow = 'FVIX',
 }
