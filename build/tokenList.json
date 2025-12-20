@@ -1824,6 +1824,20 @@
     }
   },
   {
+    "name": "PYUSD0",
+    "symbol": "PYUSD0",
+    "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/pyusd0.svg",
+    "chains": [
+      747
+    ],
+    "contracts": {
+      "747": {
+        "address": "0x99aF3EeA856556646C98c8B9b2548Fe815240750",
+        "decimal": 6
+      }
+    }
+  },
+  {
     "name": "Increment Staked FLOW",
     "symbol": "stFLOW",
     "icon": "https://izumi-finance.oss-ap-southeast-1.aliyuncs.com/tokens/stflow.png",

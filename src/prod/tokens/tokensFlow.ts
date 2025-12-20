@@ -72,6 +72,18 @@ export const tokens: TokenInfo[] = [
             },
         },
     },
+     {
+        name: "PYUSD0",
+        symbol: TokenSymbol.PYUSD0Flow,
+        icon: baseURL + 'pyusd0.svg',
+        chains: [ChainId.Flow],
+        contracts: {
+            [ChainId.Flow]: {
+                address: '0x99aF3EeA856556646C98c8B9b2548Fe815240750', 
+                decimal: 6,
+            },
+        },
+    },
     {
         name: "Increment Staked FLOW",
         symbol: TokenSymbol.STFLOWFlow,
